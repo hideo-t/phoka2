@@ -303,6 +303,13 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .case-card:hover .case-card-overlay{opacity:1}
 .case-card-label{color:var(--white);font-size:13px;font-weight:600}
 .case-card:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:unset}
+.cases-grid--uniform{grid-template-columns:repeat(3,1fr)}
+.cases-grid--uniform .case-card:first-child{grid-column:auto;grid-row:auto;aspect-ratio:4/3}
+.cases-grid--uniform .case-card-overlay{opacity:1;background:linear-gradient(to top,rgba(13,45,94,.85) 0%,rgba(13,45,94,.4) 40%,transparent 70%)}
+.cases-grid--uniform .case-card-label{font-size:13px;font-weight:700;line-height:1.4}
+a.case-card{text-decoration:none;color:inherit;display:block}
+@media(max-width:900px){.cases-grid--uniform{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.cases-grid--uniform{grid-template-columns:1fr}}
 
 /* ===========================
    SECTION 7: 社長メッセージ
@@ -817,28 +824,50 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
       <p class="section-sub">沖縄各地・離島にも多数の設置実績。実物は豊見城市の工場で内覧可能です（事前予約制）。</p>
     </div>
 
-    <div class="cases-grid">
-      <div class="case-card reveal">
-        <img src="images/96bb52f28dbc.jpg" alt="設置事例1" loading="lazy">
-        <div class="case-card-overlay"><span class="case-card-label">住居・移住用途</span></div>
-      </div>
-      <div class="case-card reveal">
-        <img src="images/8619eb85a388.jpg" alt="設置事例2" loading="lazy">
-        <div class="case-card-overlay"><span class="case-card-label">リゾート・別荘</span></div>
-      </div>
-      <div class="case-card reveal">
-        <img src="images/6d974bc172f7.png" alt="設置事例3" loading="lazy">
-        <div class="case-card-overlay"><span class="case-card-label">商業施設</span></div>
-      </div>
-      <div class="case-card reveal">
-        <img src="images/3111793558b8.jpg" alt="設置事例4" loading="lazy">
-        <div class="case-card-overlay"><span class="case-card-label">エアストリーム</span></div>
-      </div>
-      <div class="case-card reveal">
-        <img src="images/614a12aa2b0c.jpg" alt="設置事例5" loading="lazy">
-        <div class="case-card-overlay"><span class="case-card-label">コンテナハウス</span></div>
-      </div>
-    </div>
+    <div class="cases-grid cases-grid--uniform">
+<a href="https://hideo-t.github.io/phoka2/cases/" class="case-card reveal">
+<picture>
+<source srcset="images/cases/plus-garden-cafe-01@600w.webp 600w, images/cases/plus-garden-cafe-01.webp 1200w" sizes="(max-width:768px) 100vw, 340px" type="image/webp">
+<img src="images/cases/plus-garden-cafe-01.webp" alt="PLUS GARDEN CAFE の施工事例" loading="lazy">
+</picture>
+<div class="case-card-overlay"><span class="case-card-label">カフェ｜PLUS GARDEN CAFE</span></div>
+</a>
+<a href="https://hideo-t.github.io/phoka2/cases/" class="case-card reveal">
+<picture>
+<source srcset="images/cases/senaga-glamping-01@600w.webp 600w, images/cases/senaga-glamping-01.webp 1200w" sizes="(max-width:768px) 100vw, 340px" type="image/webp">
+<img src="images/cases/senaga-glamping-01.webp" alt="瀬長島グランピング場 の施工事例" loading="lazy">
+</picture>
+<div class="case-card-overlay"><span class="case-card-label">グランピング｜瀬長島グランピング場</span></div>
+</a>
+<a href="https://hideo-t.github.io/phoka2/cases/" class="case-card reveal">
+<picture>
+<source srcset="images/cases/crystal-villa-ingya-01@600w.webp 600w, images/cases/crystal-villa-ingya-01.webp 1200w" sizes="(max-width:768px) 100vw, 340px" type="image/webp">
+<img src="images/cases/crystal-villa-ingya-01.webp" alt="クリスタルヴィラ インギャー の施工事例" loading="lazy">
+</picture>
+<div class="case-card-overlay"><span class="case-card-label">宿泊施設｜クリスタルヴィラ インギャー</span></div>
+</a>
+<a href="https://hideo-t.github.io/phoka2/cases/" class="case-card reveal">
+<picture>
+<source srcset="images/cases/pool-resort-okinawa-01@600w.webp 600w, images/cases/pool-resort-okinawa-01.webp 1200w" sizes="(max-width:768px) 100vw, 340px" type="image/webp">
+<img src="images/cases/pool-resort-okinawa-01.webp" alt="ザ・プールリゾート沖縄 の施工事例" loading="lazy">
+</picture>
+<div class="case-card-overlay"><span class="case-card-label">宿泊施設｜ザ・プールリゾート沖縄</span></div>
+</a>
+<a href="https://hideo-t.github.io/phoka2/cases/" class="case-card reveal">
+<picture>
+<source srcset="images/cases/miyako-rehab-01@600w.webp 600w, images/cases/miyako-rehab-01.webp 1200w" sizes="(max-width:768px) 100vw, 340px" type="image/webp">
+<img src="images/cases/miyako-rehab-01.webp" alt="宮古島リハビリ温泉病院 の施工事例" loading="lazy">
+</picture>
+<div class="case-card-overlay"><span class="case-card-label">医療施設｜宮古島リハビリ温泉病院</span></div>
+</a>
+<a href="https://hideo-t.github.io/phoka2/cases/" class="case-card reveal">
+<picture>
+<source srcset="images/cases/sesoko-villa-01@600w.webp 600w, images/cases/sesoko-villa-01.webp 1200w" sizes="(max-width:768px) 100vw, 340px" type="image/webp">
+<img src="images/cases/sesoko-villa-01.webp" alt="本部町瀬底島のお客様 の施工事例" loading="lazy">
+</picture>
+<div class="case-card-overlay"><span class="case-card-label">個人邸｜本部町瀬底島のお客様</span></div>
+</a>
+</div>
 
     <div style="text-align:center;margin-top:40px">
       <a href="https://hideo-t.github.io/phoka2/cases/" class="btn btn-outline-blue reveal">もっと見る →</a>
