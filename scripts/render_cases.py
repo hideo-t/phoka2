@@ -13,6 +13,7 @@ import re
 
 ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CURATED  = os.path.join(ROOT, "_import", "review", "cases.curated.json")
+TRUTH_V2 = os.path.join(ROOT, "_import", "review", "cases_image_truth_v2.json")
 TARGET   = os.path.join(ROOT, "cases", "index.html")
 
 NEW_CSS_BLOCK = """
@@ -32,6 +33,13 @@ NEW_CSS_BLOCK = """
 .case-filter{background:transparent;border:1px solid var(--border);padding:6px 14px;border-radius:999px;cursor:pointer;font-size:13px;color:var(--text);transition:.2s;font-family:inherit}
 .case-filter:hover{background:var(--bg)}
 .case-filter.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+/* PR#3: sub-image grid + remaining badge */
+.case-card__subs{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:6px 6px 0}
+.case-card__subs picture{display:block;overflow:hidden;border-radius:6px}
+.case-card__subs img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:.3s}
+.case-card:hover .case-card__subs img{transform:scale(1.04)}
+.case-card__remaining{display:inline-block;margin-left:8px;font-size:11px;color:var(--muted);background:var(--border);padding:2px 8px;border-radius:999px;font-weight:500}
+@media(max-width:480px){.case-card__subs{grid-template-columns:1fr 1fr;gap:4px;padding:4px 4px 0}}
 """
 
 FILTER_JS = """<script>
@@ -55,7 +63,19 @@ def render_filters(categories):
     return "\n      ".join(parts)
 
 
-def render_card(case):
+def render_sub_picture(slug: str, idx: int, title: str) -> str:
+    """One <picture> for a sub-image (used inside .case-card__subs)."""
+    big   = f"images/cases/{slug}-{idx:02d}.webp"
+    small = f"images/cases/{slug}-{idx:02d}@600w.webp"
+    return (
+        '    <picture>\n'
+        f'      <source srcset="{small} 600w, {big} 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">\n'
+        f'      <img src="{big}" loading="lazy" alt="{title} の施工事例 {idx}" width="600" height="450">\n'
+        '    </picture>'
+    )
+
+
+def render_card(case, image_count: int, remaining: int):
     s = case["slug"]
     img1_1200 = f"images/cases/{s}-01.webp"
     img1_600  = f"images/cases/{s}-01@600w.webp"
@@ -63,15 +83,29 @@ def render_card(case):
     # for accessibility tools and SEO.
     review_chip = '\n          <span class="case-card__needs-review">要レビュー</span>' if case["needs_review"] else ""
     summary = case["summary"] or "（説明文準備中）"
+
+    # Sub-image block (max 2: -02 and -03) only when the source had >=2 images.
+    sub_html = ""
+    if image_count >= 2:
+        pics = [render_sub_picture(s, 2, case["title"])]
+        if image_count >= 3:
+            pics.append(render_sub_picture(s, 3, case["title"]))
+        sub_html = "\n\n        <div class=\"case-card__subs\">\n" + "\n".join(pics) + "\n        </div>"
+
+    remaining_chip = ""
+    if remaining > 0:
+        remaining_chip = f'\n          <span class="case-card__remaining">ほか{remaining}枚</span>'
+
     return f'''      <article class="card case-card" data-cat="{case["category"]}">
         <picture>
           <source srcset="{img1_600} 600w, {img1_1200} 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="{img1_1200}" loading="lazy" alt="{case["images"][0]["alt_jp"]}" width="1200" height="900">
-        </picture>
+        </picture>{sub_html}
+
         <div class="case-card__body">
           <span class="case-card__badge">{case["category"]}</span>
           <h3>{case["title"]}</h3>{review_chip}
-          <p>{summary}</p>
+          <p>{summary}</p>{remaining_chip}
         </div>
       </article>'''
 
@@ -79,6 +113,18 @@ def render_card(case):
 def main():
     with open(CURATED, encoding="utf-8") as f:
         cases = json.load(f)
+
+    # Truth_v2 supplies per-slug image_count (= len(top3)) and remaining count.
+    truth_by_slug = {}
+    if os.path.exists(TRUTH_V2):
+        with open(TRUTH_V2, encoding="utf-8") as f:
+            tv = json.load(f)
+        for c in tv["cases"]:
+            truth_by_slug[c["slug"]] = {
+                "image_count": len(c["top3"]),
+                "remaining":   c.get("remaining", 0),
+            }
+
     # Preserve curated order, but stable-sort by category for a nicer initial layout.
     # (Filter buttons reorder visually; without filter, viewer sees grouped cards.)
     cases_sorted = sorted(cases, key=lambda c: (c["category"], c["slug"]))
@@ -112,7 +158,13 @@ def main():
         )
 
     # 2) Replace the body of the first <section class="section section-alt">...</section>.
-    cards_html = "\n".join(render_card(c) for c in cases_sorted)
+    def _card(c):
+        tv = truth_by_slug.get(c["slug"], {})
+        img_count = tv.get("image_count", len(c.get("images", [])))
+        remaining = tv.get("remaining", 0)
+        return render_card(c, img_count, remaining)
+
+    cards_html = "\n".join(_card(c) for c in cases_sorted)
     filters_html = render_filters(seen)
     new_section = f'''<section class="section section-alt">
   <div class="container">
