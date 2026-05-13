@@ -112,6 +112,8 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
 .case-card:hover .case-card__subs img{transform:scale(1.04)}
 .case-card__remaining{display:inline-block;margin-left:8px;font-size:11px;color:var(--muted);background:var(--border);padding:2px 8px;border-radius:999px;font-weight:500}
 @media(max-width:480px){.case-card__subs{grid-template-columns:1fr 1fr;gap:4px;padding:4px 4px 0}}
+/* PR#4: series label chip (e.g. その1/その2) on duplicate-titled cards */
+.case-card__series{display:inline-block;margin-left:6px;font-size:11px;color:var(--primary);background:rgba(21,96,168,.08);padding:1px 8px;border-radius:999px;font-weight:600;vertical-align:middle}
 </style>
 </head>
 <body>
@@ -158,8 +160,10 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
     <div class="case-filters">
       <button class="case-filter active" data-cat="all">すべて</button>
       <button class="case-filter" data-cat="イベント">イベント</button>
+      <button class="case-filter" data-cat="オフィス">オフィス</button>
       <button class="case-filter" data-cat="カフェ">カフェ</button>
       <button class="case-filter" data-cat="グランピング">グランピング</button>
+      <button class="case-filter" data-cat="ショップ">ショップ</button>
       <button class="case-filter" data-cat="レンタカー">レンタカー</button>
       <button class="case-filter" data-cat="個人邸">個人邸</button>
       <button class="case-filter" data-cat="医療施設">医療施設</button>
@@ -309,7 +313,7 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
       <article class="card case-card" data-cat="医療施設">
         <picture>
           <source srcset="images/cases/miyako-rehab-01@600w.webp 600w, images/cases/miyako-rehab-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
-          <img src="images/cases/miyako-rehab-01.webp" loading="lazy" alt="宮古島リハビリ温泉病院 の施工事例 1" width="1200" height="900">
+          <img src="images/cases/miyako-rehab-01.webp" loading="lazy" alt="宮古島リハビリ温泉病院 その1 の施工事例 1" width="1200" height="900">
         </picture>
 
         <div class="case-card__subs">
@@ -325,7 +329,7 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
 
         <div class="case-card__body">
           <span class="case-card__badge">医療施設</span>
-          <h3>宮古島リハビリ温泉病院</h3>
+          <h3>宮古島リハビリ温泉病院 <span class="case-card__series">その1</span></h3>
           <p>宮古島の温泉リハビリ病院の附属施設として設置。</p>
           <span class="case-card__remaining">ほか4枚</span>
         </div>
@@ -424,6 +428,181 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <h3>豊崎パーク美ら 11M</h3>
           <p>豊崎の自社モデルハウス。11mモデルの居住空間を実物展示。</p>
           <span class="case-card__remaining">ほか3枚</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="オフィス">
+        <picture>
+          <source srcset="images/cases/okito-transport-01@600w.webp 600w, images/cases/okito-transport-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/okito-transport-01.webp" loading="lazy" alt="沖東交通 の施工事例" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">オフィス</span>
+          <h3>沖東交通</h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>沖縄県の交通事業者向けに設置したトレーラーハウス事例。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="レンタカー">
+        <picture>
+          <source srcset="images/cases/haba-rental-01@600w.webp 600w, images/cases/haba-rental-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/haba-rental-01.webp" loading="lazy" alt="HABAレンタカー の施工事例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/haba-rental-02@600w.webp 600w, images/cases/haba-rental-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/haba-rental-02.webp" loading="lazy" alt="HABAレンタカー の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/haba-rental-03@600w.webp 600w, images/cases/haba-rental-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/haba-rental-03.webp" loading="lazy" alt="HABAレンタカー の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">レンタカー</span>
+          <h3>HABAレンタカー</h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>レンタカー事業所として活用。10枚の施工記録あり。</p>
+          <span class="case-card__remaining">ほか7枚</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="レンタカー">
+        <picture>
+          <source srcset="images/cases/odal-rental-1-01@600w.webp 600w, images/cases/odal-rental-1-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/odal-rental-1-01.webp" loading="lazy" alt="ODALレンタカー その1 の施工事例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">レンタカー</span>
+          <h3>ODALレンタカー <span class="case-card__series">その1</span></h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>ODALレンタカー社向け施工事例。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="医療施設">
+        <picture>
+          <source srcset="images/cases/miyako-rehab-p2-01@600w.webp 600w, images/cases/miyako-rehab-p2-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/miyako-rehab-p2-01.webp" loading="lazy" alt="宮古島リハビリ温泉病院 その2 の施工事例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/miyako-rehab-p2-02@600w.webp 600w, images/cases/miyako-rehab-p2-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/miyako-rehab-p2-02.webp" loading="lazy" alt="宮古島リハビリ温泉病院 の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/miyako-rehab-p2-03@600w.webp 600w, images/cases/miyako-rehab-p2-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/miyako-rehab-p2-03.webp" loading="lazy" alt="宮古島リハビリ温泉病院 の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">医療施設</span>
+          <h3>宮古島リハビリ温泉病院 <span class="case-card__series">その2</span></h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>宮古島リハビリ温泉病院 その2。追加棟または別ロケーションの施工記録。</p>
+          <span class="case-card__remaining">ほか7枚</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="レンタカー">
+        <picture>
+          <source srcset="images/cases/odal-rental-2-01@600w.webp 600w, images/cases/odal-rental-2-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/odal-rental-2-01.webp" loading="lazy" alt="ODALレンタカー その2 の施工事例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/odal-rental-2-02@600w.webp 600w, images/cases/odal-rental-2-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/odal-rental-2-02.webp" loading="lazy" alt="ODALレンタカー の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/odal-rental-2-03@600w.webp 600w, images/cases/odal-rental-2-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/odal-rental-2-03.webp" loading="lazy" alt="ODALレンタカー の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">レンタカー</span>
+          <h3>ODALレンタカー <span class="case-card__series">その2</span></h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>ODALレンタカー社向け施工事例（その2）。</p>
+          <span class="case-card__remaining">ほか1枚</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="ショップ">
+        <picture>
+          <source srcset="images/cases/before-sunset-01@600w.webp 600w, images/cases/before-sunset-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/before-sunset-01.webp" loading="lazy" alt="Before Sunset の施工事例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/before-sunset-02@600w.webp 600w, images/cases/before-sunset-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/before-sunset-02.webp" loading="lazy" alt="Before Sunset の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/before-sunset-03@600w.webp 600w, images/cases/before-sunset-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/before-sunset-03.webp" loading="lazy" alt="Before Sunset の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">ショップ</span>
+          <h3>Before Sunset</h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>店舗 Before Sunset 向けに設置したトレーラーハウス事例。</p>
+          <span class="case-card__remaining">ほか1枚</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="レンタカー">
+        <picture>
+          <source srcset="images/cases/odal-rental-3-01@600w.webp 600w, images/cases/odal-rental-3-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/odal-rental-3-01.webp" loading="lazy" alt="ODALレンタカー その3 の施工事例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/odal-rental-3-02@600w.webp 600w, images/cases/odal-rental-3-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/odal-rental-3-02.webp" loading="lazy" alt="ODALレンタカー の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/odal-rental-3-03@600w.webp 600w, images/cases/odal-rental-3-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/odal-rental-3-03.webp" loading="lazy" alt="ODALレンタカー の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">レンタカー</span>
+          <h3>ODALレンタカー <span class="case-card__series">その3</span></h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>ODALレンタカー社向け施工事例（その3）。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="宿泊施設">
+        <picture>
+          <source srcset="images/cases/yanbaru-experience-hotel-01@600w.webp 600w, images/cases/yanbaru-experience-hotel-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="images/cases/yanbaru-experience-hotel-01.webp" loading="lazy" alt="ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/yanbaru-experience-hotel-02@600w.webp 600w, images/cases/yanbaru-experience-hotel-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/yanbaru-experience-hotel-02.webp" loading="lazy" alt="ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/yanbaru-experience-hotel-03@600w.webp 600w, images/cases/yanbaru-experience-hotel-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/yanbaru-experience-hotel-03.webp" loading="lazy" alt="ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">宿泊施設</span>
+          <h3>ヤンバルエクスペリエンスホテル ヌンガニク</h3>
+          <span class="case-card__needs-review">要レビュー</span>
+          <p>やんばる地域のエクスペリエンスホテル ヌンガニクの宿泊棟として設置。</p>
+          <span class="case-card__remaining">ほか4枚</span>
         </div>
       </article>
     </div>
