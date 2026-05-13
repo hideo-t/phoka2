@@ -210,5 +210,157 @@
         "alt_jp": "豊崎パーク美ら 11M の施工事例"
       }
     ]
+  },
+  {
+    "slug": "okito-transport",
+    "title": "沖東交通",
+    "category": "オフィス",
+    "summary": "沖縄県の交通事業者向けに設置したトレーラーハウス事例。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "okito-transport-01.webp",
+        "alt_jp": "沖東交通 の施工事例"
+      }
+    ]
+  },
+  {
+    "slug": "haba-rental",
+    "title": "HABAレンタカー",
+    "category": "レンタカー",
+    "summary": "レンタカー事業所として活用。10枚の施工記録あり。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "haba-rental-01.webp",
+        "alt_jp": "HABAレンタカー の施工事例 1"
+      },
+      {
+        "src_filename_only": "haba-rental-02.webp",
+        "alt_jp": "HABAレンタカー の施工事例 2"
+      },
+      {
+        "src_filename_only": "haba-rental-03.webp",
+        "alt_jp": "HABAレンタカー の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "odal-rental-1",
+    "title": "ODALレンタカー",
+    "category": "レンタカー",
+    "summary": "ODALレンタカー社向け施工事例。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "odal-rental-1-01.webp",
+        "alt_jp": "ODALレンタカー の施工事例"
+      }
+    ]
+  },
+  {
+    "slug": "miyako-rehab-p2",
+    "title": "宮古島リハビリ温泉病院",
+    "category": "医療施設",
+    "summary": "宮古島リハビリ温泉病院 その2。追加棟または別ロケーションの施工記録。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "miyako-rehab-p2-01.webp",
+        "alt_jp": "宮古島リハビリ温泉病院 の施工事例 1"
+      },
+      {
+        "src_filename_only": "miyako-rehab-p2-02.webp",
+        "alt_jp": "宮古島リハビリ温泉病院 の施工事例 2"
+      },
+      {
+        "src_filename_only": "miyako-rehab-p2-03.webp",
+        "alt_jp": "宮古島リハビリ温泉病院 の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "odal-rental-2",
+    "title": "ODALレンタカー",
+    "category": "レンタカー",
+    "summary": "ODALレンタカー社向け施工事例（その2）。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "odal-rental-2-01.webp",
+        "alt_jp": "ODALレンタカー の施工事例 1"
+      },
+      {
+        "src_filename_only": "odal-rental-2-02.webp",
+        "alt_jp": "ODALレンタカー の施工事例 2"
+      },
+      {
+        "src_filename_only": "odal-rental-2-03.webp",
+        "alt_jp": "ODALレンタカー の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "before-sunset",
+    "title": "Before Sunset",
+    "category": "ショップ",
+    "summary": "店舗 Before Sunset 向けに設置したトレーラーハウス事例。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "before-sunset-01.webp",
+        "alt_jp": "Before Sunset の施工事例 1"
+      },
+      {
+        "src_filename_only": "before-sunset-02.webp",
+        "alt_jp": "Before Sunset の施工事例 2"
+      },
+      {
+        "src_filename_only": "before-sunset-03.webp",
+        "alt_jp": "Before Sunset の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "odal-rental-3",
+    "title": "ODALレンタカー",
+    "category": "レンタカー",
+    "summary": "ODALレンタカー社向け施工事例（その3）。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "odal-rental-3-01.webp",
+        "alt_jp": "ODALレンタカー の施工事例 1"
+      },
+      {
+        "src_filename_only": "odal-rental-3-02.webp",
+        "alt_jp": "ODALレンタカー の施工事例 2"
+      },
+      {
+        "src_filename_only": "odal-rental-3-03.webp",
+        "alt_jp": "ODALレンタカー の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "yanbaru-experience-hotel",
+    "title": "ヤンバルエクスペリエンスホテル ヌンガニク",
+    "category": "宿泊施設",
+    "summary": "やんばる地域のエクスペリエンスホテル ヌンガニクの宿泊棟として設置。",
+    "needs_review": true,
+    "images": [
+      {
+        "src_filename_only": "yanbaru-experience-hotel-01.webp",
+        "alt_jp": "ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 1"
+      },
+      {
+        "src_filename_only": "yanbaru-experience-hotel-02.webp",
+        "alt_jp": "ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 2"
+      },
+      {
+        "src_filename_only": "yanbaru-experience-hotel-03.webp",
+        "alt_jp": "ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 3"
+      }
+    ]
   }
 ]

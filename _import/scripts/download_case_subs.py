@@ -1,6 +1,11 @@
-"""Download missing case sub-images (-02, -03) per truth_v2.
+"""Download missing case images per truth_v{N}.
 
-Skip-if-exists: never overwrite files already on disk (PR#2's -01 stays).
+Reads the newest truth file present (prefers v4 -> v2). Truth v2 carries a
+single top-level "referer"; truth v4 carries "referer_by_page_source" keyed
+by stringified page_source so different source pages get their correct
+HTTP Referer.
+
+Skip-if-exists: never overwrite files already on disk.
 Crawl-Delay: 5s between fetches per robots.txt.
 """
 import io
@@ -13,8 +18,9 @@ import urllib.request
 from PIL import Image
 
 ROOT  = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-TRUTH = os.path.join(ROOT, "_import", "review", "cases_image_truth_v2.json")
-OUT   = os.path.join(ROOT, "images", "cases")
+TRUTH_V4 = os.path.join(ROOT, "_import", "review", "cases_image_truth_v4.json")
+TRUTH_V2 = os.path.join(ROOT, "_import", "review", "cases_image_truth_v2.json")
+OUT      = os.path.join(ROOT, "images", "cases")
 
 MAX_W_LARGE = 1200
 MAX_W_SMALL = 600
@@ -24,8 +30,17 @@ CRAWL_DELAY = 5.0
 
 
 def load_truth():
-    with open(TRUTH, encoding="utf-8") as f:
-        return json.load(f)
+    path = TRUTH_V4 if os.path.exists(TRUTH_V4) else TRUTH_V2
+    with open(path, encoding="utf-8") as f:
+        return json.load(f), path
+
+
+def resolve_referer(truth: dict, case: dict) -> str:
+    """v2 has a single top-level 'referer'; v4 has 'referer_by_page_source'."""
+    rbps = truth.get("referer_by_page_source")
+    if rbps:
+        return rbps.get(str(case.get("page_source", "1")), next(iter(rbps.values())))
+    return truth["referer"]
 
 
 def build_url(tmpl: str, path: str, h: str, v: str) -> str:
@@ -75,14 +90,14 @@ def save_webp_pair(raw: bytes, slug: str, nn: int):
 
 
 def main():
-    truth = load_truth()
+    truth, truth_path = load_truth()
     tmpl  = truth["url_template"]
     path  = truth["jimdo_path_prefix"]
     ua    = truth["user_agent"]
-    referer = truth["referer"]
     delay = float(truth.get("crawl_delay_seconds", 5))
 
     os.makedirs(OUT, exist_ok=True)
+    print(f"truth: {os.path.basename(truth_path)}  ({len(truth['cases'])} cases)")
 
     n_skip = 0
     n_fetched = 0
@@ -92,7 +107,9 @@ def main():
     for case in truth["cases"]:
         slug = case["slug"]
         urls = case["top3"]
-        print(f"=== {slug}  (top3={len(urls)}, total_on_orig={case['total_count']}) ===")
+        referer = resolve_referer(truth, case)
+        ps = case.get("page_source", 1)
+        print(f"=== {slug}  page={ps} top3={len(urls)} total={case['total_count']} ===")
         for idx, item in enumerate(urls, start=1):
             p_large = os.path.join(OUT, f"{slug}-{idx:02d}.webp")
             p_small = os.path.join(OUT, f"{slug}-{idx:02d}@600w.webp")
@@ -124,11 +141,15 @@ def main():
                 f" -> {l_sz[0]}x{l_sz[1]} ({l_b//1024}KB) + {s_sz[0]}x{s_sz[1]} ({s_b//1024}KB)"
             )
 
+    # Final disk inventory
+    total_on_disk = sum(1 for f in os.listdir(OUT) if f.endswith(".webp"))
+    expected = 2 * sum(len(c["top3"]) for c in truth["cases"])
     print()
     print(f"--- summary ---")
     print(f"  fetched: {n_fetched}")
     print(f"  skipped (already on disk): {n_skip}")
-    print(f"  sub-image slots to fill (-02/-03): {n_target_subs}")
+    print(f"  sub-image slots considered (-02/-03): {n_target_subs}")
+    print(f"  total WebP on disk: {total_on_disk}  (expected: {expected})")
 
 
 if __name__ == "__main__":

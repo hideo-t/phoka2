@@ -13,6 +13,7 @@ import re
 
 ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CURATED  = os.path.join(ROOT, "_import", "review", "cases.curated.json")
+TRUTH_V4 = os.path.join(ROOT, "_import", "review", "cases_image_truth_v4.json")
 TRUTH_V2 = os.path.join(ROOT, "_import", "review", "cases_image_truth_v2.json")
 TARGET   = os.path.join(ROOT, "cases", "index.html")
 
@@ -40,6 +41,8 @@ NEW_CSS_BLOCK = """
 .case-card:hover .case-card__subs img{transform:scale(1.04)}
 .case-card__remaining{display:inline-block;margin-left:8px;font-size:11px;color:var(--muted);background:var(--border);padding:2px 8px;border-radius:999px;font-weight:500}
 @media(max-width:480px){.case-card__subs{grid-template-columns:1fr 1fr;gap:4px;padding:4px 4px 0}}
+/* PR#4: series label chip (e.g. その1/その2) on duplicate-titled cards */
+.case-card__series{display:inline-block;margin-left:6px;font-size:11px;color:var(--primary);background:rgba(21,96,168,.08);padding:1px 8px;border-radius:999px;font-weight:600;vertical-align:middle}
 """
 
 FILTER_JS = """<script>
@@ -75,7 +78,7 @@ def render_sub_picture(slug: str, idx: int, title: str) -> str:
     )
 
 
-def render_card(case, image_count: int, remaining: int):
+def render_card(case, image_count: int, remaining: int, series_label: str | None):
     s = case["slug"]
     img1_1200 = f"images/cases/{s}-01.webp"
     img1_600  = f"images/cases/{s}-01@600w.webp"
@@ -96,15 +99,24 @@ def render_card(case, image_count: int, remaining: int):
     if remaining > 0:
         remaining_chip = f'\n          <span class="case-card__remaining">ほか{remaining}枚</span>'
 
+    series_chip = ""
+    if series_label:
+        series_chip = f' <span class="case-card__series">{series_label}</span>'
+
+    # alt for the main img is "<title> [series] の施工事例 1"
+    alt_main = case["images"][0]["alt_jp"]
+    if series_label and series_label not in alt_main:
+        alt_main = f"{case['title']} {series_label} の施工事例 1"
+
     return f'''      <article class="card case-card" data-cat="{case["category"]}">
         <picture>
           <source srcset="{img1_600} 600w, {img1_1200} 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
-          <img src="{img1_1200}" loading="lazy" alt="{case["images"][0]["alt_jp"]}" width="1200" height="900">
+          <img src="{img1_1200}" loading="lazy" alt="{alt_main}" width="1200" height="900">
         </picture>{sub_html}
 
         <div class="case-card__body">
           <span class="case-card__badge">{case["category"]}</span>
-          <h3>{case["title"]}</h3>{review_chip}
+          <h3>{case["title"]}{series_chip}</h3>{review_chip}
           <p>{summary}</p>{remaining_chip}
         </div>
       </article>'''
@@ -114,26 +126,52 @@ def main():
     with open(CURATED, encoding="utf-8") as f:
         cases = json.load(f)
 
-    # Truth_v2 supplies per-slug image_count (= len(top3)) and remaining count.
+    # Truth v4 (preferred) carries image_count, remaining, series_label,
+    # page_source, and the canonical category order.
     truth_by_slug = {}
-    if os.path.exists(TRUTH_V2):
-        with open(TRUTH_V2, encoding="utf-8") as f:
+    category_order = []
+    truth_path = TRUTH_V4 if os.path.exists(TRUTH_V4) else TRUTH_V2
+    if os.path.exists(truth_path):
+        with open(truth_path, encoding="utf-8") as f:
             tv = json.load(f)
         for c in tv["cases"]:
             truth_by_slug[c["slug"]] = {
-                "image_count": len(c["top3"]),
-                "remaining":   c.get("remaining", 0),
+                "image_count":  len(c["top3"]),
+                "remaining":    c.get("remaining", 0),
+                "series_label": c.get("series_label"),
+                "page_source":  c.get("page_source", 1),
             }
+        category_order = tv.get("categories") or []
 
-    # Preserve curated order, but stable-sort by category for a nicer initial layout.
-    # (Filter buttons reorder visually; without filter, viewer sees grouped cards.)
-    cases_sorted = sorted(cases, key=lambda c: (c["category"], c["slug"]))
+    # Order rule (per PR#4 spec):
+    #   page 1 cases keep their existing displayed order (sort by category,slug),
+    #   page 2 cases appended in truth-file order.
+    truth_order = {c["slug"]: i for i, c in enumerate(tv["cases"])} if truth_path else {}
 
-    # Categories preserving first-appearance order from sorted list.
-    seen = []
-    for c in cases_sorted:
-        if c["category"] not in seen:
-            seen.append(c["category"])
+    def order_key(c):
+        meta = truth_by_slug.get(c["slug"], {})
+        ps = meta.get("page_source", 1)
+        if ps == 1:
+            return (1, c["category"], c["slug"])
+        return (2, truth_order.get(c["slug"], 9999), 0)
+
+    cases_sorted = sorted(cases, key=order_key)
+
+    # Filter buttons: prefer truth_v4's canonical category list, otherwise
+    # derive from first-appearance order.
+    if category_order:
+        # Only include categories actually represented in the current cases.
+        present = {c["category"] for c in cases_sorted}
+        seen = [cat for cat in category_order if cat in present]
+        # Append any extra categories not in the truth list (defensive).
+        for c in cases_sorted:
+            if c["category"] not in seen:
+                seen.append(c["category"])
+    else:
+        seen = []
+        for c in cases_sorted:
+            if c["category"] not in seen:
+                seen.append(c["category"])
 
     with open(TARGET, encoding="utf-8") as f:
         html = f.read()
@@ -162,7 +200,8 @@ def main():
         tv = truth_by_slug.get(c["slug"], {})
         img_count = tv.get("image_count", len(c.get("images", [])))
         remaining = tv.get("remaining", 0)
-        return render_card(c, img_count, remaining)
+        series   = tv.get("series_label")
+        return render_card(c, img_count, remaining, series)
 
     cards_html = "\n".join(_card(c) for c in cases_sorted)
     filters_html = render_filters(seen)
