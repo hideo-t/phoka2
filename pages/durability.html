@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>沖縄仕様の根拠（耐久性）｜パークホームズオキナワ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1a2e3a; --navy2:#2c4a5a; --navy-lt:#e8eff5;
+  --green:#2a7a5a; --green-lt:#e8f5ee; --green-dk:#1a5a3e;
+  --gold:#b88830; --gold-lt:#fdf3de;
+  --ink:#222; --mid:#555; --muted:#888;
+  --border:#e0e0d8; --bg:#f8f7f3; --white:#fff;
+  --r:10px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Noto Sans JP',sans-serif; font-weight:300;
+  background:#fff; color:var(--ink); font-size:14px; line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+.page{max-width:860px; margin:0 auto; padding:56px 20px 100px;}
+
+/* ── ヘッダー ── */
+.page-eyebrow{
+  font-size:11px; font-weight:500; letter-spacing:.35em; text-transform:uppercase;
+  color:var(--gold); display:block; margin-bottom:10px;
+}
+.page-title{
+  font-size:clamp(24px,5vw,34px); font-weight:500; color:var(--navy);
+  line-height:1.25; margin-bottom:14px;
+}
+.page-lead{
+  font-size:14px; color:var(--mid); line-height:1.95;
+  max-width:640px; margin-bottom:48px;
+  padding-bottom:32px; border-bottom:1px solid var(--border);
+}
+
+/* ── 理由カード ── */
+.reasons{display:flex; flex-direction:column; gap:0;}
+
+.reason{
+  display:grid; grid-template-columns:64px 1fr;
+  gap:0; border-bottom:1px solid var(--border); padding:36px 0;
+}
+.reason:last-child{border-bottom:none;}
+
+.reason-num{
+  font-size:11px; font-weight:500; letter-spacing:.15em; color:var(--gold);
+  padding-top:4px;
+}
+.reason-body{}
+
+.reason-tag{
+  display:inline-block; font-size:10px; font-weight:500; letter-spacing:.2em;
+  text-transform:uppercase; padding:3px 10px; border-radius:20px;
+  background:var(--gold-lt); color:var(--gold); margin-bottom:10px;
+}
+.reason-title{
+  font-size:clamp(17px,3.5vw,21px); font-weight:500; color:var(--navy);
+  line-height:1.35; margin-bottom:14px;
+}
+.reason-body p{
+  font-size:13.5px; color:var(--mid); line-height:1.95; margin-bottom:14px;
+}
+.reason-body p:last-of-type{margin-bottom:0;}
+
+/* ── インフォ ── */
+.info-box{
+  background:var(--bg); border-radius:var(--r);
+  border-left:3px solid var(--navy); padding:16px 18px;
+  margin-top:18px;
+}
+.info-box-title{
+  font-size:11px; font-weight:500; color:var(--navy);
+  letter-spacing:.1em; margin-bottom:6px;
+}
+.info-box p{
+  font-size:12px; color:var(--mid); line-height:1.85; margin:0;
+}
+
+/* ── プロセスステップ ── */
+.process{
+  margin-top:18px; display:flex; flex-direction:column; gap:0;
+  border:1px solid var(--border); border-radius:var(--r); overflow:hidden;
+}
+.step{
+  display:grid; grid-template-columns:36px 1fr;
+  gap:12px; padding:13px 16px;
+  border-bottom:1px solid var(--border);
+  align-items:flex-start;
+}
+.step:last-child{border-bottom:none;}
+.step-n{
+  width:28px; height:28px; border-radius:50%;
+  background:var(--navy); color:#fff;
+  font-size:11px; font-weight:500;
+  display:flex; align-items:center; justify-content:center;
+  flex-shrink:0; margin-top:1px;
+}
+.step-n.finish{background:var(--green);}
+.step-text{font-size:13px; color:var(--ink); line-height:1.7;}
+.step-text strong{font-weight:500; color:var(--navy);}
+.step-text em{
+  font-style:normal; font-size:11px; color:var(--green);
+  display:block; margin-top:2px;
+}
+
+/* ── 数値カード ── */
+.stat-grid{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:18px;
+}
+.stat{
+  background:var(--navy); border-radius:var(--r); padding:16px 14px;
+  text-align:center;
+}
+.stat-num{
+  font-size:28px; font-weight:500; color:#fff; line-height:1.1;
+}
+.stat-unit{font-size:13px; color:rgba(255,255,255,.6);}
+.stat-label{font-size:11px; color:rgba(255,255,255,.55); margin-top:5px; line-height:1.4;}
+
+/* ── 比較バー ── */
+.bar-compare{margin-top:18px; display:flex; flex-direction:column; gap:10px;}
+.bar-row{display:flex; align-items:center; gap:10px;}
+.bar-label{font-size:12px; color:var(--mid); width:80px; flex-shrink:0; text-align:right;}
+.bar-track{flex:1; height:24px; background:var(--bg); border-radius:4px; overflow:hidden; position:relative;}
+.bar-fill{height:100%; border-radius:4px; display:flex; align-items:center; justify-content:flex-end; padding-right:8px;}
+.bar-fill span{font-size:11px; font-weight:500; color:#fff;}
+.bar-fill.b-wood{background:#c8a46e; width:25%;}
+.bar-fill.b-std{background:#7a9bb0; width:50%;}
+.bar-fill.b-pk{background:var(--green); width:100%;}
+.bar-caption{font-size:10px; color:var(--muted); margin-top:4px; padding-left:90px;}
+
+/* ── 引用 ── */
+.quote-box{
+  margin-top:18px; padding:18px 20px;
+  border-left:3px solid var(--green); background:var(--green-lt);
+  border-radius:0 var(--r) var(--r) 0;
+}
+.quote-box p{font-size:13px; color:var(--green-dk); line-height:1.85; margin:0;}
+.quote-box .quote-src{
+  font-size:11px; color:var(--green); margin-top:6px; display:block;
+}
+
+/* ── 結論バナー ── */
+.conclusion{
+  margin-top:48px; padding:28px 28px;
+  background:var(--navy); border-radius:var(--r);
+  text-align:center;
+}
+.conclusion-label{
+  font-size:10px; letter-spacing:.3em; text-transform:uppercase;
+  color:rgba(255,255,255,.45); margin-bottom:10px;
+}
+.conclusion-title{
+  font-size:clamp(16px,3vw,20px); font-weight:500; color:#fff;
+  line-height:1.5; margin-bottom:16px;
+}
+.conclusion-sub{font-size:12px; color:rgba(255,255,255,.55); line-height:1.9;}
+
+/* ── CTA ── */
+.cta-row{
+  display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-top:24px;
+}
+.btn{
+  padding:11px 26px; border-radius:6px;
+  font-family:'Noto Sans JP',sans-serif; font-size:13px; font-weight:500;
+  cursor:pointer; text-decoration:none; display:inline-block;
+  transition:opacity .15s;
+}
+.btn:hover{opacity:.85;}
+@media(max-width:600px){
+  .page{padding:36px 14px 72px;}
+  .reason{grid-template-columns:48px 1fr;}
+  .stat-grid{grid-template-columns:1fr 1fr; gap:8px;}
+  .stat-grid .stat:last-child{grid-column:span 2;}
+  .bar-label{width:64px; font-size:11px;}
+  .bar-caption{padding-left:74px;}
+  .conclusion{padding:22px 18px;}
+  .cta-row{flex-direction:column; align-items:center;}
+  .btn{width:100%; text-align:center;}
+}
+
+/* ── CTA フッター ── */
+.cta-footer{
+  margin-top:56px; padding:32px 28px;
+  background:var(--navy); border-radius:var(--r);
+  text-align:center;
+}
+.cta-label{
+  font-size:12px; letter-spacing:.2em; text-transform:uppercase;
+  color:rgba(255,255,255,.45); margin-bottom:18px;
+}
+.cta-row{
+  display:flex; flex-wrap:wrap; gap:10px; justify-content:center;
+}
+.btn{
+  padding:12px 24px; border-radius:6px;
+  font-family:'Noto Sans JP',sans-serif;
+  font-size:13px; font-weight:500; cursor:pointer;
+  text-decoration:none; display:inline-block; transition:opacity .15s;
+  white-space:nowrap;
+}
+.btn:hover{opacity:.82;}
+.btn-ai{background:#fff; color:var(--navy);}
+.btn-green{background:var(--green); color:#fff;}
+.btn-line{background:#06c755; color:#fff;}
+@media(max-width:520px){
+  .cta-row{flex-direction:column; align-items:center;}
+  .btn{width:100%; text-align:center;}
+  .cta-footer{padding:24px 16px;}
+}
+.btn-compare{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.3);}
+</style>
+</head>
+<body>
+
+<!-- ナビゲーション -->
+<nav style="background:#fff;border-bottom:2px solid #1560a8;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)">
+  <div style="max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <a href="https://hideo-t.github.io/phoka2/" style="display:flex;align-items:center;gap:8px;text-decoration:none">
+      <img src="../logopkw.jpg" alt="パークホームズオキナワ" style="height:96px;width:auto">
+    </a>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <a href="https://hideo-t.github.io/phoka2/" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">🏠 トップ</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/lineup.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">ラインナップ</a>
+      <a href="../pages/catalog.pdf" download style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">📄 カタログDL</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">価格表</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/estimate.html" style="font-size:13px;font-weight:700;color:#fff;background:#e8614a;padding:8px 16px;border-radius:8px;text-decoration:none">📋 無料見積もり</a>
+    </div>
+  </div>
+</nav>
+<div class="page">
+
+  <span class="page-eyebrow">Durability · Why Okinawa Spec</span>
+  <h1 class="page-title">沖縄仕様の根拠<br>― 耐久性へのこだわり</h1>
+  <p class="page-lead">
+    沖縄の海岸線から500m以内の塩分飛来量は、東京の約10〜20倍。台風は毎年複数回直撃し、
+    最大瞬間風速60m/sを超えることもある。<br>
+    木造の海外製トレーラーハウスが5年で朽ちるのを見てきたから、
+    パークホームズは「沖縄のために」設計した鉄骨仕様にたどり着いた。
+  </p>
+
+  <div class="reasons">
+
+    <!-- ── 01 どぶ漬け ── -->
+    <div class="reason">
+      <div class="reason-num">01</div>
+      <div class="reason-body">
+        <span class="reason-tag">塩害対策</span>
+        <h2 class="reason-title">溶融亜鉛メッキ どぶ漬け加工<br>― 錆の要素を99.99%除去</h2>
+        <p>
+          沖縄の潮風は鉄骨の最大の敵。一般的な塗装防錆は表面だけを覆うため、
+          傷やボルト穴から酸化が進み、数年で錆が発生する。
+          パークホームズが採用する溶融亜鉛メッキ（どぶ漬け加工）は、
+          亜鉛の融点（約420℃）まで加熱した溶融槽に鉄骨を全浸漬させることで、
+          表面だけでなく内側・穴の中まで均一に亜鉛皮膜を形成する。
+        </p>
+        <p>
+          さらに、塗装や溶接・穴あけを後から施すと皮膜が傷つく。
+          そのため、パークホームズでは<strong>躯体の組み立て・加工・穴あけをすべて完了してから、
+          いったんばらして専用工場まで輸送し、どぶ漬け加工を実施する。</strong>
+          二度手間だが、この工程を省かないことが20年耐久の根幹となっている。
+        </p>
+
+        <div class="process">
+          <div class="step"><div class="step-n">1</div><div class="step-text"><strong>躯体 完全組み立て</strong><br>溶接・ボルト締結・穴あけまで100%完了させる</div></div>
+          <div class="step"><div class="step-n">2</div><div class="step-text"><strong>いったんばらす（二度手間）</strong><em>← ここを省かないのがこだわり</em></div></div>
+          <div class="step"><div class="step-n">3</div><div class="step-text"><strong>専用工場へ輸送</strong><br>溶融亜鉛メッキ対応工場まで搬送</div></div>
+          <div class="step"><div class="step-n">4</div><div class="step-text"><strong>どぶ漬け加工</strong><br>450℃の溶融亜鉛槽に全浸漬。内側・穴の中まで皮膜形成</div></div>
+          <div class="step"><div class="step-n finish">✓</div><div class="step-text"><strong>錆の要素 99.99%除去 → 再組み立て・出荷</strong><em>この工程を経た躯体が沖縄の塩害に耐え続ける</em></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 02 サッシ ── -->
+    <div class="reason">
+      <div class="reason-num">02</div>
+      <div class="reason-body">
+        <span class="reason-tag">台風・暴風雨対策</span>
+        <h2 class="reason-title">耐風圧 S-4以上 / 水密 W-5<br>― 沖縄基準を標準装備</h2>
+        <p>
+          窓サッシには「耐風圧性能（S等級）」と「水密性能（W等級）」の２つの性能基準がある。
+          日本サッシ協会の基準では、台風被害を受けやすい地域ではS-4以上が推奨されている。
+          2019年に千葉県で甚大な被害をもたらした台風15号の最大瞬間風速は57.5m/s（S-3相当の上限を超える）。
+          沖縄ではこれが「ほぼ毎年」起きうる。
+        </p>
+        <p>
+          パークホームズは全棟に<strong>耐風圧 S-4以上・水密 W-5を標準装備。</strong>
+          追加費用は不要。他社では「沖縄向けオプション」として別途加算される仕様を、
+          最初から組み込んでいる。
+        </p>
+
+        <div class="stat-grid">
+          <div class="stat">
+            <div class="stat-num">S-4<span class="stat-unit">以上</span></div>
+            <div class="stat-label">耐風圧性能<br>（沖縄推奨基準）</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">W-5</div>
+            <div class="stat-label">水密性能<br>（最高等級）</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">57.5<span class="stat-unit">m/s</span></div>
+            <div class="stat-label">2019年台風15号<br>最大瞬間風速</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 03 鉄骨 vs 木造 ── -->
+    <div class="reason">
+      <div class="reason-num">03</div>
+      <div class="reason-body">
+        <span class="reason-tag">構造・耐久年数</span>
+        <h2 class="reason-title">木造では5年と持たない<br>― だから鉄骨・20年設計</h2>
+        <p>
+          坂田社長が沖縄移住後、以前販売していた海外製の木造トレーラーハウスが
+          塩害と台風で急速に劣化していくのを目の当たりにした。
+          「木造は沖縄では5年と持たない」。その経験が、自社製造・鉄骨仕様への転換を決断させた。
+        </p>
+        <p>
+          現在のパークホームズは全棟を<strong>鉄骨造・実耐用年数20年設計</strong>で製造。
+          どぶ漬け加工・S-4以上サッシ・沖縄仕様の設計思想がひとつになることで、
+          初めて20年という数字が現実のものになる。
+        </p>
+
+        <div class="bar-compare">
+          <div class="bar-row">
+            <div class="bar-label">木造（海外製）</div>
+            <div class="bar-track"><div class="bar-fill b-wood"><span>〜5年</span></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">一般鉄骨</div>
+            <div class="bar-track"><div class="bar-fill b-std"><span>〜10年</span></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">パークホームズ</div>
+            <div class="bar-track"><div class="bar-fill b-pk"><span>20年設計</span></div></div>
+          </div>
+        </div>
+        <div class="bar-caption">沖縄の塩害・台風環境における参考耐用年数（自社調べ）</div>
+
+        <div class="quote-box">
+          <p>「木造では沖縄では5年と持たない。ならば自分たちで作るしかない」<br>
+          ― そう決意し、豊見城市に工場を構えた。</p>
+          <span class="quote-src">坂田 英之 / 代表取締役 パークホームズオキナワ</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 04 現地製造 ── -->
+    <div class="reason">
+      <div class="reason-num">04</div>
+      <div class="reason-body">
+        <span class="reason-tag">製造・アフター</span>
+        <h2 class="reason-title">沖縄現地製造だから<br>― 届いた後も安心</h2>
+        <p>
+          本州から輸送するだけでなく、沖縄の気候を熟知した職人が豊見城市の工場で
+          一棟一棟製造している。現地製造の最大のメリットは「届いた後」にある。
+          不具合があっても本州に送り返す必要がなく、迅速な対応が可能。
+          内覧も工場で随時対応（事前予約制）。
+        </p>
+
+        <div class="info-box">
+          <div class="info-box-title">工場・内覧について</div>
+          <p>
+            沖縄県豊見城市翁長864-14<br>
+            実物を見ると「トレーラーハウスのイメージが変わる」とよく言われます。<br>
+            内覧は無料・事前予約制。お気軽にご連絡ください。
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /reasons -->
+
+  <!-- 結論バナー -->
+  <div class="conclusion">
+    <div class="conclusion-label">Summary</div>
+    <div class="conclusion-title">
+      塩害・台風・暑さ。<br>
+      沖縄の全てに向き合った仕様が、20年耐える根拠。
+    </div>
+    <div class="conclusion-sub">
+      どぶ漬け加工 / S-4以上サッシ / 鉄骨20年設計 / 沖縄現地製造<br>
+      ― この4つが揃って初めて「沖縄仕様」と呼べる。
+    </div>
+    <div class="cta-row">
+    </div>
+  </div>
+
+
+  <!-- ── CTA フッター ── -->
+  <div class="cta-footer">
+    <div class="cta-label">お気軽にご相談ください</div>
+    <div class="cta-row">
+      <a href="#" class="btn btn-ai" onclick="return false;">🤖 AIパクオ君に相談する</a>
+      <a href="../contact/" class="btn btn-green">📋 AI無料見積もり</a>
+      <a href="https://lin.ee/yPxxosA" class="btn btn-line">💬 LINEで聞く</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html" class="btn btn-compare">📊 他社との価格比較を見る</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

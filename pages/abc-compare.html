@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>価格比較｜パークホームズオキナワ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ── 変数 ── */
+:root{
+  --navy:#1a2e3a;
+  --navy2:#2c4a5a;
+  --green:#2a7a5a;
+  --green-lt:#e8f5ee;
+  --red:#c0392b;
+  --red-lt:#fdecea;
+  --warn:#8a6000;
+  --warn-lt:#fff8e0;
+  --gold:#b88830;
+  --gold-lt:#fdf3de;
+  --ink:#222;
+  --mid:#555;
+  --muted:#888;
+  --border:#e0e0d8;
+  --bg:#f8f7f3;
+  --white:#ffffff;
+  --r:10px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:'Noto Sans JP',sans-serif;
+  font-weight:300;
+  background:#fff;
+  color:var(--ink);
+  font-size:14px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ── ページ枠 ── */
+.page{max-width:820px; margin:0 auto; padding:48px 20px 80px;}
+
+/* ── セクションラベル ── */
+.section-label{
+  font-size:11px; font-weight:500; letter-spacing:.35em;
+  text-transform:uppercase; color:var(--gold); display:block; margin-bottom:10px;
+}
+
+/* ── 見出し ── */
+.section-title{
+  font-size:clamp(20px,4vw,26px); font-weight:500;
+  color:var(--navy); line-height:1.3; margin-bottom:8px;
+}
+.section-sub{
+  font-size:13px; color:var(--mid); line-height:1.9; margin-bottom:32px;
+}
+
+/* ── テーブル枠 ── */
+.tbl-wrap{
+  border:1px solid var(--border); border-radius:var(--r);
+  overflow:hidden; overflow-x:auto;
+}
+
+/* ── テーブル本体 ── */
+table{
+  width:100%; border-collapse:collapse;
+  font-size:13px; min-width:560px;
+  background:#fff;
+}
+
+/* ── ヘッダー行 ── */
+.th-label{
+  padding:14px 16px;
+  background:var(--bg);
+  border-bottom:1px solid var(--border);
+  border-right:1px solid var(--border);
+  font-size:12px; color:var(--muted); font-weight:400;
+  width:46%;
+}
+.th-a{
+  padding:14px 12px; text-align:center;
+  background:var(--bg);
+  border-bottom:1px solid var(--border);
+  border-right:1px solid var(--border);
+  width:27%;
+}
+.th-pk{
+  padding:14px 12px; text-align:center;
+  background:var(--navy);
+  border-bottom:1px solid var(--navy2);
+  width:27%;
+}
+.co-label{font-size:10px; font-weight:400; margin-bottom:3px;}
+.th-a .co-label{color:var(--muted);}
+.th-pk .co-label{color:rgba(255,255,255,.55);}
+.model-name{font-size:13px; font-weight:500;}
+.th-a .model-name{color:var(--navy);}
+.th-pk .model-name{color:#fff;}
+.price-main{font-size:20px; font-weight:500; margin:4px 0 2px; line-height:1.1;}
+.th-a .price-main{color:var(--navy);}
+.th-pk .price-main{color:#fff;}
+.price-note{font-size:10px; font-weight:300;}
+.th-a .price-note{color:var(--muted);}
+.th-pk .price-note{color:rgba(255,255,255,.5);}
+
+/* ── セクション区切り ── */
+.sec-row td{
+  padding:6px 16px;
+  background:var(--bg);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  font-size:10px; font-weight:500; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--muted);
+}
+.sec-row td.sec-a{
+  border-right:1px solid var(--border);
+  border-left:1px solid var(--border);
+}
+.sec-row td.sec-pk{border-left:1px solid var(--border);}
+
+/* ── データ行 ── */
+tr.data-row td{
+  padding:11px 16px;
+  border-bottom:1px solid var(--border);
+  vertical-align:middle;
+}
+tr.data-row:last-child td{border-bottom:none;}
+td.item{
+  border-right:1px solid var(--border);
+  color:var(--ink); font-size:13px; line-height:1.6;
+}
+td.item .item-sub{
+  font-size:10px; color:var(--muted); display:block; margin-top:1px;
+}
+td.item .item-note-ref{
+  font-size:10px; color:var(--gold); margin-left:4px;
+}
+td.val-a{
+  text-align:center;
+  border-right:1px solid var(--border);
+  background:rgba(248,247,243,.6);
+}
+td.val-pk{
+  text-align:center;
+  background:rgba(26,46,58,.03);
+}
+
+/* ── 値のスタイル ── */
+.ok{font-size:16px; color:var(--green); font-weight:500;}
+.ng{font-size:16px; color:var(--red);}
+.tri{font-size:14px; color:var(--warn);}
+.uk{font-size:11px; color:var(--warn); line-height:1.5;}
+
+/* ── 合計行 ── */
+.total-row td{padding:14px 16px;}
+td.total-label{
+  border-right:1px solid var(--border);
+  font-weight:500; font-size:13px; color:var(--navy);
+}
+td.total-label .total-sub{
+  font-size:10px; color:var(--muted); font-weight:300; display:block; margin-top:2px;
+}
+td.total-a{
+  background:var(--warn-lt);
+  border-right:1px solid var(--border);
+  text-align:center;
+}
+td.total-pk{
+  background:var(--green-lt);
+  text-align:center;
+}
+.total-caption{font-size:10px; color:var(--warn); margin-bottom:3px;}
+.total-caption-pk{font-size:10px; color:var(--green); margin-bottom:3px;}
+.total-amount{font-size:17px; font-weight:500; color:var(--warn);}
+.total-amount-pk{font-size:17px; font-weight:500; color:var(--green);}
+
+/* ── 注釈 ── */
+.notes{
+  margin-top:16px; padding:14px 16px;
+  background:var(--bg); border-radius:8px;
+  border:1px solid var(--border);
+}
+.notes p{
+  font-size:11px; color:var(--muted);
+  line-height:1.95; margin:0;
+}
+
+/* ── モバイル ── */
+@media(max-width:600px){
+  .page{padding:32px 14px 60px;}
+  table{min-width:460px;}
+  .th-label,.th-a,.th-pk,
+  tr.data-row td,.total-row td{padding:10px 10px;}
+  td.item{font-size:12px;}
+  .price-main{font-size:16px;}
+}
+
+/* ── CTA フッター ── */
+.cta-footer{
+  margin-top:56px; padding:32px 28px;
+  background:var(--navy); border-radius:var(--r);
+  text-align:center;
+}
+.cta-label{
+  font-size:12px; letter-spacing:.2em; text-transform:uppercase;
+  color:rgba(255,255,255,.45); margin-bottom:18px;
+}
+.cta-row{
+  display:flex; flex-wrap:wrap; gap:10px; justify-content:center;
+}
+.btn{
+  padding:12px 24px; border-radius:6px;
+  font-family:'Noto Sans JP',sans-serif;
+  font-size:13px; font-weight:500; cursor:pointer;
+  text-decoration:none; display:inline-block; transition:opacity .15s;
+  white-space:nowrap;
+}
+.btn:hover{opacity:.82;}
+.btn-ai{background:#fff; color:var(--navy);}
+.btn-green{background:var(--green); color:#fff;}
+.btn-line{background:#06c755; color:#fff;}
+@media(max-width:520px){
+  .cta-row{flex-direction:column; align-items:center;}
+  .btn{width:100%; text-align:center;}
+  .cta-footer{padding:24px 16px;}
+}
+.btn-compare{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.3);}
+</style>
+</head>
+<body>
+
+<!-- ナビゲーション -->
+<nav style="background:#fff;border-bottom:2px solid #1560a8;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)">
+  <div style="max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <a href="https://hideo-t.github.io/phoka2/" style="display:flex;align-items:center;gap:8px;text-decoration:none">
+      <img src="../logopkw.jpg" alt="パークホームズオキナワ" style="height:96px;width:auto">
+    </a>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <a href="https://hideo-t.github.io/phoka2/" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">🏠 トップ</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/lineup.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">ラインナップ</a>
+      <a href="../pages/catalog.pdf" download style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">📄 カタログDL</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">価格表</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/estimate.html" style="font-size:13px;font-weight:700;color:#fff;background:#e8614a;padding:8px 16px;border-radius:8px;text-decoration:none">📋 無料見積もり</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page">
+
+  <span class="section-label">Price Comparison</span>
+  <h2 class="section-title">他社との価格比較</h2>
+  <p class="section-sub">
+    同じ「11mトレーラーハウス」で、何が含まれているかを比較しています。<br>
+    他社の表示価格はスケルトン（外皮のみ）の本体価格です。
+  </p>
+
+  <div class="tbl-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th class="th-label">項目</th>
+        <th class="th-a">
+          <div class="co-label">他社 A（匿名）</div>
+          <div class="model-name">LJ 11000</div>
+          <div class="price-main">473万円</div>
+          <div class="price-note">税込・スケルトン</div>
+        </th>
+        <th class="th-pk">
+          <div class="co-label">パークホームズオキナワ</div>
+          <div class="model-name">PARQ-Casa 11m</div>
+          <div class="price-main">1,406万円</div>
+          <div class="price-note">税込 ※1</div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- 共通仕様 -->
+      <tr class="sec-row"><td colspan="1">共通仕様</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">シャーシ・躯体</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          防錆 溶融亜鉛メッキ どぶ漬け加工
+          <span class="item-note-ref">※3</span>
+          <span class="item-sub">躯体完成後に専用工場で全浸漬処理</span><br>
+          <a href="https://youtube.com/shorts/Pwz55cE-X-Y?si=_PEyypChxYrthfL3" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:5px;margin-top:6px;font-size:11px;font-weight:600;color:#fff;background:#e8614a;padding:4px 10px;border-radius:20px;text-decoration:none">▶ 動画を見る</a>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">実耐用年数 20年設計</td>
+        <td class="val-a"><span class="uk">要確認</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">屋根・外壁</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">断熱材・下地合板</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">電気（コンセント・照明）</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- ここから差 -->
+      <tr class="sec-row"><td colspan="1">ここから差が出る</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">内装仕上げ工事</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">給排水配管工事</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">ユニットバス</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">キッチン</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">洗面化粧台</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">洗濯パン</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">トイレ</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 沖縄仕様 -->
+      <tr class="sec-row"><td colspan="1">沖縄仕様（重要）</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">
+          高耐風圧サッシ
+          <span class="item-sub">S-4以上 / W-5</span>
+        </td>
+        <td class="val-a"><span class="uk">要確認<br>（別途）</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">台風対策設計</td>
+        <td class="val-a"><span class="uk">要確認<br>（別途）</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          沖縄現地製造
+          <span class="item-sub">アフターサービス対応</span>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 現場条件 -->
+      <tr class="sec-row"><td colspan="1">現場条件による（別途見積）</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">
+          輸送・設置費
+          <span class="item-sub">設置場所・地形により変動</span>
+        </td>
+        <td class="val-a"><span class="tri">△</span></td>
+        <td class="val-pk"><span class="tri">△</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          仮設工事・現場経費
+          <span class="item-sub">現場状況により変動</span>
+        </td>
+        <td class="val-a"><span class="tri">△</span></td>
+        <td class="val-pk"><span class="tri">△</span></td>
+      </tr>
+
+      <!-- 合計 -->
+      <tr class="total-row">
+        <td class="total-label">
+          本体価格（参考）
+          <span class="total-sub">※輸送・仮設を除く</span>
+        </td>
+        <td class="total-a">
+          <div class="total-caption">スケルトン＋架装別途</div>
+          <div class="total-amount">1,000〜1,300万円〜</div>
+        </td>
+        <td class="total-pk">
+          <div class="total-caption-pk">全込み・沖縄仕様</div>
+          <div class="total-amount-pk">1,406万円</div>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+  </div><!-- /tbl-wrap -->
+
+  <div class="notes">
+    <p>
+      ※1 パークホームズ表示価格は輸送・設置費（40万円）・仮設工事（22万円）を除いた本体価格（税込）。<br>
+      ※2 △：設置場所・地形・搬入経路により費用が変動するため、別途お見積りとなります。<br>
+      ※3 躯体の組み立て・加工・穴あけをすべて完了した後、二度手間になるが再度ばらし、専用工場まで輸送して溶融亜鉛メッキどぶ漬け加工を実施。錆びる要素を99.99%除去。二度手間でも品質を優先する姿勢。<br>
+      ※他社A表示価格は公式サイト掲載のスケルトン本体価格（税込）。水回り・内装・沖縄仕様オプションは別途加算が必要です。<br>
+      ※台風対策工事・ガス工事は両社とも別途。
+    </p>
+  </div>
+
+
+  <!-- ── CTA フッター ── -->
+  <div class="cta-footer">
+    <div class="cta-label">お気軽にご相談ください</div>
+    <div class="cta-row">
+      <a href="#" class="btn btn-ai" onclick="return false;">🤖 AIパクオ君に相談する</a>
+      <a href="../contact/" class="btn btn-green">📋 AI無料見積もり</a>
+      <a href="https://lin.ee/yPxxosA" class="btn btn-line">💬 LINEで聞く</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html" class="btn btn-compare">📊 他社との価格比較を見る</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

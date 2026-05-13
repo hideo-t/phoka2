@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>商品価格表｜パークホームズオキナワ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0d2d5e;--blue:#1560a8;--coral:#e8614a;--coral-dark:#c44a35;
+  --green:#2a7a5a;--green-lt:#e8f5ee;
+  --gray:#f5f5f3;--border:#e0e0d8;--text:#1a2332;--muted:#666;
+  --white:#fff;--radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--gray);color:var(--text);font-size:15px;line-height:1.7}
+a{text-decoration:none;color:var(--blue)}
+
+/* NAV */
+nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.nav-inner{max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.nav-inner img{height:96px;width:auto}
+.nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.nav-links a{font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;transition:.2s}
+.nav-links a:hover{background:#f0f6ff}
+.nav-cta{color:var(--white)!important;background:var(--coral);padding:8px 16px!important;border-radius:8px}
+.nav-cta:hover{background:var(--coral-dark)!important}
+
+/* HERO */
+.page-hero{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);color:var(--white);padding:48px 20px 40px;text-align:center}
+.page-hero .eyebrow{font-size:11px;letter-spacing:.3em;opacity:.7;text-transform:uppercase;margin-bottom:12px}
+.page-hero h1{font-size:clamp(22px,4vw,36px);font-weight:700;margin-bottom:12px}
+.page-hero p{font-size:14px;opacity:.8;max-width:500px;margin:0 auto}
+
+/* CONTAINER */
+.container{max-width:1000px;margin:0 auto;padding:0 20px}
+
+/* SECTION */
+.section{padding:56px 0}
+
+/* LEGEND */
+.legend{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:32px;font-size:13px;color:var(--muted)}
+.legend-item{display:flex;align-items:center;gap:6px}
+.dot-green{width:12px;height:12px;border-radius:50%;background:var(--green);flex-shrink:0}
+.dot-gray{width:12px;height:12px;border-radius:50%;background:#aaa;flex-shrink:0}
+
+/* CARDS GRID */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media(max-width:640px){.cards{grid-template-columns:1fr}}
+
+/* CARD */
+.card{background:var(--white);border-radius:var(--radius);overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);transition:.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 28px rgba(0,0,0,.1)}
+.card.has-price{border-top:4px solid var(--green)}
+.card.no-price{border-top:4px solid #ccc;opacity:.8}
+.card-head{padding:20px 20px 14px}
+.card-no{font-size:10px;font-weight:700;letter-spacing:.15em;color:var(--muted);margin-bottom:4px;text-transform:uppercase}
+.card-name{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:2px}
+.card-name-en{font-size:11px;color:var(--muted)}
+.card-series{display:inline-block;background:var(--navy);color:var(--white);font-size:10px;padding:2px 8px;border-radius:20px;margin-top:8px}
+
+.card-body{padding:0 20px 20px;display:flex;flex-direction:column;gap:10px}
+.spec-row{display:flex;gap:8px;align-items:baseline;font-size:13px}
+.spec-label{color:var(--muted);min-width:72px;flex-shrink:0}
+.spec-val{color:var(--text);font-weight:500}
+
+.price-block{background:var(--green-lt);border-radius:8px;padding:14px 16px;margin-top:4px}
+.price-label{font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--green);text-transform:uppercase;margin-bottom:4px}
+.price-main{font-size:22px;font-weight:700;color:var(--navy);line-height:1.2}
+.price-range{font-size:12px;color:var(--muted);margin-top:2px}
+.price-total{display:flex;justify-content:space-between;align-items:baseline;margin-top:8px;padding-top:8px;border-top:1px solid rgba(0,0,0,.06)}
+.price-total-label{font-size:11px;color:var(--muted)}
+.price-total-val{font-size:16px;font-weight:700;color:var(--coral)}
+
+.no-price-block{background:var(--gray);border-radius:8px;padding:12px 16px;margin-top:4px;font-size:12px;color:var(--muted);text-align:center}
+
+.card-note{font-size:11px;color:var(--muted);background:#fafafa;border-radius:6px;padding:8px 10px;line-height:1.6;margin-top:4px}
+
+/* NOTES SECTION */
+.notes-box{background:var(--white);border-radius:var(--radius);padding:24px 28px;border:1px solid var(--border);margin-top:40px}
+.notes-box h3{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:14px}
+.notes-box ul{padding-left:16px}
+.notes-box li{font-size:12px;color:var(--muted);margin-bottom:6px;line-height:1.7}
+
+/* CTA */
+.cta-bar{background:var(--navy);color:var(--white);padding:40px 20px;text-align:center;margin-top:0}
+.cta-bar h2{font-size:20px;font-weight:700;margin-bottom:8px}
+.cta-bar p{font-size:13px;opacity:.75;margin-bottom:24px}
+.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:8px;font-size:14px;font-weight:700;transition:.2s}
+.cta-btn-primary{background:var(--coral);color:var(--white)}
+.cta-btn-primary:hover{background:var(--coral-dark)}
+.cta-btn-outline{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,.4)}
+.cta-btn-outline:hover{background:rgba(255,255,255,.1)}
+
+@media(max-width:480px){
+  .nav-links .hide-sp{display:none}
+  .page-hero{padding:36px 16px 28px}
+  .section{padding:36px 0}
+  .container{padding:0 14px}
+  .card-head{padding:16px 16px 10px}
+  .card-body{padding:0 16px 16px}
+  .notes-box{padding:18px 16px}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="https://hideo-t.github.io/phoka2/">
+      <img src="../logopkw.jpg" alt="パークホームズオキナワ" style="height:96px;width:auto">
+    </a>
+    <div class="nav-links">
+      <a href="https://hideo-t.github.io/phoka2/" class="hide-sp">🏠 トップ</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/lineup.html" class="hide-sp">ラインナップ</a>
+      <a href="../pages/catalog.pdf" download class="hide-sp">📄 カタログDL</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html">他社比較</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/estimate.html" class="nav-cta">📋 無料見積もり</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="page-hero">
+  <div class="eyebrow">Price List · 2026</div>
+  <h1>商品価格表</h1>
+  <p>全モデルの本体価格・輸送費・概算合計を一覧。<br>価格はすべて税別・宿泊施設用途の参考提案です。</p>
+</div>
+
+<!-- CARDS -->
+<section class="section">
+  <div class="container">
+
+    <div class="legend">
+      <div class="legend-item"><div class="dot-green"></div>価格情報あり</div>
+      <div class="legend-item"><div class="dot-gray"></div>価格資料なし（要問合せ）</div>
+    </div>
+
+    <div class="cards">
+
+      <!-- 01 アマルフィー -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.01</div>
+          <div class="card-name">アマルフィー 11.5m</div>
+          <div class="card-name-en">Amalfi 40F</div>
+          <div class="card-series">Amalfi Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面積</span><span class="spec-val">35㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W3.3m × D11.5m × H4.2m</span></div>
+          <div class="spec-row"><span class="spec-label">宿泊人数</span><span class="spec-val">4〜8名</span></div>
+          <div class="price-block">
+            <div class="price-label">本体価格（税別）</div>
+            <div class="price-main">1,785〜1,835<span style="font-size:14px;font-weight:400">万円</span></div>
+            <div class="price-range">輸送・設置費 約150万円〜 ／ デッキ・階段 約50万円〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合計（税別）</span>
+              <span class="price-total-val">約1,985万円〜</span>
+            </div>
+          </div>
+          <div class="card-note">⚠ 旧ラインナップ価格。現行「アマルフィー40F」との対応要確認。付帯設備：コ型キッチン・洗面・シャワー・ウォシュレット等</div>
+        </div>
+      </div>
+
+      <!-- 02 ラウンドプレミア12m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.02</div>
+          <div class="card-name">ラウンドプレミア 12m</div>
+          <div class="card-name-en">Round Premiere 12m</div>
+          <div class="card-series">Round Premiere Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面積</span><span class="spec-val">30㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W2.5m × D12.0m × H3.6m</span></div>
+          <div class="spec-row"><span class="spec-label">宿泊人数</span><span class="spec-val">4〜8名</span></div>
+          <div class="price-block">
+            <div class="price-label">本体価格（税別）</div>
+            <div class="price-main">1,500〜1,550<span style="font-size:14px;font-weight:400">万円</span></div>
+            <div class="price-range">輸送・設置費 約60万円〜 ／ デッキ・階段 約665万円〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合計（税別）</span>
+              <span class="price-total-val">約2,225万円〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03 ラウンドプレミア6m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.03</div>
+          <div class="card-name">ラウンドプレミア 6m</div>
+          <div class="card-name-en">Round Premiere 6m</div>
+          <div class="card-series">Round Premiere Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面積</span><span class="spec-val">14㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W2.5m × D6.0m × H3.6m</span></div>
+          <div class="spec-row"><span class="spec-label">宿泊人数</span><span class="spec-val">2〜3名</span></div>
+          <div class="price-block">
+            <div class="price-label">本体価格（税別）</div>
+            <div class="price-main">1,250〜1,270<span style="font-size:14px;font-weight:400">万円</span></div>
+            <div class="price-range">輸送・設置費 約50万円〜 ／ デッキ・階段 約570万円〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合計（税別）</span>
+              <span class="price-total-val">約1,870万円〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 04 カーサ11m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.04</div>
+          <div class="card-name">PARQ-Casa（カーサ）11m</div>
+          <div class="card-name-en">PARQ-Casa 11m</div>
+          <div class="card-series">PARQ Casa Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面積</span><span class="spec-val">34㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W3.4m × D11.0m × H4.2m</span></div>
+          <div class="spec-row"><span class="spec-label">宿泊人数</span><span class="spec-val">4〜8名</span></div>
+          <div class="price-block">
+            <div class="price-label">本体価格（税別）</div>
+            <div class="price-main">1,300〜1,350<span style="font-size:14px;font-weight:400">万円</span></div>
+            <div class="price-range">輸送・設置費 約150万円〜 ／ デッキ・階段 約50万円〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合計（税別）</span>
+              <span class="price-total-val">約1,500万円〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 05 ルミナ11m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.05</div>
+          <div class="card-name">PARQ-Lumina（ルミナ）11m</div>
+          <div class="card-name-en">PARQ-Lumina 11m</div>
+          <div class="card-series">PARQ Lumina Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面積</span><span class="spec-val">34㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W3.4m × D11.0m × H4.2m</span></div>
+          <div class="spec-row"><span class="spec-label">宿泊人数</span><span class="spec-val">4〜6名</span></div>
+          <div class="price-block">
+            <div class="price-label">本体価格（税別）</div>
+            <div class="price-main">1,400〜1,500<span style="font-size:14px;font-weight:400">万円</span></div>
+            <div class="price-range">輸送・設置費 約150万円〜 ／ デッキ・階段 約50万円〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合計（税別）</span>
+              <span class="price-total-val">約1,600万円〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 09 ムービング6m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.09</div>
+          <div class="card-name">PARQ-Moving（ムービング）6m</div>
+          <div class="card-name-en">PARQ-Moving 6m</div>
+          <div class="card-series">PARQ Moving Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面積</span><span class="spec-val">14㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W2.5m × D6.0m × H3.6m</span></div>
+          <div class="spec-row"><span class="spec-label">宿泊人数</span><span class="spec-val">2〜3名</span></div>
+          <div class="price-block">
+            <div class="price-label">本体価格（税別）</div>
+            <div class="price-main">700〜720<span style="font-size:14px;font-weight:400">万円</span></div>
+            <div class="price-range">輸送・設置費 約50万円〜 ／ デッキ・階段 約50万円〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合計（税別）</span>
+              <span class="price-total-val">約800万円〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 06 PARQ-Base -->
+      <div class="card no-price">
+        <div class="card-head">
+          <div class="card-no">No.06</div>
+          <div class="card-name">PARQ-Base（ベース）11m</div>
+          <div class="card-name-en">PARQ-Base 11m</div>
+          <div class="card-series">PARQ Base Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">要問合せ</span></div>
+          <div class="no-price-block">価格資料なし<br>お問い合わせください</div>
+          <div class="card-note">カタログ記載のみ。価格情報は個別にご案内します。</div>
+        </div>
+      </div>
+
+      <!-- 07 PARQ-Cube -->
+      <div class="card no-price">
+        <div class="card-head">
+          <div class="card-no">No.07 / 08</div>
+          <div class="card-name">PARQ-Cube（キューブ）6m / 12m</div>
+          <div class="card-name-en">PARQ-Cube / Slide Out</div>
+          <div class="card-series">PARQ Cube Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W2.5m × D6m〜12m × H3.6m</span></div>
+          <div class="no-price-block">価格資料なし<br>お問い合わせください</div>
+          <div class="card-note">カタログ記載のみ。スライドアウトタイプも展開。</div>
+        </div>
+      </div>
+
+      <!-- 10 ソーラーヘブン -->
+      <div class="card no-price">
+        <div class="card-head">
+          <div class="card-no">No.10</div>
+          <div class="card-name">ソーラーヘブン 6m</div>
+          <div class="card-name-en">Solar Heaven 6m</div>
+          <div class="card-series">Solar Heaven Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">外寸</span><span class="spec-val">W2.5m × D6m × H3.8m（パネル込）</span></div>
+          <div class="no-price-block">価格資料なし<br>お問い合わせください</div>
+          <div class="card-note">ソーラーパネル搭載モデル。オフグリッド対応。</div>
+        </div>
+      </div>
+
+    </div><!-- /cards -->
+
+    <!-- NOTES -->
+    <div class="notes-box">
+      <h3>📌 価格に関する注記</h3>
+      <ul>
+        <li>全価格は<strong>税別（税抜）</strong>表示です。</li>
+        <li>宿泊施設用途を想定した<strong>参考提案価格</strong>です。設置条件・設備内容により変動します。</li>
+        <li>輸送・設置費は設置場所・地形・搬入経路により変動。別途お見積りとなります。</li>
+        <li>価格資料出典：ラインナップ_R8_02（2026年4月改訂版）</li>
+        <li>価格不明モデルはカタログ記載のみのため、個別にお問い合わせください。</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-bar">
+  <h2>正確な金額はAI見積もりで</h2>
+  <p>用途・サイズ・設置条件を入力するだけで概算金額をご提示します</p>
+  <div class="cta-btns">
+    <a href="https://hideo-t.github.io/phoka2/pages/estimate.html" class="cta-btn cta-btn-primary">📋 AI無料見積もりを試す</a>
+    <a href="https://hideo-t.github.io/QAparkhome/" target="_blank" rel="noopener" class="cta-btn cta-btn-outline">🤖 AIに相談する</a>
+  </div>
+</div>
+
+</body>
+</html>

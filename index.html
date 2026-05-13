@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<base href="https://hideo-t.github.io/phoka2/">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ</title>
+<meta name="description" content="沖縄仕様の鉄骨トレーラーハウス専門メーカー。塩害・台風・暑さ対策を標準装備。移住・別荘・災害BCP対応。豊見城市の工場で製造から設置まで一貫対応。TEL 098-856-6666">
+<meta property="og:title" content="パークホームズオキナワ｜沖縄のトレーラーハウス専門店">
+<meta property="og:description" content="沖縄仕様の鉄骨トレーラーハウス。塩害・台風対策標準装備。移住・別荘・災害BCPに。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hideo-t.github.io/phoka2/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"株式会社パークホームズオキナワ","telephone":"098-856-6666","url":"https://hideo-t.github.io/phoka2/","address":{"@type":"PostalAddress","streetAddress":"豊崎1-1223","addressLocality":"豊見城市","addressRegion":"沖縄県","postalCode":"901-0225","addressCountry":"JP"}}
+</script>
+<style>
+/* ===== RESET & BASE ===== */
+:root{
+  --blue:#1560a8;
+  --navy:#0d2d5e;
+  --blue-light:#4fa3e0;
+  --coral:#e8614a;
+  --coral-dark:#c44a35;
+  --coral-light:#f08070;
+  --black:#1a1a1a;
+  --white:#ffffff;
+  --bg:#f8fafc;
+  --text:#1a2332;
+  --muted:#64748b;
+  --border:#d1e3f8;
+  --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;color:var(--text);background:var(--white);line-height:1.75;font-size:16px}
+a{color:var(--blue);text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{line-height:1.4}
+
+/* ===== CONTAINER ===== */
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+/* ===== BUTTONS ===== */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:var(--radius);font-size:15px;font-weight:700;cursor:pointer;transition:all .2s;border:2px solid transparent;text-align:center;min-height:48px}
+.btn-primary{background:var(--blue);color:var(--white);border-color:var(--blue)}
+.btn-primary:hover{background:var(--navy);border-color:var(--navy);transform:translateY(-2px);box-shadow:0 6px 20px rgba(21,96,168,.35)}
+.btn-coral{background:var(--coral);color:var(--white);border-color:var(--coral)}
+.btn-coral:hover{background:var(--coral-dark);border-color:var(--coral-dark);transform:translateY(-2px);box-shadow:0 6px 20px rgba(232,97,74,.35)}
+.btn-outline-white{background:transparent;color:var(--white);border-color:rgba(255,255,255,.6)}
+.btn-outline-white:hover{background:rgba(255,255,255,.15);transform:translateY(-2px)}
+.btn-outline-blue{background:var(--white);color:var(--blue);border-color:var(--blue)}
+.btn-outline-blue:hover{background:var(--blue);color:var(--white);transform:translateY(-2px)}
+.btn-lg{padding:16px 32px;font-size:16px}
+
+/* ===== SECTION ===== */
+.section{padding:80px 0}
+.section-gray{background:var(--bg)}
+.section-eyebrow{font-size:11px;letter-spacing:.3em;color:var(--blue);font-weight:700;text-transform:uppercase;margin-bottom:12px}
+.section-title{font-size:clamp(22px,3.5vw,36px);font-weight:700;color:var(--navy);margin-bottom:12px}
+.section-sub{font-size:15px;color:var(--muted);line-height:1.7;max-width:600px}
+.section-head{text-align:center;margin-bottom:48px}
+.section-head .section-sub{margin:0 auto}
+html{scroll-padding-top:68px}
+
+/* ===== GRID ===== */
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+
+/* ===== CARDS ===== */
+.card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:all .3s}
+.card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,0,0,.12)}
+.card-img{height:220px;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.card:hover .card-img img{transform:scale(1.06)}
+.card-body{padding:24px}
+.card-icon{font-size:48px;margin-bottom:16px;display:block;text-align:center}
+.card-title{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:10px}
+.card-text{font-size:14px;color:var(--muted);line-height:1.7}
+.card-tag{display:inline-block;background:var(--border);color:var(--blue);font-size:11px;font-weight:600;padding:3px 10px;border-radius:20px;margin-bottom:10px}
+
+/* ===== REVEAL ===== */
+.reveal{opacity:0;transform:translateY(24px);transition:.65s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* ===========================
+   NAV
+=========================== */
+nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;top:0;z-index:200;box-shadow:0 2px 16px rgba(0,0,0,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:108px;max-width:1100px;margin:0 auto;padding:0 24px}
+.nav-logo img{height:96px;width:auto}
+.nav-deco{display:none}
+@media(max-width:768px){.nav-deco{display:block;height:60px;width:auto;object-fit:contain;opacity:.85;flex-shrink:0}}
+.nav-links{display:flex;gap:4px;align-items:center}
+
+/* dropdown */
+.nav-item{position:relative}
+.nav-item > a, .nav-item > span{
+  display:flex;align-items:center;gap:4px;padding:8px 12px;font-size:13px;font-weight:600;
+  color:var(--black);border-radius:8px;cursor:pointer;transition:.2s;white-space:nowrap;
+  user-select:none;
+}
+.nav-item > a:hover, .nav-item > span:hover{background:var(--bg);color:var(--blue)}
+.nav-item > span::after{content:'▾';font-size:10px;opacity:.6}
+.dropdown{
+  display:none;position:absolute;top:calc(100% + 4px);left:0;
+  background:var(--white);border:1px solid var(--border);border-radius:var(--radius);
+  box-shadow:0 8px 32px rgba(0,0,0,.12);min-width:180px;padding:8px;
+  z-index:300;
+}
+.nav-item.open .dropdown{display:block}
+.dropdown a{display:block;padding:8px 14px;font-size:13px;color:var(--text);border-radius:8px;transition:.15s}
+.dropdown a:hover{background:var(--bg);color:var(--blue)}
+.nav-cta{background:var(--coral)!important;color:var(--white)!important;border-radius:8px;padding:8px 18px;font-size:13px;font-weight:700;transition:.2s!important}
+.nav-cta:hover{background:var(--coral-dark)!important;transform:translateY(-1px)}
+
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none}
+.hamburger span{display:block;width:24px;height:2px;background:var(--black);border-radius:2px;transition:.3s}
+.mobile-menu{display:none;flex-direction:column;background:var(--white);border-top:1px solid var(--border);padding:12px 24px 20px}
+.mobile-menu.open{display:flex}
+.mobile-menu a{padding:12px 0;font-size:15px;border-bottom:1px solid var(--border);color:var(--text);font-weight:500}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-menu .m-section{font-size:11px;letter-spacing:.1em;color:var(--muted);font-weight:700;text-transform:uppercase;padding:14px 0 4px;border-bottom:none}
+
+/* ===========================
+   HERO
+=========================== */
+#hero{position:relative;display:flex;flex-direction:column;overflow:hidden;background:#e8f4f8}
+.hero-bg{display:none}
+.hero-overlay{display:none}
+/* Hero layout */
+.hero-content{
+  position:relative;z-index:1;color:var(--navy);
+  max-width:1100px;margin:0 auto;padding:16px 24px 32px;
+  display:flex;flex-direction:column;gap:16px;
+}
+/* 上段: シーサー・動画・守礼門 */
+.hero-top-row{
+  position:relative;z-index:2;
+  width:100vw;
+  display:grid;
+  grid-template-columns:33.333vw 33.333vw 33.334vw;
+  align-items:center;
+  padding:0;margin:0;
+}
+.hero-deco-img{
+  display:block;width:70%;max-width:200px;height:auto;
+  object-fit:contain;margin:0 auto;padding:0;
+  filter:drop-shadow(0 4px 12px rgba(0,0,0,.4));
+}
+/* 下段: テキスト */
+.hero-text{text-align:center}
+.hero-eyebrow{font-size:12px;letter-spacing:.4em;opacity:.7;margin-bottom:16px;text-transform:uppercase;color:var(--blue)}
+.hero-title{font-size:clamp(26px,4vw,52px);font-weight:700;line-height:1.25;margin-bottom:16px;color:var(--navy)}
+.hero-sub{font-size:clamp(14px,1.6vw,17px);margin-bottom:28px;line-height:1.7;color:var(--text)}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.hero-scroll{display:none}
+
+/* Hero video slider */
+.hero-video-wrap{
+  display:flex;flex-direction:column;align-items:center;gap:4px;
+  padding:0;margin:0;
+}
+.hero-slider{
+  background:#111;border-radius:16px;
+  box-shadow:0 8px 32px rgba(0,0,0,.5),0 0 0 2px rgba(255,255,255,.15);
+  overflow:hidden;aspect-ratio:9/16;max-height:480px;
+  position:relative;width:100%;
+}
+.hero-slider video{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity .5s ease;
+  pointer-events:none;
+}
+.hero-slider video.active{opacity:1;pointer-events:auto}
+/* prev/next arrows */
+.slider-arrow{
+  position:absolute;top:50%;transform:translateY(-50%);
+  z-index:10;background:rgba(0,0,0,.45);color:#fff;border:none;
+  border-radius:50%;width:36px;height:36px;font-size:16px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:.2s;backdrop-filter:blur(4px);
+}
+.slider-arrow:hover{background:rgba(0,0,0,.7)}
+.slider-prev{left:8px}
+.slider-next{right:8px}
+/* dots */
+.slider-dots{
+  display:flex;gap:6px;justify-content:center;flex-wrap:wrap;
+  max-width:200px;
+}
+.slider-dot{
+  width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.35);
+  border:none;cursor:pointer;transition:.2s;padding:0;
+}
+.slider-dot.active{background:var(--coral);transform:scale(1.3)}
+.slider-count{
+  font-size:11px;letter-spacing:.15em;opacity:.6;color:var(--white);
+}
+
+/* Hero deco images */
+.hero-deco{
+  position:absolute;top:0;z-index:2;
+  height:auto;width:15%;
+  object-fit:contain;object-position:top;
+  pointer-events:none;
+}
+.hero-deco-left{left:0}
+.hero-deco-right{right:0}
+@media(max-width:768px){
+  .hero-deco{width:15%;opacity:.9}
+}
+
+/* Pakuo floating button */
+.pakuo-float{
+  position:fixed;bottom:90px;right:20px;z-index:500;
+  background:var(--coral);color:var(--white);border:none;border-radius:50px;
+  padding:12px 18px;font-size:13px;font-weight:700;cursor:pointer;
+  box-shadow:0 6px 24px rgba(232,97,74,.45);
+  display:flex;align-items:center;gap:8px;transition:.3s;
+}
+.pakuo-float:hover{background:var(--coral-dark);transform:translateY(-3px);box-shadow:0 10px 32px rgba(232,97,74,.5)}
+.pakuo-float .pakuo-avatar{font-size:20px}
+.pakuo-bubble{
+  position:fixed;bottom:152px;right:20px;z-index:499;
+  background:var(--white);border:2px solid var(--coral);border-radius:16px;
+  padding:12px 16px;font-size:13px;max-width:200px;
+  box-shadow:0 4px 20px rgba(0,0,0,.12);
+  animation:fadein .4s ease;
+}
+.pakuo-bubble::after{content:'';position:absolute;bottom:-10px;right:24px;border:5px solid transparent;border-top-color:var(--coral)}
+@keyframes fadein{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* Mobile sticky CTA bar */
+.mobile-cta-bar{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:400;
+  background:var(--white);border-top:2px solid var(--border);
+  padding:10px 16px;gap:10px;
+  box-shadow:0 -4px 20px rgba(0,0,0,.1);
+}
+.mobile-cta-bar a{
+  flex:1;display:flex;align-items:center;justify-content:center;gap:6px;
+  padding:12px 8px;border-radius:10px;font-size:13px;font-weight:700;
+  text-align:center;min-height:48px;
+}
+.mobile-cta-bar .mcta-call{background:var(--navy);color:var(--white)}
+.mobile-cta-bar .mcta-line{background:#06c755;color:var(--white)}
+.mobile-cta-bar .mcta-est{background:var(--coral);color:var(--white)}
+
+/* ===========================
+   SECTION 3: 訴求1 感情
+=========================== */
+#appeal1{background:var(--bg)}
+.appeal-card{background:var(--white);border-radius:var(--radius);padding:32px 24px;border-left:4px solid var(--blue);transition:.3s;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.appeal-card:hover{transform:translateY(-4px);box-shadow:0 10px 32px rgba(0,0,0,.1);border-left-color:var(--coral)}
+.appeal-icon{font-size:44px;margin-bottom:16px;display:block}
+.appeal-card h3{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:12px}
+.appeal-card p{font-size:14px;color:var(--muted);line-height:1.8}
+.section-link{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:var(--blue);margin-top:40px;transition:.2s;min-height:44px}
+.section-link:hover{color:var(--navy);gap:14px}
+
+/* ===========================
+   SECTION 4: 訴求2 論理
+=========================== */
+#appeal2{background:var(--navy)}
+#appeal2 .section-eyebrow{color:var(--coral-light)}
+#appeal2 .section-title{color:var(--white)}
+#appeal2 .section-sub{color:rgba(255,255,255,.72)}
+.reason-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:28px 24px;transition:.3s;position:relative;overflow:hidden}
+.reason-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--coral)}
+.reason-card:hover{background:rgba(255,255,255,.12);transform:translateY(-4px)}
+.reason-num{font-size:56px;font-weight:900;color:var(--coral);opacity:.35;line-height:1;margin-bottom:8px}
+.reason-card h3{font-size:19px;font-weight:700;color:var(--white);margin-bottom:14px}
+.reason-card p{font-size:14px;color:rgba(255,255,255,.72);line-height:1.8}
+.reason-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(232,97,74,.2);color:var(--coral-light);border:1px solid rgba(232,97,74,.4);border-radius:20px;padding:4px 12px;font-size:12px;font-weight:600;margin-bottom:14px}
+.appeal2-link{color:rgba(255,255,255,.75);font-size:15px;font-weight:700;margin-top:52px;display:inline-flex;align-items:center;gap:8px;border-bottom:1px solid rgba(255,255,255,.3);padding-bottom:4px;transition:.2s}
+.appeal2-link:hover{color:var(--white);gap:14px}
+
+/* ===========================
+   SECTION 5: 商品ラインナップ
+=========================== */
+#lineup{background:var(--white)}
+.lineup-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:.3s}
+.lineup-card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,0,0,.12)}
+.lineup-card-header{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);padding:24px;color:var(--white)}
+.lineup-card-header h3{font-size:20px;font-weight:700;margin-bottom:4px}
+.lineup-card-header .tagline{font-size:12px;opacity:.75}
+.lineup-card-body{padding:20px}
+.lineup-models{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.lineup-model-tag{background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:12px;font-weight:600;color:var(--navy)}
+.lineup-card-body p{font-size:13px;color:var(--muted);line-height:1.7}
+.lineup-btns{display:flex;gap:12px;margin-top:40px;flex-wrap:wrap;justify-content:center}
+
+/* ===========================
+   SECTION 6: 設置事例
+=========================== */
+#cases{background:var(--bg)}
+.cases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.case-card{border-radius:var(--radius);overflow:hidden;position:relative;aspect-ratio:4/3;cursor:pointer}
+.case-card img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.case-card:hover img{transform:scale(1.07)}
+.case-card-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(13,45,94,.75) 0%,transparent 60%);opacity:0;transition:.3s;display:flex;align-items:flex-end;padding:20px}
+.case-card:hover .case-card-overlay{opacity:1}
+.case-card-label{color:var(--white);font-size:13px;font-weight:600}
+.case-card:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:unset}
+
+/* ===========================
+   SECTION 7: 社長メッセージ
+=========================== */
+#message{background:var(--white)}
+.message-layout{display:grid;grid-template-columns:280px 1fr;gap:56px;align-items:start}
+.message-photo{border-radius:var(--radius);overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.message-photo img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.message-name{text-align:center;margin-top:16px}
+.message-name strong{font-size:16px;color:var(--navy);display:block;margin-bottom:2px}
+.message-name span{font-size:12px;color:var(--muted)}
+.message-body{padding-top:8px}
+.message-body .lead{font-size:22px;font-weight:700;color:var(--navy);line-height:1.5;margin-bottom:24px;border-left:4px solid var(--coral);padding-left:16px}
+.message-body p{font-size:15px;color:var(--text);line-height:1.9;margin-bottom:18px}
+.message-sig{margin-top:32px;font-size:14px;color:var(--muted)}
+.message-sig strong{display:block;font-size:16px;color:var(--navy);margin-top:4px}
+
+/* ===========================
+   SECTION 8: 最終CTA
+=========================== */
+#cta-final{
+  background:linear-gradient(135deg,var(--coral) 0%,#c44a35 40%,#b03020 100%);
+  color:var(--white);padding:80px 0;
+}
+#cta-final h2{font-size:clamp(22px,4vw,40px);font-weight:700;margin-bottom:16px;text-align:center}
+#cta-final .sub{font-size:16px;opacity:.88;text-align:center;margin-bottom:44px;line-height:1.7}
+.cta-blocks{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:900px;margin:0 auto}
+.cta-block{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:var(--radius);padding:28px 20px;text-align:center;transition:.3s;cursor:pointer}
+.cta-block:hover{background:rgba(255,255,255,.2);transform:translateY(-4px)}
+.cta-block .cta-icon{font-size:40px;margin-bottom:14px;display:block}
+.cta-block h3{font-size:16px;font-weight:700;margin-bottom:8px}
+.cta-block p{font-size:13px;opacity:.8;margin-bottom:20px;line-height:1.6}
+.cta-block a{display:block;background:var(--white);color:var(--coral);border-radius:8px;padding:14px 20px;font-weight:700;font-size:14px;transition:.2s;min-height:48px;display:flex;align-items:center;justify-content:center}
+.cta-block a:hover{background:var(--navy);color:var(--white)}
+
+/* ===========================
+   FOOTER
+=========================== */
+footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
+.footer-inner{max-width:1100px;margin:0 auto;padding:0 24px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:48px;margin-bottom:40px}
+.footer-brand img{height:48px;margin-bottom:16px;filter:brightness(0) invert(1);opacity:.9}
+.footer-brand p{font-size:13px;line-height:1.9}
+.footer-brand a{color:var(--blue-light)}
+.footer-col h4{font-size:13px;font-weight:700;color:var(--white);margin-bottom:14px;letter-spacing:.05em}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:8px}
+.footer-col ul li a{font-size:13px;color:rgba(255,255,255,.6);transition:.15s}
+.footer-col ul li a:hover{color:var(--white)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.footer-bottom p{font-size:12px;opacity:.45}
+.footer-sns{display:flex;gap:12px}
+.footer-sns a{color:rgba(255,255,255,.45);font-size:20px;transition:.2s}
+.footer-sns a:hover{color:var(--white)}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media(max-width:900px){
+  .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
+  .cases-grid{grid-template-columns:repeat(2,1fr)}
+  .case-card:first-child{grid-column:span 1;grid-row:span 1}
+  .cta-blocks{grid-template-columns:1fr}
+  .message-layout{grid-template-columns:1fr;gap:32px}
+  .message-photo{max-width:200px;margin:0 auto}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .section{padding:56px 0}
+  .container{padding:0 16px}
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .cases-grid{grid-template-columns:1fr}
+  .footer-bottom{justify-content:center;text-align:center}
+
+  /* Hero mobile */
+  #hero{min-height:100svh}
+  .hero-content{padding:20px 14px 28px;gap:16px}
+  .hero-deco-img{display:none}
+  .hero-eyebrow{font-size:10px;margin-bottom:10px;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+  .hero-title{font-size:clamp(20px,7vw,32px);margin-bottom:10px;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+  .hero-sub{font-size:13px;margin-bottom:18px;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+  .hero-btns{flex-direction:column;align-items:stretch;gap:10px;max-width:280px;margin:0 auto}
+  .hero-btns .btn{width:100%;justify-content:center}
+  .btn-lg{padding:14px 20px;font-size:15px}
+  .hero-top-row{display:flex;flex-direction:column;align-items:center;width:100%}
+  .hero-deco-img{display:none}
+  .hero-video-wrap{width:100%;align-items:center}
+  .hero-slider{width:60vw;max-width:224px;margin:0 auto}
+  .hero-video-label{font-size:10px}
+
+  /* Appeal cards mobile */
+  .appeal-card{padding:24px 20px}
+  .appeal-icon{font-size:36px;margin-bottom:12px}
+  .appeal-card h3{font-size:17px}
+  .grid-2{gap:16px}
+  .section-link{margin-top:28px}
+
+  /* Reason cards mobile */
+  .reason-num{font-size:40px}
+  .reason-card h3{font-size:16px}
+  .grid-3{gap:16px}
+
+  /* Lineup mobile */
+  .lineup-card-header{padding:18px 20px}
+  .lineup-card-header h3{font-size:17px}
+  .lineup-btns{flex-direction:column;align-items:stretch}
+  .lineup-btns .btn{width:100%;justify-content:center}
+
+  /* Cases mobile */
+  .cases-grid{grid-template-columns:1fr;gap:14px}
+
+  /* Message mobile */
+  .message-body .lead{font-size:17px}
+  .message-body p{font-size:14px}
+
+  /* CTA final mobile */
+  #cta-final{padding:56px 0 80px}
+  #cta-final h2{font-size:22px}
+  #cta-final .sub{font-size:14px;margin-bottom:32px}
+  .cta-blocks{gap:16px}
+  .cta-block{padding:24px 16px}
+
+  /* Footer mobile */
+  footer{padding:40px 0 24px}
+  .footer-grid{gap:28px}
+  .footer-brand img{height:36px}
+
+  /* Pakuo mobile: icon only */
+  .pakuo-float{bottom:80px;right:16px;padding:12px;border-radius:50%;width:52px;height:52px;justify-content:center}
+  .pakuo-float span:last-child{display:none}
+  .pakuo-float .pakuo-avatar{font-size:22px;margin:0}
+  .pakuo-bubble{bottom:140px;right:16px;max-width:180px;font-size:12px}
+
+  /* Mobile sticky CTA bar */
+  .mobile-cta-bar{display:flex}
+}
+@media(max-width:380px){
+  .hero-title{font-size:26px}
+  .section-title{font-size:20px}
+  .appeal-card{padding:20px 16px}
+  .container{padding:0 12px}
+}
+</style>
+</head>
+<body>
+
+<!-- ===========================
+     NAV
+=========================== -->
+<nav>
+  <div class="nav-inner">
+    <img src="images/hero-sisa.jpg" alt="シーサー" class="nav-deco" aria-hidden="true">
+    <a href="https://hideo-t.github.io/phoka2/" class="nav-logo">
+      <img src="logopkw.jpg" alt="パークホームズオキナワ">
+    </a>
+    <img src="images/hero-syuri.jpg" alt="守礼門" class="nav-deco" aria-hidden="true">
+    <div class="nav-links">
+
+      <!-- 3つの理由 -->
+      <div class="nav-item">
+        <span>3つの理由</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html">他社・自社比較（ABC比較）</a>
+          <a href="https://hideo-t.github.io/phoka2/pages/product-compare.html">商品比較</a>
+          <a href="#appeal1">暮らしのイメージ</a>
+          <a href="#appeal2">沖縄仕様の根拠</a>
+        </div>
+      </div>
+
+      <!-- 商品 -->
+      <div class="nav-item">
+        <span>商品</span>
+        <div class="dropdown">
+          <a href="pages/lineup.html">ラインナップ</a>
+          <a href="pages/catalog.pdf" download>カタログダウンロード</a>
+          <a href="#cases">設置事例集</a>
+          <a href="pages/price.html">価格表</a>
+        </div>
+      </div>
+
+      <!-- AI見積 -->
+      <div class="nav-item">
+        <span>AI見積</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/pages/estimate.pdf" target="_blank">標準見積DL（PDF）</a>
+        </div>
+      </div>
+
+      <!-- 会社情報 -->
+      <div class="nav-item">
+        <span>会社情報</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/company/">アクセス・会社概要</a>
+          <a href="https://www.trailer-house.jp/" target="_blank" rel="noopener">トレーラーハウス協会</a>
+          <a href="https://hideo-t.github.io/phoka2/company/#director">理事プロフィール</a>
+        </div>
+      </div>
+
+      <!-- 問い合わせ -->
+      <div class="nav-item">
+        <span>問い合わせ</span>
+        <div class="dropdown">
+          <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener">LINEで聞く</a>
+          <a href="https://hideo-t.github.io/phoka2/contact/">メールで問い合わせ</a>
+        </div>
+      </div>
+
+      <a href="pages/estimate.html" class="nav-cta">無料見積もり</a>
+    </div>
+    <button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <span class="m-section">3つの理由</span>
+    <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html">他社・自社比較（ABC比較）</a>
+    <a href="https://hideo-t.github.io/phoka2/pages/product-compare.html">商品比較</a>
+    <a href="#appeal1">暮らしのイメージ</a>
+    <a href="#appeal2">沖縄仕様の根拠</a>
+    <span class="m-section">商品</span>
+    <a href="pages/lineup.html">ラインナップ</a>
+    <a href="pages/catalog.pdf" download>カタログダウンロード</a>
+    <a href="#cases">設置事例集</a>
+    <a href="pages/price.html">価格表</a>
+    <span class="m-section">AI見積</span>
+    <a href="https://hideo-t.github.io/phoka2/pages/estimate.pdf" target="_blank">標準見積DL（PDF）</a>
+    <span class="m-section">会社情報</span>
+    <a href="https://hideo-t.github.io/phoka2/company/">アクセス・会社概要</a>
+    <a href="https://www.trailer-house.jp/" target="_blank" rel="noopener">トレーラーハウス協会</a>
+    <a href="https://hideo-t.github.io/phoka2/company/#director">理事プロフィール</a>
+    <span class="m-section">問い合わせ</span>
+    <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener">LINEで聞く</a>
+    <a href="https://hideo-t.github.io/phoka2/contact/">メールで問い合わせ</a>
+    <a href="pages/estimate.html" style="color:var(--coral);font-weight:700;margin-top:4px">📋 無料見積もり →</a>
+  </div>
+</nav>
+
+<!-- ===========================
+     HERO
+=========================== -->
+<section id="hero">
+  <div class="hero-overlay"></div>
+  <!-- 上段: シーサー / 動画 / 守礼門 （ビューポート幅で3等分） -->
+  <div class="hero-top-row">
+      <img src="images/hero-sisa.jpg" alt="シーサー" class="hero-deco-img" fetchpriority="high">
+      <div class="hero-video-wrap">
+        <div class="hero-slider" id="heroSlider">
+        <video src="images/hero-videos/797491471.572952.mp4" class="active" autoplay muted playsinline preload="auto"></video>
+        <video src="images/hero-videos/797491471.622654.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.662695.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.717032.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.756085.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.800731.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.843834.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.865197.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.887159.mp4" muted playsinline preload="none"></video>
+        <video src="images/hero-videos/797491471.909393.mp4" muted playsinline preload="none"></video>
+        <button class="slider-arrow slider-prev" onclick="slideHero(-1)" aria-label="前へ">❮</button>
+        <button class="slider-arrow slider-next" onclick="slideHero(1)" aria-label="次へ">❯</button>
+      </div>
+      <div class="slider-dots" id="sliderDots"></div>
+      <p class="slider-count" id="sliderCount">1 / 10</p>
+    </div>
+      <img src="images/hero-syuri.jpg" alt="守礼門" class="hero-deco-img" fetchpriority="high">
+  </div><!-- /hero-top-row -->
+  <div class="hero-content">
+    <!-- 下段: テキスト -->
+    <div class="hero-text">
+      <p class="hero-eyebrow">Park Homes Okinawa</p>
+      <h1 class="hero-title">沖縄の海に、<br>もうひとつの暮らし。</h1>
+      <p class="hero-sub">
+        塩害・台風・暑さに耐える「沖縄仕様」の鉄骨トレーラーハウス。<br>
+        製造から輸送・設置・メンテナンスまで、一貫対応。
+      </p>
+      <div class="hero-btns">
+        <a href="pages/estimate.html" class="btn btn-coral btn-lg">無料見積もり →</a>
+        <a href="#lineup" class="btn btn-outline-blue btn-lg">商品を見る</a>
+      </div>
+    </div>
+  </div><!-- /hero-content -->
+</section>
+
+<!-- モバイル固定CTAバー -->
+<div class="mobile-cta-bar">
+  <a href="https://hideo-t.github.io/QAparkhome/" target="_blank" rel="noopener" class="mcta-call">🤖 AI相談</a>
+  <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener" class="mcta-line">💬 LINE</a>
+  <a href="pages/estimate.html" class="mcta-est">📋 見積もり</a>
+</div>
+
+<!-- パクオ君 フローティングボタン -->
+<button class="pakuo-float" onclick="window.open('https://hideo-t.github.io/QAparkhome/','_blank')" aria-label="AIパクオ君に相談">
+  <span class="pakuo-avatar">🤖</span>
+  <span>AIパクオ君に相談</span>
+</button>
+
+<!-- ===========================
+     SECTION 3: 訴求1 感情
+=========================== -->
+<section id="appeal1" class="section section-gray">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">LIFESTYLE</div>
+      <h2 class="section-title">沖縄の海に、もうひとつの暮らし</h2>
+      <p class="section-sub">「場所にとらわれない」「コストを抑えた」<br>生活やビジネスが、今すぐ実現できます。</p>
+    </div>
+
+    <div class="grid-2">
+
+      <div class="appeal-card reveal">
+        <span class="appeal-icon">🏡</span>
+        <h3>ミニマルなマイホーム</h3>
+        <p>
+          移住・建築費用を大幅に抑えつつ、山林や浜辺など自然に近い場所へ設置できます。
+          一般住宅には難しい農地や山間部への設置も、車両扱いなら転用申請不要。
+          理想の場所に、自分らしい家を。
+        </p>
+      </div>
+
+      <div class="appeal-card reveal">
+        <span class="appeal-icon">🌊</span>
+        <h3>移動できる・別荘・セカンドハウス</h3>
+        <p>
+          好きな時に好きな場所へ、拠点そのものが移せる。
+          次世代型の別荘として、また離島の宿泊施設として注目が高まっています。
+          一か所に縛られない新しいライフスタイルを。
+        </p>
+      </div>
+
+      <div class="appeal-card reveal">
+        <span class="appeal-icon">❄️</span>
+        <h3>快適な住環境</h3>
+        <p>
+          高気密・高断熱仕様により、夏は涼しく冬は暖かく。
+          クラスS4以上の窓サッシで遮熱・断熱・耐塩害を実現し、
+          一般住宅と変わらない快適さで日常を過ごせます。
+        </p>
+      </div>
+
+      <div class="appeal-card reveal">
+        <span class="appeal-icon">🛡️</span>
+        <h3>災害への備え（BCP）</h3>
+        <p>
+          ライフラインが確保しやすく、災害時の復興住宅・避難所として極めて有効。
+          行政との提携実績もあり、仮設住宅・農業体験施設など多様な用途での導入実績があります。
+        </p>
+      </div>
+
+    </div>
+
+    <a href="#cases" class="section-link reveal">設置事例を見る →</a>
+  </div>
+</section>
+
+<!-- ===========================
+     SECTION 4: 訴求2 論理
+=========================== -->
+<section id="appeal2" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">WHY OKINAWA SPEC</div>
+      <h2 class="section-title" style="color:var(--white)">沖縄仕様が選ばれる<br>3つの理由</h2>
+      <p class="section-sub" style="color:rgba(255,255,255,.72)">
+        20年耐える構造 ― それが沖縄仕様。<br>
+        海外製の木造では5年と持たない沖縄の自然に、鉄骨で立ち向かいます。
+      </p>
+    </div>
+
+    <div class="grid-3">
+
+      <div class="reason-card reveal">
+        <div class="reason-num">01</div>
+        <div class="reason-badge">🔩 塩害対策</div>
+        <h3>溶融亜鉛メッキ（ドブメッキ）が標準</h3>
+        <p>
+          沖縄の潮風は鉄骨の大敵。だからこそ、土台には溶融亜鉛メッキ（ドブメッキ）を標準採用。
+          錆びにくく、腐食しにくい。20年以上の耐久性を支える根幹技術です。
+        </p>
+        <a href="pages/durability.html" style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-size:13px;font-weight:700;color:var(--coral-light);border-bottom:1px solid rgba(232,97,74,.4);padding-bottom:3px;transition:.2s">詳しい説明を見る →</a>
+        <a href="https://youtube.com/shorts/Pwz55cE-X-Y?si=_PEyypChxYrthfL3" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-size:13px;font-weight:700;color:#fff;background:var(--coral);padding:6px 14px;border-radius:20px;text-decoration:none">▶ 動画を見る</a>
+      </div>
+
+      <div class="reason-card reveal">
+        <div class="reason-num">02</div>
+        <div class="reason-badge">🌀 台風・暑さ対策</div>
+        <h3>窓サッシ クラスS4以上が標準</h3>
+        <p>
+          台風対策の高耐風圧・塩害対策の高耐食性・夏の暑さ対策の遮熱断熱を兼ね備えた
+          クラスS4以上の窓サッシを全棟に標準装備。これが「沖縄仕様」のこだわりです。
+        </p>
+      </div>
+
+      <div class="reason-card reveal">
+        <div class="reason-num">03</div>
+        <div class="reason-badge">🏗️ 製造工程</div>
+        <h3>床・壁・天井すべてが沖縄仕様</h3>
+        <p>
+          床・壁・天井、すべての工程を沖縄の気候に合わせて設計・製造。
+          長期間の使用を想定し、職人が一棟一棟丁寧に仕上げます。
+          豊見城市の工場で内覧も可能です（事前予約制）。
+        </p>
+      </div>
+
+    </div>
+
+    <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html" class="appeal2-link reveal">詳しく比較する → 他社・自社比較ページへ</a>
+  </div>
+</section>
+
+<!-- ===========================
+     SECTION 5: 商品ラインナップ
+=========================== -->
+<section id="lineup" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">LINEUP</div>
+      <h2 class="section-title">商品ラインナップ</h2>
+      <p class="section-sub">用途・予算・設置条件に合わせて選べる4シリーズ</p>
+    </div>
+
+    <div class="grid-2">
+
+      <div class="lineup-card reveal">
+        <div class="lineup-card-header">
+          <h3>11m シリーズ</h3>
+          <div class="tagline">最大サイズ・住居・別荘向けフラッグシップ</div>
+        </div>
+        <div class="card-img">
+          <img src="images/96bb52f28dbc.jpg" alt="11mシリーズ" loading="lazy">
+        </div>
+        <div class="lineup-card-body">
+          <div class="lineup-models">
+            <span class="lineup-model-tag">カーサ</span>
+            <span class="lineup-model-tag">ルミナ</span>
+            <span class="lineup-model-tag">スケルトン</span>
+          </div>
+          <p>高さ4.2m × 長さ11m × 幅3.4mの広々とした住空間。ロフト設置も可能な最大サイズシリーズ。移住・別荘・宿泊施設として人気の定番モデル。</p>
+        </div>
+      </div>
+
+      <div class="lineup-card reveal">
+        <div class="lineup-card-header" style="background:linear-gradient(135deg,#1a5a3a 0%,#2e8b57 100%)">
+          <h3>C シリーズ</h3>
+          <div class="tagline">デザイン性・個性派モデル</div>
+        </div>
+        <div class="card-img">
+          <img src="images/8619eb85a388.jpg" alt="Cシリーズ" loading="lazy">
+        </div>
+        <div class="lineup-card-body">
+          <div class="lineup-models">
+            <span class="lineup-model-tag">ラウンドプレミア</span>
+            <span class="lineup-model-tag">アマルフィー</span>
+            <span class="lineup-model-tag">ムービング</span>
+          </div>
+          <p>ユニークな外観と高いデザイン性が特徴。リゾート施設・グランピング・カフェなど商業用途にも人気。個性的な空間を求める方に。</p>
+        </div>
+      </div>
+
+      <div class="lineup-card reveal">
+        <div class="lineup-card-header" style="background:linear-gradient(135deg,#6b4226 0%,#a0633a 100%)">
+          <h3>車検対応シリーズ</h3>
+          <div class="tagline">移動が容易な〜6mモデル</div>
+        </div>
+        <div class="card-img">
+          <img src="images/6d974bc172f7.png" alt="車検対応シリーズ" loading="lazy">
+        </div>
+        <div class="lineup-card-body">
+          <div class="lineup-models">
+            <span class="lineup-model-tag">〜6m</span>
+            <span class="lineup-model-tag">車検対応</span>
+            <span class="lineup-model-tag">移動自由</span>
+          </div>
+          <p>公道を牽引できる車検対応サイズ。設置場所を変えたい方、フレキシブルな運用を求める方に最適。コンパクトながら居住性を追求。</p>
+        </div>
+      </div>
+
+      <div class="lineup-card reveal">
+        <div class="lineup-card-header" style="background:linear-gradient(135deg,var(--coral-dark) 0%,var(--coral) 100%)">
+          <h3>オーダーメイド</h3>
+          <div class="tagline">あなただけの一棟を</div>
+        </div>
+        <div class="card-img">
+          <img src="images/1849fa8120dd.png" alt="オーダーメイド" loading="lazy">
+        </div>
+        <div class="lineup-card-body">
+          <div class="lineup-models">
+            <span class="lineup-model-tag">完全オーダー</span>
+            <span class="lineup-model-tag">間取り自由</span>
+            <span class="lineup-model-tag">用途問わず</span>
+          </div>
+          <p>お客様の仕様・用途・ご予算に合わせて一から設計・製造。店舗・事務所・農業施設など、どんな用途にも対応いたします。まずはご相談ください。</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="lineup-btns reveal">
+      <a href="https://hideo-t.github.io/phoka2/pages/product-compare.html" class="btn btn-outline-blue">詳しく比較する →</a>
+      <a href="pages/estimate.html" class="btn btn-coral">AI見積もりを試す →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     SECTION 6: 設置事例
+=========================== -->
+<section id="cases" class="section section-gray">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">CASES</div>
+      <h2 class="section-title">施工事例</h2>
+      <p class="section-sub">沖縄各地・離島にも多数の設置実績。実物は豊見城市の工場で内覧可能です（事前予約制）。</p>
+    </div>
+
+    <div class="cases-grid">
+      <div class="case-card reveal">
+        <img src="images/96bb52f28dbc.jpg" alt="設置事例1" loading="lazy">
+        <div class="case-card-overlay"><span class="case-card-label">住居・移住用途</span></div>
+      </div>
+      <div class="case-card reveal">
+        <img src="images/8619eb85a388.jpg" alt="設置事例2" loading="lazy">
+        <div class="case-card-overlay"><span class="case-card-label">リゾート・別荘</span></div>
+      </div>
+      <div class="case-card reveal">
+        <img src="images/6d974bc172f7.png" alt="設置事例3" loading="lazy">
+        <div class="case-card-overlay"><span class="case-card-label">商業施設</span></div>
+      </div>
+      <div class="case-card reveal">
+        <img src="images/3111793558b8.jpg" alt="設置事例4" loading="lazy">
+        <div class="case-card-overlay"><span class="case-card-label">エアストリーム</span></div>
+      </div>
+      <div class="case-card reveal">
+        <img src="images/614a12aa2b0c.jpg" alt="設置事例5" loading="lazy">
+        <div class="case-card-overlay"><span class="case-card-label">コンテナハウス</span></div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:40px">
+      <a href="https://hideo-t.github.io/phoka2/cases/" class="btn btn-outline-blue reveal">もっと見る →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     SECTION 7: 社長メッセージ
+=========================== -->
+<section id="message" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">MESSAGE</div>
+      <h2 class="section-title">社長からのメッセージ</h2>
+    </div>
+
+    <div class="message-layout">
+      <div class="reveal">
+        <div class="message-photo">
+          <img src="images/1849fa8120dd.png" alt="坂田英之 代表取締役" loading="lazy">
+        </div>
+        <div class="message-name">
+          <strong>坂田 英之</strong>
+          <span>株式会社パークホームズオキナワ<br>代表取締役</span>
+        </div>
+      </div>
+
+      <div class="message-body reveal">
+        <p class="lead">「沖縄に適したトレーラーハウスを、自分たちの手で作りたかった」</p>
+
+        <p>
+          以前、東京で輸入車の販売をしていたとき、トレーラーハウスに出合いました。
+          「この"移動可能な建物"を通して、日本でも新たなライフスタイルを提案できるはず」と感じ、販売を始めたのが全ての始まりです。
+        </p>
+
+        <p>
+          2007年、大好きだった沖縄に移住した私は、当時販売していた海外製の木造トレーラーハウスが塩害や台風でボロボロになっていくのを目の当たりにしました。
+          「木造では沖縄では5年と持たない。ならば自分たちで作るしかない」――そう決意し、豊見城市に工場を構えました。
+        </p>
+
+        <p>
+          今では鉄骨造・溶融亜鉛メッキ・クラスS4以上の窓サッシを標準装備した「沖縄仕様」が、
+          移住者・行政・リゾート事業者の方々から高い評価をいただいています。
+          住居・別荘・災害時の仮設住宅・農業施設など、使い方は無限大です。
+        </p>
+
+        <p>
+          実物は豊見城市の工場でご覧いただけます。「見ると、トレーラーハウスのイメージが変わる」とよく言っていただきます。
+          ぜひ一度、あなたの目で確かめてみてください。お待ちしています。
+        </p>
+
+        <div class="message-sig">
+          <span>株式会社パークホームズオキナワ</span>
+          <strong>代表取締役 坂田 英之</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     SECTION 8: 最終CTA ★最重要
+=========================== -->
+<section id="cta-final">
+  <div class="container">
+    <div class="reveal">
+      <h2>沖縄で、もうひとつの暮らしを<br>始めませんか</h2>
+      <p class="sub">
+        まだ迷っている方も、具体的に検討中の方も、人と話したい方も。<br>
+        あなたのステップに合わせた3つの入り口をご用意しています。
+      </p>
+    </div>
+
+    <div class="cta-blocks reveal">
+
+      <div class="cta-block">
+        <span class="cta-icon">🤖</span>
+        <h3>まだ迷っている方へ</h3>
+        <p>AIパクオ君が24時間、あなたの疑問・不安に答えます。気軽に話しかけてみてください。</p>
+        <a href="https://hideo-t.github.io/QAparkhome/" target="_blank" rel="noopener">
+          AIパクオ君に相談する
+        </a>
+      </div>
+
+      <div class="cta-block">
+        <span class="cta-icon">📋</span>
+        <h3>具体的に検討中の方へ</h3>
+        <p>AI見積もりフォームで、条件・用途・面積を入力するだけ。すぐに概算金額をご提示します。</p>
+        <a href="pages/estimate.html">AI無料見積もりを試す</a>
+      </div>
+
+      <div class="cta-block">
+        <span class="cta-icon">💬</span>
+        <h3>人と話したい方へ</h3>
+        <p>最後は顔の見える相手に。坂田社長が直接お答えします。LINEならチャット感覚で気軽に。</p>
+        <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener">LINEで坂田社長に聞く</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="logopkw.jpg" alt="パークホームズオキナワ">
+        <p>
+          〒901-0225<br>
+          沖縄県豊見城市豊崎1-1223<br>
+          【工場】沖縄県豊見城市翁長864-14<br>
+          TEL: <a href="tel:098-856-6666">098-856-6666</a><br>
+          FAX: 098-856-0666<br>
+          Email: <a href="mailto:parkhomes.okinawa@gmail.com">parkhomes.okinawa@gmail.com</a><br>
+          設立: 平成28年7月1日　資本金: 1,000万円
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>サービス</h4>
+        <ul>
+          <li><a href="#appeal1">暮らしのイメージ</a></li>
+          <li><a href="#appeal2">沖縄仕様の3つの理由</a></li>
+          <li><a href="#lineup">商品ラインナップ</a></li>
+          <li><a href="#cases">施工事例</a></li>
+          <li><a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html">他社・自社比較</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>会社・お問い合わせ</h4>
+        <ul>
+          <li><a href="https://hideo-t.github.io/phoka2/company/">会社概要・アクセス</a></li>
+          <li><a href="https://hideo-t.github.io/phoka2/contact/">メールで問い合わせ</a></li>
+          <li><a href="https://lin.ee/yPxxosA" target="_blank">LINEで問い合わせ</a></li>
+          <li><a href="tel:098-856-6666">☎ 098-856-6666</a></li>
+          <li><a href="https://www.trailer-house.jp/" target="_blank" rel="noopener">トレーラーハウス協会</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 株式会社パークホームズオキナワ All Rights Reserved.</p>
+      <div class="footer-sns">
+        <a href="#" aria-label="Instagram">📸</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="LINE">💬</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ===== スクロールリビール =====
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible') });
+}, {threshold: 0.08});
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// ===== ドロップダウン: クリック式 =====
+document.querySelectorAll('.nav-item > span').forEach(trigger => {
+  trigger.addEventListener('click', e => {
+    e.stopPropagation();
+    const item = trigger.parentElement;
+    const isOpen = item.classList.contains('open');
+    // 他をすべて閉じる
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('open'));
+    if(!isOpen) item.classList.add('open');
+  });
+});
+// 外クリックでドロップダウンを閉じる
+document.addEventListener('click', e => {
+  if(!e.target.closest('.nav-item')) {
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('open'));
+  }
+  // モバイルメニュー
+  const menu = document.querySelector('.mobile-menu');
+  const ham = document.querySelector('.hamburger');
+  if(!menu.contains(e.target) && !ham.contains(e.target)) menu.classList.remove('open');
+});
+
+// ===== ヒーロー動画スライダー =====
+(function(){
+  const videos = Array.from(document.querySelectorAll('#heroSlider video'));
+  const dotsEl = document.getElementById('sliderDots');
+  const countEl = document.getElementById('sliderCount');
+  let current = 0;
+  let autoTimer = null;
+
+  // ドット生成
+  videos.forEach((_, i) => {
+    const d = document.createElement('button');
+    d.className = 'slider-dot' + (i === 0 ? ' active' : '');
+    d.setAttribute('aria-label', (i+1) + '番目の動画');
+    d.addEventListener('click', () => goTo(i));
+    dotsEl.appendChild(d);
+  });
+
+  function goTo(idx) {
+    const dots = dotsEl.querySelectorAll('.slider-dot');
+    // 現在の動画を停止・非表示
+    videos[current].pause();
+    videos[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    // 次の動画を表示・再生
+    current = (idx + videos.length) % videos.length;
+    const v = videos[current];
+    v.preload = 'auto';
+    v.classList.add('active');
+    dots[current].classList.add('active');
+    countEl.textContent = (current + 1) + ' / ' + videos.length;
+    v.currentTime = 0;
+    v.play().catch(() => {});
+    resetAuto();
+  }
+
+  function resetAuto() {
+    clearTimeout(autoTimer);
+    autoTimer = setTimeout(() => goTo(current + 1), 6000);
+  }
+
+  // 動画終了時に次へ
+  videos.forEach((v, i) => {
+    v.addEventListener('ended', () => goTo(i + 1));
+  });
+
+  // 最初の動画を再生
+  videos[0].play().catch(() => {});
+  resetAuto();
+
+  // グローバル公開（矢印ボタン用）
+  window.slideHero = (dir) => goTo(current + dir);
+})();
+
+// ===== パクオ君バブル（初回表示） =====
+setTimeout(() => {
+  const bubble = document.createElement('div');
+  bubble.className = 'pakuo-bubble';
+  bubble.innerHTML = '👋 こんにちは！トレーラーハウスについて何でも聞いてね！';
+  document.body.appendChild(bubble);
+  setTimeout(() => bubble.remove(), 5000);
+}, 3000);
+</script>
+</body>
+</html>

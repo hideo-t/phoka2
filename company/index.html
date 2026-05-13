@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<base href="https://hideo-t.github.io/phoka2/">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>会社概要｜パークホームズオキナワ</title>
+<meta name="description" content="沖縄県のトレーラーハウス製造・販売。Solar Haven・AMALFIなど全8製品。TEL 098-856-6666">
+
+<meta property="og:title" content="パークホームズオキナワ">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hideo-t.github.io/phoka2/company/">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Organization", "name": "株式会社パークホームズオキナワ", "url": "https://hideo-t.github.io/phoka"}]</script>
+
+<style>
+:root{
+  --primary:#1560a8;
+  --primary-dark:#0d2d5e;
+  --primary-light:#4fa3e0;
+  --accent:#0ea5e9;
+  --bg:#f8fafc;
+  --bg-alt:#ffffff;
+  --text:#1a2332;
+  --muted:#64748b;
+  --border:#d1e3f8;
+  --hero-from:#0d2d5e;
+  --hero-to:#1560a8;
+  --rl:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;color:var(--text);background:var(--bg);line-height:1.7}
+a{color:var(--primary);text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+nav{background:var(--bg-alt);border-bottom:2px solid var(--primary);position:sticky;top:0;z-index:100;
+    box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;
+           max-width:1100px;margin:0 auto;padding:0 24px}
+.nav-logo img{height:44px;width:auto}
+.nav-links{display:flex;gap:4px;align-items:center}
+.nav-links a{padding:6px 12px;font-size:13px;color:var(--text);border-radius:6px;font-weight:500;transition:.2s}
+.nav-links a:hover{background:var(--border);color:var(--primary)}
+.nav-cta{background:var(--primary)!important;color:var(--bg-alt)!important;border-radius:8px!important;padding:8px 16px!important}
+.nav-cta:hover{background:var(--primary-dark)!important}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px}
+.hamburger span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px}
+.mobile-menu{display:none;flex-direction:column;background:var(--bg-alt);border-bottom:1px solid var(--border);padding:12px 24px}
+.mobile-menu.open{display:flex}
+.mobile-menu a{padding:10px 0;font-size:15px;border-bottom:1px solid var(--border);color:var(--text)}
+
+.page-header{background:linear-gradient(135deg,var(--hero-from) 0%,var(--hero-to) 100%);color:var(--bg-alt);padding:48px 0 40px}
+.page-header h1{font-size:32px;font-weight:700;margin-bottom:8px}
+.eyebrow{font-size:11px;letter-spacing:.2em;opacity:.7;margin-bottom:8px}
+.breadcrumb{display:flex;gap:8px;align-items:center;font-size:12px;opacity:.7;margin-top:12px}
+.breadcrumb a{color:var(--bg-alt)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:var(--rl);
+     font-size:14px;font-weight:600;cursor:pointer;transition:.2s;border:2px solid transparent}
+.btn-primary{background:var(--primary);color:var(--bg-alt);border-color:var(--primary)}
+.btn-primary:hover{background:var(--primary-dark);border-color:var(--primary-dark)}
+.btn-outline{background:var(--bg-alt);color:var(--primary);border-color:var(--primary)}
+.btn-outline:hover{background:var(--primary);color:var(--bg-alt)}
+
+.section{padding:64px 0}
+.section-alt{background:var(--bg-alt)}
+.section-title{font-size:26px;font-weight:700;color:var(--primary-dark);margin-bottom:8px}
+.section-sub{color:var(--muted);font-size:14px;margin-bottom:40px}
+.section-eyebrow{font-size:11px;letter-spacing:.2em;color:var(--primary);font-weight:600;margin-bottom:8px}
+
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media(max-width:768px){.grid-3,.grid-2{grid-template-columns:1fr}.nav-links{display:none}.hamburger{display:flex}}
+
+.card{background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.card-img{height:200px;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:.3s}
+.card:hover .card-img img{transform:scale(1.05)}
+.card-body{padding:20px}
+.card-title{font-size:17px;font-weight:700;color:var(--primary-dark);margin-bottom:8px}
+.card-text{font-size:13px;color:var(--muted);line-height:1.6}
+.card-price{font-size:14px;color:var(--primary);font-weight:600;margin-top:8px}
+
+footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 24px}
+.footer-inner{max-width:1100px;margin:0 auto;padding:0 24px}
+.footer-info{font-size:13px;line-height:2;margin-bottom:24px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:16px;font-size:12px;opacity:.5}
+.reveal{opacity:0;transform:translateY(20px);transition:.6s}
+.reveal.visible{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="https://hideo-t.github.io/phoka2/" class="nav-logo"><img src="logopkw.jpg" alt="パークホームズオキナワ"></a>
+    <div class="nav-links">
+      <a href="https://hideo-t.github.io/phoka2/about/">トレーラーハウスとは</a>
+      <a href="https://hideo-t.github.io/phoka2/lineup/">製品</a>
+      <a href="https://hideo-t.github.io/phoka2/use-cases/">用途・活用</a>
+      <a href="https://hideo-t.github.io/phoka2/cases/">設置事例</a>
+      <a href="https://hideo-t.github.io/phoka2/faq/">FAQ</a>
+      <a href="https://hideo-t.github.io/phoka2/company/">会社概要</a>
+      <a href="https://hideo-t.github.io/phoka2/contact/" class="nav-cta">お問い合わせ</a>
+    </div>
+    <div class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="https://hideo-t.github.io/phoka2/about/">トレーラーハウスとは</a>
+    <a href="https://hideo-t.github.io/phoka2/lineup/">製品ラインナップ</a>
+    <a href="https://hideo-t.github.io/phoka2/use-cases/">用途・活用</a>
+    <a href="https://hideo-t.github.io/phoka2/cases/">設置事例</a>
+    <a href="https://hideo-t.github.io/phoka2/faq/">よくある質問</a>
+    <a href="https://hideo-t.github.io/phoka2/company/">会社概要</a>
+    <a href="https://hideo-t.github.io/phoka2/contact/">お問い合わせ</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <div class="eyebrow">COMPANY</div>
+    <h1>会社概要</h1>
+    <nav class="breadcrumb"><a href="https://hideo-t.github.io/phoka2/">ホーム</a><span>/</span><span>会社概要</span></nav>
+  </div>
+</div>
+<section class="section section-alt">
+  <div class="container" style="max-width:800px">
+    <table style="width:100%;border-collapse:collapse;background:var(--white);border-radius:var(--rl);overflow:hidden;border:1px solid var(--border)">
+      
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="padding:16px 24px;background:var(--bg);font-size:13px;color:var(--muted);width:160px;text-align:left;font-weight:600">会社名</th>
+        <td style="padding:16px 24px;font-size:14px">株式会社パークホームズオキナワ</td>
+      </tr>
+      
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="padding:16px 24px;background:var(--bg);font-size:13px;color:var(--muted);width:160px;text-align:left;font-weight:600">所在地</th>
+        <td style="padding:16px 24px;font-size:14px">〒901-0225 沖縄県豊見城市豊崎1-1223</td>
+      </tr>
+      
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="padding:16px 24px;background:var(--bg);font-size:13px;color:var(--muted);width:160px;text-align:left;font-weight:600">TEL</th>
+        <td style="padding:16px 24px;font-size:14px">098-856-6666</td>
+      </tr>
+      
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="padding:16px 24px;background:var(--bg);font-size:13px;color:var(--muted);width:160px;text-align:left;font-weight:600">FAX</th>
+        <td style="padding:16px 24px;font-size:14px">098-856-0666</td>
+      </tr>
+      
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="padding:16px 24px;background:var(--bg);font-size:13px;color:var(--muted);width:160px;text-align:left;font-weight:600">Email</th>
+        <td style="padding:16px 24px;font-size:14px">parkhomes.okinawa@gmail.com</td>
+      </tr>
+      
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="padding:16px 24px;background:var(--bg);font-size:13px;color:var(--muted);width:160px;text-align:left;font-weight:600">設立</th>
+        <td style="padding:16px 24px;font-size:14px">2016-07-01</td>
+      </tr>
+      
+      <tr style="border-bottom:1px solid var(--border)">
+        <th style="padding:16px 24px;background:var(--bg);font-size:13px;color:var(--muted);width:160px;text-align:left;font-weight:600">資本金</th>
+        <td style="padding:16px 24px;font-size:14px">1,000万円</td>
+      </tr>
+      
+    </table>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-info">
+      <strong style="font-size:16px;color:#fff">株式会社パークホームズオキナワ</strong><br>
+      〒901-0225 沖縄県豊見城市豊崎1-1223<br>
+      TEL: <a href="tel:098-856-6666" style="color:var(--primary-light)">098-856-6666</a>　FAX: 098-856-0666<br>
+      Email: <a href="mailto:parkhomes.okinawa@gmail.com" style="color:var(--primary-light)">parkhomes.okinawa@gmail.com</a>
+    </div>
+    <div class="footer-bottom">© 2026 株式会社パークホームズオキナワ All Rights Reserved.</div>
+  </div>
+</footer>
+<script>
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>

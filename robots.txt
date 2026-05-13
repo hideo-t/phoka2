@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hideo-t.github.io/phoka2/sitemap.xml

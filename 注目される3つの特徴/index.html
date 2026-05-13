@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<base href="https://hideo-t.github.io/phoka2/">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【注目される3つの特徴】 - トレーラーハウス パークホームズオキナワ 沖縄｜パークホームズオキナワ</title>
+<meta name="description" content="沖縄県のトレーラーハウス製造・販売。Solar Haven・AMALFIなど全8製品。TEL 098-856-6666">
+
+<meta property="og:title" content="パークホームズオキナワ">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hideo-t.github.io/phoka注目される3つの特徴/">
+
+
+<style>
+:root{
+  --primary:#1560a8;
+  --primary-dark:#0d2d5e;
+  --primary-light:#4fa3e0;
+  --accent:#0ea5e9;
+  --bg:#f8fafc;
+  --bg-alt:#ffffff;
+  --text:#1a2332;
+  --muted:#64748b;
+  --border:#d1e3f8;
+  --hero-from:#0d2d5e;
+  --hero-to:#1560a8;
+  --rl:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;color:var(--text);background:var(--bg);line-height:1.7}
+a{color:var(--primary);text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+nav{background:var(--bg-alt);border-bottom:2px solid var(--primary);position:sticky;top:0;z-index:100;
+    box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;
+           max-width:1100px;margin:0 auto;padding:0 24px}
+.nav-logo img{height:44px;width:auto}
+.nav-links{display:flex;gap:4px;align-items:center}
+.nav-links a{padding:6px 12px;font-size:13px;color:var(--text);border-radius:6px;font-weight:500;transition:.2s}
+.nav-links a:hover{background:var(--border);color:var(--primary)}
+.nav-cta{background:var(--primary)!important;color:var(--bg-alt)!important;border-radius:8px!important;padding:8px 16px!important}
+.nav-cta:hover{background:var(--primary-dark)!important}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px}
+.hamburger span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px}
+.mobile-menu{display:none;flex-direction:column;background:var(--bg-alt);border-bottom:1px solid var(--border);padding:12px 24px}
+.mobile-menu.open{display:flex}
+.mobile-menu a{padding:10px 0;font-size:15px;border-bottom:1px solid var(--border);color:var(--text)}
+
+.page-header{background:linear-gradient(135deg,var(--hero-from) 0%,var(--hero-to) 100%);color:var(--bg-alt);padding:48px 0 40px}
+.page-header h1{font-size:32px;font-weight:700;margin-bottom:8px}
+.eyebrow{font-size:11px;letter-spacing:.2em;opacity:.7;margin-bottom:8px}
+.breadcrumb{display:flex;gap:8px;align-items:center;font-size:12px;opacity:.7;margin-top:12px}
+.breadcrumb a{color:var(--bg-alt)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:var(--rl);
+     font-size:14px;font-weight:600;cursor:pointer;transition:.2s;border:2px solid transparent}
+.btn-primary{background:var(--primary);color:var(--bg-alt);border-color:var(--primary)}
+.btn-primary:hover{background:var(--primary-dark);border-color:var(--primary-dark)}
+.btn-outline{background:var(--bg-alt);color:var(--primary);border-color:var(--primary)}
+.btn-outline:hover{background:var(--primary);color:var(--bg-alt)}
+
+.section{padding:64px 0}
+.section-alt{background:var(--bg-alt)}
+.section-title{font-size:26px;font-weight:700;color:var(--primary-dark);margin-bottom:8px}
+.section-sub{color:var(--muted);font-size:14px;margin-bottom:40px}
+.section-eyebrow{font-size:11px;letter-spacing:.2em;color:var(--primary);font-weight:600;margin-bottom:8px}
+
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media(max-width:768px){.grid-3,.grid-2{grid-template-columns:1fr}.nav-links{display:none}.hamburger{display:flex}}
+
+.card{background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.card-img{height:200px;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:.3s}
+.card:hover .card-img img{transform:scale(1.05)}
+.card-body{padding:20px}
+.card-title{font-size:17px;font-weight:700;color:var(--primary-dark);margin-bottom:8px}
+.card-text{font-size:13px;color:var(--muted);line-height:1.6}
+.card-price{font-size:14px;color:var(--primary);font-weight:600;margin-top:8px}
+
+footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 24px}
+.footer-inner{max-width:1100px;margin:0 auto;padding:0 24px}
+.footer-info{font-size:13px;line-height:2;margin-bottom:24px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:16px;font-size:12px;opacity:.5}
+.reveal{opacity:0;transform:translateY(20px);transition:.6s}
+.reveal.visible{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="https://hideo-t.github.io/phoka2/" class="nav-logo"><img src="logopkw.jpg" alt="パークホームズオキナワ"></a>
+    <div class="nav-links">
+      <a href="https://hideo-t.github.io/phoka2/about/">トレーラーハウスとは</a>
+      <a href="https://hideo-t.github.io/phoka2/lineup/">製品</a>
+      <a href="https://hideo-t.github.io/phoka2/use-cases/">用途・活用</a>
+      <a href="https://hideo-t.github.io/phoka2/cases/">設置事例</a>
+      <a href="https://hideo-t.github.io/phoka2/faq/">FAQ</a>
+      <a href="https://hideo-t.github.io/phoka2/company/">会社概要</a>
+      <a href="https://hideo-t.github.io/phoka2/contact/" class="nav-cta">お問い合わせ</a>
+    </div>
+    <div class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="https://hideo-t.github.io/phoka2/about/">トレーラーハウスとは</a>
+    <a href="https://hideo-t.github.io/phoka2/lineup/">製品ラインナップ</a>
+    <a href="https://hideo-t.github.io/phoka2/use-cases/">用途・活用</a>
+    <a href="https://hideo-t.github.io/phoka2/cases/">設置事例</a>
+    <a href="https://hideo-t.github.io/phoka2/faq/">よくある質問</a>
+    <a href="https://hideo-t.github.io/phoka2/company/">会社概要</a>
+    <a href="https://hideo-t.github.io/phoka2/contact/">お問い合わせ</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>注目される3つの特徴</h1>
+    <nav class="breadcrumb">
+      
+        <a href="https://hideo-t.github.io/phoka2/">ホーム</a><span>/</span>
+        
+      
+        <span>注目される3つの特徴</span>
+      
+    </nav>
+  </div>
+</div>
+<section class="section section-alt">
+  <div class="container" style="max-width:960px">
+    
+      
+      
+      <div class="reveal" style="margin-bottom:48px;padding-bottom:40px;border-bottom:1px solid var(--border)">
+        
+        <h2 style="font-size:20px;font-weight:700;color:var(--primary-dark);margin-bottom:14px;
+                   padding-left:12px;border-left:4px solid var(--primary)">
+          【注目される3つの特徴】
+        </h2>
+        
+        
+        
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start">
+          <div><p style="line-height:1.9;margin-bottom:12px">TOP注目される3つの特徴　ラインナップオプション設定よくある質問車検対応トレーラーハウス災害時の活用エアストリームコンテナサウナフードトラックレンタルレッカー業務設置事例設置事例2製作メンテナンス中古コンテナ・トレーラー情報パーツ販売コンプライアンス会社概要インフォメーションインフォメーション2お問い合わせ</p></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/c603089b8f48.jpg" alt="【注目される3つの特徴】" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/eae1da46081f.jpg" alt="【注目される3つの特徴】" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      
+      <div class="reveal" style="margin-bottom:48px;padding-bottom:40px;border-bottom:1px solid var(--border)">
+        
+        <h2 style="font-size:20px;font-weight:700;color:var(--primary-dark);margin-bottom:14px;
+                   padding-left:12px;border-left:4px solid var(--primary)">
+          特徴１　どこでも設置が可能（注１）
+        </h2>
+        
+        
+        
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start">
+          <div><p style="line-height:1.9;margin-bottom:12px">トレーラーハウスは一定の設置要件を満たすことで「車両扱い」となるため、新たに増築したりできない土地、※市街化調整区域、原野、雑種地にも設置できます。</p><p style="line-height:1.9;margin-bottom:12px">オーシャンフロントに設置して別荘や宿泊施設としての活用、店舗としての利用などが可能となります。（注１農地に設置するには、農地転用届を申請する必要があり、完了後に設置できます）</p></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/d89bc620d698.jpg" alt="特徴１　どこでも設置が可能（注１）" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/aa0e7694e4a7.jpg" alt="特徴１　どこでも設置が可能（注１）" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      
+      <div class="reveal" style="margin-bottom:48px;padding-bottom:40px;border-bottom:1px solid var(--border)">
+        
+        <h2 style="font-size:20px;font-weight:700;color:var(--primary-dark);margin-bottom:14px;
+                   padding-left:12px;border-left:4px solid var(--primary)">
+          特徴２　中古ハウスも需要があり転売可能
+        </h2>
+        
+        
+        
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start">
+          <div><p style="line-height:1.9;margin-bottom:12px">トレーラーハウスは車両のため住宅や店舗と違い移動が可能です。取り壊す必要なく移動できるため、簡易的に転売できます。</p><p style="line-height:1.9;margin-bottom:12px">トレーラーハウスは中古ニーズも引き合いが強く、将来的に手放すことも視野に入れて購入できます。</p></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/429e17db57df.jpg" alt="特徴２　中古ハウスも需要があり転売可能" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/214377684598.jpg" alt="特徴２　中古ハウスも需要があり転売可能" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      
+      <div class="reveal" style="margin-bottom:48px;padding-bottom:40px;border-bottom:1px solid var(--border)">
+        
+        <h2 style="font-size:20px;font-weight:700;color:var(--primary-dark);margin-bottom:14px;
+                   padding-left:12px;border-left:4px solid var(--primary)">
+          特徴３　建築よりローコスト＆スピーディー
+        </h2>
+        
+        
+        
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start">
+          <div><p style="line-height:1.9;margin-bottom:12px">トレーラーハウスの基本価格は1000〜1200万円。基礎工事なども必要なく、住宅や店舗を建築するよりも低コストで購入できます。またトレーラーハウスは「建築物」ではなく「車両扱い」となりますので、不動産取得税や固定資産税といった税金も不要です。さらに「車両扱い」でありながら自動車取得税や重量税、自動車税もかかりません。コストパフォーマンスも高く、全国的に高騰してる建築費に比べ、トレーラーハウスは大幅な費用の削減が見込めると言えます。</p></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/3e3c03e60058.png" alt="特徴３　建築よりローコスト＆スピーディー" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/38125a25ebed.png" alt="特徴３　建築よりローコスト＆スピーディー" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+            <div style="border-radius:8px;overflow:hidden;height:180px;background:var(--border)">
+              <img src="images/e15ab1a156b8.jpg" alt="特徴３　建築よりローコスト＆スピーディー" loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover">
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      
+    
+    <div style="text-align:center;margin-top:40px">
+      <a href="https://hideo-t.github.io/phoka2/contact/" class="btn btn-primary">お問い合わせ →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-info">
+      <strong style="font-size:16px;color:#fff">株式会社パークホームズオキナワ</strong><br>
+      〒901-0225 沖縄県豊見城市豊崎1-1223<br>
+      TEL: <a href="tel:098-856-6666" style="color:var(--primary-light)">098-856-6666</a>　FAX: 098-856-0666<br>
+      Email: <a href="mailto:parkhomes.okinawa@gmail.com" style="color:var(--primary-light)">parkhomes.okinawa@gmail.com</a>
+    </div>
+    <div class="footer-bottom">© 2026 株式会社パークホームズオキナワ All Rights Reserved.</div>
+  </div>
+</footer>
+<script>
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
