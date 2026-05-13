@@ -27,7 +27,7 @@ NEW_CSS_BLOCK = """
 .case-card__badge{display:inline-block;font-size:12px;padding:3px 10px;border-radius:999px;background:var(--primary);color:#fff;margin-bottom:8px;font-weight:600}
 .case-card h3{margin:0 0 8px;font-size:17px;color:var(--primary-dark);font-weight:700}
 .case-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
-.case-card__needs-review{display:inline-block;font-size:10px;padding:1px 8px;border-radius:999px;background:#fef3c7;color:#92400e;margin-left:6px;font-weight:600}
+.case-card__needs-review{display:inline-block;font-size:10px;padding:1px 8px;border-radius:999px;background:#fef3c7;color:#92400e;margin:0 0 8px;font-weight:600}
 .case-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px;justify-content:center}
 .case-filter{background:transparent;border:1px solid var(--border);padding:6px 14px;border-radius:999px;cursor:pointer;font-size:13px;color:var(--text);transition:.2s;font-family:inherit}
 .case-filter:hover{background:var(--bg)}
@@ -59,7 +59,9 @@ def render_card(case):
     s = case["slug"]
     img1_1200 = f"images/cases/{s}-01.webp"
     img1_600  = f"images/cases/{s}-01@600w.webp"
-    review_badge = ' <span class="case-card__needs-review">要レビュー</span>' if case["needs_review"] else ""
+    # needs-review chip lives outside <h3> so the heading text stays clean
+    # for accessibility tools and SEO.
+    review_chip = '\n          <span class="case-card__needs-review">要レビュー</span>' if case["needs_review"] else ""
     summary = case["summary"] or "（説明文準備中）"
     return f'''      <article class="card case-card" data-cat="{case["category"]}">
         <picture>
@@ -68,7 +70,7 @@ def render_card(case):
         </picture>
         <div class="case-card__body">
           <span class="case-card__badge">{case["category"]}</span>
-          <h3>{case["title"]}{review_badge}</h3>
+          <h3>{case["title"]}</h3>{review_chip}
           <p>{summary}</p>
         </div>
       </article>'''
@@ -91,7 +93,17 @@ def main():
         html = f.read()
 
     # 1) Inject CSS into the existing <style>...</style> block (only the cases page's).
-    if "/* === Cases page (PR#1) === */" not in html:
+    # Idempotent: if a previous render injected the block, replace it so edits
+    # to NEW_CSS_BLOCK propagate on re-run.
+    css_marker = "/* === Cases page (PR#1) === */"
+    if css_marker in html:
+        html = re.sub(
+            rf"{re.escape(css_marker)}[\s\S]*?(?=</style>)",
+            NEW_CSS_BLOCK.lstrip("\n"),
+            html,
+            count=1,
+        )
+    else:
         html = re.sub(
             r"(<style>[\s\S]*?)(</style>)",
             lambda m: m.group(1) + NEW_CSS_BLOCK + m.group(2),

@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "plus-garden-cafe",
+    "title": "PLUS GARDEN CAFE",
+    "category": "カフェ",
+    "summary": "11mモデルを店舗として活用したカフェ事例。沖縄仕様の鉄骨造で台風・塩害にも対応。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\dc24826f1c12.jpg",
+        "src_filename_only": "dc24826f1c12.jpg",
+        "alt_jp": "PLUS GARDEN CAFE の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\4bd8663f102d.jpg",
+        "src_filename_only": "4bd8663f102d.jpg",
+        "alt_jp": "PLUS GARDEN CAFE の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\c6ced1f2a453.jpg",
+        "src_filename_only": "c6ced1f2a453.jpg",
+        "alt_jp": "PLUS GARDEN CAFE の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "miyako-rehab",
+    "title": "宮古島リハビリ温泉病院",
+    "category": "医療施設",
+    "summary": "宮古島の温泉リハビリ病院の附属施設として設置。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\8c6401cd08d9.jpg",
+        "src_filename_only": "8c6401cd08d9.jpg",
+        "alt_jp": "宮古島リハビリ温泉病院 の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\24ad33a76ffc.jpg",
+        "src_filename_only": "24ad33a76ffc.jpg",
+        "alt_jp": "宮古島リハビリ温泉病院 の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\fb509eb9f288.jpg",
+        "src_filename_only": "fb509eb9f288.jpg",
+        "alt_jp": "宮古島リハビリ温泉病院 の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "resor-tech-2022",
+    "title": "RESOR TECH EXPO 2022 IN OKINAWA",
+    "category": "イベント",
+    "summary": "2022年沖縄開催の RESOR TECH EXPO に展示出展。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\7a2aae2ac2b5.jpg",
+        "src_filename_only": "7a2aae2ac2b5.jpg",
+        "alt_jp": "RESOR TECH EXPO 2022 IN OKINAWA の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\caead07c16cf.jpg",
+        "src_filename_only": "caead07c16cf.jpg",
+        "alt_jp": "RESOR TECH EXPO 2022 IN OKINAWA の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\bda66480af9d.jpg",
+        "src_filename_only": "bda66480af9d.jpg",
+        "alt_jp": "RESOR TECH EXPO 2022 IN OKINAWA の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "crystal-villa-ingya",
+    "title": "クリスタルヴィラ インギャー",
+    "category": "宿泊施設",
+    "summary": "宮古島インギャーマリンガーデン近隣の宿泊施設として複数棟を導入。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\ff71c48275d6.jpg",
+        "src_filename_only": "ff71c48275d6.jpg",
+        "alt_jp": "クリスタルヴィラ インギャー の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\9f9ffb94a423.jpg",
+        "src_filename_only": "9f9ffb94a423.jpg",
+        "alt_jp": "クリスタルヴィラ インギャー の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\dca8b8f42828.jpg",
+        "src_filename_only": "dca8b8f42828.jpg",
+        "alt_jp": "クリスタルヴィラ インギャー の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "pool-resort-okinawa",
+    "title": "ザ・プールリゾート沖縄",
+    "category": "宿泊施設",
+    "summary": "リゾートホテル「ザ・プールリゾート沖縄」の宿泊棟として導入。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\be3160403f54.jpg",
+        "src_filename_only": "be3160403f54.jpg",
+        "alt_jp": "ザ・プールリゾート沖縄 の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\b66040189c42.jpg",
+        "src_filename_only": "b66040189c42.jpg",
+        "alt_jp": "ザ・プールリゾート沖縄 の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\3ea48c35f666.jpg",
+        "src_filename_only": "3ea48c35f666.jpg",
+        "alt_jp": "ザ・プールリゾート沖縄 の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "senaga-glamping",
+    "title": "瀬長島グランピング場",
+    "category": "グランピング",
+    "summary": "瀬長島ウミカジテラス近郊のグランピング施設として導入。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\ce41513060aa.jpg",
+        "src_filename_only": "ce41513060aa.jpg",
+        "alt_jp": "瀬長島グランピング場 の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\2974aed98c76.jpg",
+        "src_filename_only": "2974aed98c76.jpg",
+        "alt_jp": "瀬長島グランピング場 の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\d4bf38fb8328.jpg",
+        "src_filename_only": "d4bf38fb8328.jpg",
+        "alt_jp": "瀬長島グランピング場 の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "miyako-showroom",
+    "title": "パークホームズ宮古島展示場",
+    "category": "自社施設",
+    "summary": "宮古島の自社展示場。実物見学が可能（事前予約制）。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\861617d2cb3c.jpg",
+        "src_filename_only": "861617d2cb3c.jpg",
+        "alt_jp": "パークホームズ宮古島展示場 の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\fa1ba9f52419.jpg",
+        "src_filename_only": "fa1ba9f52419.jpg",
+        "alt_jp": "パークホームズ宮古島展示場 の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\a8bf49df31e1.jpg",
+        "src_filename_only": "a8bf49df31e1.jpg",
+        "alt_jp": "パークホームズ宮古島展示場 の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "taei-japan-rental",
+    "title": "タエイジャパン",
+    "category": "レンタカー",
+    "summary": "レンタカー受付棟で使用するトレーラーハウス施工事例を紹介します。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\1d173b074fb1.jpg",
+        "src_filename_only": "1d173b074fb1.jpg",
+        "alt_jp": "タエイジャパン の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\537400499be9.jpg",
+        "src_filename_only": "537400499be9.jpg",
+        "alt_jp": "タエイジャパン の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\be55c39b2424.jpg",
+        "src_filename_only": "be55c39b2424.jpg",
+        "alt_jp": "タエイジャパン の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "guts-rental",
+    "title": "ガッツレンタカー",
+    "category": "レンタカー",
+    "summary": "レンタカー受付に使用するトレーラーハウス施工事例を紹介します。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\5a9418a8685a.jpg",
+        "src_filename_only": "5a9418a8685a.jpg",
+        "alt_jp": "ガッツレンタカー の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\3a72d5ae1190.jpg",
+        "src_filename_only": "3a72d5ae1190.jpg",
+        "alt_jp": "ガッツレンタカー の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\25da81ca8b6b.jpg",
+        "src_filename_only": "25da81ca8b6b.jpg",
+        "alt_jp": "ガッツレンタカー の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "sesoko-villa",
+    "title": "本部町瀬底島のお客様",
+    "category": "個人邸",
+    "summary": "本部町瀬底島に設置した別荘事例。海沿いの環境に合わせた沖縄仕様。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\89f890580c4d.jpg",
+        "src_filename_only": "89f890580c4d.jpg",
+        "alt_jp": "本部町瀬底島のお客様 の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\04a6cb15abd4.jpg",
+        "src_filename_only": "04a6cb15abd4.jpg",
+        "alt_jp": "本部町瀬底島のお客様 の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\38d0fba79bc7.jpg",
+        "src_filename_only": "38d0fba79bc7.jpg",
+        "alt_jp": "本部町瀬底島のお客様 の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "onna-villa",
+    "title": "恩納村のお客様",
+    "category": "個人邸",
+    "summary": "恩納村に設置した別荘事例。海岸沿いの塩害環境に対応した沖縄仕様。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\789f73c0a6c1.jpg",
+        "src_filename_only": "789f73c0a6c1.jpg",
+        "alt_jp": "恩納村のお客様 の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\c99f85f0fa7e.jpg",
+        "src_filename_only": "c99f85f0fa7e.jpg",
+        "alt_jp": "恩納村のお客様 の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\27d01c253df5.jpg",
+        "src_filename_only": "27d01c253df5.jpg",
+        "alt_jp": "恩納村のお客様 の施工事例 3"
+      }
+    ]
+  },
+  {
+    "slug": "toyosaki-chura",
+    "title": "豊崎パーク美ら 11M",
+    "category": "自社施設",
+    "summary": "豊崎の自社モデルハウス。11mモデルの居住空間を実物展示。",
+    "needs_review": false,
+    "images": [
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\4b70d008c612.jpg",
+        "src_filename_only": "4b70d008c612.jpg",
+        "alt_jp": "豊崎パーク美ら 11M の施工事例 1"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\6634f2cff255.jpg",
+        "src_filename_only": "6634f2cff255.jpg",
+        "alt_jp": "豊崎パーク美ら 11M の施工事例 2"
+      },
+      {
+        "src_local": "C:\\Users\\hidex\\parkhomes_data\\images\\52ad00286472.jpg",
+        "src_filename_only": "52ad00286472.jpg",
+        "alt_jp": "豊崎パーク美ら 11M の施工事例 3"
+      }
+    ]
+  }
+]
