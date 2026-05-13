@@ -1,0 +1,164 @@
+{
+  "schema_version": 2,
+  "source": "https://www.parkhomes-okinawa.com/設置事例-1/",
+  "scraped_at": "2026-05-13",
+  "jimdo_path_prefix": "s13e7092c3e890cc1",
+  "url_template": "https://image.jimcdn.com/app/cms/image/transf/dimension=1280x10000:format=jpg/path/{path}/image/{hash}/version/{version}/image.jpg",
+  "referer_required": true,
+  "referer": "https://www.parkhomes-okinawa.com/設置事例-1/",
+  "user_agent": "phoka2-content-pr3",
+  "crawl_delay_seconds": 5,
+  "cases": [
+    {
+      "slug": "resor-tech-2022",
+      "display_title": "RESOR TECH EXPO 2022 IN OKINAWA",
+      "category": "イベント",
+      "original_h3": "【Resor Tech EXPO2022 in Okinawa】",
+      "total_count": 3,
+      "remaining": 0,
+      "top3": [
+        {"hash":"i62909dd4121ec885","version":"1674188276"},
+        {"hash":"i4f02b7771ce2f886","version":"1674188322"},
+        {"hash":"i16c360d7d4fdd868","version":"1674188744"}
+      ]
+    },
+    {
+      "slug": "plus-garden-cafe",
+      "display_title": "PLUS GARDEN CAFE",
+      "category": "カフェ",
+      "original_h3": "【PLUS GARDEN CAFE】",
+      "total_count": 10,
+      "remaining": 7,
+      "top3": [
+        {"hash":"i415d4e7c5a91c231","version":"1700142248"},
+        {"hash":"ida8b97adcdbb791a","version":"1700142260"},
+        {"hash":"id4cd380865ccb3f6","version":"1700142260"}
+      ]
+    },
+    {
+      "slug": "senaga-glamping",
+      "display_title": "瀬長島グランピング場",
+      "category": "グランピング",
+      "original_h3": "【瀬長島グランピング場】",
+      "total_count": 1,
+      "remaining": 0,
+      "top3": [
+        {"hash":"ia6bffb3f5491c8ed","version":"1619387154"}
+      ]
+    },
+    {
+      "slug": "guts-rental",
+      "display_title": "ガッツレンタカー",
+      "category": "レンタカー",
+      "original_h3": "【ガッツレンタカー様】",
+      "total_count": 7,
+      "remaining": 4,
+      "top3": [
+        {"hash":"i6aa89fc7cf4d756f","version":"1704756567"},
+        {"hash":"ic4f0d23f0c331d32","version":"1702617244"},
+        {"hash":"i2cd782e6972bf047","version":"1702617244"}
+      ]
+    },
+    {
+      "slug": "taei-japan-rental",
+      "display_title": "タエイジャパン",
+      "category": "レンタカー",
+      "original_h3": "【タエイジャパン様】",
+      "total_count": 2,
+      "remaining": 0,
+      "top3": [
+        {"hash":"i5a3c9b5c266c8a7c","version":"1706573391"},
+        {"hash":"i220650356190bc86","version":"1708963265"}
+      ]
+    },
+    {
+      "slug": "onna-villa",
+      "display_title": "恩納村のお客様",
+      "category": "個人邸",
+      "original_h3": "【恩納村 柴崎邸】",
+      "total_count": 1,
+      "remaining": 0,
+      "top3": [
+        {"hash":"i5e521025da256653","version":"1639440576"}
+      ]
+    },
+    {
+      "slug": "sesoko-villa",
+      "display_title": "本部町瀬底島のお客様",
+      "category": "個人邸",
+      "original_h3": "【本部町瀬底島 T様 パークキュービック】",
+      "total_count": 16,
+      "remaining": 13,
+      "top3": [
+        {"hash":"i2a1c7fab8fde863b","version":"1494729886"},
+        {"hash":"i7fa697235dd10d2b","version":"1516957057"},
+        {"hash":"ia89d701b1afc5f62","version":"1516957057"}
+      ]
+    },
+    {
+      "slug": "miyako-rehab",
+      "display_title": "宮古島リハビリ温泉病院",
+      "category": "医療施設",
+      "original_h3": "【宮古島リハビリ温泉病院】",
+      "total_count": 7,
+      "remaining": 4,
+      "top3": [
+        {"hash":"i470e2e680856b82c","version":"1682723040"},
+        {"hash":"icce703b0320d657a","version":"1681983605"},
+        {"hash":"i3d19cf080bc2d098","version":"1683798797"}
+      ]
+    },
+    {
+      "slug": "crystal-villa-ingya",
+      "display_title": "クリスタルヴィラ インギャー",
+      "category": "宿泊施設",
+      "original_h3": "【クリスタルヴィラ インギャートレーラーハウス】",
+      "total_count": 9,
+      "remaining": 6,
+      "top3": [
+        {"hash":"ie1f9cda96fd9db4c","version":"1611265788"},
+        {"hash":"i233ad0f65c29b2cc","version":"1611266170"},
+        {"hash":"icf5621a5fa9e69a9","version":"1611266261"}
+      ]
+    },
+    {
+      "slug": "pool-resort-okinawa",
+      "display_title": "ザ・プールリゾート沖縄",
+      "category": "宿泊施設",
+      "original_h3": "【ザ・プールリゾート沖縄 様】",
+      "total_count": 8,
+      "remaining": 5,
+      "top3": [
+        {"hash":"i348696a1038286a3","version":"1767189540"},
+        {"hash":"iea1472d2f93405be","version":"1572835884"},
+        {"hash":"i259e4e7e76d592b0","version":"1585298211"}
+      ]
+    },
+    {
+      "slug": "miyako-showroom",
+      "display_title": "パークホームズ宮古島展示場",
+      "category": "自社施設",
+      "original_h3": "【パークホームズ宮古島展示場】",
+      "total_count": 4,
+      "remaining": 1,
+      "top3": [
+        {"hash":"i24033e02dfcf2624","version":"1568423015"},
+        {"hash":"i7605d8956062e4e3","version":"1575333276"},
+        {"hash":"i53ad0b4b9f314a17","version":"1575333276"}
+      ]
+    },
+    {
+      "slug": "toyosaki-chura",
+      "display_title": "豊崎パーク美ら 11M",
+      "category": "自社施設",
+      "original_h3": "【パークリゾート11M OKINAWA GREEN LOGGE】",
+      "total_count": 6,
+      "remaining": 3,
+      "top3": [
+        {"hash":"idd60a40dafa2edc6","version":"1543646177"},
+        {"hash":"ifaa75a5bb8314179","version":"1543647073"},
+        {"hash":"ica2d06d1a96d44a7","version":"1568423323"}
+      ]
+    }
+  ]
+}

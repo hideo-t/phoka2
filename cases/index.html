@@ -105,6 +105,13 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
 .case-filter{background:transparent;border:1px solid var(--border);padding:6px 14px;border-radius:999px;cursor:pointer;font-size:13px;color:var(--text);transition:.2s;font-family:inherit}
 .case-filter:hover{background:var(--bg)}
 .case-filter.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+/* PR#3: sub-image grid + remaining badge */
+.case-card__subs{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:6px 6px 0}
+.case-card__subs picture{display:block;overflow:hidden;border-radius:6px}
+.case-card__subs img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:.3s}
+.case-card:hover .case-card__subs img{transform:scale(1.04)}
+.case-card__remaining{display:inline-block;margin-left:8px;font-size:11px;color:var(--muted);background:var(--border);padding:2px 8px;border-radius:999px;font-weight:500}
+@media(max-width:480px){.case-card__subs{grid-template-columns:1fr 1fr;gap:4px;padding:4px 4px 0}}
 </style>
 </head>
 <body>
@@ -166,6 +173,18 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/resor-tech-2022-01@600w.webp 600w, images/cases/resor-tech-2022-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/resor-tech-2022-01.webp" loading="lazy" alt="RESOR TECH EXPO 2022 IN OKINAWA の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/resor-tech-2022-02@600w.webp 600w, images/cases/resor-tech-2022-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/resor-tech-2022-02.webp" loading="lazy" alt="RESOR TECH EXPO 2022 IN OKINAWA の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/resor-tech-2022-03@600w.webp 600w, images/cases/resor-tech-2022-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/resor-tech-2022-03.webp" loading="lazy" alt="RESOR TECH EXPO 2022 IN OKINAWA の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">イベント</span>
           <h3>RESOR TECH EXPO 2022 IN OKINAWA</h3>
@@ -177,10 +196,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/plus-garden-cafe-01@600w.webp 600w, images/cases/plus-garden-cafe-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/plus-garden-cafe-01.webp" loading="lazy" alt="PLUS GARDEN CAFE の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/plus-garden-cafe-02@600w.webp 600w, images/cases/plus-garden-cafe-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/plus-garden-cafe-02.webp" loading="lazy" alt="PLUS GARDEN CAFE の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/plus-garden-cafe-03@600w.webp 600w, images/cases/plus-garden-cafe-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/plus-garden-cafe-03.webp" loading="lazy" alt="PLUS GARDEN CAFE の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">カフェ</span>
           <h3>PLUS GARDEN CAFE</h3>
           <p>11mモデルを店舗として活用したカフェ事例。沖縄仕様の鉄骨造で台風・塩害にも対応。</p>
+          <span class="case-card__remaining">ほか7枚</span>
         </div>
       </article>
       <article class="card case-card" data-cat="グランピング">
@@ -188,6 +220,7 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/senaga-glamping-01@600w.webp 600w, images/cases/senaga-glamping-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/senaga-glamping-01.webp" loading="lazy" alt="瀬長島グランピング場 の施工事例" width="1200" height="900">
         </picture>
+
         <div class="case-card__body">
           <span class="case-card__badge">グランピング</span>
           <h3>瀬長島グランピング場</h3>
@@ -199,10 +232,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/guts-rental-01@600w.webp 600w, images/cases/guts-rental-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/guts-rental-01.webp" loading="lazy" alt="ガッツレンタカー の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/guts-rental-02@600w.webp 600w, images/cases/guts-rental-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/guts-rental-02.webp" loading="lazy" alt="ガッツレンタカー の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/guts-rental-03@600w.webp 600w, images/cases/guts-rental-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/guts-rental-03.webp" loading="lazy" alt="ガッツレンタカー の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">レンタカー</span>
           <h3>ガッツレンタカー</h3>
           <p>レンタカー受付に使用するトレーラーハウス施工事例を紹介します。</p>
+          <span class="case-card__remaining">ほか4枚</span>
         </div>
       </article>
       <article class="card case-card" data-cat="レンタカー">
@@ -210,6 +256,14 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/taei-japan-rental-01@600w.webp 600w, images/cases/taei-japan-rental-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/taei-japan-rental-01.webp" loading="lazy" alt="タエイジャパン の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/taei-japan-rental-02@600w.webp 600w, images/cases/taei-japan-rental-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/taei-japan-rental-02.webp" loading="lazy" alt="タエイジャパン の施工事例 2" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">レンタカー</span>
           <h3>タエイジャパン</h3>
@@ -221,6 +275,7 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/onna-villa-01@600w.webp 600w, images/cases/onna-villa-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/onna-villa-01.webp" loading="lazy" alt="恩納村のお客様 の施工事例" width="1200" height="900">
         </picture>
+
         <div class="case-card__body">
           <span class="case-card__badge">個人邸</span>
           <h3>恩納村のお客様</h3>
@@ -232,10 +287,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/sesoko-villa-01@600w.webp 600w, images/cases/sesoko-villa-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/sesoko-villa-01.webp" loading="lazy" alt="本部町瀬底島のお客様 の施工事例" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/sesoko-villa-02@600w.webp 600w, images/cases/sesoko-villa-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/sesoko-villa-02.webp" loading="lazy" alt="本部町瀬底島のお客様 の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/sesoko-villa-03@600w.webp 600w, images/cases/sesoko-villa-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/sesoko-villa-03.webp" loading="lazy" alt="本部町瀬底島のお客様 の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">個人邸</span>
           <h3>本部町瀬底島のお客様</h3>
           <p>本部町瀬底島に設置した別荘事例。海沿いの環境に合わせた沖縄仕様。</p>
+          <span class="case-card__remaining">ほか13枚</span>
         </div>
       </article>
       <article class="card case-card" data-cat="医療施設">
@@ -243,10 +311,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/miyako-rehab-01@600w.webp 600w, images/cases/miyako-rehab-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/miyako-rehab-01.webp" loading="lazy" alt="宮古島リハビリ温泉病院 の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/miyako-rehab-02@600w.webp 600w, images/cases/miyako-rehab-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/miyako-rehab-02.webp" loading="lazy" alt="宮古島リハビリ温泉病院 の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/miyako-rehab-03@600w.webp 600w, images/cases/miyako-rehab-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/miyako-rehab-03.webp" loading="lazy" alt="宮古島リハビリ温泉病院 の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">医療施設</span>
           <h3>宮古島リハビリ温泉病院</h3>
           <p>宮古島の温泉リハビリ病院の附属施設として設置。</p>
+          <span class="case-card__remaining">ほか4枚</span>
         </div>
       </article>
       <article class="card case-card" data-cat="宿泊施設">
@@ -254,10 +335,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/crystal-villa-ingya-01@600w.webp 600w, images/cases/crystal-villa-ingya-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/crystal-villa-ingya-01.webp" loading="lazy" alt="クリスタルヴィラ インギャー の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/crystal-villa-ingya-02@600w.webp 600w, images/cases/crystal-villa-ingya-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/crystal-villa-ingya-02.webp" loading="lazy" alt="クリスタルヴィラ インギャー の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/crystal-villa-ingya-03@600w.webp 600w, images/cases/crystal-villa-ingya-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/crystal-villa-ingya-03.webp" loading="lazy" alt="クリスタルヴィラ インギャー の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">宿泊施設</span>
           <h3>クリスタルヴィラ インギャー</h3>
           <p>宮古島インギャーマリンガーデン近隣の宿泊施設として複数棟を導入。</p>
+          <span class="case-card__remaining">ほか6枚</span>
         </div>
       </article>
       <article class="card case-card" data-cat="宿泊施設">
@@ -265,10 +359,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/pool-resort-okinawa-01@600w.webp 600w, images/cases/pool-resort-okinawa-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/pool-resort-okinawa-01.webp" loading="lazy" alt="ザ・プールリゾート沖縄 の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/pool-resort-okinawa-02@600w.webp 600w, images/cases/pool-resort-okinawa-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/pool-resort-okinawa-02.webp" loading="lazy" alt="ザ・プールリゾート沖縄 の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/pool-resort-okinawa-03@600w.webp 600w, images/cases/pool-resort-okinawa-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/pool-resort-okinawa-03.webp" loading="lazy" alt="ザ・プールリゾート沖縄 の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">宿泊施設</span>
           <h3>ザ・プールリゾート沖縄</h3>
           <p>リゾートホテル「ザ・プールリゾート沖縄」の宿泊棟として導入。</p>
+          <span class="case-card__remaining">ほか5枚</span>
         </div>
       </article>
       <article class="card case-card" data-cat="自社施設">
@@ -276,10 +383,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/miyako-showroom-01@600w.webp 600w, images/cases/miyako-showroom-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/miyako-showroom-01.webp" loading="lazy" alt="パークホームズ宮古島展示場 の施工事例 1" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/miyako-showroom-02@600w.webp 600w, images/cases/miyako-showroom-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/miyako-showroom-02.webp" loading="lazy" alt="パークホームズ宮古島展示場 の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/miyako-showroom-03@600w.webp 600w, images/cases/miyako-showroom-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/miyako-showroom-03.webp" loading="lazy" alt="パークホームズ宮古島展示場 の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">自社施設</span>
           <h3>パークホームズ宮古島展示場</h3>
           <p>宮古島の自社展示場。実物見学が可能（事前予約制）。</p>
+          <span class="case-card__remaining">ほか1枚</span>
         </div>
       </article>
       <article class="card case-card" data-cat="自社施設">
@@ -287,10 +407,23 @@ footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 
           <source srcset="images/cases/toyosaki-chura-01@600w.webp 600w, images/cases/toyosaki-chura-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
           <img src="images/cases/toyosaki-chura-01.webp" loading="lazy" alt="豊崎パーク美ら 11M の施工事例" width="1200" height="900">
         </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="images/cases/toyosaki-chura-02@600w.webp 600w, images/cases/toyosaki-chura-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/toyosaki-chura-02.webp" loading="lazy" alt="豊崎パーク美ら 11M の施工事例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="images/cases/toyosaki-chura-03@600w.webp 600w, images/cases/toyosaki-chura-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="images/cases/toyosaki-chura-03.webp" loading="lazy" alt="豊崎パーク美ら 11M の施工事例 3" width="600" height="450">
+    </picture>
+        </div>
+
         <div class="case-card__body">
           <span class="case-card__badge">自社施設</span>
           <h3>豊崎パーク美ら 11M</h3>
           <p>豊崎の自社モデルハウス。11mモデルの居住空間を実物展示。</p>
+          <span class="case-card__remaining">ほか3枚</span>
         </div>
       </article>
     </div>
