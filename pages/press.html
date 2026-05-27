@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プレスリリース｜パークホームズオキナワ</title>
+<meta name="description" content="パークホームズオキナワの関連企業・業界に関するプレスリリース一覧。沖縄のトレーラーハウス市場の最新動向をお届けします。">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0d2d5e;--blue:#1560a8;--coral:#e8614a;--coral-dark:#c44a35;
+  --green:#2a7a5a;--green-lt:#e8f5ee;
+  --gray:#f5f5f3;--border:#e0e0d8;--text:#1a2332;--muted:#666;
+  --white:#fff;--radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--gray);color:var(--text);font-size:15px;line-height:1.8}
+a{text-decoration:none;color:var(--blue)}
+img{max-width:100%;height:auto;display:block}
+
+/* NAV */
+nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.nav-inner{max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.nav-inner img{height:96px;width:auto}
+.nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.nav-links a{font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;transition:.2s}
+.nav-links a:hover{background:#f0f6ff}
+.nav-cta{color:var(--white)!important;background:var(--coral);padding:8px 16px!important;border-radius:8px}
+.nav-cta:hover{background:var(--coral-dark)!important}
+
+/* HERO */
+.page-hero{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);color:var(--white);padding:56px 20px 44px;text-align:center}
+.page-hero .eyebrow{font-size:11px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;opacity:.7;margin-bottom:12px}
+.page-hero h1{font-size:clamp(24px,4vw,36px);font-weight:700;margin-bottom:10px;line-height:1.3}
+.page-hero p{font-size:14px;opacity:.85;line-height:1.7;max-width:680px;margin:0 auto}
+
+/* LIST */
+.section{padding:56px 0}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+
+.release{background:var(--white);border-radius:var(--radius);overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);margin-bottom:28px;scroll-margin-top:120px}
+.release-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:18px 28px 0}
+.release-date{font-size:13px;font-weight:700;color:var(--navy);letter-spacing:.05em}
+.release-tag{display:inline-block;background:var(--green-lt);color:var(--green);font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;letter-spacing:.05em}
+.release-tag.industry{background:#fff4e8;color:#a8541a}
+.release-tag.partner{background:#e8f0ff;color:var(--blue)}
+.release-title{padding:10px 28px 6px;font-size:20px;font-weight:700;color:var(--navy);line-height:1.45}
+.release-subtitle{padding:0 28px 18px;font-size:13px;color:var(--muted);font-weight:500}
+.release-body{padding:0 28px 24px;font-size:14.5px;color:var(--text);line-height:1.95}
+.release-body p{margin-bottom:14px}
+.release-body p:last-child{margin-bottom:0}
+
+.quote-box{background:var(--gray);border-left:3px solid var(--blue);border-radius:6px;padding:14px 18px;margin:18px 0;font-size:13.5px;color:var(--text);line-height:1.85}
+.quote-box .quote-source{display:block;font-size:11px;color:var(--muted);margin-top:6px}
+
+.release-figs{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:14px 0 8px}
+@media(max-width:520px){.release-figs{grid-template-columns:1fr}}
+.release-figs a{display:block;border-radius:8px;overflow:hidden;border:1px solid var(--border);background:#000}
+.release-figs img{width:100%;height:200px;object-fit:cover;display:block;opacity:.95;transition:.2s}
+.release-figs a:hover img{opacity:1;transform:scale(1.02)}
+
+.release-sources{padding:16px 28px 22px;background:#fafaf7;border-top:1px solid var(--border);font-size:12.5px;color:var(--muted);line-height:1.9}
+.release-sources strong{display:block;font-size:11px;letter-spacing:.1em;color:var(--navy);text-transform:uppercase;margin-bottom:6px;font-weight:700}
+.release-sources ul{list-style:none;padding:0}
+.release-sources li{padding:2px 0}
+.release-sources a{color:var(--blue);word-break:break-all}
+.release-sources a:hover{text-decoration:underline}
+
+.note{background:#fff8e8;border:1px solid #f0d890;border-radius:8px;padding:12px 16px;font-size:12.5px;color:#7a5a10;margin:16px 28px;line-height:1.7}
+.note strong{color:#5a4000}
+
+.empty-state{background:var(--white);border-radius:var(--radius);padding:40px 28px;text-align:center;color:var(--muted);font-size:14px;border:1px dashed var(--border)}
+
+/* CTA */
+.cta-bar{background:var(--navy);color:var(--white);padding:40px 20px;text-align:center;margin-top:0}
+.cta-bar h2{font-size:20px;font-weight:700;margin-bottom:8px}
+.cta-bar p{font-size:13px;opacity:.75;margin-bottom:24px}
+.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:8px;font-size:14px;font-weight:700;transition:.2s}
+.cta-btn-primary{background:var(--coral);color:var(--white)}
+.cta-btn-primary:hover{background:var(--coral-dark)}
+.cta-btn-outline{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,.4)}
+.cta-btn-outline:hover{background:rgba(255,255,255,.1)}
+
+@media(max-width:480px){
+  .nav-links a:not(.nav-cta){display:none}
+  .page-hero{padding:36px 16px 28px}
+  .section{padding:36px 0}
+  .container{padding:0 14px}
+  .release-meta,.release-title,.release-subtitle,.release-body,.release-sources{padding-left:18px;padding-right:18px}
+  .note{margin-left:18px;margin-right:18px}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="https://hideo-t.github.io/phoka2/">
+      <img src="../logopkw.jpg" alt="パークホームズオキナワ" style="height:96px;width:auto">
+    </a>
+    <div class="nav-links">
+      <a href="https://hideo-t.github.io/phoka2/">🏠 トップ</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/lineup.html">ラインナップ</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a>
+      <a href="https://hideo-t.github.io/phoka2/company/">会社情報</a>
+      <a href="https://hideo-t.github.io/phoka2/pages/estimate.html" class="nav-cta">📋 無料見積もり</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="page-hero">
+  <div class="eyebrow">Press Release</div>
+  <h1>プレスリリース</h1>
+  <p>パークホームズオキナワの関連企業、および沖縄のトレーラーハウス市場に関する最新ニュースをお届けします。</p>
+</div>
+
+<!-- LIST -->
+<section class="section">
+  <div class="container">
+
+    <!-- ===== 沖電企業 トレーラーハウス参入 ===== -->
+    <article id="oki-denki-2026-05-27" class="release">
+      <div class="release-meta">
+        <span class="release-date">2026.05.27</span>
+        <span class="release-tag partner">関連企業ニュース</span>
+        <span class="release-tag industry">業界トピック</span>
+      </div>
+      <h2 class="release-title">沖電企業株式会社が「居住用トレーラーハウス」販売を開始</h2>
+      <div class="release-subtitle">— 沖縄県・離島の住居不足解消に向けた新事業として始動 —</div>
+
+      <div class="release-body">
+        <p>
+          パークホームズオキナワの関連企業である<strong>沖電企業株式会社</strong>（本社：沖縄県浦添市牧港）が、
+          <strong>2026年5月27日</strong>、離島の住居不足解消に向けた新たな取り組みとして
+          「<strong>居住用トレーラーハウス</strong>」の販売を開始されました。
+        </p>
+
+        <div class="quote-box">
+          このたび、沖電企業では、離島の住居不足解消に向けた新たな取り組みとして、「居住用トレーラーハウス」の販売を開始しました。モデルハウスを沖電企業に展示しているので誰でも見学可能です。
+          <span class="quote-source">— 沖電企業株式会社 公式トピックス（2026.05.27）より引用</span>
+        </div>
+
+        <p>
+          沖電企業は、変圧器製造整備・発電設備関連・資機材販売・リース・損害保険代理店・車両整備・広告宣伝など、
+          沖縄県の電力インフラと地域産業を多角的に支える企業グループです。
+          今回のトレーラーハウス事業参入は、沖縄が長年抱える離島の住居不足という社会課題に対し、
+          建築コスト・工期・搬入の容易性という観点から、地域インフラ企業が新たな選択肢を提示するものです。
+        </p>
+
+        <p>
+          パークホームズオキナワは、<strong>沖縄仕様の鉄骨トレーラーハウス専門メーカー</strong>として、
+          塩害・台風・暑さ対策を標準装備した製品を、設計・製造・搬入・設置・アフターメンテナンスまで一貫体制で提供しています。
+          沖電企業をはじめとする沖縄県内の関連企業・パートナー各社と連携しながら、
+          離島・本島を問わず、沖縄の住宅課題解決に貢献してまいります。
+        </p>
+
+        <p>
+          沖電企業のモデルハウスは本社（浦添市牧港）にて見学可能とのことです。
+          実車をご覧になりたい方は、沖電企業株式会社へ直接お問い合わせいただくか、
+          パークホームズオキナワの<a href="https://hideo-t.github.io/phoka2/pages/estimate.html">無料見積もり</a>もあわせてご活用ください。
+        </p>
+
+        <div class="release-figs">
+          <a href="https://www.okidenkigyo.co.jp/userfiles/images/topics/topics320.jpeg" target="_blank" rel="noopener">
+            <img src="https://www.okidenkigyo.co.jp/userfiles/images/topics/topics320.jpeg" alt="沖電企業 居住用トレーラーハウス（モデルハウス外観）" loading="lazy">
+          </a>
+          <a href="https://www.okidenkigyo.co.jp/userfiles/images/topics/topics320-1.jpeg" target="_blank" rel="noopener">
+            <img src="https://www.okidenkigyo.co.jp/userfiles/images/topics/topics320-1.jpeg" alt="沖電企業 居住用トレーラーハウス（展示風景）" loading="lazy">
+          </a>
+        </div>
+      </div>
+
+      <div class="note">
+        <strong>※ 本記事について</strong><br>
+        本リリースは、沖電企業株式会社公式サイトに掲載された情報をもとに、パークホームズオキナワが関連企業ニュースとして編集・掲載しています。
+        画像・本文の著作権は各権利者に帰属します。
+      </div>
+
+      <div class="release-sources">
+        <strong>出典 / Sources</strong>
+        <ul>
+          <li>沖電企業株式会社 公式トピックス：
+            <a href="https://www.okidenkigyo.co.jp/topics/1779779394/" target="_blank" rel="noopener">
+              https://www.okidenkigyo.co.jp/topics/1779779394/
+            </a>
+          </li>
+          <li>プレスリリースPDF：
+            <a href="https://www.okidenkigyo.co.jp/userfiles/files/topics/topics320.pdf" target="_blank" rel="noopener">
+              https://www.okidenkigyo.co.jp/userfiles/files/topics/topics320.pdf
+            </a>
+          </li>
+          <li>沖電企業株式会社 公式サイト：
+            <a href="https://www.okidenkigyo.co.jp/" target="_blank" rel="noopener">
+              https://www.okidenkigyo.co.jp/
+            </a>
+          </li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-bar">
+  <h2>沖縄仕様のトレーラーハウス、ご相談はパークホームズオキナワへ</h2>
+  <p>離島の住宅・宿泊施設・別荘・災害BCP用途まで、用途に応じてご提案します</p>
+  <div class="cta-btns">
+    <a href="https://hideo-t.github.io/phoka2/pages/estimate.html" class="cta-btn cta-btn-primary">📋 AI無料見積もりを試す</a>
+    <a href="https://hideo-t.github.io/phoka2/contact/" class="cta-btn cta-btn-outline">📨 お問い合わせ</a>
+  </div>
+</div>
+
+</body>
+</html>
