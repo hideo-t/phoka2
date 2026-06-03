@@ -143,9 +143,9 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 /* 上段: シーサー・動画・守礼門 */
 .hero-top-row{
   position:relative;z-index:2;
-  width:100vw;
-  display:grid;
-  grid-template-columns:33.333vw 33.333vw 33.334vw;
+  width:100%;
+  display:flex;
+  justify-content:center;
   align-items:center;
   padding:0;margin:0;
 }
@@ -170,8 +170,9 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .hero-slider{
   background:#111;border-radius:16px;
   box-shadow:0 8px 32px rgba(0,0,0,.5),0 0 0 2px rgba(255,255,255,.15);
-  overflow:hidden;aspect-ratio:9/16;max-height:480px;
-  position:relative;width:100%;
+  overflow:hidden;aspect-ratio:9/16;
+  height:min(70vh,540px);width:auto;max-width:90vw;
+  position:relative;
 }
 .hero-slider video{
   position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
@@ -404,7 +405,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
   .hero-top-row{display:flex;flex-direction:column;align-items:center;width:100%}
   .hero-deco-img{display:none}
   .hero-video-wrap{width:100%;align-items:center}
-  .hero-slider{width:60vw;max-width:224px;margin:0 auto}
+  .hero-slider{height:min(64vh,520px);width:auto;max-width:84vw;margin:0 auto}
   .hero-video-label{font-size:10px}
 
   /* Appeal cards mobile */
@@ -569,9 +570,8 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
 =========================== -->
 <section id="hero">
   <div class="hero-overlay"></div>
-  <!-- 上段: シーサー / 動画 / 守礼門 （ビューポート幅で3等分） -->
+  <!-- 上段: 動画スライダー（中央表示） -->
   <div class="hero-top-row">
-      <img src="images/hero-sisa.jpg" alt="シーサー" class="hero-deco-img" fetchpriority="high">
       <div class="hero-video-wrap">
         <div class="hero-slider" id="heroSlider">
         <video src="images/hero-videos/797491471.572952.mp4" class="active" autoplay muted playsinline preload="auto"></video>
@@ -590,7 +590,6 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
       <div class="slider-dots" id="sliderDots"></div>
       <p class="slider-count" id="sliderCount">1 / 10</p>
     </div>
-      <img src="images/hero-syuri.jpg" alt="守礼門" class="hero-deco-img" fetchpriority="high">
   </div><!-- /hero-top-row -->
   <div class="hero-content">
     <!-- 下段: テキスト -->
