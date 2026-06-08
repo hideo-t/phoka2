@@ -258,7 +258,10 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
    SECTION 2.5: 注目される3つの特徴
 =========================== */
 #features{background:linear-gradient(180deg,#ffffff 0%,#eef4fb 100%)}
-#features .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+#features .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:start}
+.feature-list{list-style:none;margin:2px 0 14px;padding:0}
+.feature-list li{font-size:12.5px;color:var(--text);line-height:1.5;padding:6px 2px;border-bottom:1px dashed var(--border)}
+.feature-list li:last-child{border-bottom:none}
 .feature-card{position:relative;overflow:hidden;background:var(--white);border:1px solid var(--border);border-top:4px solid var(--blue);border-radius:var(--radius);padding:30px 24px 28px;box-shadow:0 2px 14px rgba(13,45,94,.07);transition:.3s}
 .feature-img{display:block;width:calc(100% + 48px);height:176px;object-fit:cover;margin:-30px -24px 20px;background:#dfe6f2}
 .feature-card:hover{transform:translateY(-5px);box-shadow:0 14px 36px rgba(13,45,94,.13);border-top-color:var(--coral)}
@@ -666,11 +669,22 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
         <img class="feature-img" src="images/features/feature-02.jpg" alt="移動できるトレーラーハウス（中古・転売）" loading="lazy">
         <span class="feature-num">FEATURE 02</span>
         <span class="feature-icon">🔄</span>
-        <h3>中古ハウスも需要があり転売可能</h3>
+        <h3>トレーラーハウスのメリット</h3>
+        <ul class="feature-list">
+          <li>🚚 移動が可能（設置場所の変更や移設に対応）</li>
+          <li>🔨 解体工事が不要（建物のような取り壊し費用がかからない）</li>
+          <li>💰 リセール（再販）が容易（中古市場での需要が高い）</li>
+          <li>📈 中古ニーズが強い（購入希望者からの引き合い多数）</li>
+          <li>🏠 将来的な売却も視野に入れられる</li>
+          <li>⏳ 耐用年数20年以上で長く利用可能</li>
+          <li>💎 資産価値を維持しやすい</li>
+          <li>🔄 数年後でも高額取引される事例あり</li>
+        </ul>
         <p>
-          トレーラーハウスは車両のため、住宅や店舗と違い移動が可能です。取り壊す必要なく移動できるため、簡易的に転売できます。
-          中古ニーズも引き合いが強く、将来的に手放すことも視野に入れて購入できます。
-          対応年数も20年以上あり、数年後に売却しても高額で取引されているのが現状です。
+          トレーラーハウスは車両扱いのため、住宅や店舗と異なり移動が可能です。建物のように取り壊す必要がなく、そのまま別の場所へ移設できます。また、中古市場での需要も高く、リセール（再販）がしやすいことも大きな魅力です。
+        </p>
+        <p>
+          耐用年数は20年以上あり、数年利用した後でも高額で取引されるケースが多く見られます。そのため、「利用するための建物」としてだけでなく、「将来的な売却も見据えた資産」として保有できる選択肢となっています。
         </p>
       </div>
 
