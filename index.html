@@ -287,6 +287,12 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .appeal-icon{font-size:44px;margin-bottom:16px;display:block}
 .appeal-card h3{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:12px}
 .appeal-card p{font-size:14px;color:var(--muted);line-height:1.8}
+.lifestyle-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.lifestyle-grid img{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 12px 34px rgba(0,0,0,.32);transition:transform .3s}
+.lifestyle-grid img:hover{transform:translateY(-4px)}
+.lifestyle-note{margin-top:18px;text-align:right;font-size:11.5px;color:rgba(255,255,255,.62);line-height:1.7}
+#appeal1 .section-link{color:#9ed3f5}
+@media(max-width:768px){.lifestyle-grid{grid-template-columns:1fr;gap:12px}.lifestyle-note{text-align:left}}
 .section-link{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:var(--blue);margin-top:40px;transition:.2s;min-height:44px}
 .section-link:hover{color:var(--navy);gap:14px}
 
@@ -735,50 +741,15 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
       <p class="section-sub">「場所にとらわれない」「コストを抑えた」<br>生活やビジネスが、今すぐ実現できます。</p>
     </div>
 
-    <div class="grid-2">
-
-      <div class="appeal-card reveal">
-        <span class="appeal-icon">🏡</span>
-        <h3>ミニマルなマイホーム</h3>
-        <p>
-          移住・建築費用を大幅に抑えつつ、山林や浜辺など自然に近い場所へ設置できます。
-          一般住宅には難しい山間部や雑種地への設置が可能。農地は転用申請（農転）の手続き後に設置できます。
-          観光農園や農業体験施設など、農地で使える特例もあります。
-        </p>
-      </div>
-
-      <div class="appeal-card reveal">
-        <span class="appeal-icon">🌊</span>
-        <h3>移動できる・別荘・セカンドハウス</h3>
-        <p>
-          好きな時に好きな場所へ、拠点そのものが移せる。
-          次世代型の別荘として、また離島の宿泊施設として注目が高まっています。
-          一か所に縛られない新しいライフスタイルを。
-        </p>
-      </div>
-
-      <div class="appeal-card reveal">
-        <span class="appeal-icon">❄️</span>
-        <h3>快適な住環境</h3>
-        <p>
-          高気密・高断熱仕様により、夏は涼しく冬は暖かく。
-          クラスS4以上の窓サッシで遮熱・断熱・耐塩害を実現し、
-          一般住宅と変わらない快適さで日常を過ごせます。
-        </p>
-      </div>
-
-      <div class="appeal-card reveal">
-        <span class="appeal-icon">🛡️</span>
-        <h3>災害への備え（BCP）</h3>
-        <p>
-          ライフラインが確保しやすく、災害時の復興住宅・避難所として極めて有効。
-          行政との提携実績もあり、仮設住宅・農業体験施設など多様な用途での導入実績があります。
-        </p>
-      </div>
-
+    <div class="lifestyle-grid reveal">
+      <img src="images/lifestyle/lifestyle-01.jpg" alt="沖縄の海辺で楽しむトレーラーハウスのある暮らし 1" loading="lazy">
+      <img src="images/lifestyle/lifestyle-02.jpg" alt="沖縄の海辺で楽しむトレーラーハウスのある暮らし 2" loading="lazy">
+      <img src="images/lifestyle/lifestyle-03.jpg" alt="沖縄の海辺で楽しむトレーラーハウスのある暮らし 3" loading="lazy">
+      <img src="images/lifestyle/lifestyle-04.jpg" alt="沖縄の海辺で楽しむトレーラーハウスのある暮らし 4" loading="lazy">
     </div>
 
     <a href="#cases" class="section-link reveal">設置事例を見る →</a>
+    <p class="lifestyle-note">※画像は商品画像を基本に、一部（背景・人物など）を生成AIで表現しています。実際の商品とは差異がある場合があります。</p>
   </div>
 </section>
 
