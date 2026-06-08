@@ -259,7 +259,8 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 =========================== */
 #features{background:linear-gradient(180deg,#ffffff 0%,#eef4fb 100%)}
 #features .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.feature-card{position:relative;background:var(--white);border:1px solid var(--border);border-top:4px solid var(--blue);border-radius:var(--radius);padding:30px 24px 28px;box-shadow:0 2px 14px rgba(13,45,94,.07);transition:.3s}
+.feature-card{position:relative;overflow:hidden;background:var(--white);border:1px solid var(--border);border-top:4px solid var(--blue);border-radius:var(--radius);padding:30px 24px 28px;box-shadow:0 2px 14px rgba(13,45,94,.07);transition:.3s}
+.feature-img{display:block;width:calc(100% + 48px);height:176px;object-fit:cover;margin:-30px -24px 20px;background:#dfe6f2}
 .feature-card:hover{transform:translateY(-5px);box-shadow:0 14px 36px rgba(13,45,94,.13);border-top-color:var(--coral)}
 .feature-num{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.18em;color:var(--coral)}
 .feature-icon{font-size:42px;display:block;margin:6px 0 10px;line-height:1}
@@ -650,6 +651,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
     <div class="feature-grid">
 
       <div class="feature-card reveal">
+        <img class="feature-img" src="images/features/feature-01.jpg" alt="オーシャンフロントに設置したトレーラーハウス（別荘・宿泊施設）" loading="lazy">
         <span class="feature-num">FEATURE 01</span>
         <span class="feature-icon">📍</span>
         <h3>どこでも設置が可能<span class="fnote">※注1</span></h3>
@@ -661,6 +663,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
       </div>
 
       <div class="feature-card reveal">
+        <img class="feature-img" src="images/features/feature-02.jpg" alt="移動できるトレーラーハウス（中古・転売）" loading="lazy">
         <span class="feature-num">FEATURE 02</span>
         <span class="feature-icon">🔄</span>
         <h3>中古ハウスも需要があり転売可能</h3>
@@ -672,6 +675,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
       </div>
 
       <div class="feature-card reveal">
+        <img class="feature-img" src="images/features/feature-03.jpg" alt="ローコストなトレーラーハウス" loading="lazy">
         <span class="feature-num">FEATURE 03</span>
         <span class="feature-icon">💴</span>
         <h3>建築よりローコスト＆スピーディー</h3>
