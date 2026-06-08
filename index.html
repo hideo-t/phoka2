@@ -255,6 +255,21 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .mobile-cta-bar .mcta-est{background:var(--coral);color:var(--white)}
 
 /* ===========================
+   SECTION 2.5: 注目される3つの特徴
+=========================== */
+#features{background:linear-gradient(180deg,#ffffff 0%,#eef4fb 100%)}
+#features .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.feature-card{position:relative;background:var(--white);border:1px solid var(--border);border-top:4px solid var(--blue);border-radius:var(--radius);padding:30px 24px 28px;box-shadow:0 2px 14px rgba(13,45,94,.07);transition:.3s}
+.feature-card:hover{transform:translateY(-5px);box-shadow:0 14px 36px rgba(13,45,94,.13);border-top-color:var(--coral)}
+.feature-num{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.18em;color:var(--coral)}
+.feature-icon{font-size:42px;display:block;margin:6px 0 10px;line-height:1}
+.feature-card h3{font-size:18px;font-weight:700;color:var(--navy);line-height:1.5;margin-bottom:12px}
+.feature-card h3 .fnote{font-size:11px;color:var(--coral);font-weight:700;margin-left:4px;vertical-align:super}
+.feature-card p{font-size:13.5px;color:var(--muted);line-height:1.9}
+.feature-card .fhint{display:block;margin-top:10px;font-size:11px;color:#94a3b8;line-height:1.7}
+@media(max-width:768px){#features .feature-grid{grid-template-columns:1fr;gap:16px}}
+
+/* ===========================
    SECTION 3: 訴求1 感情
 =========================== */
 #appeal1{background:linear-gradient(160deg,#0d2d5e 0%,#13508f 52%,#1f6fb2 100%)}
@@ -621,6 +636,55 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
   <span class="pakuo-avatar">🤖</span>
   <span>AIパクオ君に相談</span>
 </button>
+
+<!-- ===========================
+     SECTION 2.5: 注目される3つの特徴
+=========================== -->
+<section id="features" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">POINT</div>
+      <h2 class="section-title">注目される3つの特徴</h2>
+      <p class="section-sub">トレーラーハウスならではの「設置の自由」「資産性」「コスト」の強み。</p>
+    </div>
+    <div class="feature-grid">
+
+      <div class="feature-card reveal">
+        <span class="feature-num">FEATURE 01</span>
+        <span class="feature-icon">📍</span>
+        <h3>どこでも設置が可能<span class="fnote">※注1</span></h3>
+        <p>
+          トレーラーハウスは一定の設置要件を満たすことで「車両扱い」となるため、新たに増築したりできない土地、市街化調整区域・原野・雑種地にも設置できます。
+          オーシャンフロントに設置して別荘や宿泊施設としての活用、店舗としての利用などが可能となります。
+          <span class="fhint">※注1 農地に設置するには、農地転用届を申請する必要があり、完了後に設置できます。</span>
+        </p>
+      </div>
+
+      <div class="feature-card reveal">
+        <span class="feature-num">FEATURE 02</span>
+        <span class="feature-icon">🔄</span>
+        <h3>中古ハウスも需要があり転売可能</h3>
+        <p>
+          トレーラーハウスは車両のため、住宅や店舗と違い移動が可能です。取り壊す必要なく移動できるため、簡易的に転売できます。
+          中古ニーズも引き合いが強く、将来的に手放すことも視野に入れて購入できます。
+          対応年数も20年以上あり、数年後に売却しても高額で取引されているのが現状です。
+        </p>
+      </div>
+
+      <div class="feature-card reveal">
+        <span class="feature-num">FEATURE 03</span>
+        <span class="feature-icon">💴</span>
+        <h3>建築よりローコスト＆スピーディー</h3>
+        <p>
+          トレーラーハウスの基本価格は1,000〜1,200万円。基礎工事なども必要なく、住宅や店舗を建築するよりも低コストで購入できます。
+          また「建築物」ではなく「車両扱い」となるため、不動産取得税や固定資産税といった税金も不要です。さらに「車両扱い」でありながら、自動車取得税・重量税・自動車税もかかりません。
+          全国的に高騰している建築費に比べ、トレーラーハウスは大幅な費用削減が見込めます。
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- ===========================
      SECTION 3: 訴求1 感情
