@@ -104,6 +104,11 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .nav-item > a:hover,.nav-item > span:hover{background:var(--bg);color:var(--blue)}
 .nav-cta{background:var(--coral)!important;color:var(--white)!important;border-radius:8px;padding:8px 18px;font-size:13px;font-weight:700}
 .nav-cta:hover{background:var(--coral-dark)!important;transform:translateY(-1px)}
+.nav-item > span::after{content:'▾';font-size:10px;opacity:.6}
+.dropdown{display:none;position:absolute;top:calc(100% + 4px);left:0;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);box-shadow:0 8px 32px rgba(0,0,0,.12);min-width:188px;padding:8px;z-index:300}
+.nav-item.open .dropdown{display:block}
+.dropdown a{display:block;padding:8px 14px;font-size:13px;color:var(--text);border-radius:8px;transition:.15s}
+.dropdown a:hover{background:var(--bg);color:var(--blue)}
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none}
 .hamburger span{display:block;width:24px;height:2px;background:var(--black);border-radius:2px;transition:.3s}
 .mobile-menu{display:none;flex-direction:column;background:var(--white);border-top:1px solid var(--border);padding:12px 24px 20px}
@@ -241,10 +246,50 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
     </a>
     <div class="nav-links">
       <div class="nav-item"><a href="https://hideo-t.github.io/phoka2/">トップ</a></div>
-      <div class="nav-item"><a href="#solution">仕組み</a></div>
-      <div class="nav-item"><a href="#twice">二度効く</a></div>
-      <div class="nav-item"><a href="#faq">FAQ</a></div>
-      <div class="nav-item"><a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a></div>
+      <div class="nav-item">
+        <span>専用設計</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html">他社・自社比較（ABC比較）</a>
+          <a href="https://hideo-t.github.io/phoka2/#appeal1">暮らしのイメージ</a>
+          <a href="https://hideo-t.github.io/phoka2/#appeal2">沖縄特化設計</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span>商品</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/#lineup">ラインナップ</a>
+          <a href="https://hideo-t.github.io/phoka2/pages/lineup.html">ラインナップ詳細・比較 →</a>
+          <a href="https://hideo-t.github.io/phoka2/pages/catalog.html">カタログダウンロード</a>
+          <a href="https://hideo-t.github.io/phoka2/#cases">設置事例集</a>
+          <a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span>AI見積</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/pages/estimate.pdf" target="_blank">標準見積DL（PDF）</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span>会社情報</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/company/">アクセス・会社概要</a>
+          <a href="https://otha.my.canva.site/" target="_blank" rel="noopener">トレーラーハウス協会</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span>プレスリリース</span>
+        <div class="dropdown">
+          <a href="https://hideo-t.github.io/phoka2/pages/press.html">プレスリリース一覧</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span>問い合わせ</span>
+        <div class="dropdown">
+          <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener">LINEで聞く</a>
+          <a href="https://hideo-t.github.io/phoka2/contact/">メールで問い合わせ</a>
+        </div>
+      </div>
       <a href="#contact" class="nav-cta">資料請求・相談</a>
     </div>
     <button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="メニュー">
@@ -252,14 +297,32 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
     </button>
   </div>
   <div class="mobile-menu">
-    <span class="m-section">離島自治体の方へ</span>
-    <a href="https://hideo-t.github.io/phoka2/">トップページ</a>
+    <span class="m-section">このページ内</span>
     <a href="#solution">解決の核：建てない、運ぶ</a>
     <a href="#twice">一つの投資が、二度効く</a>
     <a href="#points">議会・上司への説明材料</a>
     <a href="#faq">よくあるご質問</a>
-    <a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a>
     <a href="#contact" style="color:var(--coral);font-weight:700">📋 資料請求・相談する →</a>
+    <span class="m-section">専用設計</span>
+    <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html">他社・自社比較（ABC比較）</a>
+    <a href="https://hideo-t.github.io/phoka2/#appeal1">暮らしのイメージ</a>
+    <a href="https://hideo-t.github.io/phoka2/#appeal2">沖縄特化設計</a>
+    <span class="m-section">商品</span>
+    <a href="https://hideo-t.github.io/phoka2/#lineup">ラインナップ</a>
+    <a href="https://hideo-t.github.io/phoka2/pages/lineup.html">ラインナップ詳細・比較 →</a>
+    <a href="https://hideo-t.github.io/phoka2/pages/catalog.html">カタログダウンロード</a>
+    <a href="https://hideo-t.github.io/phoka2/#cases">設置事例集</a>
+    <a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a>
+    <span class="m-section">AI見積</span>
+    <a href="https://hideo-t.github.io/phoka2/pages/estimate.pdf" target="_blank">標準見積DL（PDF）</a>
+    <span class="m-section">会社情報</span>
+    <a href="https://hideo-t.github.io/phoka2/company/">アクセス・会社概要</a>
+    <a href="https://otha.my.canva.site/" target="_blank" rel="noopener">トレーラーハウス協会</a>
+    <span class="m-section">プレスリリース</span>
+    <a href="https://hideo-t.github.io/phoka2/pages/press.html">プレスリリース一覧</a>
+    <span class="m-section">問い合わせ</span>
+    <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener">LINEで聞く</a>
+    <a href="https://hideo-t.github.io/phoka2/contact/">メールで問い合わせ</a>
   </div>
 </nav>
 
@@ -555,6 +618,22 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
 // モバイルメニュー：リンクタップで閉じる
 document.querySelectorAll('.mobile-menu a').forEach(function(a){
   a.addEventListener('click',function(){document.querySelector('.mobile-menu').classList.remove('open');});
+});
+// PCナビ ドロップダウン：クリック式（index.html と同挙動）
+document.querySelectorAll('.nav-item > span').forEach(function(trigger){
+  trigger.addEventListener('click',function(e){
+    e.stopPropagation();
+    var item=trigger.parentElement;
+    var isOpen=item.classList.contains('open');
+    document.querySelectorAll('.nav-item').forEach(function(i){i.classList.remove('open');});
+    if(!isOpen) item.classList.add('open');
+  });
+});
+// 外クリックでドロップダウンを閉じる
+document.addEventListener('click',function(e){
+  if(!e.target.closest('.nav-item')){
+    document.querySelectorAll('.nav-item').forEach(function(i){i.classList.remove('open');});
+  }
 });
 // スクロール・リビール
 var io=new IntersectionObserver(function(es){
