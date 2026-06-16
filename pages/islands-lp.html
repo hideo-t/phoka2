@@ -9,15 +9,20 @@
   本ページ公開前に、以下を必ず確認・確定すること。本文中では断定せず
   プレースホルダ表記＋「要・坂田社長確認」コメントで保留している。
 
-   1. 工期の目安（工場生産〜輸送〜設置までの日数）  … §3
-   2. 台風・塩害への耐久性の具体仕様・数値          … §6 FAQ
-   3. 設置に必要な敷地面積・基礎仕様の目安          … §3 / §6 FAQ
-   4. 製品価格（本体・輸送・設置）                  … 本文では非掲載
-   5. 災害時転用の制度上の取り扱い（仮設住宅扱い等） … §6 FAQ
-   6. 問い合わせフォームの送信先（メール or フォームサービス）… §7
+   1. 工期の目安（工場生産〜輸送〜設置までの日数）        … §3
+   2. 台風・塩害への耐久性の具体仕様・数値                … §7 FAQ
+   3. 設置に必要な敷地面積・基礎仕様の目安                … §3 / §7 FAQ
+   4. 製品価格（本体・輸送・設置）                        … 本文では非掲載
+   5. 災害時転用の制度上の取り扱い（仮設住宅扱い等）       … §7 FAQ
+   6. 問い合わせフォームの送信先（メール or フォームサービス）… §8
       ※現状は mailto: でメーラー起動するフォールバック実装。
    7. ヒーロー背景および各プレースホルダ画像の差し込み素材  … 全セクション
-   8. 予算費目の「整理の考え方」を提示する場合の具体例      … §5 / §6
+   8. 予算費目の「整理の考え方」を提示する場合の具体例      … §5 / §7
+   9. ヒーロー信頼バッジ（協定／全国初）の表示可否          … §1（確定まで非表示＝コメントアウト）
+  10. 防災協定の正式名称・相手方（豊見城市と直接締結か）    … §6 実績①
+  11. 防災訓練での具体的役割（実設置／出展／協力企業掲載）  … §6 実績②（那覇市）
+  12. 「全国初」の定義（モバイル型◯◯が日本初か）          … §6 実績③（LPでは用途を伏せる）
+  13. 実績写真の掲載可否（人物なし・製品単体を推奨）        … §6
 
   ★ コンプライアンス上の厳守事項（本ページで遵守済み）★
    - 特定企業名（電力・金融・通信等）を記載しない
@@ -86,6 +91,8 @@ h1,h2,h3{line-height:1.45}
 .card-icon{font-size:40px;margin-bottom:14px;display:block}
 .card-title{font-size:17px;font-weight:700;color:var(--navy);margin-bottom:8px}
 .card-text{font-size:14px;color:var(--muted);line-height:1.85}
+.rec-badge{display:inline-block;background:var(--bg-blue);color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.05em;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.rec-note{display:block;margin-top:10px;font-size:12px;color:#8aa0b8}
 
 /* === 画像プレースホルダ === */
 .img-ph{background:repeating-linear-gradient(45deg,#e7eef7,#e7eef7 12px,#eef4fb 12px,#eef4fb 24px);border:1px dashed var(--border);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;text-align:center;color:#8aa0b8;font-size:12.5px;line-height:1.7;padding:18px;min-height:180px}
@@ -130,6 +137,8 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .hero-sub{font-size:clamp(15px,2.2vw,18px);line-height:1.95;opacity:.95;max-width:620px;margin-bottom:34px}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
 .hero-note{margin-top:22px;font-size:12.5px;opacity:.7}
+.hero-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.hero-badges span{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.32);color:#fff;font-size:12.5px;font-weight:600;padding:7px 14px;border-radius:30px}
 
 /* === 困りごと（共感） === */
 .pain{position:relative;background:var(--white);border:1px solid var(--border);border-left:4px solid var(--coral);border-radius:var(--radius);padding:24px}
@@ -301,6 +310,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
     <a href="#solution">解決の核：建てない、運ぶ</a>
     <a href="#twice">一つの投資が、二度効く</a>
     <a href="#points">議会・上司への説明材料</a>
+    <a href="#track-record">自治体・防災での実績</a>
     <a href="#faq">よくあるご質問</a>
     <a href="#contact" style="color:var(--coral);font-weight:700">📋 資料請求・相談する →</a>
     <span class="m-section">専用設計</span>
@@ -348,6 +358,15 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
       <a href="https://hideo-t.github.io/QAparkhome/" target="_blank" rel="noopener" class="btn btn-outline-white btn-lg">🤖 AIに質問する</a>
     </div>
     <p class="hero-note">まずは資料だけでも。具体的なご検討の前の情報収集も歓迎しています。</p>
+
+    <!-- 信頼バッジ（ヒーロー下部）：事実が確定したら下の <p> を有効化（コメント解除）して表示する。
+         未確定のため現在は非表示（コメントアウト）。
+         要・坂田社長確認：①防災協定 ②全国初モバイル施設 の表示可否・正式文言。
+    <p class="hero-badges">
+      <span>🛡 本島の自治体と防災協定を締結</span>
+      <span>🏅 全国初のモバイル施設実績</span>
+    </p>
+    -->
   </div>
 </section>
 
@@ -489,7 +508,67 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
   </div>
 </section>
 
-<!-- ============ 6. FAQ ============ -->
+<!-- ============ 6. 自治体・防災分野での取り組み実績 ============ -->
+<section class="section" id="track-record">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">自治体・防災分野での取り組み</p>
+      <h2 class="section-title">自治体と組み、防災現場で動き、<br>全国初の実績を持つ。</h2>
+      <p class="section-sub">私たち自身が、公的な防災の現場で積み重ねてきたことです。<br>「この事業者は信頼できるか」という問いに、事実でお答えします。</p>
+    </div>
+
+    <div class="grid-3 reveal">
+
+      <!-- 実績①：地元自治体との防災協定（2025年11月） -->
+      <div class="card">
+        <!-- 画像差し込み: 製品（トレーラー筐体）単体。人物なし。
+             alt="災害時の住宅供給を想定したトレーラー筐体の外観" -->
+        <div class="img-ph" style="min-height:150px;border:none;border-bottom:1px dashed var(--border);border-radius:0">画像プレースホルダ：製品（トレーラー筐体）単体・人物なし</div>
+        <div class="card-body">
+          <span class="rec-badge">協定 ・ 2025年11月</span>
+          <h3 class="card-title">本島の自治体と、防災協定を締結</h3>
+          <!-- 要・坂田社長確認：協定の正式名称／豊見城市と直接締結か／災害時の住宅・避難施設供給に関する内容か。確定後に相手方の市名・正式名称を本文へ挿入する。 -->
+          <p class="card-text">災害時の住宅供給に関する協定を、本島の自治体と締結しています。いざという時に住まいを届けられる体制づくりに、平時から取り組んでいます。<span class="rec-note">※協定の正式名称・相手方は、確認のうえ掲載します。</span></p>
+        </div>
+      </div>
+
+      <!-- 実績②：自治体防災訓練への参加（2025年10月） -->
+      <div class="card">
+        <!-- 画像差し込み: 防災訓練の場に置かれた製品単体。人物なし。
+             alt="自治体の防災訓練の場に設置されたトレーラー筐体" -->
+        <div class="img-ph" style="min-height:150px;border:none;border-bottom:1px dashed var(--border);border-radius:0">画像プレースホルダ：防災訓練での製品単体・人物なし</div>
+        <div class="card-body">
+          <span class="rec-badge">防災訓練 ・ 2025年10月</span>
+          <h3 class="card-title">自治体の防災訓練に、協力企業として参加</h3>
+          <!-- 要・坂田社長確認：那覇市の防災訓練での具体的役割（製品を実設置したか／出展か／協力企業掲載か）。「実設置」が確認できれば「実際に製品を設置し」へ書き換える。 -->
+          <p class="card-text">自治体が行う防災訓練に、協力企業として参加しました。平時の備えの現場で、運んで設置できる住まいの役割をお伝えしています。<span class="rec-note">※訓練での具体的な役割は、確認のうえ掲載します。</span></p>
+        </div>
+      </div>
+
+      <!-- 実績③：被災地・離島対応のモバイル施設（全国初の社会実装） -->
+      <div class="card">
+        <!-- 画像差し込み: 過酷環境で稼働するモバイル施設（トレーラー筐体）単体。人物なし。用途の描写はしない。
+             alt="過酷な環境でも稼働するモバイル施設（トレーラー筐体）の外観" -->
+        <div class="img-ph" style="min-height:150px;border:none;border-bottom:1px dashed var(--border);border-radius:0">画像プレースホルダ：モバイル施設（トレーラー筐体）単体・人物なし</div>
+        <div class="card-body">
+          <span class="rec-badge">全国初 ・ 社会実装</span>
+          <h3 class="card-title">過酷な環境でも稼働するモバイル施設、全国初の実績</h3>
+          <!-- 要・坂田社長確認：何をもって「全国初」か（モバイル型◯◯が日本初、という理解で正しいか）。本LPでは用途を伏せ「全国初のモバイル施設実績」として記載。用途の生々しい描写・写真は使わない。 -->
+          <p class="card-text">トレーラー筐体を活かした移動式の施設が、被災地・離島・山間部のような過酷な環境でも稼働する形で、全国で初めて社会実装されました。運んで設置し、現場で機能する――その技術と災害対応力の裏付けです。</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="point-note reveal" style="text-align:center">
+      協定を結び、訓練の現場で動き、全国初の実績を積む。<br>
+      「作って終わり」ではなく、防災の実務に向き合ってきた事業者です。
+    </p>
+    <!-- 要・坂田社長確認：実績写真の掲載可否。顔出しなし方針に沿い、人物なし・製品単体画像を推奨。 -->
+  </div>
+</section>
+
+<!-- ============ 7. FAQ ============ -->
 <section class="section section-gray" id="faq">
   <div class="container">
     <div class="section-head reveal">
@@ -521,7 +600,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
   </div>
 </section>
 
-<!-- ============ 7. クロージング＆問い合わせ ============ -->
+<!-- ============ 8. クロージング＆問い合わせ ============ -->
 <section class="section" id="contact">
   <div class="container">
     <div class="section-head reveal">
