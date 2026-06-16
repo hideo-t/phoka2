@@ -180,6 +180,10 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
   pointer-events:none;
 }
 .hero-slider video.active{opacity:1;pointer-events:auto}
+/* PC（769px以上）: ヒーロー動画を横長(16:9)で大きく表示。縦動画はobject-fit:coverで上下トリミング */
+@media(min-width:769px){
+  .hero-slider{aspect-ratio:16/9;width:min(1100px,94vw);max-width:1100px;height:auto}
+}
 /* prev/next arrows */
 .slider-arrow{
   position:absolute;top:50%;transform:translateY(-50%);
