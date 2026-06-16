@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<!--
+==================================================================
+  離島自治体向けランディングページ / islands-lp.html
+  パークホームズオキナワ
+==================================================================
+
+  ★ 未確定事項一覧（要・坂田社長確認）★
+  本ページ公開前に、以下を必ず確認・確定すること。本文中では断定せず
+  プレースホルダ表記＋「要・坂田社長確認」コメントで保留している。
+
+   1. 工期の目安（工場生産〜輸送〜設置までの日数）  … §3
+   2. 台風・塩害への耐久性の具体仕様・数値          … §6 FAQ
+   3. 設置に必要な敷地面積・基礎仕様の目安          … §3 / §6 FAQ
+   4. 製品価格（本体・輸送・設置）                  … 本文では非掲載
+   5. 災害時転用の制度上の取り扱い（仮設住宅扱い等） … §6 FAQ
+   6. 問い合わせフォームの送信先（メール or フォームサービス）… §7
+      ※現状は mailto: でメーラー起動するフォールバック実装。
+   7. ヒーロー背景および各プレースホルダ画像の差し込み素材  … 全セクション
+   8. 予算費目の「整理の考え方」を提示する場合の具体例      … §5 / §6
+
+  ★ コンプライアンス上の厳守事項（本ページで遵守済み）★
+   - 特定企業名（電力・金融・通信等）を記載しない
+   - 企業版ふるさと納税の具体的寄附金額を記載しない
+   - 特定の村名・首長名を「導入実績・取引先」として記載しない
+   - 背景の時流は固有名詞・金額に踏み込まず抽象表現にとどめる
+==================================================================
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>離島の暮らしと防災に｜運んで設置する住宅 ― パークホームズオキナワ</title>
+<meta name="description" content="工場で仕上げ、島へ運んで設置する住宅。平時は移住・観光の拠点として、有事は避難・仮設の住まいとして。一つの投資が二度はたらく、離島自治体向けのご提案です。">
+<meta name="robots" content="index,follow">
+
+<!-- OGP -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="離島の暮らしと防災に｜運んで設置する住宅">
+<meta property="og:description" content="平時は移住・観光、有事は避難。一つの投資が二度はたらく住宅。">
+<meta property="og:url" content="https://hideo-t.github.io/phoka2/pages/islands-lp.html">
+<meta property="og:locale" content="ja_JP">
+
+<style>
+/* === phoka 共通トークン（common.css に準拠。将来は common.css へ統合可） === */
+:root{
+  --blue:#1560a8; --navy:#0d2d5e; --blue-light:#4fa3e0;
+  --coral:#e8614a; --coral-dark:#c44a35; --coral-light:#f08070;
+  --black:#1a1a1a; --white:#fff; --bg:#f8fafc; --bg-blue:#eef5fc;
+  --text:#1a2332; --muted:#64748b; --border:#d1e3f8; --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:68px}
+body{font-family:'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;color:var(--text);background:var(--white);line-height:1.85;font-size:16px;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{line-height:1.45}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+/* === ボタン === */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 30px;border-radius:var(--radius);font-size:15px;font-weight:700;cursor:pointer;transition:.2s;border:2px solid transparent;text-align:center;min-height:50px}
+.btn-coral{background:var(--coral);color:var(--white);border-color:var(--coral)}
+.btn-coral:hover{background:var(--coral-dark);border-color:var(--coral-dark);transform:translateY(-2px);box-shadow:0 6px 20px rgba(232,97,74,.35)}
+.btn-outline-white{background:transparent;color:var(--white);border-color:rgba(255,255,255,.6)}
+.btn-outline-white:hover{background:rgba(255,255,255,.15);transform:translateY(-2px)}
+.btn-outline-blue{background:var(--white);color:var(--blue);border-color:var(--blue)}
+.btn-outline-blue:hover{background:var(--blue);color:var(--white);transform:translateY(-2px)}
+.btn-lg{padding:17px 34px;font-size:16px}
+
+/* === セクション === */
+.section{padding:84px 0}
+.section-gray{background:var(--bg)}
+.section-blue{background:var(--bg-blue)}
+.section-eyebrow{font-size:11px;letter-spacing:.3em;color:var(--blue);font-weight:700;text-transform:uppercase;margin-bottom:12px}
+.section-title{font-size:clamp(22px,3.6vw,34px);font-weight:700;color:var(--navy);margin-bottom:14px;letter-spacing:.01em}
+.section-sub{font-size:15.5px;color:var(--muted);line-height:1.9;max-width:640px}
+.section-head{text-align:center;margin-bottom:48px}
+.section-head .section-sub{margin:0 auto}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+
+/* === カード === */
+.card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:.3s}
+.card-body{padding:26px 24px}
+.card-icon{font-size:40px;margin-bottom:14px;display:block}
+.card-title{font-size:17px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.card-text{font-size:14px;color:var(--muted);line-height:1.85}
+
+/* === 画像プレースホルダ === */
+.img-ph{background:repeating-linear-gradient(45deg,#e7eef7,#e7eef7 12px,#eef4fb 12px,#eef4fb 24px);border:1px dashed var(--border);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;text-align:center;color:#8aa0b8;font-size:12.5px;line-height:1.7;padding:18px;min-height:180px}
+
+/* === REVEAL === */
+.reveal{opacity:0;transform:translateY(24px);transition:.65s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* === NAV（common.css 準拠） === */
+nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;top:0;z-index:200;box-shadow:0 2px 16px rgba(0,0,0,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:88px;max-width:1100px;margin:0 auto;padding:0 24px}
+.nav-logo img{height:72px;width:auto}
+.nav-links{display:flex;gap:4px;align-items:center}
+.nav-item{position:relative}
+.nav-item > a,.nav-item > span{display:flex;align-items:center;gap:4px;padding:8px 12px;font-size:13px;font-weight:600;color:var(--black);border-radius:8px;cursor:pointer;transition:.2s;white-space:nowrap}
+.nav-item > a:hover,.nav-item > span:hover{background:var(--bg);color:var(--blue)}
+.nav-cta{background:var(--coral)!important;color:var(--white)!important;border-radius:8px;padding:8px 18px;font-size:13px;font-weight:700}
+.nav-cta:hover{background:var(--coral-dark)!important;transform:translateY(-1px)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none}
+.hamburger span{display:block;width:24px;height:2px;background:var(--black);border-radius:2px;transition:.3s}
+.mobile-menu{display:none;flex-direction:column;background:var(--white);border-top:1px solid var(--border);padding:12px 24px 20px}
+.mobile-menu.open{display:flex}
+.mobile-menu a{padding:12px 0;font-size:15px;border-bottom:1px solid var(--border);color:var(--text);font-weight:500}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-menu .m-section{font-size:11px;letter-spacing:.1em;color:var(--muted);font-weight:700;text-transform:uppercase;padding:14px 0 4px;border-bottom:none}
+
+/* === HERO === */
+.hero{position:relative;color:var(--white);overflow:hidden;
+  background:linear-gradient(135deg,rgba(13,45,94,.92) 0%,rgba(21,96,168,.85) 100%),
+  /* 画像差し込み: 離島の海岸線と、風景に馴染む住宅の佇まい（俯瞰・夕景可）。顔出しなし。
+     alt="離島の海辺に静かに佇む住宅。空と海の青を背景にした遠景" -->*/
+  linear-gradient(135deg,#0d2d5e,#1560a8)}
+.hero-inner{max-width:1100px;margin:0 auto;padding:92px 24px 100px}
+.hero-eyebrow{font-size:12px;letter-spacing:.32em;font-weight:700;opacity:.85;margin-bottom:20px}
+.hero h1{font-size:clamp(28px,5.2vw,50px);font-weight:700;line-height:1.5;letter-spacing:.02em;margin-bottom:22px}
+.hero h1 .mark{background:linear-gradient(transparent 64%,rgba(232,97,74,.55) 64%);padding:0 .08em}
+.hero-sub{font-size:clamp(15px,2.2vw,18px);line-height:1.95;opacity:.95;max-width:620px;margin-bottom:34px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero-note{margin-top:22px;font-size:12.5px;opacity:.7}
+
+/* === 困りごと（共感） === */
+.pain{position:relative;background:var(--white);border:1px solid var(--border);border-left:4px solid var(--coral);border-radius:var(--radius);padding:24px}
+.pain h3{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px;display:flex;gap:8px;align-items:flex-start}
+.pain p{font-size:14px;color:var(--muted);line-height:1.85}
+
+/* === 3ステップ === */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:step}
+.step{position:relative;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:30px 24px 26px;text-align:center}
+.step::before{counter-increment:step;content:counter(step);position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:36px;height:36px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 4px 12px rgba(21,96,168,.35)}
+.step .step-ic{font-size:36px;margin:6px 0 12px}
+.step h3{font-size:17px;color:var(--navy);font-weight:700;margin-bottom:8px}
+.step p{font-size:13.5px;color:var(--muted);line-height:1.8}
+.step-arrow{display:flex;align-items:center;justify-content:center;color:var(--blue-light);font-size:22px}
+
+/* === 二度効き === */
+.twice{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px}
+.twice-card{border-radius:var(--radius);padding:34px 30px;color:var(--white)}
+.twice-peace{background:linear-gradient(135deg,#1560a8,#4fa3e0)}
+.twice-crisis{background:linear-gradient(135deg,#0d2d5e,#1560a8)}
+.twice-card .tw-label{font-size:12px;letter-spacing:.2em;font-weight:700;opacity:.85;margin-bottom:8px}
+.twice-card h3{font-size:22px;font-weight:700;margin-bottom:12px}
+.twice-card p{font-size:14.5px;line-height:1.9;opacity:.95}
+.twice-bridge{text-align:center;max-width:720px;margin:34px auto 0;font-size:clamp(16px,2.4vw,20px);font-weight:700;color:var(--navy);line-height:1.7}
+.twice-bridge .mark{background:linear-gradient(transparent 62%,#cfe6fb 62%)}
+
+/* === 論点リスト === */
+.points{display:flex;flex-direction:column;gap:14px;max-width:820px;margin:0 auto}
+.point{display:flex;gap:16px;align-items:flex-start;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:22px 24px}
+.point .pt-ic{flex-shrink:0;width:40px;height:40px;border-radius:10px;background:var(--bg-blue);color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:20px}
+.point h3{font-size:16px;color:var(--navy);font-weight:700;margin-bottom:5px}
+.point p{font-size:14px;color:var(--muted);line-height:1.8}
+.point-note{max-width:820px;margin:18px auto 0;font-size:12.5px;color:var(--muted);background:var(--bg);border-radius:10px;padding:14px 18px;line-height:1.8}
+
+/* === FAQ === */
+.faq{max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq-item{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.faq-q{display:flex;gap:12px;align-items:flex-start;padding:20px 22px;cursor:pointer;font-weight:700;color:var(--navy);font-size:15.5px;list-style:none}
+.faq-q::-webkit-details-marker{display:none}
+.faq-q .q-mark{color:var(--coral);font-weight:800;flex-shrink:0}
+.faq-q .q-toggle{margin-left:auto;color:var(--blue);transition:.2s;flex-shrink:0}
+details[open] .faq-q .q-toggle{transform:rotate(45deg)}
+.faq-a{padding:0 22px 22px 50px;font-size:14px;color:var(--muted);line-height:1.9}
+
+/* === 問い合わせフォーム === */
+.contact-wrap{max-width:720px;margin:0 auto;background:var(--white);border:1px solid var(--border);border-radius:16px;padding:36px 34px;box-shadow:0 8px 30px rgba(13,45,94,.06)}
+.form-row{margin-bottom:18px}
+.form-row label{display:block;font-size:13.5px;font-weight:700;color:var(--navy);margin-bottom:7px}
+.form-row label .req{color:var(--coral);font-size:11px;margin-left:6px}
+.form-row input,.form-row textarea{width:100%;padding:13px 14px;border:1.5px solid var(--border);border-radius:10px;font-size:15px;font-family:inherit;color:var(--text);background:var(--bg);transition:.2s}
+.form-row input:focus,.form-row textarea:focus{outline:none;border-color:var(--blue);background:#fff}
+.form-row textarea{min-height:120px;resize:vertical}
+.form-soft{text-align:center;font-size:13.5px;color:var(--muted);margin-bottom:22px;line-height:1.8}
+.form-alt{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:24px}
+.form-alt a{flex:1 1 200px}
+
+/* === パクオ君 / モバイルCTA === */
+.pakuo-float{position:fixed;bottom:90px;right:20px;z-index:500;background:var(--coral);color:#fff;border:none;border-radius:50px;padding:12px 18px;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 6px 24px rgba(232,97,74,.45);display:flex;align-items:center;gap:8px;transition:.3s}
+.pakuo-float:hover{background:var(--coral-dark);transform:translateY(-3px)}
+.pakuo-float .pakuo-avatar{font-size:20px}
+.mobile-cta-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:400;background:#fff;border-top:2px solid var(--border);padding:10px 16px;gap:10px;box-shadow:0 -4px 20px rgba(0,0,0,.1)}
+.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:12px 8px;border-radius:10px;font-size:13px;font-weight:700;text-align:center;min-height:48px}
+.mobile-cta-bar .mcta-call{background:var(--navy);color:#fff}
+.mobile-cta-bar .mcta-line{background:#06c755;color:#fff}
+.mobile-cta-bar .mcta-est{background:var(--coral);color:#fff}
+
+/* === FOOTER === */
+footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
+.footer-inner{max-width:1100px;margin:0 auto;padding:0 24px}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;margin-bottom:34px}
+.footer-brand img{height:44px;margin-bottom:14px;filter:brightness(0) invert(1);opacity:.9}
+.footer-brand p{font-size:13px;line-height:1.95}
+.footer-brand a{color:var(--blue-light)}
+.footer-col h4{font-size:13px;font-weight:700;color:#fff;margin-bottom:12px}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:8px}
+.footer-col ul li a{font-size:13px;color:rgba(255,255,255,.6)}
+.footer-col ul li a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;font-size:12px;opacity:.55;line-height:1.8}
+
+/* === レスポンシブ === */
+@media(max-width:900px){
+  .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .step-arrow{transform:rotate(90deg)}
+  .twice{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr;gap:28px}
+}
+@media(max-width:768px){
+  .section{padding:58px 0}
+  .container{padding:0 16px}
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .hero-inner{padding:64px 20px 76px}
+  .hero-cta .btn{flex:1 1 100%}
+  .pakuo-float{bottom:80px;right:16px;padding:12px;border-radius:50%;width:52px;height:52px;justify-content:center}
+  .pakuo-float span:last-child{display:none}
+  .mobile-cta-bar{display:flex}
+  .contact-wrap{padding:28px 20px}
+}
+@media(max-width:380px){
+  .section-title{font-size:21px}
+  .container{padding:0 13px}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ NAV（phoka 準拠） ============ -->
+<nav>
+  <div class="nav-inner">
+    <a href="https://hideo-t.github.io/phoka2/" class="nav-logo" aria-label="パークホームズオキナワ トップへ">
+      <img src="../logopkw.jpg" alt="パークホームズオキナワ">
+    </a>
+    <div class="nav-links">
+      <div class="nav-item"><a href="https://hideo-t.github.io/phoka2/">トップ</a></div>
+      <div class="nav-item"><a href="#solution">仕組み</a></div>
+      <div class="nav-item"><a href="#twice">二度効く</a></div>
+      <div class="nav-item"><a href="#faq">FAQ</a></div>
+      <div class="nav-item"><a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a></div>
+      <a href="#contact" class="nav-cta">資料請求・相談</a>
+    </div>
+    <button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <span class="m-section">離島自治体の方へ</span>
+    <a href="https://hideo-t.github.io/phoka2/">トップページ</a>
+    <a href="#solution">解決の核：建てない、運ぶ</a>
+    <a href="#twice">一つの投資が、二度効く</a>
+    <a href="#points">議会・上司への説明材料</a>
+    <a href="#faq">よくあるご質問</a>
+    <a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a>
+    <a href="#contact" style="color:var(--coral);font-weight:700">📋 資料請求・相談する →</a>
+  </div>
+</nav>
+
+<!-- ============ 1. HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">FOR ISLAND COMMUNITIES ／ 離島自治体の皆さまへ</p>
+
+    <!-- ヒーロー メインコピー（3案。A案を初期表示。差し替え時は下記コメントの文言と入れ替え）
+         A（時流接続・安全）：離島の持続可能性に、住むという答えを。   ← 採用中
+         B（情景・物流痛点）：台風で船が止まっても、家はもう建っている。
+         C（論理・予算説明）：使われない公共資産を、生まない。
+    -->
+    <h1>離島の持続可能性に、<br><span class="mark">住む</span>という答えを。</h1>
+
+    <p class="hero-sub">
+      平時は移住・観光の拠点として。有事は避難・仮設の住まいとして。<br>
+      一つの投資が、二度はたらく住宅です。
+    </p>
+
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-coral btn-lg">📋 資料請求・相談する</a>
+      <a href="https://hideo-t.github.io/QAparkhome/" target="_blank" rel="noopener" class="btn btn-outline-white btn-lg">🤖 AIに質問する</a>
+    </div>
+    <p class="hero-note">まずは資料だけでも。具体的なご検討の前の情報収集も歓迎しています。</p>
+  </div>
+</section>
+
+<!-- ============ 2. 共感：離島の困りごと ============ -->
+<section class="section section-gray" id="pain">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">島の「当たり前」だった困りごと</p>
+      <h2 class="section-title">その不便、地形のせいだと<br>あきらめていませんか。</h2>
+      <p class="section-sub">本島から離れているからこそ起きる、住まいと防災の悩み。<br>まず、その一つひとつを言葉にしてみます。</p>
+    </div>
+    <div class="grid-4 reveal">
+      <div class="pain">
+        <h3>🚢 資材を待つ間に、工期が延びる</h3>
+        <p>本島からの船便頼み。資材の到着待ちで、工程がじりじりと後ろにずれていく。</p>
+      </div>
+      <div class="pain">
+        <h3>🌀 物流が止まると、工事も止まる</h3>
+        <p>海が荒れれば船は来ない。台風のたびに現場の手が止まり、完成時期が読めない。</p>
+      </div>
+      <div class="pain">
+        <h3>🆘 災害時、救援が来るまで孤立する</h3>
+        <p>本島からの支援が届くまでの数日間。島の中で身を寄せられる場所が、足りない。</p>
+      </div>
+      <div class="pain">
+        <h3>🏠 呼びたいが、住める家がない</h3>
+        <p>移住者を迎えたくても、すぐに暮らせる住まいが乏しい。空き家はあっても、そのままでは使えないことが多い。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. 解決の核：建てない、運ぶ ============ -->
+<section class="section" id="solution">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">解決の核</p>
+      <h2 class="section-title">「建てる」のではなく、<br>「運んで設置する」。</h2>
+      <p class="section-sub">住まいを現地で一から建てるのではなく、工場で仕上げてから島へ運び、据え付けます。<br>島の天候や人手に、工程が左右されにくくなります。</p>
+    </div>
+
+    <div class="steps reveal">
+      <div class="step">
+        <div class="step-ic">🏭</div>
+        <h3>工場でつくる</h3>
+        <p>天候に左右されない屋内で、品質を整えながら生産します。</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-ic">🚚</div>
+        <h3>島へ運ぶ</h3>
+        <p>仕上げた住まいを輸送。現地での工事を最小限にします。</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-ic">🔧</div>
+        <h3>設置して、使い始める</h3>
+        <!-- 要・坂田社長確認：工期の目安（設置〜使用開始までの日数）。確定するまで日数は明記しない。 -->
+        <p>据え付けて、暮らしや活動を始められます。<br><span style="color:var(--muted);font-size:12.5px">（設置から使用開始までの目安期間は、現地条件に応じて個別にご案内します）</span></p>
+      </div>
+    </div>
+
+    <div class="reveal" style="max-width:760px;margin:36px auto 0;text-align:center;font-size:16px;color:var(--navy);font-weight:700;line-height:1.8">
+      だから、完成の時期が読めます。<br>
+      島の職人不足や、資材の到着待ちに、左右されにくい。
+    </div>
+
+    <!-- 画像差し込み: 輸送中の住宅／設置の様子。
+         alt="トラックやクレーンで運ばれ、現地に据え付けられる住宅" -->
+    <div class="img-ph reveal" style="margin-top:34px;min-height:220px">画像プレースホルダ：工場生産 → 輸送 → 設置 の様子（写真または図解）<br>alt「住宅が運ばれ、現地に据え付けられる一連の流れ」</div>
+  </div>
+</section>
+
+<!-- ============ 4. 二度効き ============ -->
+<section class="section section-blue" id="twice">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">一つの投資が、二度効く</p>
+      <h2 class="section-title">平時に活き、有事に守る。</h2>
+      <p class="section-sub">ふだんは地域のために働き、いざという時には命を守る。<br>同じ一棟が、二つの役割を担います。</p>
+    </div>
+
+    <div class="twice reveal">
+      <div class="twice-card twice-peace">
+        <div class="tw-label">PEACETIME ／ 平時</div>
+        <h3>暮らしと、にぎわいを生む</h3>
+        <p>移住者の住まいとして、あるいは観光や交流の拠点として稼働します。住む人を迎え、地域に人の流れと収益を生み出します。</p>
+      </div>
+      <div class="twice-card twice-crisis">
+        <div class="tw-label">EMERGENCY ／ 有事</div>
+        <h3>避難の場所として、命を守る</h3>
+        <p>災害時には、避難や仮設の住まいとして転用できます。本島からの救援が届くまでの間、島の中で身を寄せられる場所になります。</p>
+      </div>
+    </div>
+
+    <p class="twice-bridge reveal">
+      ふだんから使われているから、<br>
+      <span class="mark">「使われないまま置かれる公共資産」になりません。</span>
+    </p>
+  </div>
+</section>
+
+<!-- ============ 5. 担当者の武器：説明材料 ============ -->
+<section class="section" id="points">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">議会・上司に説明するために</p>
+      <h2 class="section-title">「これは説明できる」と<br>思える材料を。</h2>
+      <p class="section-sub">稟議や議会での説明に、そのまま使える論点を整理しました。</p>
+    </div>
+
+    <div class="points reveal">
+      <div class="point">
+        <div class="pt-ic">📈</div>
+        <div>
+          <h3>平時から遊休化しない</h3>
+          <p>ふだん稼働している施設なので、「使われていない」という指摘を受けにくく、費用対効果を説明しやすくなります。</p>
+        </div>
+      </div>
+      <div class="point">
+        <div class="pt-ic">🔄</div>
+        <div>
+          <h3>移設・再配置ができる</h3>
+          <p>需要や状況が変われば、場所を移すことができます。一度きりの投資で終わらせず、長く活かせます。</p>
+        </div>
+      </div>
+      <div class="point">
+        <div class="pt-ic">🧭</div>
+        <div>
+          <h3>取り組みの文脈に位置づけられる</h3>
+          <p>移住定住や地域づくりの取り組みの一部として整理しやすく、目的を説明しやすくなります。</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="point-note reveal">
+      ※ 予算の費目や事業区分の最終的な判断は、各自治体の制度・運用に基づいて行われるものです。当社は、説明資料づくりや論点整理のお手伝いをいたします。断定的なご案内はいたしません。
+    </p>
+  </div>
+</section>
+
+<!-- ============ 6. FAQ ============ -->
+<section class="section section-gray" id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">よくあるご質問</p>
+      <h2 class="section-title">担当者の皆さまが、<br>よく気にされる点。</h2>
+    </div>
+
+    <div class="faq reveal">
+      <details class="faq-item">
+        <summary class="faq-q"><span class="q-mark">Q</span><span>予算の費目は、どう立てればよいですか。</span><span class="q-toggle">＋</span></summary>
+        <div class="faq-a">自治体ごとに制度や運用が異なるため、こちらから断定はいたしません。これまでの整理の考え方をお示ししながら、ご相談ベースで一緒に検討します。最終的な費目の判断は、自治体側で行っていただく前提です。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span class="q-mark">Q</span><span>台風や塩害への耐久性は、どの程度ですか。</span><span class="q-toggle">＋</span></summary>
+        <!-- 要・坂田社長確認：耐久性に関する具体的な仕様・数値（防錆処理、想定風速、耐用年数など）。確定まで数値は記載しない。 -->
+        <div class="faq-a">沖縄の気候を前提とした仕様で計画します。具体的な仕様や数値は、確認のうえ資料で個別にご説明します。<span style="color:#8aa0b8">（詳細仕様は確認中のため、本ページでは数値の明記を控えています）</span></div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span class="q-mark">Q</span><span>設置には、どのくらいの土地や基礎が必要ですか。</span><span class="q-toggle">＋</span></summary>
+        <!-- 要・坂田社長確認：必要な敷地面積・基礎仕様の目安。 -->
+        <div class="faq-a">設置条件は、住まいの大きさや現地の地形によって異なります。必要な敷地や基礎の考え方を含め、現地に応じて個別にご相談します。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span class="q-mark">Q</span><span>災害時の転用は、制度上どう扱われますか。</span><span class="q-toggle">＋</span></summary>
+        <!-- 要・坂田社長確認：災害時転用の制度上の取り扱い（応急仮設住宅扱い等）。 -->
+        <div class="faq-a">制度上の取り扱いは、状況や時期によって異なります。想定される使い方を整理しながら、ご相談に対応します。</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. クロージング＆問い合わせ ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">お問い合わせ</p>
+      <h2 class="section-title">平時の暮らしを支え、<br>有事の命を守る住まいを。</h2>
+      <p class="section-sub">離島だからこそ、二度はたらく住まいを。<br>まずは資料だけでも、お気軽にご請求ください。</p>
+    </div>
+
+    <div class="contact-wrap reveal">
+      <p class="form-soft">いただいた内容をもとに、資料の送付やご相談の日程を、担当よりご連絡します。<br>具体的な検討前の情報収集だけでも歓迎です。</p>
+
+      <!-- 要・坂田社長確認：フォーム送信先。現状は mailto: でメーラーを起動するフォールバック実装。
+           本番ではフォームサービス（例：送信先メール／フォーム連携）を設定すること。 -->
+      <form id="lpForm" onsubmit="return sendInquiry(event)">
+        <div class="form-row">
+          <label>自治体名 <span class="req">必須</span></label>
+          <input type="text" name="org" required placeholder="例：◯◯村役場">
+        </div>
+        <div class="form-row">
+          <label>担当部署</label>
+          <input type="text" name="dept" placeholder="例：企画振興課 / 防災担当">
+        </div>
+        <div class="form-row">
+          <label>お名前 <span class="req">必須</span></label>
+          <input type="text" name="name" required placeholder="例：山田 太郎">
+        </div>
+        <div class="form-row">
+          <label>ご連絡先（メールまたは電話） <span class="req">必須</span></label>
+          <input type="text" name="contact" required placeholder="例：example@city.lg.jp ／ 098-000-0000">
+        </div>
+        <div class="form-row">
+          <label>ご相談内容</label>
+          <textarea name="message" placeholder="例：移住定住と防災の両面で検討したい。まず資料が欲しい。"></textarea>
+        </div>
+        <button type="submit" class="btn btn-coral btn-lg" style="width:100%">📋 この内容で資料請求・相談する</button>
+      </form>
+
+      <div class="form-alt">
+        <a href="https://hideo-t.github.io/QAparkhome/" target="_blank" rel="noopener" class="btn btn-outline-blue">🤖 AIに質問する</a>
+        <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener" class="btn btn-outline-blue">💬 LINEで聞く</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="../logopkw.jpg" alt="パークホームズオキナワ">
+        <p>
+          沖縄仕様の鉄骨トレーラーハウス。製造から輸送・設置・メンテナンスまで一貫対応。<br>
+          【本社・モデルハウス】〒901-0225 沖縄県豊見城市豊崎1-1223<br>
+          【工場】〒901-0223 沖縄県豊見城市翁長864-14<br>
+          【事務所】〒901-0222 沖縄県豊見城市渡橋名281-5<br>
+          TEL <a href="tel:098-856-6666">098-856-6666</a>／FAX 098-856-0666<br>
+          Email <a href="mailto:parkhomes.okinawa@gmail.com">parkhomes.okinawa@gmail.com</a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>メニュー</h4>
+        <ul>
+          <li><a href="https://hideo-t.github.io/phoka2/">トップページ</a></li>
+          <li><a href="#solution">解決の核：建てない、運ぶ</a></li>
+          <li><a href="#twice">一つの投資が、二度効く</a></li>
+          <li><a href="#faq">よくあるご質問</a></li>
+          <li><a href="https://hideo-t.github.io/phoka2/pages/price.html">価格表</a></li>
+          <li><a href="#contact">資料請求・相談する</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      本ページは、離島自治体の皆さま向けのご案内です。掲載の写真・図はイメージを含みます。<br>
+      &copy; パークホームズオキナワ
+    </div>
+  </div>
+</footer>
+
+<!-- ============ パクオ君 フローティング ============ -->
+<button class="pakuo-float" onclick="window.open('https://hideo-t.github.io/QAparkhome/','_blank')" aria-label="AIパクオ君に相談">
+  <span class="pakuo-avatar">🤖</span>
+  <span>AIに質問する</span>
+</button>
+
+<!-- ============ モバイル固定CTAバー ============ -->
+<div class="mobile-cta-bar">
+  <a href="https://hideo-t.github.io/QAparkhome/" target="_blank" rel="noopener" class="mcta-call">🤖 AI相談</a>
+  <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener" class="mcta-line">💬 LINE</a>
+  <a href="#contact" class="mcta-est">📋 資料請求</a>
+</div>
+
+<script>
+// モバイルメニュー：リンクタップで閉じる
+document.querySelectorAll('.mobile-menu a').forEach(function(a){
+  a.addEventListener('click',function(){document.querySelector('.mobile-menu').classList.remove('open');});
+});
+// スクロール・リビール
+var io=new IntersectionObserver(function(es){
+  es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});
+},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+
+// 問い合わせフォーム（フォールバック：mailto でメーラー起動）
+// 要・坂田社長確認：本番はフォームサービスへの送信に差し替えること。
+function sendInquiry(ev){
+  ev.preventDefault();
+  var f=ev.target;
+  var org=f.org.value.trim(), dept=f.dept.value.trim(), name=f.name.value.trim(),
+      contact=f.contact.value.trim(), message=f.message.value.trim();
+  var body=
+    '【自治体名】'+org+'\n'+
+    '【担当部署】'+dept+'\n'+
+    '【お名前】'+name+'\n'+
+    '【ご連絡先】'+contact+'\n'+
+    '【ご相談内容】\n'+message+'\n';
+  var subject='【離島向け住宅】資料請求・相談（'+org+'）';
+  window.location.href='mailto:parkhomes.okinawa@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+  return false;
+}
+</script>
+</body>
+</html>
