@@ -1,0 +1,82 @@
+{
+  "_comment": "価格はこのファイルだけ編集すれば全ページ（pages/price.html・index.html・pages/lineup.html）に反映されます。各値は表示文字列のまま保持しているため、単位（万円）や記号（〜・約・カンマ）も含めてそのまま入力してください。hasPrice:false のモデルは価格を表示しません。",
+  "updated": "2026-04",
+  "source": "ラインナップ_R8_02（2026年4月改訂版）",
+  "models": {
+    "amalfi": {
+      "name": "アマルフィー 11.5m",
+      "body": "1,785〜1,835万円",
+      "transport": "輸送・設置費 約150万円〜 ／ デッキ・階段 約50万円〜",
+      "total": "約1,985万円〜",
+      "hasPrice": true,
+      "note": "旧ラインナップ価格。現行「アマルフィー40F」との対応要確認。"
+    },
+    "roundPremiere12": {
+      "name": "ラウンドプレミア 12m",
+      "body": "1,500〜1,550万円",
+      "transport": "輸送・設置費 約60万円〜 ／ デッキ・階段 約665万円〜",
+      "total": "約2,225万円〜",
+      "hasPrice": true,
+      "note": ""
+    },
+    "roundPremiere6": {
+      "name": "ラウンドプレミア 6m",
+      "body": "1,250〜1,270万円",
+      "transport": "輸送・設置費 約50万円〜 ／ デッキ・階段 約570万円〜",
+      "total": "約1,870万円〜",
+      "hasPrice": true,
+      "note": ""
+    },
+    "casa": {
+      "name": "Casa（カーサ）11m",
+      "body": "1,300〜1,350万円",
+      "transport": "輸送・設置費 約150万円〜 ／ デッキ・階段 約50万円〜",
+      "total": "約1,500万円〜",
+      "hasPrice": true,
+      "note": ""
+    },
+    "lumina": {
+      "name": "Lumina（ルミナ）11m",
+      "body": "1,400〜1,500万円",
+      "transport": "輸送・設置費 約150万円〜 ／ デッキ・階段 約50万円〜",
+      "total": "約1,600万円〜",
+      "hasPrice": true,
+      "note": ""
+    },
+    "moving": {
+      "name": "Moving（ムービング）6m",
+      "body": "700〜720万円",
+      "transport": "輸送・設置費 約50万円〜 ／ デッキ・階段 約50万円〜",
+      "total": "約800万円〜",
+      "hasPrice": true,
+      "note": ""
+    },
+    "base": {
+      "name": "Base（ベース）11m",
+      "body": "",
+      "transport": "",
+      "total": "",
+      "hasPrice": false,
+      "note": "価格資料なし（お問い合わせください）"
+    },
+    "cube": {
+      "name": "Cube（キューブ）6m / 12m",
+      "body": "",
+      "transport": "",
+      "total": "",
+      "hasPrice": false,
+      "note": "価格資料なし（お問い合わせください）"
+    },
+    "solar": {
+      "name": "ソーラーヘブン 6m",
+      "body": "",
+      "transport": "",
+      "total": "",
+      "hasPrice": false,
+      "note": "価格資料なし（お問い合わせください）"
+    }
+  },
+  "ranges": {
+    "lineupOverall": "1,000〜1,200万円"
+  }
+}
