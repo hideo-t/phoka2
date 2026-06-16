@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>製造・販売カタログ｜パークホームズオキナワ</title>
+<meta name="description" content="沖縄仕様の鉄骨トレーラーハウス。各モデルの間取り図・仕様・価格をまとめた印刷用デジタルカタログです。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0d2d5e;--blue:#1560a8;--coral:#e8614a;--coral-dark:#c44a35;
+  --green:#2a7a5a;--green-lt:#e8f5ee;
+  --gray:#f5f5f3;--border:#e0e0d8;--text:#1a2332;--muted:#666;
+  --white:#fff;--radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--gray);color:var(--text);font-size:15px;line-height:1.7}
+a{text-decoration:none;color:var(--blue)}
+
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+
+/* TOOLBAR (print button) */
+.toolbar{position:sticky;top:0;z-index:50;background:var(--white);border-bottom:2px solid var(--blue);box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.toolbar-inner{max-width:900px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.toolbar-inner .back{font-size:13px;font-weight:600;color:#1a1a1a}
+.print-btn{background:var(--coral);color:var(--white);border:none;border-radius:8px;padding:10px 20px;font-size:14px;font-weight:700;font-family:inherit;cursor:pointer;transition:.2s;box-shadow:0 2px 8px rgba(232,97,74,.3)}
+.print-btn:hover{background:var(--coral-dark)}
+
+/* COVER */
+.cover{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);color:var(--white);text-align:center;padding:56px 20px 48px}
+.cover img.logo{height:120px;width:auto;background:var(--white);border-radius:var(--radius);padding:10px 16px;margin-bottom:24px}
+.cover .company{font-size:clamp(22px,4vw,34px);font-weight:900;letter-spacing:.04em;margin-bottom:10px}
+.cover .tagline{font-size:clamp(13px,2.4vw,16px);opacity:.9;font-weight:500}
+.cover .meta{margin-top:22px;font-size:12px;opacity:.7}
+
+/* SECTION HEAD */
+.cat-section{padding:40px 0}
+.section-title{font-size:20px;font-weight:900;color:var(--navy);border-left:5px solid var(--coral);padding-left:12px;margin-bottom:24px}
+
+/* MODEL CARD */
+.model{background:var(--white);border-radius:var(--radius);box-shadow:0 2px 12px rgba(0,0,0,.06);border-top:4px solid var(--green);overflow:hidden;margin-bottom:28px;page-break-inside:avoid;break-inside:avoid}
+.model.no-price{border-top-color:#ccc}
+.model-head{padding:18px 22px 12px;border-bottom:1px solid var(--border)}
+.model-name{font-size:20px;font-weight:900;color:var(--navy)}
+.model-spec{font-size:13px;color:var(--muted);margin-top:6px}
+.model-body{display:grid;grid-template-columns:1fr 1fr;gap:0}
+@media(max-width:640px){.model-body{grid-template-columns:1fr}}
+.model-floor{padding:18px 22px;text-align:center;border-right:1px solid var(--border)}
+@media(max-width:640px){.model-floor{border-right:none;border-bottom:1px solid var(--border)}}
+.fp-caption{font-size:13px;font-weight:700;color:var(--coral);letter-spacing:.12em;margin-bottom:10px}
+.model-floor img{max-width:100%;height:auto;border:1px solid var(--border);border-radius:8px;background:var(--white)}
+.no-floor{font-size:13px;color:var(--muted);padding:40px 10px}
+
+/* PRICE BLOCK */
+.price-block{padding:18px 22px;background:var(--green-lt)}
+.model.no-price .price-block{background:var(--gray)}
+.price-label{font-size:12px;font-weight:700;color:var(--green);letter-spacing:.08em}
+.model.no-price .price-label{color:var(--muted)}
+.price-main{font-size:22px;font-weight:900;color:var(--navy);margin:6px 0}
+.price-sub{font-size:12px;color:var(--muted);line-height:1.6}
+.price-total{margin-top:12px;padding-top:12px;border-top:1px dashed var(--border);display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price-total-label{font-size:12px;font-weight:700;color:var(--muted)}
+.price-total-val{font-size:18px;font-weight:900;color:var(--coral)}
+.price-note{font-size:12px;color:var(--muted);margin-top:10px}
+.contact-price{font-size:18px;font-weight:900;color:var(--blue)}
+
+/* PRICE TABLE (別表) */
+.price-table-wrap{overflow-x:auto}
+table.price-table{width:100%;border-collapse:collapse;background:var(--white);border-radius:var(--radius);overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);font-size:13px}
+table.price-table th,table.price-table td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top}
+table.price-table thead th{background:var(--navy);color:var(--white);font-weight:700;white-space:nowrap}
+table.price-table tbody tr:nth-child(even){background:var(--gray)}
+table.price-table td.num{font-weight:700;color:var(--navy);white-space:nowrap}
+table.price-table td.total-col{font-weight:700;color:var(--coral);white-space:nowrap}
+.table-note{font-size:12px;color:var(--muted);margin-top:12px}
+
+/* FOOTER */
+.cat-footer{background:var(--navy);color:var(--white);padding:36px 20px;margin-top:24px}
+.cat-footer .wrap{max-width:900px}
+.cat-footer h3{font-size:16px;font-weight:900;margin-bottom:14px}
+.cat-footer .addr{font-size:13px;line-height:2;opacity:.92}
+.cat-footer .addr b{font-weight:700;color:#cfe0ff}
+.cat-footer .contact{margin-top:14px;font-size:13px;line-height:1.9;opacity:.92}
+.cat-footer .copy{margin-top:18px;font-size:11px;opacity:.6}
+
+/* PRINT */
+@media print{
+  body{background:var(--white);font-size:12px}
+  .toolbar,.print-btn,nav{display:none!important}
+  .wrap{max-width:none;padding:0 8mm}
+  .cover{padding:24mm 10mm}
+  .cover img.logo{height:90px}
+  .cat-section{padding:8mm 0}
+  .model{box-shadow:none;border:1px solid var(--border);border-top:4px solid var(--green);page-break-inside:avoid;break-inside:avoid;margin-bottom:8mm}
+  .model.no-price{border-top-color:#ccc}
+  .model-floor img{max-width:100%}
+  table.price-table{box-shadow:none}
+  table.price-table thead{display:table-header-group}
+  tr{page-break-inside:avoid}
+  .cat-footer{page-break-inside:avoid;background:var(--navy)!important;color:var(--white)!important}
+  a{color:inherit}
+  @page{size:A4;margin:12mm}
+}
+</style>
+</head>
+<body>
+
+<!-- TOOLBAR -->
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <a class="back" href="../index.html">← パークホームズオキナワ トップ</a>
+    <button class="print-btn" type="button" onclick="window.print()">🖨 PDFとして保存 / 印刷</button>
+  </div>
+</div>
+
+<!-- COVER -->
+<header class="cover">
+  <img class="logo" src="../logopkw.jpg" alt="パークホームズオキナワ ロゴ">
+  <div class="company">パークホームズオキナワ</div>
+  <div class="tagline">沖縄仕様の鉄骨トレーラーハウス｜製造・販売カタログ</div>
+  <div class="meta">価格改訂：<span data-price="ranges.lineupOverall">―</span> 含む全モデル ／ 別表E連動</div>
+</header>
+
+<main class="wrap">
+
+  <!-- MODELS -->
+  <section class="cat-section">
+    <h2 class="section-title">ラインナップ（間取り図・価格）</h2>
+
+    <!-- amalfi -->
+    <article class="model">
+      <div class="model-head">
+        <div class="model-name">アマルフィー 11.5m</div>
+        <div class="model-spec">面積 35㎡ ／ 外寸 W3.3m × D11.5m × H4.2m ／ 宿泊人数 4〜8名</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor">
+          <div class="fp-caption">— 間取り図 —</div>
+          <img src="../images/floorplans/amalfi.png" alt="アマルフィー 11.5m 間取り図">
+        </div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main" data-price="amalfi.body">―</div>
+          <div class="price-sub" data-price="amalfi.transport">―</div>
+          <div class="price-total">
+            <span class="price-total-label">概算合計（税別）</span>
+            <span class="price-total-val" data-price="amalfi.total">―</span>
+          </div>
+          <div class="price-note" data-price="amalfi.note">―</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- roundPremiere12 -->
+    <article class="model">
+      <div class="model-head">
+        <div class="model-name">ラウンドプレミア 12m</div>
+        <div class="model-spec">面積 30㎡ ／ 外寸 W2.5m × D12.0m × H3.6m ／ 宿泊人数 4〜8名</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor">
+          <div class="fp-caption">— 間取り図 —</div>
+          <img src="../images/floorplans/roundPremiere12.png" alt="ラウンドプレミア 12m 間取り図">
+        </div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main" data-price="roundPremiere12.body">―</div>
+          <div class="price-sub" data-price="roundPremiere12.transport">―</div>
+          <div class="price-total">
+            <span class="price-total-label">概算合計（税別）</span>
+            <span class="price-total-val" data-price="roundPremiere12.total">―</span>
+          </div>
+          <div class="price-note" data-price="roundPremiere12.note"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- roundPremiere6 -->
+    <article class="model">
+      <div class="model-head">
+        <div class="model-name">ラウンドプレミア 6m</div>
+        <div class="model-spec">面積 14㎡ ／ 外寸 W2.5m × D6.0m × H3.6m ／ 宿泊人数 2〜3名</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor">
+          <div class="fp-caption">— 間取り図 —</div>
+          <img src="../images/floorplans/roundPremiere6.png" alt="ラウンドプレミア 6m 間取り図">
+        </div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main" data-price="roundPremiere6.body">―</div>
+          <div class="price-sub" data-price="roundPremiere6.transport">―</div>
+          <div class="price-total">
+            <span class="price-total-label">概算合計（税別）</span>
+            <span class="price-total-val" data-price="roundPremiere6.total">―</span>
+          </div>
+          <div class="price-note" data-price="roundPremiere6.note"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- casa -->
+    <article class="model">
+      <div class="model-head">
+        <div class="model-name">Casa（カーサ）11m</div>
+        <div class="model-spec">面積 34㎡ ／ 外寸 W3.4m × D11.0m × H4.2m ／ 宿泊人数 4〜8名</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor">
+          <div class="fp-caption">— 間取り図 —</div>
+          <img src="../images/floorplans/casa.png" alt="Casa（カーサ）11m 間取り図">
+        </div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main" data-price="casa.body">―</div>
+          <div class="price-sub" data-price="casa.transport">―</div>
+          <div class="price-total">
+            <span class="price-total-label">概算合計（税別）</span>
+            <span class="price-total-val" data-price="casa.total">―</span>
+          </div>
+          <div class="price-note" data-price="casa.note"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- lumina -->
+    <article class="model">
+      <div class="model-head">
+        <div class="model-name">Lumina（ルミナ）11m</div>
+        <div class="model-spec">面積 34㎡ ／ 外寸 W3.4m × D11.0m × H4.2m ／ 宿泊人数 4〜6名</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor">
+          <div class="fp-caption">— 間取り図 —</div>
+          <img src="../images/floorplans/lumina.png" alt="Lumina（ルミナ）11m 間取り図">
+        </div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main" data-price="lumina.body">―</div>
+          <div class="price-sub" data-price="lumina.transport">―</div>
+          <div class="price-total">
+            <span class="price-total-label">概算合計（税別）</span>
+            <span class="price-total-val" data-price="lumina.total">―</span>
+          </div>
+          <div class="price-note" data-price="lumina.note"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- moving -->
+    <article class="model">
+      <div class="model-head">
+        <div class="model-name">Moving（ムービング）6m</div>
+        <div class="model-spec">面積 14㎡ ／ 外寸 W2.5m × D6.0m × H3.6m ／ 宿泊人数 2〜3名</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor">
+          <div class="fp-caption">— 間取り図 —</div>
+          <img src="../images/floorplans/moving.png" alt="Moving（ムービング）6m 間取り図">
+        </div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main" data-price="moving.body">―</div>
+          <div class="price-sub" data-price="moving.transport">―</div>
+          <div class="price-total">
+            <span class="price-total-label">概算合計（税別）</span>
+            <span class="price-total-val" data-price="moving.total">―</span>
+          </div>
+          <div class="price-note" data-price="moving.note"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- base (no price / no floor plan) -->
+    <article class="model no-price">
+      <div class="model-head">
+        <div class="model-name">Base（ベース）11m</div>
+        <div class="model-spec">外寸 要問合せ</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor"><div class="no-floor">間取り図はお問い合わせください</div></div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main contact-price">お問い合わせください</div>
+          <div class="price-note" data-price="base.note">―</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- cube (no price / no floor plan) -->
+    <article class="model no-price">
+      <div class="model-head">
+        <div class="model-name">Cube（キューブ）6m / 12m</div>
+        <div class="model-spec">外寸 W2.5m × D6m〜12m × H3.6m</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor"><div class="no-floor">間取り図はお問い合わせください</div></div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main contact-price">お問い合わせください</div>
+          <div class="price-note" data-price="cube.note">―</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- solar (no price / no floor plan) -->
+    <article class="model no-price">
+      <div class="model-head">
+        <div class="model-name">ソーラーヘブン 6m</div>
+        <div class="model-spec">外寸 W2.5m × D6m × H3.8m（パネル込）</div>
+      </div>
+      <div class="model-body">
+        <div class="model-floor"><div class="no-floor">間取り図はお問い合わせください</div></div>
+        <div class="price-block">
+          <div class="price-label">本体価格（税別）</div>
+          <div class="price-main contact-price">お問い合わせください</div>
+          <div class="price-note" data-price="solar.note">―</div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- PRICE TABLE 別表 -->
+  <section class="cat-section">
+    <h2 class="section-title">価格一覧表（別表E連動・税別）</h2>
+    <div class="price-table-wrap">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>モデル</th>
+            <th>本体価格（税別）</th>
+            <th>概算合計（税別）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>アマルフィー 11.5m</td>
+            <td class="num" data-price="amalfi.body">―</td>
+            <td class="total-col" data-price="amalfi.total">―</td>
+          </tr>
+          <tr>
+            <td>ラウンドプレミア 12m</td>
+            <td class="num" data-price="roundPremiere12.body">―</td>
+            <td class="total-col" data-price="roundPremiere12.total">―</td>
+          </tr>
+          <tr>
+            <td>ラウンドプレミア 6m</td>
+            <td class="num" data-price="roundPremiere6.body">―</td>
+            <td class="total-col" data-price="roundPremiere6.total">―</td>
+          </tr>
+          <tr>
+            <td>Casa（カーサ）11m</td>
+            <td class="num" data-price="casa.body">―</td>
+            <td class="total-col" data-price="casa.total">―</td>
+          </tr>
+          <tr>
+            <td>Lumina（ルミナ）11m</td>
+            <td class="num" data-price="lumina.body">―</td>
+            <td class="total-col" data-price="lumina.total">―</td>
+          </tr>
+          <tr>
+            <td>Moving（ムービング）6m</td>
+            <td class="num" data-price="moving.body">―</td>
+            <td class="total-col" data-price="moving.total">―</td>
+          </tr>
+          <tr>
+            <td>Base（ベース）11m</td>
+            <td class="num" colspan="2" data-price="base.note">お問い合わせください</td>
+          </tr>
+          <tr>
+            <td>Cube（キューブ）6m / 12m</td>
+            <td class="num" colspan="2" data-price="cube.note">お問い合わせください</td>
+          </tr>
+          <tr>
+            <td>ソーラーヘブン 6m</td>
+            <td class="num" colspan="2" data-price="solar.note">お問い合わせください</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">※ 価格はすべて税別・予告なく改定する場合があります。輸送・設置費、デッキ・階段等は各モデルの詳細をご確認ください。価格は <code>data/prices.json</code> を単一ソースとして連動表示しています。</p>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="cat-footer">
+  <div class="wrap">
+    <h3>パークホームズオキナワ</h3>
+    <div class="addr">
+      <b>【本社・モデルハウス】</b>〒901-0225 沖縄県豊見城市豊崎1-1223<br>
+      <b>【工場】</b>〒901-0223 沖縄県豊見城市翁長864-14<br>
+      <b>【事務所】</b>〒901-0222 沖縄県豊見城市渡橋名281-5
+    </div>
+    <div class="contact">
+      TEL 098-856-6666 ／ FAX 098-856-0666<br>
+      Email parkhomes.okinawa@gmail.com
+    </div>
+    <div class="copy">© パークホームズオキナワ｜沖縄仕様の鉄骨トレーラーハウス 製造・販売カタログ</div>
+  </div>
+</footer>
+
+<script src="../assets/js/prices.js" defer></script>
+</body>
+</html>
