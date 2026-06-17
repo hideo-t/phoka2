@@ -263,25 +263,21 @@ td.total-pk{
         <th class="th-label">項目</th>
         <th class="th-a">
           <div class="co-label">他社 A（匿名）</div>
-          <div class="model-name">LJ 11000</div>
-          <div class="price-main">473万円</div>
-          <div class="price-note">税込・スケルトン</div>
+          <div class="model-name">本土仕様</div>
         </th>
         <th class="th-pk">
           <div class="co-label">パークホームズオキナワ</div>
-          <div class="model-name">Casa 11m</div>
-          <div class="price-main">1,406万円</div>
-          <div class="price-note">税込 ※1</div>
+          <div class="model-name">税込み・沖縄仕様</div>
         </th>
       </tr>
     </thead>
     <tbody>
 
-      <!-- 共通仕様 -->
-      <tr class="sec-row"><td colspan="1">共通仕様</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+      <!-- シャーシ -->
+      <tr class="sec-row"><td colspan="1">シャーシ</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
 
       <tr class="data-row">
-        <td class="item">シャーシ・躯体</td>
+        <td class="item">H鋼</td>
         <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
@@ -295,19 +291,89 @@ td.total-pk{
         <td class="val-a"><span class="ng">✕</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
+
+      <!-- 躯体 -->
+      <tr class="sec-row"><td colspan="1">躯体</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">木造</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">軽量鉄骨造</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
       <tr class="data-row">
         <td class="item">実耐用年数 20年設計</td>
-        <td class="val-a"><span class="uk">要確認</span></td>
+        <td class="val-a"><span class="uk">不明</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
+
+      <!-- 屋根 -->
+      <tr class="sec-row"><td colspan="1">屋根</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
       <tr class="data-row">
-        <td class="item">屋根・外壁</td>
+        <td class="item">ガルバニウム鋼板</td>
         <td class="val-a"><span class="ok">✓</span></td>
-        <td class="val-pk"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
       </tr>
       <tr class="data-row">
-        <td class="item">断熱材・下地合板</td>
+        <td class="item">ガルバニウム鋼板（沖縄海岸地域仕様）</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 外壁 -->
+      <tr class="sec-row"><td colspan="1">外壁</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">金属系サイディング</td>
         <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">窯業系サイディング（通気工法）</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- サッシ建具 -->
+      <tr class="sec-row"><td colspan="1">サッシ建具</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">
+          沖縄仕様（高耐風圧サッシ）
+          <span class="item-sub">S-4以上 / W-5</span>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 断熱・気密 -->
+      <tr class="sec-row"><td colspan="1">断熱・気密</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">グラスウール 16K</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">グラスウール 32K</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 内装 -->
+      <tr class="sec-row"><td colspan="1">内装</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">
+          内装仕上げ工事
+          <span class="item-sub">木下地（防虫防腐材）</span>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
       <tr class="data-row">
@@ -315,60 +381,34 @@ td.total-pk{
         <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
-
-      <!-- ここから差 -->
-      <tr class="sec-row"><td colspan="1">ここから差が出る</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
-
-      <tr class="data-row">
-        <td class="item">内装仕上げ工事</td>
-        <td class="val-a"><span class="ng">✕</span></td>
-        <td class="val-pk"><span class="ok">✓</span></td>
-      </tr>
       <tr class="data-row">
         <td class="item">給排水配管工事</td>
-        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
       <tr class="data-row">
         <td class="item">ユニットバス</td>
-        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
       <tr class="data-row">
         <td class="item">キッチン</td>
-        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
       <tr class="data-row">
         <td class="item">洗面化粧台</td>
-        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
       <tr class="data-row">
         <td class="item">洗濯パン</td>
-        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
       <tr class="data-row">
         <td class="item">トイレ</td>
-        <td class="val-a"><span class="ng">✕</span></td>
-        <td class="val-pk"><span class="ok">✓</span></td>
-      </tr>
-
-      <!-- 沖縄仕様 -->
-      <tr class="sec-row"><td colspan="1">沖縄仕様（重要）</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
-
-      <tr class="data-row">
-        <td class="item">
-          高耐風圧サッシ
-          <span class="item-sub">S-4以上 / W-5</span>
-        </td>
-        <td class="val-a"><span class="uk">要確認<br>（別途）</span></td>
-        <td class="val-pk"><span class="ok">✓</span></td>
-      </tr>
-      <tr class="data-row">
-        <td class="item">台風対策設計</td>
-        <td class="val-a"><span class="uk">要確認<br>（別途）</span></td>
+        <td class="val-a"><span class="ok">✓</span></td>
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
       <tr class="data-row">
@@ -380,16 +420,40 @@ td.total-pk{
         <td class="val-pk"><span class="ok">✓</span></td>
       </tr>
 
-      <!-- 現場条件 -->
-      <tr class="sec-row"><td colspan="1">現場条件による（別途見積）</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+      <!-- 価格 -->
+      <tr class="sec-row"><td colspan="1">価格（本体価格 参考・輸送/仮設を除く）</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <!-- 合計行 -->
+      <tr class="total-row">
+        <td class="total-label">
+          本体価格
+          <span class="total-sub">※輸送・仮設を除く</span>
+        </td>
+        <td class="total-a">
+          <div class="total-caption">本土仕様</div>
+          <div class="total-amount">1,100万円〜</div>
+        </td>
+        <td class="total-pk">
+          <div class="total-caption-pk">税込み・沖縄仕様</div>
+          <div class="total-amount-pk">1,475万円</div>
+        </td>
+      </tr>
 
       <tr class="data-row">
         <td class="item">
           輸送・設置費
-          <span class="item-sub">設置場所・地形により変動</span>
+          <span class="item-sub">設置場所・地形により変動・概算</span>
+        </td>
+        <td class="val-a" style="text-align:center;font-size:13px;font-weight:500;color:var(--warn)">220万円</td>
+        <td class="val-pk" style="text-align:center;font-size:13px;font-weight:500;color:var(--green)">55万円</td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          台風対策
+          <span class="item-sub">概算</span>
         </td>
         <td class="val-a"><span class="tri">△</span></td>
-        <td class="val-pk"><span class="tri">△</span></td>
+        <td class="val-pk" style="text-align:center;font-size:13px;font-weight:500;color:var(--green)">22万円</td>
       </tr>
       <tr class="data-row">
         <td class="item">
@@ -400,22 +464,6 @@ td.total-pk{
         <td class="val-pk"><span class="tri">△</span></td>
       </tr>
 
-      <!-- 合計 -->
-      <tr class="total-row">
-        <td class="total-label">
-          本体価格（参考）
-          <span class="total-sub">※輸送・仮設を除く</span>
-        </td>
-        <td class="total-a">
-          <div class="total-caption">スケルトン＋架装別途</div>
-          <div class="total-amount">1,000〜1,300万円〜</div>
-        </td>
-        <td class="total-pk">
-          <div class="total-caption-pk">全込み・沖縄仕様</div>
-          <div class="total-amount-pk">1,406万円</div>
-        </td>
-      </tr>
-
     </tbody>
   </table>
   </div><!-- /tbl-wrap -->
@@ -424,7 +472,7 @@ td.total-pk{
     <p>
       ※1 パークホームズ表示価格は輸送・設置費（40万円）・仮設工事（22万円）を除いた本体価格（税込）。<br>
       ※2 △：設置場所・地形・搬入経路により費用が変動するため、別途お見積りとなります。<br>
-      ※3 躯体の組み立て・加工・穴あけをすべて完了した後、二度手間になるが再度ばらし、専用工場まで輸送してドブ漬け（溶融亜鉛メッキ）加工を実施。錆びる要素を99.99%除去。二度手間でも品質を優先する姿勢。<br>
+      ※3 躯体の組み立て・加工・穴あけをすべて完了した後、再度ばらして専用工場でドブ漬け（溶融亜鉛メッキ）加工を実施。錆びる要素を99.99%除去（二度手間でも品質を優先）。<br>
       ※他社A表示価格は公式サイト掲載のスケルトン本体価格（税込）。水回り・内装・沖縄仕様オプションは別途加算が必要です。<br>
       ※台風対策工事・ガス工事は両社とも別途。
     </p>
