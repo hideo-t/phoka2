@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- カタログの元（印刷版カタログのスキャン8ページを順に表示）。要・最終版差し替え：スキャンのCamScanner透かしあり。 -->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>製品カタログ｜パークホームズオキナワ</title>
+<meta name="description" content="沖縄仕様の鉄骨トレーラーハウス 製品カタログ（全8ページ）。別荘・宿泊施設・店舗・営業所などの活用例と特徴をまとめています。">
+<style>
+:root{--navy:#0d2d5e;--blue:#1560a8;--coral:#e8614a;--coral-dark:#c44a35;--bg:#eef2f7;--muted:#64748b;--white:#fff;--radius:12px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;color:#1a2332;background:var(--bg);line-height:1.8}
+a{color:var(--blue);text-decoration:none}
+.bar{position:sticky;top:0;z-index:10;background:var(--white);border-bottom:2px solid var(--blue);box-shadow:0 2px 12px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px}
+.bar .brand{display:flex;align-items:center;gap:12px}
+.bar img{height:48px;width:auto}
+.bar .ttl{font-size:15px;font-weight:700;color:var(--navy);line-height:1.3}
+.bar .ttl small{display:block;font-size:11px;color:var(--muted);font-weight:400}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 16px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;border:1.5px solid transparent}
+.btn-print{background:var(--coral);color:#fff}
+.btn-print:hover{background:var(--coral-dark)}
+.btn-home{background:#fff;color:var(--blue);border-color:var(--blue)}
+.wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+.page{background:var(--white);border-radius:var(--radius);overflow:hidden;box-shadow:0 8px 30px rgba(13,45,94,.12);margin-bottom:28px}
+.page img{width:100%;height:auto;display:block}
+.page .num{font-size:11px;color:var(--muted);text-align:right;padding:6px 12px;background:#fafbfd;border-top:1px solid #e5ecf5}
+.note{max-width:860px;margin:0 auto;padding:0 16px 40px;font-size:12px;color:var(--muted);line-height:1.9}
+@media print{
+  .bar,.note{display:none}
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  .page{box-shadow:none;border-radius:0;margin:0;page-break-after:always}
+  .page .num{display:none}
+  @page{size:A4;margin:0}
+}
+</style>
+</head>
+<body>
+<div class="bar">
+  <a class="brand" href="https://hideo-t.github.io/phoka2/">
+    <img src="../logopkw.jpg" alt="パークホームズオキナワ">
+    <span class="ttl">製品カタログ<small>沖縄仕様の鉄骨トレーラーハウス｜全8ページ</small></span>
+  </a>
+  <div class="actions">
+    <button class="btn btn-print" onclick="window.print()">🖨 印刷 / PDF保存</button>
+    <a class="btn btn-home" href="https://hideo-t.github.io/phoka2/">トップへ</a>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="page"><img src="../images/catalog/page-1.jpg" alt="カタログ 1ページ目" loading="eager"><div class="num">1 / 8</div></div>
+  <div class="page"><img src="../images/catalog/page-2.jpg" alt="カタログ 2ページ目" loading="lazy"><div class="num">2 / 8</div></div>
+  <div class="page"><img src="../images/catalog/page-3.jpg" alt="カタログ 3ページ目" loading="lazy"><div class="num">3 / 8</div></div>
+  <div class="page"><img src="../images/catalog/page-4.jpg" alt="カタログ 4ページ目" loading="lazy"><div class="num">4 / 8</div></div>
+  <div class="page"><img src="../images/catalog/page-5.jpg" alt="カタログ 5ページ目" loading="lazy"><div class="num">5 / 8</div></div>
+  <div class="page"><img src="../images/catalog/page-6.jpg" alt="カタログ 6ページ目" loading="lazy"><div class="num">6 / 8</div></div>
+  <div class="page"><img src="../images/catalog/page-7.jpg" alt="カタログ 7ページ目" loading="lazy"><div class="num">7 / 8</div></div>
+  <div class="page"><img src="../images/catalog/page-8.jpg" alt="カタログ 8ページ目" loading="lazy"><div class="num">8 / 8</div></div>
+</div>
+<p class="note">※本カタログは現行の印刷版をデジタル化したものです（スキャン由来の透かし・体裁が含まれる場合があります）。最新の仕様・価格はお問い合わせください。</p>
+</body>
+</html>
