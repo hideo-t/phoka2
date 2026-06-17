@@ -170,17 +170,17 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .hero-slider{
   background:#111;border-radius:16px;
   box-shadow:0 8px 32px rgba(0,0,0,.5),0 0 0 2px rgba(255,255,255,.15);
-  overflow:hidden;aspect-ratio:9/16;
-  height:min(70vh,540px);width:auto;max-width:90vw;
+  overflow:hidden;aspect-ratio:16/9;
+  width:min(620px,92vw);height:auto;
   position:relative;
 }
-.hero-slider video{
+.hero-slider img{
   position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
-  opacity:0;transition:opacity .5s ease;
+  opacity:0;transition:opacity .6s ease;
   pointer-events:none;
 }
-.hero-slider video.active{opacity:1;pointer-events:auto}
-/* PC（769px以上）: ヒーロー動画を横長(16:9)で大きく表示。縦動画はobject-fit:coverで上下トリミング */
+.hero-slider img.active{opacity:1;pointer-events:auto}
+/* PC（769px以上）: ヒーロー画像スライドを横長(16:9)で大きく表示 */
 @media(min-width:769px){
   .hero-slider{aspect-ratio:16/9;width:min(1100px,94vw);max-width:1100px;height:auto}
 }
@@ -439,7 +439,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
   .hero-top-row{display:flex;flex-direction:column;align-items:center;width:100%}
   .hero-deco-img{display:none}
   .hero-video-wrap{width:100%;align-items:center}
-  .hero-slider{height:min(64vh,520px);width:auto;max-width:84vw;margin:0 auto}
+  .hero-slider{width:min(440px,88vw);margin:0 auto}
   .hero-video-label{font-size:10px}
 
   /* Appeal cards mobile */
@@ -609,20 +609,18 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
 =========================== -->
 <section id="hero">
   <div class="hero-overlay"></div>
-  <!-- 上段: 動画スライダー（中央表示） -->
+  <!-- 上段: 画像スライダー（中央表示） -->
   <div class="hero-top-row">
       <div class="hero-video-wrap">
         <div class="hero-slider" id="heroSlider">
-        <video src="images/hero-videos/797491471.572952.mp4" class="active" autoplay muted playsinline preload="auto"></video>
-        <video src="images/hero-videos/797491471.622654.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.662695.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.717032.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.756085.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.800731.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.843834.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.865197.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.887159.mp4" muted playsinline preload="none"></video>
-        <video src="images/hero-videos/797491471.909393.mp4" muted playsinline preload="none"></video>
+        <img src="images/lineup/full-size-trailer.jpg" class="active" alt="フルサイズトレーラーハウスの外観" loading="eager">
+        <img src="images/lifestyle/lifestyle-01.jpg" alt="トレーラーハウスのある新しい暮らし 1" loading="lazy">
+        <img src="images/lineup/casa-exterior.jpg" alt="カーサ（トレーラーハウス）の外観" loading="lazy">
+        <img src="images/lifestyle/lifestyle-02.jpg" alt="トレーラーハウスのある新しい暮らし 2" loading="lazy">
+        <img src="images/lineup/global-edition.jpg" alt="グローバルエディションの外観" loading="lazy">
+        <img src="images/lifestyle/lifestyle-03.jpg" alt="トレーラーハウスのある新しい暮らし 3" loading="lazy">
+        <img src="images/lineup/full-custom.jpg" alt="フルカスタムのトレーラーハウス" loading="lazy">
+        <img src="images/lifestyle/lifestyle-04.jpg" alt="トレーラーハウスのある新しい暮らし 4" loading="lazy">
         <button class="slider-arrow slider-prev" onclick="slideHero(-1)" aria-label="前へ">❮</button>
         <button class="slider-arrow slider-next" onclick="slideHero(1)" aria-label="次へ">❯</button>
       </div>
@@ -1216,53 +1214,41 @@ document.addEventListener('click', e => {
   if(!menu.contains(e.target) && !ham.contains(e.target)) menu.classList.remove('open');
 });
 
-// ===== ヒーロー動画スライダー =====
+// ===== ヒーロー画像スライダー =====
 (function(){
-  const videos = Array.from(document.querySelectorAll('#heroSlider video'));
+  const imgs = Array.from(document.querySelectorAll('#heroSlider img'));
   const dotsEl = document.getElementById('sliderDots');
   const countEl = document.getElementById('sliderCount');
+  if(!imgs.length) return;
   let current = 0;
   let autoTimer = null;
 
   // ドット生成
-  videos.forEach((_, i) => {
+  imgs.forEach((_, i) => {
     const d = document.createElement('button');
     d.className = 'slider-dot' + (i === 0 ? ' active' : '');
-    d.setAttribute('aria-label', (i+1) + '番目の動画');
+    d.setAttribute('aria-label', (i+1) + '番目の画像');
     d.addEventListener('click', () => goTo(i));
     dotsEl.appendChild(d);
   });
 
   function goTo(idx) {
     const dots = dotsEl.querySelectorAll('.slider-dot');
-    // 現在の動画を停止・非表示
-    videos[current].pause();
-    videos[current].classList.remove('active');
+    imgs[current].classList.remove('active');
     dots[current].classList.remove('active');
-    // 次の動画を表示・再生
-    current = (idx + videos.length) % videos.length;
-    const v = videos[current];
-    v.preload = 'auto';
-    v.classList.add('active');
+    current = (idx + imgs.length) % imgs.length;
+    imgs[current].classList.add('active');
     dots[current].classList.add('active');
-    countEl.textContent = (current + 1) + ' / ' + videos.length;
-    v.currentTime = 0;
-    v.play().catch(() => {});
+    if(countEl) countEl.textContent = (current + 1) + ' / ' + imgs.length;
     resetAuto();
   }
 
   function resetAuto() {
     clearTimeout(autoTimer);
-    autoTimer = setTimeout(() => goTo(current + 1), 6000);
+    autoTimer = setTimeout(() => goTo(current + 1), 4500);
   }
 
-  // 動画終了時に次へ
-  videos.forEach((v, i) => {
-    v.addEventListener('ended', () => goTo(i + 1));
-  });
-
-  // 最初の動画を再生
-  videos[0].play().catch(() => {});
+  if(countEl) countEl.textContent = '1 / ' + imgs.length;
   resetAuto();
 
   // グローバル公開（矢印ボタン用）
