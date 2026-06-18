@@ -5,3 +5,4 @@ scripts/__pycache__/
 Thumbs.db
 _preview/
 .claude/settings.local.json
+*.bak
