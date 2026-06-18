@@ -120,8 +120,12 @@ nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;
 .nav-cta{background:var(--coral)!important;color:var(--white)!important;border-radius:8px;padding:8px 18px;font-size:13px;font-weight:700;transition:.2s!important}
 .nav-cta:hover{background:var(--coral-dark)!important;transform:translateY(-1px)}
 
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none}
-.hamburger span{display:block;width:24px;height:2px;background:var(--black);border-radius:2px;transition:.3s}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none;position:relative;z-index:320}
+.hamburger span{display:block;width:24px;height:2px;background:var(--black);border-radius:2px;transition:transform .3s,opacity .3s}
+body.menu-open .hamburger{opacity:0;pointer-events:none}
+.menu-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;z-index:290}
+body.menu-open .menu-backdrop{opacity:1;visibility:visible}
+.menu-close{display:none}
 .mobile-menu{display:none;flex-direction:column;background:var(--white);border-top:1px solid var(--border);padding:12px 24px 20px}
 .mobile-menu.open{display:flex}
 .mobile-menu a{padding:12px 0;font-size:15px;border-bottom:1px solid var(--border);color:var(--text);font-weight:500}
@@ -423,6 +427,19 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
   .container{padding:0 16px}
   .nav-links{display:none}
   .hamburger{display:flex}
+  /* 固定ドロワー型モバイルメニュー */
+  body.menu-open{overflow:hidden}
+  .mobile-menu{
+    display:flex;position:fixed;top:0;right:0;height:100vh;height:100dvh;
+    width:min(86vw,340px);padding:60px 22px 36px;border-top:none;
+    box-shadow:-8px 0 30px rgba(0,0,0,.28);overflow-y:auto;-webkit-overflow-scrolling:touch;
+    transform:translateX(100%);visibility:hidden;
+    transition:transform .3s ease,visibility .3s ease;z-index:300
+  }
+  .mobile-menu.open{transform:translateX(0);visibility:visible}
+  .menu-close{display:flex;position:absolute;top:10px;right:12px;width:42px;height:42px;
+    align-items:center;justify-content:center;border:none;background:none;
+    font-size:30px;line-height:1;color:var(--text);cursor:pointer}
   .cases-grid{grid-template-columns:1fr}
   .footer-bottom{justify-content:center;text-align:center}
 
@@ -574,11 +591,13 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
 
       <a href="pages/estimate.html" class="nav-cta">無料見積もり</a>
     </div>
-    <button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="メニュー">
+    <button class="hamburger" aria-label="メニュー" aria-expanded="false" aria-controls="mobileMenu">
       <span></span><span></span><span></span>
     </button>
   </div>
-  <div class="mobile-menu">
+  <div class="menu-backdrop"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="menu-close" type="button" aria-label="メニューを閉じる">×</button>
     <span class="m-section">専用設計</span>
     <a href="https://hideo-t.github.io/phoka2/pages/abc-compare.html">他社・自社比較（ABC比較）</a>
     <a href="#appeal1">暮らしのイメージ</a>
@@ -609,6 +628,24 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
     <a href="pages/estimate.html" style="color:var(--coral);font-weight:700;margin-top:4px">📋 無料見積もり →</a>
   </div>
 </nav>
+<script>
+(function(){
+  function setMenu(open){
+    var m=document.getElementById('mobileMenu');if(!m)return;
+    document.body.classList.toggle('menu-open',open);
+    m.classList.toggle('open',open);
+    var h=document.querySelector('.hamburger');if(h)h.setAttribute('aria-expanded',open?'true':'false');
+  }
+  document.addEventListener('DOMContentLoaded',function(){
+    var h=document.querySelector('.hamburger');
+    if(h)h.addEventListener('click',function(){setMenu(!document.body.classList.contains('menu-open'));});
+    var bd=document.querySelector('.menu-backdrop');if(bd)bd.addEventListener('click',function(){setMenu(false);});
+    var cl=document.querySelector('.menu-close');if(cl)cl.addEventListener('click',function(){setMenu(false);});
+    document.querySelectorAll('#mobileMenu a').forEach(function(a){a.addEventListener('click',function(){setMenu(false);});});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false);});
+  });
+})();
+</script>
 
 <!-- ===========================
      HERO
