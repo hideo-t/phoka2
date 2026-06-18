@@ -4,3 +4,4 @@ scripts/__pycache__/
 .DS_Store
 Thumbs.db
 _preview/
+.claude/settings.local.json
