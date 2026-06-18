@@ -173,15 +173,44 @@ footer{background:var(--deep);padding:48px 8%;display:flex;flex-wrap:wrap;justif
   footer{flex-direction:column;align-items:flex-start}
   .ft-contact{text-align:left}
 }
+
+/* ── モバイル: ナビを横スクロール化＋ロゴ縮小 ── */
+.topnav-links::-webkit-scrollbar,.nav::-webkit-scrollbar{height:0}
+@media(max-width:768px){
+  .topnav-inner{height:auto!important;flex-direction:column;align-items:stretch!important;padding:8px 12px!important;gap:8px}
+  .topnav-logo{align-self:flex-start}
+  .topnav-logo img{height:48px!important}
+  .topnav-links{flex-wrap:nowrap!important;overflow-x:auto;-webkit-overflow-scrolling:touch;gap:6px!important;padding-bottom:2px}
+  .topnav-links a{white-space:nowrap;flex:0 0 auto}
+  .nav{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;gap:6px}
+  .nav-lbl,.nav a{flex:0 0 auto;white-space:nowrap}
+
+  /* ── モバイル: 比較表をカード化（横スライド不要で全項目表示） ── */
+  .compare{padding:40px 5% 56px}
+  .tbl-wrap{overflow:visible;border-radius:0}
+  table{background:transparent}
+  table,tbody,tr,td{display:block;width:100%}
+  thead{display:none}
+  tbody tr{margin-bottom:14px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(255,255,255,.04);padding:4px 0}
+  tbody td{display:flex;justify-content:space-between;align-items:baseline;gap:14px;border-bottom:1px solid rgba(255,255,255,.06);padding:10px 16px;text-align:right}
+  tbody td:last-child{border-bottom:none}
+  tbody td::before{font-family:'Montserrat',sans-serif;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.38);text-align:left;flex:0 0 auto}
+  tbody td:nth-child(1){justify-content:flex-start;background:rgba(255,255,255,.05);border-radius:11px 11px 0 0;padding:14px 16px}
+  tbody td:nth-child(2)::before{content:"面積"}
+  tbody td:nth-child(3)::before{content:"想定人数"}
+  tbody td:nth-child(4)::before{content:"外寸 W×D×H"}
+  tbody td:nth-child(5)::before{content:"本体価格 (税別)"}
+  tbody td:nth-child(6)::before{content:"概算合計 (税別)"}
+}
 </style>
 </head>
 <body>
-<nav style="background:#fff;border-bottom:2px solid #1560a8;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)">
-  <div style="max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px">
-    <a href="https://hideo-t.github.io/phoka2/" style="display:flex;align-items:center;gap:8px;text-decoration:none">
+<nav class="topnav" style="background:#fff;border-bottom:2px solid #1560a8;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)">
+  <div class="topnav-inner" style="max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <a class="topnav-logo" href="https://hideo-t.github.io/phoka2/" style="display:flex;align-items:center;gap:8px;text-decoration:none">
       <img src="../logopkw.jpg" alt="パークホームズオキナワ" style="height:96px;width:auto">
     </a>
-    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+    <div class="topnav-links" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
       <a href="https://hideo-t.github.io/phoka2/" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">🏠 トップ</a>
       <a href="https://hideo-t.github.io/phoka2/#lineup" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">ラインナップ</a>
       <a href="../pages/catalog.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">📄 カタログDL</a>
