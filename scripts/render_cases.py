@@ -220,7 +220,7 @@ def main():
     </div>
 
     <div style="text-align:center;margin-top:48px">
-      <a href="https://hideo-t.github.io/phoka2/contact/" class="btn btn-primary">設置のご相談はこちら →</a>
+      <a href="https://parkhomes-okinawa.com/contact/" class="btn btn-primary">設置のご相談はこちら →</a>
     </div>
   </div>
 </section>'''

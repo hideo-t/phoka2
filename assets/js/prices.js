@@ -7,8 +7,8 @@
  *       data-price="ranges.lineupOverall" → ranges.lineupOverall
  *
  * fetch パスはこのスクリプトの <script src> から導出するため、
- * ルート直下(index.html)でも pages/ 配下でも、また GitHub Pages の
- * プロジェクトサブパス(/phoka2/)でも正しく解決されます。
+ * ルート直下(index.html)でも pages/ 配下でも、またカスタムドメイン
+ * (parkhomes-okinawa.com)直下でも正しく解決されます。
  * 取得に失敗した場合は何もせず、HTML内のフォールバックテキストを残します。
  */
 (function () {

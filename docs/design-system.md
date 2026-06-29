@@ -3,7 +3,7 @@
 最終更新: 2026-05-13 / PR #6 マージ時点
 
 ## 目的
-hideo-t.github.io/phoka2/ 全ページのデザインを統一するための基準書。
+parkhomes-okinawa.com/ 全ページのデザインを統一するための基準書。
 新しいページや既存ページの修正時は本ドキュメントに準拠すること。
 本ドキュメントの内容と差異が出る場合は本ドキュメントが正。
 
@@ -121,13 +121,13 @@ phoka2/
 
 ## 11. 検証チェックリスト
 新規 / 修正ページをマージする前に:
-1. `<base href="https://hideo-t.github.io/phoka2/">` が `<head>` 先頭付近にある
+1. `<base href="https://parkhomes-okinawa.com/">` が `<head>` 先頭付近にある
 2. `<link rel="stylesheet" href="assets/css/common.css">` がある
 3. NAV / Footer / paku-float / mobile-cta-bar が本書 §4-6 と一致
 4. 旧変数 `--primary` `--accent` `--rl` を `grep -r` で0件
 5. `Noto Sans JP` `Zen Kaku Gothic` の参照が0件
 6. og:url が正しい URL（タイポなし）
-7. JSON-LD があれば url が `hideo-t.github.io/phoka2/...`
+7. JSON-LD があれば url が `parkhomes-okinawa.com/...`
 
 ## 変更履歴
 - 2026-05-13 v1.0 PR #6 で新規作成。Phase 1 5 ページ統一。

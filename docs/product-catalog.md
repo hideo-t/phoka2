@@ -110,11 +110,11 @@
 
 | ページ | URL | 4 ブランド表示 |
 |---|---|---|
-| TOP | https://hideo-t.github.io/phoka2/#lineup | ✅ 4 カード横並び（メイン） |
-| ラインナップ | https://hideo-t.github.io/phoka2/pages/lineup.html | （要確認） |
-| 比較ページ | https://hideo-t.github.io/phoka2/pages/abc-compare.html | （他社 A 含む 15 項目比較） |
-| 耐久性 | https://hideo-t.github.io/phoka2/pages/durability.html | ドブ漬け加工解説 |
-| 見積もり | https://hideo-t.github.io/phoka2/pages/estimate.html | 4 ブランドから選択 |
+| TOP | https://parkhomes-okinawa.com/#lineup | ✅ 4 カード横並び（メイン） |
+| ラインナップ | https://parkhomes-okinawa.com/pages/lineup.html | （要確認） |
+| 比較ページ | https://parkhomes-okinawa.com/pages/abc-compare.html | （他社 A 含む 15 項目比較） |
+| 耐久性 | https://parkhomes-okinawa.com/pages/durability.html | ドブ漬け加工解説 |
+| 見積もり | https://parkhomes-okinawa.com/pages/estimate.html | 4 ブランドから選択 |
 
 ### 4.2 印刷物・SNS（要同期）
 
