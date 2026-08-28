@@ -14,7 +14,7 @@
  * ============================================================ */
 
 var GA4_ID     = 'G-RHS863EHBQ';   // 例: 'G-XXXXXXXXXX'
-var CLARITY_ID = '';   // 例: 'abcd1234ef'
+var CLARITY_ID = 'y9lqd0er98';   // 例: 'abcd1234ef'
 
 (function () {
   'use strict';
