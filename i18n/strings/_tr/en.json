@@ -1219,5 +1219,17 @@
  "このホームページはインターネット上のフォームへ投稿されるスパムなどからサイトを守るため、Google Inc.（グーグル）が提供している reCAPTCHA サービスを採用しています。このサービスは投稿者が人間なのかロボットなのかを判定するもので、GoogleはIPアドレスの取得を含むその他のデータをこのサービスのために収集します。またこの目的のため、入力されたデータはGoogleによって利用されます。ただし、EUまたは欧州経済領域の場合、IPアドレスはあらかじめ匿名化されます。例外的なケースとして、USでは IPアドレスがGoogleに送信されたあとに匿名化されます。": "This website uses the reCAPTCHA service provided by Google Inc. to protect the site from spam and similar submissions to forms on the internet. The service determines whether a submitter is a human or a robot, and Google collects the IP address and other data for this purpose. The data entered is also used by Google for this purpose. In the EU or the European Economic Area, however, IP addresses are anonymized beforehand. In exceptional cases in the US, the IP address is anonymized after being sent to Google.",
  "Googleはお客様によるサイトの利用を評価するため、サイトの運営者に代わって、この情報を利用します。": "Google uses this information on behalf of the site operator to evaluate your use of the site.",
  "公道を牽引できる車検対応サイズ。安心してご利用いただける車台です。": "Sized for road registration so it can be towed on public roads. A chassis you can use with confidence.",
- "に、": ","
+ "に、": ",",
+ "お問い合わせありがとうございます｜パークホームズオキナワ": "Thank You for Your Inquiry | Park Homes Okinawa",
+ "お問い合わせを受け付けました": "We have received your inquiry",
+ "送信完了": "Sent",
+ "ありがとうございます": "Thank you",
+ "お問い合わせ内容を送信いたしました。": "Your inquiry has been sent.",
+ "担当者より": "A member of our team will be in touch",
+ "2営業日以内": "within two business days",
+ "にご連絡いたします。": ".",
+ "お急ぎの場合は、お電話または LINE でお気軽にご連絡ください。": "If your matter is urgent, please feel free to call us or reach us on LINE.",
+ "💬 LINE で相談": "💬 Chat on LINE",
+ "ホームへ戻る": "Back to home",
+ "お問い合わせを受け付けました。担当者より2営業日以内にご連絡いたします。": "We have received your inquiry. A member of our team will be in touch within two business days."
 }

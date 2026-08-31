@@ -28,6 +28,7 @@
   .section-title{font-size:26px;font-weight:700;color:var(--navy);margin-bottom:8px}
   .section-sub{color:var(--muted);font-size:14px;margin-bottom:40px}
 </style>
+<script src="/assets/js/analytics.js" defer></script>
 
 <!--i18n:alt:start-->
 <link rel="canonical" href="https://parkhomes-okinawa.com/ko/contact/">
@@ -165,7 +166,15 @@
 <section class="section section-alt">
   <div class="container" style="max-width:700px">
     <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:40px">
-      <form action="https://formspree.io/f/parkhomes" method="POST">
+      <form action="https://formsubmit.co/kinjyo@parkhomes-okinawa.com" method="POST">
+        <!-- 送信先の設定（画面には出ません） -->
+        <input type="hidden" name="_cc" value="sakata@parkhomes-okinawa.com">
+        <input type="hidden" name="_subject" value="【サイトお問い合わせ】parkhomes-okinawa.com">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://parkhomes-okinawa.com/ko/contact/thanks.html">
+        <!-- スパム対策のおとり。人間には見えないので空のまま送信される -->
+        <input type="text" name="_honey" style="display:none">
         <div class="form-group">
           <label>성함<span class="required">필수</span></label>
           <input type="text" name="name" required placeholder="홍길동">

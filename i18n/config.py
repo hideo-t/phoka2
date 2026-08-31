@@ -32,6 +32,7 @@ PAGES = [
     "company/社長挨拶/index.html",
     "company/製作スタッフ/index.html",
     "contact/index.html",
+    "contact/thanks.html",
     "faq/index.html",
     "lineup/index.html",
     "lineup/airstream/index.html",

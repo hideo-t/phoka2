@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
- "pages": 32,
- "count": 1220,
- "chars": 26075,
+ "pages": 33,
+ "count": 1232,
+ "chars": 26255,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -1818,6 +1818,7 @@
     "company/社長挨拶/index.html",
     "company/製作スタッフ/index.html",
     "contact/index.html",
+    "contact/thanks.html",
     "faq/index.html",
     "lineup/index.html",
     "lineup/airstream/index.html",
@@ -1840,7 +1841,7 @@
     "sitemap/index.html",
     "j/privacy/index.html"
    ],
-   "n": 63
+   "n": 65
   },
   {
    "ja": "メニュー",
@@ -2205,6 +2206,7 @@
     "company/社長挨拶/index.html",
     "company/製作スタッフ/index.html",
     "contact/index.html",
+    "contact/thanks.html",
     "lineup/airstream/index.html",
     "lineup/amalfi/index.html",
     "lineup/container/index.html",
@@ -2219,7 +2221,7 @@
     "sitemap/index.html",
     "j/privacy/index.html"
    ],
-   "n": 36
+   "n": 37
   },
   {
    "ja": "製品ラインナップ",
@@ -2281,6 +2283,7 @@
     "company/社長挨拶/index.html",
     "company/製作スタッフ/index.html",
     "contact/index.html",
+    "contact/thanks.html",
     "faq/index.html",
     "lineup/index.html",
     "lineup/airstream/index.html",
@@ -2296,7 +2299,7 @@
     "sitemap/index.html",
     "j/privacy/index.html"
    ],
-   "n": 30
+   "n": 31
   },
   {
    "ja": "トレーラーハウスとは何か？",
@@ -3822,6 +3825,102 @@
    "kind": "attr:alt",
    "pages": [
     "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お問い合わせありがとうございます｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お問い合わせを受け付けました",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "送信完了",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ありがとうございます",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お問い合わせ内容を送信いたしました。",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "担当者より",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2営業日以内",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "にご連絡いたします。",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お急ぎの場合は、お電話または LINE でお気軽にご連絡ください。",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💬 LINE で相談",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ホームへ戻る",
+   "kind": "text",
+   "pages": [
+    "contact/thanks.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お問い合わせを受け付けました。担当者より2営業日以内にご連絡いたします。",
+   "kind": "meta:description",
+   "pages": [
+    "contact/thanks.html"
    ],
    "n": 1
   },

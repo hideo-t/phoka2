@@ -220,6 +220,20 @@ def set_og_url(raw, rel, lang):
         lambda m: m.group(1) + here + m.group(2), raw, flags=re.I)
 
 
+_RE_NEXT = re.compile(r"(name\s*=\s*[\"']_next[\"'][^>]*\bvalue\s*=\s*\")([^\"]*)(\")", re.I)
+
+
+def set_form_next(raw, base, lang):
+    """フォーム送信後の遷移先を言語版に向ける。
+
+    _next は value 属性なので通常のURL書き換えの対象外（value はフォーム送信値
+    として日本語のまま保つ方針）。ただしこれは遷移先URLなので、英語ページから
+    送信した人が日本語のサンクスページに飛ばされないよう個別に直す。
+    """
+    return _RE_NEXT.sub(lambda m: m.group(1) + config.SITE + map_url(m.group(2), base, lang)
+                        + m.group(3), raw)
+
+
 def set_lang(raw, lang):
     attr = "ja" if lang == "ja" else config.LANGS[lang][0]
     return re.sub(r"(<html\b[^>]*?)\slang\s*=\s*[\"'][^\"']*[\"']",
@@ -244,6 +258,7 @@ def build_page(rel, lang, table, pat):
     translate_jsonld(m, table, "ja" if lang == "ja" else config.LANGS[lang][0])
     rewrite_urls(m, base, lang)
     out = set_og_url(set_lang(m.unmask(), lang), rel, lang)
+    out = set_form_next(out, base, lang)
     return insert_blocks(out, rel, lang)
 
 
