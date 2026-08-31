@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>오키나와 사양의 근거(내구성) | Park Homes Okinawa</title>
+<meta name="description" content="염해·태풍·더위를 견디는 오키나와 사양 트레일러 하우스의 내구성. 철골·용융아연도금·고내후 새시의 근거를 해설합니다.">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1a2e3a; --navy2:#2c4a5a; --navy-lt:#e8eff5;
+  --green:#2a7a5a; --green-lt:#e8f5ee; --green-dk:#1a5a3e;
+  --gold:#b88830; --gold-lt:#fdf3de;
+  --ink:#222; --mid:#555; --muted:#888;
+  --border:#e0e0d8; --bg:#f8f7f3; --white:#fff;
+  --r:10px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Noto Sans JP',sans-serif; font-weight:300;
+  background:#fff; color:var(--ink); font-size:14px; line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+.page{max-width:860px; margin:0 auto; padding:56px 20px 100px;}
+
+/* ── ヘッダー ── */
+.page-eyebrow{
+  font-size:11px; font-weight:500; letter-spacing:.35em; text-transform:uppercase;
+  color:var(--gold); display:block; margin-bottom:10px;
+}
+.page-title{
+  font-size:clamp(24px,5vw,34px); font-weight:500; color:var(--navy);
+  line-height:1.25; margin-bottom:14px;
+}
+.page-lead{
+  font-size:14px; color:var(--mid); line-height:1.95;
+  max-width:640px; margin-bottom:48px;
+  padding-bottom:32px; border-bottom:1px solid var(--border);
+}
+
+/* ── 理由カード ── */
+.reasons{display:flex; flex-direction:column; gap:0;}
+
+.reason{
+  display:grid; grid-template-columns:64px 1fr;
+  gap:0; border-bottom:1px solid var(--border); padding:36px 0;
+}
+.reason:last-child{border-bottom:none;}
+
+.reason-num{
+  font-size:11px; font-weight:500; letter-spacing:.15em; color:var(--gold);
+  padding-top:4px;
+}
+.reason-body{}
+
+.reason-tag{
+  display:inline-block; font-size:10px; font-weight:500; letter-spacing:.2em;
+  text-transform:uppercase; padding:3px 10px; border-radius:20px;
+  background:var(--gold-lt); color:var(--gold); margin-bottom:10px;
+}
+.reason-title{
+  font-size:clamp(17px,3.5vw,21px); font-weight:500; color:var(--navy);
+  line-height:1.35; margin-bottom:14px;
+}
+.reason-body p{
+  font-size:13.5px; color:var(--mid); line-height:1.95; margin-bottom:14px;
+}
+.reason-body p:last-of-type{margin-bottom:0;}
+
+/* ── インフォ ── */
+.info-box{
+  background:var(--bg); border-radius:var(--r);
+  border-left:3px solid var(--navy); padding:16px 18px;
+  margin-top:18px;
+}
+.info-box-title{
+  font-size:11px; font-weight:500; color:var(--navy);
+  letter-spacing:.1em; margin-bottom:6px;
+}
+.info-box p{
+  font-size:12px; color:var(--mid); line-height:1.85; margin:0;
+}
+
+/* ── プロセスステップ ── */
+.process{
+  margin-top:18px; display:flex; flex-direction:column; gap:0;
+  border:1px solid var(--border); border-radius:var(--r); overflow:hidden;
+}
+.step{
+  display:grid; grid-template-columns:36px 1fr;
+  gap:12px; padding:13px 16px;
+  border-bottom:1px solid var(--border);
+  align-items:flex-start;
+}
+.step:last-child{border-bottom:none;}
+.step-n{
+  width:28px; height:28px; border-radius:50%;
+  background:var(--navy); color:#fff;
+  font-size:11px; font-weight:500;
+  display:flex; align-items:center; justify-content:center;
+  flex-shrink:0; margin-top:1px;
+}
+.step-n.finish{background:var(--green);}
+.step-text{font-size:13px; color:var(--ink); line-height:1.7;}
+.step-text strong{font-weight:500; color:var(--navy);}
+.step-text em{
+  font-style:normal; font-size:11px; color:var(--green);
+  display:block; margin-top:2px;
+}
+
+/* ── 数値カード ── */
+.stat-grid{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:18px;
+}
+.stat{
+  background:var(--navy); border-radius:var(--r); padding:16px 14px;
+  text-align:center;
+}
+.stat-num{
+  font-size:28px; font-weight:500; color:#fff; line-height:1.1;
+}
+.stat-unit{font-size:13px; color:rgba(255,255,255,.6);}
+.stat-label{font-size:11px; color:rgba(255,255,255,.55); margin-top:5px; line-height:1.4;}
+
+/* ── 比較バー ── */
+.bar-compare{margin-top:18px; display:flex; flex-direction:column; gap:10px;}
+.bar-row{display:flex; align-items:center; gap:10px;}
+.bar-label{font-size:12px; color:var(--mid); width:80px; flex-shrink:0; text-align:right;}
+.bar-track{flex:1; height:24px; background:var(--bg); border-radius:4px; overflow:hidden; position:relative;}
+.bar-fill{height:100%; border-radius:4px; display:flex; align-items:center; justify-content:flex-end; padding-right:8px;}
+.bar-fill span{font-size:11px; font-weight:500; color:#fff;}
+.bar-fill.b-wood{background:#c8a46e; width:25%;}
+.bar-fill.b-std{background:#7a9bb0; width:50%;}
+.bar-fill.b-pk{background:var(--green); width:100%;}
+.bar-caption{font-size:10px; color:var(--muted); margin-top:4px; padding-left:90px;}
+
+/* ── 引用 ── */
+.quote-box{
+  margin-top:18px; padding:18px 20px;
+  border-left:3px solid var(--green); background:var(--green-lt);
+  border-radius:0 var(--r) var(--r) 0;
+}
+.quote-box p{font-size:13px; color:var(--green-dk); line-height:1.85; margin:0;}
+.quote-box .quote-src{
+  font-size:11px; color:var(--green); margin-top:6px; display:block;
+}
+
+/* ── 結論バナー ── */
+.conclusion{
+  margin-top:48px; padding:28px 28px;
+  background:var(--navy); border-radius:var(--r);
+  text-align:center;
+}
+.conclusion-label{
+  font-size:10px; letter-spacing:.3em; text-transform:uppercase;
+  color:rgba(255,255,255,.45); margin-bottom:10px;
+}
+.conclusion-title{
+  font-size:clamp(16px,3vw,20px); font-weight:500; color:#fff;
+  line-height:1.5; margin-bottom:16px;
+}
+.conclusion-sub{font-size:12px; color:rgba(255,255,255,.55); line-height:1.9;}
+
+/* ── CTA ── */
+.cta-row{
+  display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-top:24px;
+}
+.btn{
+  padding:11px 26px; border-radius:6px;
+  font-family:'Noto Sans JP',sans-serif; font-size:13px; font-weight:500;
+  cursor:pointer; text-decoration:none; display:inline-block;
+  transition:opacity .15s;
+}
+.btn:hover{opacity:.85;}
+@media(max-width:600px){
+  .page{padding:36px 14px 72px;}
+  .reason{grid-template-columns:48px 1fr;}
+  .stat-grid{grid-template-columns:1fr 1fr; gap:8px;}
+  .stat-grid .stat:last-child{grid-column:span 2;}
+  .bar-label{width:64px; font-size:11px;}
+  .bar-caption{padding-left:74px;}
+  .conclusion{padding:22px 18px;}
+  .cta-row{flex-direction:column; align-items:center;}
+  .btn{width:100%; text-align:center;}
+}
+
+/* ── CTA フッター ── */
+.cta-footer{
+  margin-top:56px; padding:32px 28px;
+  background:var(--navy); border-radius:var(--r);
+  text-align:center;
+}
+.cta-label{
+  font-size:12px; letter-spacing:.2em; text-transform:uppercase;
+  color:rgba(255,255,255,.45); margin-bottom:18px;
+}
+.cta-row{
+  display:flex; flex-wrap:wrap; gap:10px; justify-content:center;
+}
+.btn{
+  padding:12px 24px; border-radius:6px;
+  font-family:'Noto Sans JP',sans-serif;
+  font-size:13px; font-weight:500; cursor:pointer;
+  text-decoration:none; display:inline-block; transition:opacity .15s;
+  white-space:nowrap;
+}
+.btn:hover{opacity:.82;}
+.btn-ai{background:#fff; color:var(--navy);}
+.btn-green{background:var(--green); color:#fff;}
+.btn-line{background:#06c755; color:#fff;}
+@media(max-width:520px){
+  .cta-row{flex-direction:column; align-items:center;}
+  .btn{width:100%; text-align:center;}
+  .cta-footer{padding:24px 16px;}
+}
+.btn-compare{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.3);}
+</style>
+
+<!--i18n:alt:start-->
+<link rel="canonical" href="https://parkhomes-okinawa.com/ko/pages/durability.html">
+<link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/durability.html">
+<link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/durability.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/durability.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/durability.html">
+<link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/durability.html">
+<link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/durability.html">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="zh_CN">
+<!--i18n:alt:end-->
+</head>
+<body>
+<!--i18n:bar:start-->
+<style>.pkw-langbar{background:#0d2d5e;font-size:13px;line-height:1;font-family:system-ui,-apple-system,'Hiragino Kaku Gothic ProN','Meiryo',sans-serif}.pkw-langbar ul{max-width:1100px;margin:0 auto;padding:7px 24px;display:flex;gap:6px;justify-content:flex-end;align-items:center;list-style:none;flex-wrap:wrap}.pkw-langbar li{margin:0}.pkw-langbar a{color:#cfe0f5;text-decoration:none;padding:5px 9px;border-radius:6px;display:block}.pkw-langbar a:hover{background:rgba(255,255,255,.14);color:#fff}.pkw-langbar [aria-current=true]{background:#fff;color:#0d2d5e;font-weight:700}.pkw-langbar .pkw-lb-label{color:#8fb3dd;letter-spacing:.08em;padding:5px 0}@media(max-width:600px){.pkw-langbar ul{justify-content:center;padding:6px 12px}}</style>
+<nav class="pkw-langbar" aria-label="Language">
+<ul>
+<li class="pkw-lb-label" aria-hidden="true">LANGUAGE</li>
+<li><a href="https://parkhomes-okinawa.com/pages/durability.html" hreflang="ja" lang="ja">日本語</a></li>
+<li><a href="https://parkhomes-okinawa.com/en/pages/durability.html" hreflang="en" lang="en">English</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hant/pages/durability.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hans/pages/durability.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/ko/pages/durability.html" hreflang="ko" lang="ko" aria-current="true">한국어</a></li>
+</ul>
+</nav>
+<!--i18n:bar:end-->
+
+
+<!-- ナビゲーション -->
+<nav style="background:#fff;border-bottom:2px solid #1560a8;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)">
+  <div style="max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <a href="/ko/" style="display:flex;align-items:center;gap:8px;text-decoration:none">
+      <img src="/logopkw.jpg" alt="Park Homes Okinawa" style="height:96px;width:auto">
+    </a>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <a href="/ko/" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">🏠 홈</a>
+      <a href="/ko/#lineup" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">라인업</a>
+      <a href="/ko/pages/catalog.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">📄 카탈로그 DL</a>
+      <a href="/ko/pages/price.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">가격표</a>
+      <a href="/ko/pages/estimate.html" style="font-size:13px;font-weight:700;color:#fff;background:#e8614a;padding:8px 16px;border-radius:8px;text-decoration:none">📋 무료 견적</a>
+    </div>
+  </div>
+</nav>
+<div class="page">
+
+  <span class="page-eyebrow">Durability · Why Okinawa Spec</span>
+  <h1 class="page-title">오키나와 사양의 근거<br>― 내구성에 대한 고집</h1>
+  <p class="page-lead">
+    오키나와 해안선에서 500m 이내의 염분 비래량은 도쿄의 약 10〜20배. 태풍은 매년 여러 차례 직격하며, 최대 순간 풍속이 60m/s를 넘기도 합니다.<br>
+    목조 해외제 트레일러 하우스가 5년이면 썩는 것을 봐 왔기에, Park Homes Okinawa는 ‘오키나와를 위해’ 설계한 철골 사양에 다다랐습니다.
+  </p>
+
+  <div class="reasons">
+
+    <!-- ── 01 どぶ漬け ── -->
+    <div class="reason">
+      <div class="reason-num">01</div>
+      <div class="reason-body">
+        <span class="reason-tag">염해 대책</span>
+        <h2 class="reason-title">용융아연도금 가공<br>― 녹의 요소를 99.99% 제거</h2>
+        <p>
+          오키나와의 바닷바람은 철골의 최대 적. 일반적인 도장 방청은 표면만 덮기 때문에 흠집이나 볼트 구멍에서 산화가 진행되어 몇 년이면 녹이 발생합니다. Park Homes Okinawa가 채택하는<strong>용융아연도금 가공</strong>은, 아연의 융점(약 420℃)을 웃도는<strong>약 450℃</strong>로 유지된 용융조에 철골을 전침지시킴으로써, 표면뿐 아니라 안쪽·구멍 속까지 균일하게 아연 피막을 형성합니다.
+        </p>
+        <p>
+          게다가 도장이나 용접·구멍 뚫기를 나중에 하면 피막이 손상됩니다. 그래서 Park Homes Okinawa에서는<strong>골조의 조립·가공·구멍 뚫기를 모두 완료한 뒤, 일단 분해하여 전용 공장까지 운송해 용융아연도금 가공을 실시합니다.</strong>
+          두 번 손이 가지만, 이 공정을 생략하지 않는 것이 20년 내구성의 근간이 되고 있습니다.
+        </p>
+
+        <div class="process">
+          <div class="step"><div class="step-n">1</div><div class="step-text"><strong>골조 완전 조립</strong><br>용접·볼트 체결·구멍 뚫기까지 100% 완료</div></div>
+          <div class="step"><div class="step-n">2</div><div class="step-text"><strong>일단 분해 (두 번 손이 감)</strong><em>← 여기를 생략하지 않는 것이 고집</em></div></div>
+          <div class="step"><div class="step-n">3</div><div class="step-text"><strong>전용 공장으로 운송</strong><br>용융아연도금 대응 공장까지 반송</div></div>
+          <div class="step"><div class="step-n">4</div><div class="step-text"><strong>용융아연도금 가공</strong><br>450℃의 용융아연조에 전침지. 안쪽·구멍 속까지 피막 형성</div></div>
+          <div class="step"><div class="step-n finish">✓</div><div class="step-text"><strong>녹의 요소 99.99% 제거 → 재조립·출하</strong><em>이 공정을 거친 골조가 오키나와의 염해를 계속 견뎌냅니다</em></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 02 サッシ ── -->
+    <div class="reason">
+      <div class="reason-num">02</div>
+      <div class="reason-body">
+        <span class="reason-tag">태풍·폭풍우 대책</span>
+        <h2 class="reason-title">내풍압 S-4 이상 / 수밀 W-5<br>― 오키나와 기준을 표준 장비</h2>
+        <p>
+          창호 새시에는 ‘내풍압 성능(S등급)’과 ‘수밀 성능(W등급)’ 두 가지 성능 기준이 있습니다. 일본새시협회 기준에서는 태풍 피해를 받기 쉬운 지역에서 S-4 이상이 권장됩니다. 2019년 지바현에 막대한 피해를 준 태풍 15호의 최대 순간 풍속은 57.5m/s(S-3 상당의 상한을 넘음). 오키나와에서는 이것이 ‘거의 매년’ 일어날 수 있습니다.
+        </p>
+        <p>
+          Park Homes Okinawa는 전 동에<strong>내풍압 S-4 이상·수밀 W-5를 표준 장비합니다.</strong>
+          추가 비용은 불필요. 타사에서는 ‘오키나와용 옵션’으로 별도 가산되는 사양을 처음부터 포함하고 있습니다.
+        </p>
+
+        <div class="stat-grid">
+          <div class="stat">
+            <div class="stat-num">S-4<span class="stat-unit">이상</span></div>
+            <div class="stat-label">내풍압 성능<br>(오키나와 권장 기준)</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">W-5</div>
+            <div class="stat-label">수밀 성능<br>(최고 등급)</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">57.5<span class="stat-unit">m/s</span></div>
+            <div class="stat-label">2019년 태풍 15호<br>최대 순간 풍속</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 03 鉄骨 vs 木造 ── -->
+    <div class="reason">
+      <div class="reason-num">03</div>
+      <div class="reason-body">
+        <span class="reason-tag">구조·내구 연수</span>
+        <h2 class="reason-title">목조로는 5년을 못 버팁니다<br>― 그래서 철골·20년 설계</h2>
+        <p>
+          사카타 사장이 오키나와 이주 후, 이전에 판매하던 해외제 목조 트레일러 하우스가 염해와 태풍으로 급속히 열화되어 가는 것을 목격했습니다. ‘오키나와에서는 목조가 5년을 못 버틴다.’ 그 경험이 자사 제조·철골 사양으로의 전환을 결단하게 했습니다.
+        </p>
+        <p>
+          현재의 Park Homes Okinawa는 전 동을<strong>철골 구조·실제 내용연수 20년 설계</strong>로 제조. 용융아연도금 가공·S-4 이상 새시·오키나와 사양의 설계 사상이 하나로 모여야 비로소 20년이라는 숫자가 현실이 됩니다.
+        </p>
+
+        <div class="bar-compare">
+          <div class="bar-row">
+            <div class="bar-label">목조 (해외제)</div>
+            <div class="bar-track"><div class="bar-fill b-wood"><span>〜5년</span></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">일반 철골</div>
+            <div class="bar-track"><div class="bar-fill b-std"><span>〜10년</span></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Park Homes Okinawa</div>
+            <div class="bar-track"><div class="bar-fill b-pk"><span>20년 설계</span></div></div>
+          </div>
+        </div>
+        <div class="bar-caption">오키나와의 염해·태풍 환경에서의 참고 내용연수(자사 조사)</div>
+
+        <div class="quote-box">
+          <p>“목조로는 오키나와에서 5년을 못 버틴다. 그렇다면 우리가 직접 만들 수밖에 없다”<br>
+          ― 그렇게 결심하고 도미구스쿠시에 공장을 세웠습니다.</p>
+          <span class="quote-src">사카타 히데유키 / 대표이사 Park Homes Okinawa</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 04 現地製造 ── -->
+    <div class="reason">
+      <div class="reason-num">04</div>
+      <div class="reason-body">
+        <span class="reason-tag">제조·애프터</span>
+        <h2 class="reason-title">오키나와 현지 제조이기에<br>― 도착한 뒤에도 안심</h2>
+        <p>
+          오키나와 기후를 잘 아는 장인이 도미구스쿠시 공장에서 한 동 한 동 제조하고 있습니다. 현지 제조의 최대 이점은 ‘도착한 뒤’에 있습니다. 문제가 있어도 신속한 대응이 가능합니다. 견학도 공장에서 수시 대응(사전 예약제).
+        </p>
+
+        <div class="info-box">
+          <div class="info-box-title">공장·견학에 대하여</div>
+          <p>
+            〒901-0223 오키나와현 도미구스쿠시 오나가 864-14<br>
+            실물을 보면 ‘트레일러 하우스에 대한 이미지가 달라진다’는 말씀을 자주 듣습니다.<br>
+            견학은 무료·사전 예약제입니다. 편하게 연락 주세요.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /reasons -->
+
+  <!-- 結論バナー -->
+  <div class="conclusion">
+    <div class="conclusion-label">Summary</div>
+    <div class="conclusion-title">
+      염해·태풍·더위.<br>
+      오키나와의 모든 것과 마주한 사양이 20년을 견디는 근거입니다.
+    </div>
+    <div class="conclusion-sub">
+      용융아연도금 가공 / S-4 이상 새시 / 철골 20년 설계 / 오키나와 현지 제조<br>
+      ― 이 4가지가 갖춰져야 비로소 ‘오키나와 사양’이라 부를 수 있습니다.
+    </div>
+    <div class="cta-row">
+    </div>
+  </div>
+
+  <!-- ── CTA フッター ── -->
+  <div class="cta-footer">
+    <div class="cta-label">편하게 상담해 주세요</div>
+    <div class="cta-row">
+      <a href="/QAparkhome/" target="_blank" rel="noopener" class="btn btn-ai">🤖 AI-HIGA에게 상담하기</a>
+      <a href="/ko/contact/" class="btn btn-green">📋 AI 무료 견적</a>
+      <a href="https://lin.ee/yPxxosA" class="btn btn-line">💬 LINE으로 문의</a>
+      <a href="/ko/pages/abc-compare.html" class="btn btn-compare">📊 타사와의 가격 비교 보기</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

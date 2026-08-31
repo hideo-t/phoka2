@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<base href="https://parkhomes-okinawa.com/">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>施工案例｜Park Homes Okinawa</title>
+<meta name="description" content="Park Homes Okinawa的設置案例。介紹沖繩縣內外的住宿設施、店舖、豪華露營等實績。">
+
+<meta property="og:title" content="Park Homes Okinawa">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://parkhomes-okinawa.com/zh-Hant/cases/">
+
+<link rel="stylesheet" href="/assets/css/common.css">
+<style>
+  .page-header{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);color:var(--white);padding:48px 0 40px}
+  .page-header h1{font-size:32px;font-weight:700;margin-bottom:8px}
+  .eyebrow{font-size:11px;letter-spacing:.2em;opacity:.7;margin-bottom:8px}
+  .breadcrumb{display:flex;gap:8px;align-items:center;font-size:12px;opacity:.7;margin-top:12px}
+  .breadcrumb a{color:var(--white)}
+  /* cases固有 */
+  .cases-grid{gap:24px}
+  .case-card{display:flex;flex-direction:column;overflow:hidden;padding:0;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);transition:.3s}
+  .case-card:hover{transform:translateY(-4px);box-shadow:0 8px 32px rgba(0,0,0,.12)}
+  .case-card picture{display:block;overflow:hidden}
+  .case-card img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block;transition:.3s}
+  .case-card:hover img{transform:scale(1.04)}
+  .case-card__body{padding:18px 20px 22px}
+  .case-card__badge{display:inline-block;font-size:12px;padding:3px 10px;border-radius:999px;background:var(--blue);color:#fff;margin-bottom:8px;font-weight:600}
+  .case-card h3{margin:0 0 8px;font-size:17px;color:var(--navy);font-weight:700}
+  .case-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
+  .case-card__needs-review{display:inline-block;font-size:10px;padding:1px 8px;border-radius:999px;background:#fef3c7;color:#92400e;margin:0 0 8px;font-weight:600}
+  .case-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px;justify-content:center}
+  .case-filter{background:transparent;border:1px solid var(--border);padding:6px 14px;border-radius:999px;cursor:pointer;font-size:13px;color:var(--text);transition:.2s;font-family:inherit}
+  .case-filter:hover{background:var(--bg)}
+  .case-filter.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+  .case-card__subs{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:6px 6px 0}
+  .case-card__subs picture{display:block;overflow:hidden;border-radius:6px}
+  .case-card__subs img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:.3s}
+  .case-card:hover .case-card__subs img{transform:scale(1.04)}
+  .case-card__remaining{display:inline-block;margin-left:8px;font-size:11px;color:var(--muted);background:var(--border);padding:2px 8px;border-radius:999px;font-weight:500}
+  @media(max-width:480px){.case-card__subs{grid-template-columns:1fr 1fr;gap:4px;padding:4px 4px 0}}
+  .case-card__series{display:inline-block;margin-left:6px;font-size:11px;color:var(--blue);background:rgba(21,96,168,.08);padding:1px 8px;border-radius:999px;font-weight:600;vertical-align:middle}
+  /* legacy section helpers used by current cases markup */
+  .section-alt{background:var(--white)}
+  .section-title{font-size:26px;font-weight:700;color:var(--navy);margin-bottom:8px}
+  .section-sub{color:var(--muted);font-size:14px;margin-bottom:40px}
+</style>
+
+<!--i18n:alt:start-->
+<link rel="canonical" href="https://parkhomes-okinawa.com/zh-Hant/cases/">
+<link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/cases/">
+<link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/cases/">
+<link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/cases/">
+<link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/cases/">
+<link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/cases/">
+<link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/cases/">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<!--i18n:alt:end-->
+</head>
+<body>
+<!--i18n:bar:start-->
+<style>.pkw-langbar{background:#0d2d5e;font-size:13px;line-height:1;font-family:system-ui,-apple-system,'Hiragino Kaku Gothic ProN','Meiryo',sans-serif}.pkw-langbar ul{max-width:1100px;margin:0 auto;padding:7px 24px;display:flex;gap:6px;justify-content:flex-end;align-items:center;list-style:none;flex-wrap:wrap}.pkw-langbar li{margin:0}.pkw-langbar a{color:#cfe0f5;text-decoration:none;padding:5px 9px;border-radius:6px;display:block}.pkw-langbar a:hover{background:rgba(255,255,255,.14);color:#fff}.pkw-langbar [aria-current=true]{background:#fff;color:#0d2d5e;font-weight:700}.pkw-langbar .pkw-lb-label{color:#8fb3dd;letter-spacing:.08em;padding:5px 0}@media(max-width:600px){.pkw-langbar ul{justify-content:center;padding:6px 12px}}</style>
+<nav class="pkw-langbar" aria-label="Language">
+<ul>
+<li class="pkw-lb-label" aria-hidden="true">LANGUAGE</li>
+<li><a href="https://parkhomes-okinawa.com/cases/" hreflang="ja" lang="ja">日本語</a></li>
+<li><a href="https://parkhomes-okinawa.com/en/cases/" hreflang="en" lang="en">English</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hant/cases/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hans/cases/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/ko/cases/" hreflang="ko" lang="ko">한국어</a></li>
+</ul>
+</nav>
+<!--i18n:bar:end-->
+
+
+<nav>
+  <div class="nav-inner">
+    <a href="/zh-Hant/" class="nav-logo">
+      <img src="/logopkw.jpg" alt="Park Homes Okinawa">
+    </a>
+    <div class="nav-links">
+
+      <!-- 3つの理由 -->
+      <div class="nav-item">
+        <span>專用設計</span>
+        <div class="dropdown">
+          <a href="/zh-Hant/pages/abc-compare.html">他社與本公司比較（ABC比較）</a>
+          <a href="/zh-Hant/#appeal1">生活情境</a>
+          <a href="/zh-Hant/#appeal2">沖繩特化設計</a>
+        </div>
+      </div>
+
+      <!-- 商品 -->
+      <div class="nav-item">
+        <span>產品</span>
+        <div class="dropdown">
+          <a href="/zh-Hant/#lineup">產品陣容</a>
+          <a href="/zh-Hant/pages/catalog.html">型錄下載</a>
+          <a href="/zh-Hant/cases/">施工案例集</a>
+          <a href="/zh-Hant/pages/price.html">價格表</a>
+        </div>
+      </div>
+
+      <!-- AI見積 -->
+      <div class="nav-item">
+        <span>AI報價</span>
+        <div class="dropdown">
+          <a href="/zh-Hant/pages/estimate.html" target="_blank">標準報價（表單）</a>
+        </div>
+      </div>
+
+      <!-- 会社情報 -->
+      <div class="nav-item">
+        <span>公司資訊</span>
+        <div class="dropdown">
+          <a href="/zh-Hant/company/">交通位置・公司簡介</a>
+          <a href="https://otha.my.canva.site/" target="_blank" rel="noopener">拖車房屋協會</a>
+        </div>
+      </div>
+
+      <!-- 問い合わせ -->
+      <div class="nav-item">
+        <span>諮詢</span>
+        <div class="dropdown">
+          <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener">用LINE詢問</a>
+          <a href="/zh-Hant/contact/">以電子郵件諮詢</a>
+        </div>
+      </div>
+
+      <a href="/zh-Hant/pages/estimate.html" class="nav-cta">免費報價</a>
+    </div>
+    <button class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')" aria-label="選單">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <span class="m-section">專用設計</span>
+    <a href="/zh-Hant/pages/abc-compare.html">他社與本公司比較（ABC比較）</a>
+    <a href="/zh-Hant/#appeal1">生活情境</a>
+    <a href="/zh-Hant/#appeal2">沖繩特化設計</a>
+    <span class="m-section">產品</span>
+    <a href="/zh-Hant/#lineup">產品陣容</a>
+    <a href="/zh-Hant/pages/catalog.html">型錄下載</a>
+    <a href="/zh-Hant/cases/">施工案例集</a>
+    <a href="/zh-Hant/pages/price.html">價格表</a>
+    <span class="m-section">AI報價</span>
+    <a href="/zh-Hant/pages/estimate.html" target="_blank">標準報價（表單）</a>
+    <span class="m-section">公司資訊</span>
+    <a href="/zh-Hant/company/">交通位置・公司簡介</a>
+    <a href="https://otha.my.canva.site/" target="_blank" rel="noopener">拖車房屋協會</a>
+    <span class="m-section">諮詢</span>
+    <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener">用LINE詢問</a>
+    <a href="/zh-Hant/contact/">以電子郵件諮詢</a>
+    <a href="/zh-Hant/pages/estimate.html" style="color:var(--coral);font-weight:700;margin-top:4px">📋 免費報價 →</a>
+  </div>
+</nav>
+
+<!-- モバイル固定CTAバー -->
+<div class="mobile-cta-bar">
+  <a href="/QAparkhome/" target="_blank" rel="noopener" class="mcta-call">🤖 AI諮詢</a>
+  <a href="https://lin.ee/yPxxosA" target="_blank" rel="noopener" class="mcta-line">💬 LINE</a>
+  <a href="/zh-Hant/pages/estimate.html" class="mcta-est">📋 報價</a>
+</div>
+
+<!-- AI-HIGAくん フローティングボタン -->
+<button class="pakuo-float" onclick="window.open('https://parkhomes-okinawa.com/QAparkhome/','_blank')" aria-label="諮詢 AI-HIGA">
+  <span class="pakuo-avatar">🤖</span>
+  <span>諮詢 AI-HIGA</span>
+</button>
+
+<div class="page-header">
+  <div class="container">
+    <div class="eyebrow">CASES</div>
+    <h1>施工案例</h1>
+    <nav class="breadcrumb"><a href="/zh-Hant/">首頁</a><span>/</span><span>施工案例</span></nav>
+  </div>
+</div>
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-eyebrow">CASES</div>
+    <h2 class="section-title">施工案例</h2>
+    <p class="section-sub">為您依類別介紹沖繩縣內外的拖車房屋施工案例。</p>
+
+    <div class="case-filters">
+      <button class="case-filter active" data-cat="all">全部</button>
+      <button class="case-filter" data-cat="活動">活動</button>
+      <button class="case-filter" data-cat="辦公室">辦公室</button>
+      <button class="case-filter" data-cat="咖啡廳">咖啡廳</button>
+      <button class="case-filter" data-cat="豪華露營">豪華露營</button>
+      <button class="case-filter" data-cat="店舖">店舖</button>
+      <button class="case-filter" data-cat="租車">租車</button>
+      <button class="case-filter" data-cat="私人住宅">私人住宅</button>
+      <button class="case-filter" data-cat="醫療設施">醫療設施</button>
+      <button class="case-filter" data-cat="住宿設施">住宿設施</button>
+      <button class="case-filter" data-cat="自家設施">自家設施</button>
+    </div>
+
+    <div class="grid-2 cases-grid">
+      <article class="card case-card" data-cat="活動">
+        <picture>
+          <source srcset="/images/cases/resor-tech-2022-01@600w.webp 600w, /images/cases/resor-tech-2022-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/resor-tech-2022-01.webp" loading="lazy" alt="RESOR TECH EXPO 2022 IN OKINAWA 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/resor-tech-2022-02@600w.webp 600w, /images/cases/resor-tech-2022-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/resor-tech-2022-02.webp" loading="lazy" alt="RESOR TECH EXPO 2022 IN OKINAWA 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/resor-tech-2022-03@600w.webp 600w, /images/cases/resor-tech-2022-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/resor-tech-2022-03.webp" loading="lazy" alt="RESOR TECH EXPO 2022 IN OKINAWA 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">活動</span>
+          <h3>RESOR TECH EXPO 2022 IN OKINAWA</h3>
+          <p>於2022年沖繩舉辦的 RESOR TECH EXPO 展出。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="咖啡廳">
+        <picture>
+          <source srcset="/images/cases/plus-garden-cafe-01@600w.webp 600w, /images/cases/plus-garden-cafe-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/plus-garden-cafe-01.webp" loading="lazy" alt="PLUS GARDEN CAFE 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/plus-garden-cafe-02@600w.webp 600w, /images/cases/plus-garden-cafe-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/plus-garden-cafe-02.webp" loading="lazy" alt="PLUS GARDEN CAFE 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/plus-garden-cafe-03@600w.webp 600w, /images/cases/plus-garden-cafe-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/plus-garden-cafe-03.webp" loading="lazy" alt="PLUS GARDEN CAFE 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">咖啡廳</span>
+          <h3>PLUS GARDEN CAFE</h3>
+          <p>將11m機種活用為店舖的咖啡廳案例。沖繩規格鋼骨構造，可因應颱風與鹽害。</p>
+          <span class="case-card__remaining">另有7張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="豪華露營">
+        <picture>
+          <source srcset="/images/cases/senaga-glamping-01@600w.webp 600w, /images/cases/senaga-glamping-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/senaga-glamping-01.webp" loading="lazy" alt="瀨長島豪華露營場 的施工案例" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">豪華露營</span>
+          <h3>瀨長島豪華露營場</h3>
+          <p>作為瀨長島Umikaji Terrace近郊的豪華露營設施導入。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="租車">
+        <picture>
+          <source srcset="/images/cases/guts-rental-01@600w.webp 600w, /images/cases/guts-rental-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/guts-rental-01.webp" loading="lazy" alt="Guts租車 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/guts-rental-02@600w.webp 600w, /images/cases/guts-rental-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/guts-rental-02.webp" loading="lazy" alt="Guts租車 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/guts-rental-03@600w.webp 600w, /images/cases/guts-rental-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/guts-rental-03.webp" loading="lazy" alt="Guts租車 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">租車</span>
+          <h3>Guts租車</h3>
+          <p>介紹作為租車櫃檯使用的拖車房屋施工案例。</p>
+          <span class="case-card__remaining">另有4張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="租車">
+        <picture>
+          <source srcset="/images/cases/taei-japan-rental-01@600w.webp 600w, /images/cases/taei-japan-rental-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/taei-japan-rental-01.webp" loading="lazy" alt="Taei Japan 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/taei-japan-rental-02@600w.webp 600w, /images/cases/taei-japan-rental-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/taei-japan-rental-02.webp" loading="lazy" alt="Taei Japan 的施工案例 2" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">租車</span>
+          <h3>Taei Japan</h3>
+          <p>介紹作為租車櫃檯棟使用的拖車房屋施工案例。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="私人住宅">
+        <picture>
+          <source srcset="/images/cases/onna-villa-01@600w.webp 600w, /images/cases/onna-villa-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/onna-villa-01.webp" loading="lazy" alt="恩納村的客戶 的施工案例" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">私人住宅</span>
+          <h3>恩納村的客戶</h3>
+          <p>設置於恩納村的別墅案例。因應海岸沿線鹽害環境的沖繩規格。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="私人住宅">
+        <picture>
+          <source srcset="/images/cases/sesoko-villa-01@600w.webp 600w, /images/cases/sesoko-villa-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/sesoko-villa-01.webp" loading="lazy" alt="本部町瀨底島的客戶 的施工案例" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/sesoko-villa-02@600w.webp 600w, /images/cases/sesoko-villa-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/sesoko-villa-02.webp" loading="lazy" alt="本部町瀨底島的客戶 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/sesoko-villa-03@600w.webp 600w, /images/cases/sesoko-villa-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/sesoko-villa-03.webp" loading="lazy" alt="本部町瀨底島的客戶 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">私人住宅</span>
+          <h3>本部町瀨底島的客戶</h3>
+          <p>設置於本部町瀨底島的別墅案例。配合海邊環境的沖繩規格。</p>
+          <span class="case-card__remaining">另有13張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="醫療設施">
+        <picture>
+          <source srcset="/images/cases/miyako-rehab-01@600w.webp 600w, /images/cases/miyako-rehab-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/miyako-rehab-01.webp" loading="lazy" alt="宮古島復健溫泉醫院 其一 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/miyako-rehab-02@600w.webp 600w, /images/cases/miyako-rehab-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/miyako-rehab-02.webp" loading="lazy" alt="宮古島復健溫泉醫院 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/miyako-rehab-03@600w.webp 600w, /images/cases/miyako-rehab-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/miyako-rehab-03.webp" loading="lazy" alt="宮古島復健溫泉醫院 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">醫療設施</span>
+          <h3>宮古島復健溫泉醫院 <span class="case-card__series">其一</span></h3>
+          <p>作為宮古島溫泉復健醫院的附屬設施設置。</p>
+          <span class="case-card__remaining">另有4張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="住宿設施">
+        <picture>
+          <source srcset="/images/cases/crystal-villa-ingya-01@600w.webp 600w, /images/cases/crystal-villa-ingya-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/crystal-villa-ingya-01.webp" loading="lazy" alt="Crystal Villa Ingya 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/crystal-villa-ingya-02@600w.webp 600w, /images/cases/crystal-villa-ingya-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/crystal-villa-ingya-02.webp" loading="lazy" alt="Crystal Villa Ingya 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/crystal-villa-ingya-03@600w.webp 600w, /images/cases/crystal-villa-ingya-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/crystal-villa-ingya-03.webp" loading="lazy" alt="Crystal Villa Ingya 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">住宿設施</span>
+          <h3>Crystal Villa Ingya</h3>
+          <p>作為宮古島Ingya Marine Garden鄰近的住宿設施導入多棟。</p>
+          <span class="case-card__remaining">另有6張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="住宿設施">
+        <picture>
+          <source srcset="/images/cases/pool-resort-okinawa-01@600w.webp 600w, /images/cases/pool-resort-okinawa-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/pool-resort-okinawa-01.webp" loading="lazy" alt="The Pool Resort Okinawa 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/pool-resort-okinawa-02@600w.webp 600w, /images/cases/pool-resort-okinawa-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/pool-resort-okinawa-02.webp" loading="lazy" alt="The Pool Resort Okinawa 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/pool-resort-okinawa-03@600w.webp 600w, /images/cases/pool-resort-okinawa-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/pool-resort-okinawa-03.webp" loading="lazy" alt="The Pool Resort Okinawa 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">住宿設施</span>
+          <h3>The Pool Resort Okinawa</h3>
+          <p>作為度假飯店「The Pool Resort Okinawa」的住宿棟導入。</p>
+          <span class="case-card__remaining">另有5張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="自家設施">
+        <picture>
+          <source srcset="/images/cases/miyako-showroom-01@600w.webp 600w, /images/cases/miyako-showroom-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/miyako-showroom-01.webp" loading="lazy" alt="Park Homes Okinawa 宮古島展示場 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/miyako-showroom-02@600w.webp 600w, /images/cases/miyako-showroom-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/miyako-showroom-02.webp" loading="lazy" alt="Park Homes Okinawa 宮古島展示場 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/miyako-showroom-03@600w.webp 600w, /images/cases/miyako-showroom-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/miyako-showroom-03.webp" loading="lazy" alt="Park Homes Okinawa 宮古島展示場 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">自家設施</span>
+          <h3>Park Homes Okinawa 宮古島展示場</h3>
+          <p>宮古島的自家展示場。可實際參觀（採事先預約制）。</p>
+          <span class="case-card__remaining">另有1張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="自家設施">
+        <picture>
+          <source srcset="/images/cases/toyosaki-chura-01@600w.webp 600w, /images/cases/toyosaki-chura-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/toyosaki-chura-01.webp" loading="lazy" alt="豐崎Park Chura 11M 的施工案例" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/toyosaki-chura-02@600w.webp 600w, /images/cases/toyosaki-chura-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/toyosaki-chura-02.webp" loading="lazy" alt="豐崎Park Chura 11M 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/toyosaki-chura-03@600w.webp 600w, /images/cases/toyosaki-chura-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/toyosaki-chura-03.webp" loading="lazy" alt="豐崎Park Chura 11M 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">自家設施</span>
+          <h3>豐崎Park Chura 11M</h3>
+          <p>豐崎的自家樣品屋。實物展示11m機種的居住空間。</p>
+          <span class="case-card__remaining">另有3張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="辦公室">
+        <picture>
+          <source srcset="/images/cases/okito-transport-01@600w.webp 600w, /images/cases/okito-transport-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/okito-transport-01.webp" loading="lazy" alt="沖東交通 的施工案例" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">辦公室</span>
+          <h3>沖東交通</h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>為沖繩縣的交通業者設置的拖車房屋案例。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="租車">
+        <picture>
+          <source srcset="/images/cases/haba-rental-01@600w.webp 600w, /images/cases/haba-rental-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/haba-rental-01.webp" loading="lazy" alt="HABA租車 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/haba-rental-02@600w.webp 600w, /images/cases/haba-rental-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/haba-rental-02.webp" loading="lazy" alt="HABA租車 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/haba-rental-03@600w.webp 600w, /images/cases/haba-rental-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/haba-rental-03.webp" loading="lazy" alt="HABA租車 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">租車</span>
+          <h3>HABA租車</h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>作為租車營業所活用。留有10張施工紀錄。</p>
+          <span class="case-card__remaining">另有7張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="租車">
+        <picture>
+          <source srcset="/images/cases/odal-rental-1-01@600w.webp 600w, /images/cases/odal-rental-1-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/odal-rental-1-01.webp" loading="lazy" alt="ODAL租車 其一 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">租車</span>
+          <h3>ODAL租車 <span class="case-card__series">其一</span></h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>為ODAL租車公司施作的案例。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="醫療設施">
+        <picture>
+          <source srcset="/images/cases/miyako-rehab-p2-01@600w.webp 600w, /images/cases/miyako-rehab-p2-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/miyako-rehab-p2-01.webp" loading="lazy" alt="宮古島復健溫泉醫院 其二 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/miyako-rehab-p2-02@600w.webp 600w, /images/cases/miyako-rehab-p2-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/miyako-rehab-p2-02.webp" loading="lazy" alt="宮古島復健溫泉醫院 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/miyako-rehab-p2-03@600w.webp 600w, /images/cases/miyako-rehab-p2-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/miyako-rehab-p2-03.webp" loading="lazy" alt="宮古島復健溫泉醫院 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">醫療設施</span>
+          <h3>宮古島復健溫泉醫院 <span class="case-card__series">其二</span></h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>宮古島復健溫泉醫院 其二。追加棟或其他地點的施工紀錄。</p>
+          <span class="case-card__remaining">另有7張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="租車">
+        <picture>
+          <source srcset="/images/cases/odal-rental-2-01@600w.webp 600w, /images/cases/odal-rental-2-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/odal-rental-2-01.webp" loading="lazy" alt="ODAL租車 其二 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/odal-rental-2-02@600w.webp 600w, /images/cases/odal-rental-2-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/odal-rental-2-02.webp" loading="lazy" alt="ODAL租車 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/odal-rental-2-03@600w.webp 600w, /images/cases/odal-rental-2-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/odal-rental-2-03.webp" loading="lazy" alt="ODAL租車 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">租車</span>
+          <h3>ODAL租車 <span class="case-card__series">其二</span></h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>為ODAL租車公司施作的案例（其二）。</p>
+          <span class="case-card__remaining">另有1張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="店舖">
+        <picture>
+          <source srcset="/images/cases/before-sunset-01@600w.webp 600w, /images/cases/before-sunset-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/before-sunset-01.webp" loading="lazy" alt="Before Sunset 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/before-sunset-02@600w.webp 600w, /images/cases/before-sunset-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/before-sunset-02.webp" loading="lazy" alt="Before Sunset 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/before-sunset-03@600w.webp 600w, /images/cases/before-sunset-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/before-sunset-03.webp" loading="lazy" alt="Before Sunset 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">店舖</span>
+          <h3>Before Sunset</h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>為店舖 Before Sunset 設置的拖車房屋案例。</p>
+          <span class="case-card__remaining">另有1張</span>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="租車">
+        <picture>
+          <source srcset="/images/cases/odal-rental-3-01@600w.webp 600w, /images/cases/odal-rental-3-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/odal-rental-3-01.webp" loading="lazy" alt="ODAL租車 其三 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/odal-rental-3-02@600w.webp 600w, /images/cases/odal-rental-3-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/odal-rental-3-02.webp" loading="lazy" alt="ODAL租車 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/odal-rental-3-03@600w.webp 600w, /images/cases/odal-rental-3-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/odal-rental-3-03.webp" loading="lazy" alt="ODAL租車 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">租車</span>
+          <h3>ODAL租車 <span class="case-card__series">其三</span></h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>為ODAL租車公司施作的案例（其三）。</p>
+        </div>
+      </article>
+      <article class="card case-card" data-cat="住宿設施">
+        <picture>
+          <source srcset="/images/cases/yanbaru-experience-hotel-01@600w.webp 600w, /images/cases/yanbaru-experience-hotel-01.webp 1200w" sizes="(max-width:768px) 100vw, 540px" type="image/webp">
+          <img src="/images/cases/yanbaru-experience-hotel-01.webp" loading="lazy" alt="Yambaru Experience Hotel Nunganik 的施工案例 1" width="1200" height="900">
+        </picture>
+
+        <div class="case-card__subs">
+    <picture>
+      <source srcset="/images/cases/yanbaru-experience-hotel-02@600w.webp 600w, /images/cases/yanbaru-experience-hotel-02.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/yanbaru-experience-hotel-02.webp" loading="lazy" alt="Yambaru Experience Hotel Nunganik 的施工案例 2" width="600" height="450">
+    </picture>
+    <picture>
+      <source srcset="/images/cases/yanbaru-experience-hotel-03@600w.webp 600w, /images/cases/yanbaru-experience-hotel-03.webp 1200w" sizes="(max-width:768px) 50vw, 260px" type="image/webp">
+      <img src="/images/cases/yanbaru-experience-hotel-03.webp" loading="lazy" alt="Yambaru Experience Hotel Nunganik 的施工案例 3" width="600" height="450">
+    </picture>
+        </div>
+
+        <div class="case-card__body">
+          <span class="case-card__badge">住宿設施</span>
+          <h3>Yambaru Experience Hotel Nunganik</h3>
+          <span class="case-card__needs-review">待審閱</span>
+          <p>作為山原（Yambaru）地區體驗飯店Nunganik的住宿棟設置。</p>
+          <span class="case-card__remaining">另有4張</span>
+        </div>
+      </article>
+    </div>
+
+    <div style="text-align:center;margin-top:48px">
+      <a href="/zh-Hant/contact/" class="btn btn-primary">設置諮詢由此進 →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="/logopkw.jpg" alt="Park Homes Okinawa">
+        <p>
+          【總公司】〒901-0222 沖繩縣豐見城市渡橋名281-5<br>
+          【樣品屋】〒901-0225 沖繩縣豐見城市豐崎1-1223<br>
+          【工廠】〒901-0223 沖繩縣豐見城市翁長864-14<br>
+          【TEL】<a href="tel:098-856-6666">098-856-6666</a><br>
+          【FAX】098-856-0666<br>
+          Email: <a href="mailto:parkhomes.okinawa@gmail.com">parkhomes.okinawa@gmail.com</a><br>
+          設立：2016年7月1日　資本額：1,000萬日圓
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>服務</h4>
+        <ul>
+          <li><a href="/zh-Hant/#appeal1">生活情境</a></li>
+          <li><a href="/zh-Hant/#appeal2">沖繩規格的三個理由</a></li>
+          <li><a href="/zh-Hant/lineup/">產品陣容</a></li>
+          <li><a href="/zh-Hant/cases/">施工案例</a></li>
+          <li><a href="/zh-Hant/pages/abc-compare.html">他社與本公司比較</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>公司・諮詢</h4>
+        <ul>
+          <li><a href="/zh-Hant/company/">公司簡介・交通位置</a></li>
+          <li><a href="/zh-Hant/contact/">以電子郵件諮詢</a></li>
+          <li><a href="https://lin.ee/yPxxosA" target="_blank">用LINE諮詢</a></li>
+          <li><a href="tel:098-856-6666">☎ 098-856-6666</a></li>
+          <li><a href="https://otha.my.canva.site/" target="_blank" rel="noopener">拖車房屋協會</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Park Homes Okinawa 股份有限公司 All Rights Reserved.</p>
+      <div class="footer-sns">
+        <a href="#" aria-label="Instagram">📸</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="LINE">💬</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+// ===== スクロールリビール =====
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible') });
+}, {threshold: 0.08});
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// ===== ドロップダウン: クリック式 =====
+document.querySelectorAll('.nav-item > span').forEach(trigger => {
+  trigger.addEventListener('click', e => {
+    e.stopPropagation();
+    const item = trigger.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('open'));
+    if(!isOpen) item.classList.add('open');
+  });
+});
+document.addEventListener('click', e => {
+  if(!e.target.closest('.nav-item')) {
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('open'));
+  }
+  const menu = document.querySelector('.mobile-menu');
+  const ham = document.querySelector('.hamburger');
+  if(menu && ham && !menu.contains(e.target) && !ham.contains(e.target)) menu.classList.remove('open');
+});
+
+// ===== AI-HIGAくんバブル =====
+setTimeout(() => {
+  const b = document.createElement('div');
+  b.className = 'pakuo-bubble';
+  b.innerHTML = '👋 こんにちは！トレーラーハウスについて何でも聞いてね！';
+  document.body.appendChild(b);
+  setTimeout(() => b.remove(), 5000);
+}, 3000);
+</script>
+<script>
+document.querySelectorAll('.case-filter').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.case-filter').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const cat=btn.dataset.cat;
+    document.querySelectorAll('.case-card').forEach(card=>{
+      card.style.display=(cat==='all'||card.dataset.cat===cat)?'':'none';
+    });
+  });
+});
+</script>
+</body>
+</html>

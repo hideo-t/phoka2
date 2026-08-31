@@ -1,0 +1,22 @@
+# リポジトリはLFで保存されている。core.autocrlf=true の環境でチェックアウトすると
+# 作業ツリーがCRLFになり、i18n のビルドが出力するLFと食い違って全ファイルが
+# 差分として出てしまう。サイトの構成ファイルは改行をLFに固定する。
+*.html  text eol=lf
+*.xml   text eol=lf
+*.json  text eol=lf
+*.py    text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.yml   text eol=lf
+
+# 画像・PDF等はバイナリとして扱う
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.webp  binary
+*.gif   binary
+*.mp4   binary
+*.pdf   binary
+*.pth   binary

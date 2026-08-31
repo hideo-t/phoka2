@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cat > /c/Users/hidex/phoka2/i18n/extract.py <<'PY'\\n# -*- coding: utf-8 -*-\\n\\\"\\\"\\\"日本語原本から翻訳対象文字列を抽出し i18n/strings/ja.json を作る。\\n\\n置換はマスク済みテキストへのリテラル置換で行うため、抽出もマスク済み\\nテキストから行う。こうすることで「抽出でき...",
+  "error": "Exit code 1\nunique strings: 1220  chars: 26075\r\nwrote: C:\\Users\\hidex\\phoka2\\i18n\\strings\\ja.json\r\n!! �}�X�N�ς݃e�L�X�g�Ō�����Ȃ�������: 2\r\n    Traceback (most recent call last):\r\n  File \"C:\\Users\\hidex\\phoka2\\i18n\\extract.py\", line 112, in <module>\r\n    main()\r\n  File \"C:\\Users\\hidex\\phoka2\\i18n\\extract.py\", line 106, in main\r\n    print(\"   \", u)\r\nUnicodeEncodeError: 'cp932' codec can't encode character '\\xa9' in position 35: illegal multibyte sequence",
+  "timestamp": "2026-08-28T21:42:57.101Z",
+  "retry_count": 1
+}

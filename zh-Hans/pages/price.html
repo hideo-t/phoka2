@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>商品价格表｜Park Homes Okinawa</title>
+<meta name="description" content="冲绳规格钢结构拖车房屋商品价格表。一览各机种的本体价格、运输安装费、概算合计（未税）。">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0d2d5e;--blue:#1560a8;--coral:#e8614a;--coral-dark:#c44a35;
+  --green:#2a7a5a;--green-lt:#e8f5ee;
+  --gray:#f5f5f3;--border:#e0e0d8;--text:#1a2332;--muted:#666;
+  --white:#fff;--radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--gray);color:var(--text);font-size:15px;line-height:1.7}
+a{text-decoration:none;color:var(--blue)}
+
+/* NAV */
+nav{background:var(--white);border-bottom:2px solid var(--blue);position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.nav-inner{max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.nav-inner img{height:96px;width:auto}
+.nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.nav-links a{font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;transition:.2s}
+.nav-links a:hover{background:#f0f6ff}
+.nav-cta{color:var(--white)!important;background:var(--coral);padding:8px 16px!important;border-radius:8px}
+.nav-cta:hover{background:var(--coral-dark)!important}
+
+/* HERO */
+.page-hero{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);color:var(--white);padding:48px 20px 40px;text-align:center}
+.page-hero .eyebrow{font-size:11px;letter-spacing:.3em;opacity:.7;text-transform:uppercase;margin-bottom:12px}
+.page-hero h1{font-size:clamp(22px,4vw,36px);font-weight:700;margin-bottom:12px}
+.page-hero p{font-size:14px;opacity:.8;max-width:500px;margin:0 auto}
+
+/* CONTAINER */
+.container{max-width:1000px;margin:0 auto;padding:0 20px}
+
+/* SECTION */
+.section{padding:56px 0}
+
+/* LEGEND */
+.legend{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:32px;font-size:13px;color:var(--muted)}
+.legend-item{display:flex;align-items:center;gap:6px}
+.dot-green{width:12px;height:12px;border-radius:50%;background:var(--green);flex-shrink:0}
+.dot-gray{width:12px;height:12px;border-radius:50%;background:#aaa;flex-shrink:0}
+
+/* CARDS GRID */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media(max-width:640px){.cards{grid-template-columns:1fr}}
+
+/* CARD */
+.card{background:var(--white);border-radius:var(--radius);overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);transition:.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 28px rgba(0,0,0,.1)}
+.card.has-price{border-top:4px solid var(--green)}
+.card.no-price{border-top:4px solid #ccc;opacity:.8}
+.card-head{padding:20px 20px 14px}
+.card-no{font-size:10px;font-weight:700;letter-spacing:.15em;color:var(--muted);margin-bottom:4px;text-transform:uppercase}
+.card-name{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:2px}
+.card-name-en{font-size:11px;color:var(--muted)}
+.card-series{display:inline-block;background:var(--navy);color:var(--white);font-size:10px;padding:2px 8px;border-radius:20px;margin-top:8px}
+
+.card-body{padding:0 20px 20px;display:flex;flex-direction:column;gap:10px}
+.spec-row{display:flex;gap:8px;align-items:baseline;font-size:13px}
+.spec-label{color:var(--muted);min-width:72px;flex-shrink:0}
+.spec-val{color:var(--text);font-weight:500}
+
+.price-block{background:var(--green-lt);border-radius:8px;padding:14px 16px;margin-top:4px}
+.price-label{font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--green);text-transform:uppercase;margin-bottom:4px}
+.price-main{font-size:22px;font-weight:700;color:var(--navy);line-height:1.2}
+.price-range{font-size:12px;color:var(--muted);margin-top:2px}
+.price-total{display:flex;justify-content:space-between;align-items:baseline;margin-top:8px;padding-top:8px;border-top:1px solid rgba(0,0,0,.06)}
+.price-total-label{font-size:11px;color:var(--muted)}
+.price-total-val{font-size:16px;font-weight:700;color:var(--coral)}
+
+.no-price-block{background:var(--gray);border-radius:8px;padding:12px 16px;margin-top:4px;font-size:12px;color:var(--muted);text-align:center}
+
+.card-note{font-size:11px;color:var(--muted);background:#fafafa;border-radius:6px;padding:8px 10px;line-height:1.6;margin-top:4px}
+
+/* NOTES SECTION */
+.notes-box{background:var(--white);border-radius:var(--radius);padding:24px 28px;border:1px solid var(--border);margin-top:40px}
+.notes-box h3{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:14px}
+.notes-box ul{padding-left:16px}
+.notes-box li{font-size:12px;color:var(--muted);margin-bottom:6px;line-height:1.7}
+
+/* CTA */
+.cta-bar{background:var(--navy);color:var(--white);padding:40px 20px;text-align:center;margin-top:0}
+.cta-bar h2{font-size:20px;font-weight:700;margin-bottom:8px}
+.cta-bar p{font-size:13px;opacity:.75;margin-bottom:24px}
+.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:8px;font-size:14px;font-weight:700;transition:.2s}
+.cta-btn-primary{background:var(--coral);color:var(--white)}
+.cta-btn-primary:hover{background:var(--coral-dark)}
+.cta-btn-outline{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,.4)}
+.cta-btn-outline:hover{background:rgba(255,255,255,.1)}
+
+@media(max-width:480px){
+  .nav-links{gap:6px}
+  .nav-links a{font-size:12px;padding:5px 9px}
+  .page-hero{padding:36px 16px 28px}
+  .section{padding:36px 0}
+  .container{padding:0 14px}
+  .card-head{padding:16px 16px 10px}
+  .card-body{padding:0 16px 16px}
+  .notes-box{padding:18px 16px}
+}
+</style>
+
+<!--i18n:alt:start-->
+<link rel="canonical" href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html">
+<link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/price.html">
+<link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/price.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/price.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html">
+<link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/price.html">
+<link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/price.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ko_KR">
+<!--i18n:alt:end-->
+</head>
+<body>
+<!--i18n:bar:start-->
+<style>.pkw-langbar{background:#0d2d5e;font-size:13px;line-height:1;font-family:system-ui,-apple-system,'Hiragino Kaku Gothic ProN','Meiryo',sans-serif}.pkw-langbar ul{max-width:1100px;margin:0 auto;padding:7px 24px;display:flex;gap:6px;justify-content:flex-end;align-items:center;list-style:none;flex-wrap:wrap}.pkw-langbar li{margin:0}.pkw-langbar a{color:#cfe0f5;text-decoration:none;padding:5px 9px;border-radius:6px;display:block}.pkw-langbar a:hover{background:rgba(255,255,255,.14);color:#fff}.pkw-langbar [aria-current=true]{background:#fff;color:#0d2d5e;font-weight:700}.pkw-langbar .pkw-lb-label{color:#8fb3dd;letter-spacing:.08em;padding:5px 0}@media(max-width:600px){.pkw-langbar ul{justify-content:center;padding:6px 12px}}</style>
+<nav class="pkw-langbar" aria-label="Language">
+<ul>
+<li class="pkw-lb-label" aria-hidden="true">LANGUAGE</li>
+<li><a href="https://parkhomes-okinawa.com/pages/price.html" hreflang="ja" lang="ja">日本語</a></li>
+<li><a href="https://parkhomes-okinawa.com/en/pages/price.html" hreflang="en" lang="en">English</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hant/pages/price.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/ko/pages/price.html" hreflang="ko" lang="ko">한국어</a></li>
+</ul>
+</nav>
+<!--i18n:bar:end-->
+
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="/zh-Hans/">
+      <img src="/logopkw.jpg" alt="Park Homes Okinawa" style="height:96px;width:auto">
+    </a>
+    <div class="nav-links">
+      <a href="/zh-Hans/">🏠 首页</a>
+      <a href="/zh-Hans/#lineup">产品阵容</a>
+      <a href="/zh-Hans/pages/catalog.html">📄 目录下载</a>
+      <a href="/zh-Hans/pages/abc-compare.html">他公司比较</a>
+      <a href="/zh-Hans/pages/estimate.html" class="nav-cta">📋 免费报价</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="page-hero">
+  <div class="eyebrow">Price List · 2026</div>
+  <h1>商品价格表</h1>
+  <p>一览全机种的本体价格、运输费、概算合计。<br>所有价格皆未税，为住宿设施用途的参考提案。</p>
+</div>
+
+<!-- CARDS -->
+<!-- 価格の編集は data/prices.json で行うこと（このHTML内の数値はフォールバック表示） -->
+<section class="section">
+  <div class="container">
+
+    <div class="legend">
+      <div class="legend-item"><div class="dot-green"></div>有价格信息</div>
+      <div class="legend-item"><div class="dot-gray"></div>无价格资料（请咨询）</div>
+    </div>
+
+    <div class="cards">
+
+      <!-- 01 アマルフィー -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.01</div>
+          <div class="card-name">Amalfi 11.5m</div>
+          <div class="card-name-en">Amalfi 40F</div>
+          <div class="card-series">Amalfi Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面积</span><span class="spec-val">35㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W3.3m × D11.5m × H4.2m</span></div>
+          <div class="spec-row"><span class="spec-label">住宿人数</span><span class="spec-val">4〜8人</span></div>
+          <div class="price-block">
+            <div class="price-label">本体价格（未税）</div>
+            <div class="price-main" data-price="amalfi.body">1,785〜1,835万日元</div>
+            <div class="price-range" data-price="amalfi.transport">运输・安装费 约150万日元〜 ／ 露台・阶梯 约50万日元〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合计（未税）</span>
+              <span class="price-total-val" data-price="amalfi.total">约1,985万日元〜</span>
+            </div>
+          </div>
+          <div class="card-note">⚠ 旧产品阵容价格。与现行「Amalfi 40F」的对应关系需确认。附带设备：U字型厨房・洗手台・淋浴・智能马桶等</div>
+        </div>
+      </div>
+
+      <!-- 02 ラウンドプレミア12m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.02</div>
+          <div class="card-name">Round Premier 12m</div>
+          <div class="card-name-en">Round Premiere 12m</div>
+          <div class="card-series">Round Premiere Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面积</span><span class="spec-val">30㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W2.5m × D12.0m × H3.6m</span></div>
+          <div class="spec-row"><span class="spec-label">住宿人数</span><span class="spec-val">4〜8人</span></div>
+          <div class="price-block">
+            <div class="price-label">本体价格（未税）</div>
+            <div class="price-main" data-price="roundPremiere12.body">1,500〜1,550万日元</div>
+            <div class="price-range" data-price="roundPremiere12.transport">运输・安装费 约60万日元〜 ／ 露台・阶梯 约665万日元〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合计（未税）</span>
+              <span class="price-total-val" data-price="roundPremiere12.total">约2,225万日元〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03 ラウンドプレミア6m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.03</div>
+          <div class="card-name">Round Premier 6m</div>
+          <div class="card-name-en">Round Premiere 6m</div>
+          <div class="card-series">Round Premiere Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面积</span><span class="spec-val">14㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W2.5m × D6.0m × H3.6m</span></div>
+          <div class="spec-row"><span class="spec-label">住宿人数</span><span class="spec-val">2〜3人</span></div>
+          <div class="price-block">
+            <div class="price-label">本体价格（未税）</div>
+            <div class="price-main" data-price="roundPremiere6.body">1,250〜1,270万日元</div>
+            <div class="price-range" data-price="roundPremiere6.transport">运输・安装费 约50万日元〜 ／ 露台・阶梯 约570万日元〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合计（未税）</span>
+              <span class="price-total-val" data-price="roundPremiere6.total">约1,870万日元〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 04 カーサ11m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.04</div>
+          <div class="card-name">Casa 11m</div>
+          <div class="card-name-en">Casa 11m</div>
+          <div class="card-series">Casa Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面积</span><span class="spec-val">34㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W3.4m × D11.0m × H4.2m</span></div>
+          <div class="spec-row"><span class="spec-label">住宿人数</span><span class="spec-val">4〜8人</span></div>
+          <div class="price-block">
+            <div class="price-label">本体价格（未税）</div>
+            <div class="price-main" data-price="casa.body">1,300〜1,350万日元</div>
+            <div class="price-range" data-price="casa.transport">运输・安装费 约150万日元〜 ／ 露台・阶梯 约50万日元〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合计（未税）</span>
+              <span class="price-total-val" data-price="casa.total">约1,500万日元〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 05 ルミナ11m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.05</div>
+          <div class="card-name">Lumina 11m</div>
+          <div class="card-name-en">Lumina 11m</div>
+          <div class="card-series">Lumina Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面积</span><span class="spec-val">34㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W3.4m × D11.0m × H4.2m</span></div>
+          <div class="spec-row"><span class="spec-label">住宿人数</span><span class="spec-val">4〜6人</span></div>
+          <div class="price-block">
+            <div class="price-label">本体价格（未税）</div>
+            <div class="price-main" data-price="lumina.body">1,400〜1,500万日元</div>
+            <div class="price-range" data-price="lumina.transport">运输・安装费 约150万日元〜 ／ 露台・阶梯 约50万日元〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合计（未税）</span>
+              <span class="price-total-val" data-price="lumina.total">约1,600万日元〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 09 ムービング6m -->
+      <div class="card has-price">
+        <div class="card-head">
+          <div class="card-no">No.09</div>
+          <div class="card-name">Moving 6m</div>
+          <div class="card-name-en">Moving 6m</div>
+          <div class="card-series">Moving Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">面积</span><span class="spec-val">14㎡</span></div>
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W2.5m × D6.0m × H3.6m</span></div>
+          <div class="spec-row"><span class="spec-label">住宿人数</span><span class="spec-val">2〜3人</span></div>
+          <div class="price-block">
+            <div class="price-label">本体价格（未税）</div>
+            <div class="price-main" data-price="moving.body">700〜720万日元</div>
+            <div class="price-range" data-price="moving.transport">运输・安装费 约50万日元〜 ／ 露台・阶梯 约50万日元〜</div>
+            <div class="price-total">
+              <span class="price-total-label">概算合计（未税）</span>
+              <span class="price-total-val" data-price="moving.total">约800万日元〜</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 06 Base -->
+      <div class="card no-price">
+        <div class="card-head">
+          <div class="card-no">No.06</div>
+          <div class="card-name">Base 11m</div>
+          <div class="card-name-en">Base 11m</div>
+          <div class="card-series">Base Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">联系我们</span></div>
+          <div class="no-price-block">无价格资料<br>请咨询我们</div>
+          <div class="card-note">仅目录记载。价格信息将个别为您说明。</div>
+        </div>
+      </div>
+
+      <!-- 07 Cube -->
+      <div class="card no-price">
+        <div class="card-head">
+          <div class="card-no">No.07 / 08</div>
+          <div class="card-name">Cube 6m / 12m</div>
+          <div class="card-name-en">Cube / Slide Out</div>
+          <div class="card-series">Cube Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W2.5m × D6m〜12m × H3.6m</span></div>
+          <div class="no-price-block">无价格资料<br>请咨询我们</div>
+          <div class="card-note">仅目录记载。亦有滑出式类型。</div>
+        </div>
+      </div>
+
+      <!-- 10 ソーラーヘブン -->
+      <div class="card no-price">
+        <div class="card-head">
+          <div class="card-no">No.10</div>
+          <div class="card-name">Solar Haven 6m</div>
+          <div class="card-name-en">Solar Heaven 6m</div>
+          <div class="card-series">Solar Heaven Series</div>
+        </div>
+        <div class="card-body">
+          <div class="spec-row"><span class="spec-label">外尺寸</span><span class="spec-val">W2.5m × D6m × H3.8m（含面板）</span></div>
+          <div class="no-price-block">无价格资料<br>请咨询我们</div>
+          <div class="card-note">搭载太阳能板的机种。可离网运作。</div>
+        </div>
+      </div>
+
+    </div><!-- /cards -->
+
+    <!-- NOTES -->
+    <div class="notes-box">
+      <h3>📌 价格相关注意事项</h3>
+      <ul>
+        <li>所有价格皆为<strong>未税（不含税）</strong>显示。</li>
+        <li>为设想住宿设施用途的<strong>参考提案价格</strong>。会依设置条件与设备内容变动。</li>
+        <li>运输・安装费依设置地点、地形、搬入路径变动。将另行报价。</li>
+        <li>价格资料出处：产品阵容_R8_02（2026年4月改订版）</li>
+        <li>无价格的机种仅有目录记载，请个别咨询。</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-bar">
+  <h2>精确金额请使用AI报价</h2>
+  <p>只要输入用途、尺寸、设置条件，即为您提供概算金额</p>
+  <div class="cta-btns">
+    <a href="/zh-Hans/pages/estimate.html" class="cta-btn cta-btn-primary">📋 试用AI免费报价</a>
+    <a href="/QAparkhome/" target="_blank" rel="noopener" class="cta-btn cta-btn-outline">🤖 向AI咨询</a>
+  </div>
+</div>
+
+<script src="../assets/js/prices.js" defer></script>
+</body>
+</html>

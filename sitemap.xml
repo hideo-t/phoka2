@@ -1,37 +1,1660 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://parkhomes-okinawa.com/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/注目される3つの特徴/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/solar-haven/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/amalfi/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/round-premier/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/parq/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/airstream/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/container/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/food-truck/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/lineup/sauna/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/オプション設定/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/faq/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/車検対応トレーラーハウス/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/車検対応トレーラーハウス/車検付き/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/cases/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/災害時の活用/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/レンタル/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/レッカー業務/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/製作/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/メンテナンス/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/中古コンテナ-トレーラー情報/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/パーツ販売/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/コンプライアンス/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/company/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/company/社長挨拶/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/company/製作スタッフ/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/company/オフィス紹介-展示場/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/company/協力会社一覧/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/インフォメーション/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/インフォメーション2/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/contact/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/about/</loc><lastmod>2026-03-14</lastmod></url>
-  <url><loc>https://parkhomes-okinawa.com/use-cases/</loc><lastmod>2026-03-14</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://parkhomes-okinawa.com/注目される3つの特徴/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/オプション設定/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/車検対応トレーラーハウス/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/車検対応トレーラーハウス/車検付き/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/災害時の活用/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/レンタル/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/レッカー業務/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/製作/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/メンテナンス/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/中古コンテナ-トレーラー情報/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/パーツ販売/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/コンプライアンス/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/インフォメーション/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/インフォメーション2/</loc>
+    <lastmod>2026-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/about/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/about/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/about/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/about/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/about/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/about/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/about/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/about/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/about/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/about/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/about/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/about/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/about/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/about/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/about/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/company/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/company/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/company/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/company/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/company/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/company/オフィス紹介-展示場/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/company/オフィス紹介-展示場/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/company/オフィス紹介-展示場/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/company/オフィス紹介-展示場/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/company/オフィス紹介-展示場/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/オフィス紹介-展示場/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/オフィス紹介-展示場/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/company/協力会社一覧/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/company/協力会社一覧/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/company/協力会社一覧/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/company/協力会社一覧/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/company/協力会社一覧/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/協力会社一覧/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/協力会社一覧/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/company/社長挨拶/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/company/社長挨拶/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/company/社長挨拶/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/company/社長挨拶/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/company/社長挨拶/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/社長挨拶/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/社長挨拶/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/company/製作スタッフ/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/company/製作スタッフ/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/company/製作スタッフ/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/company/製作スタッフ/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/company/製作スタッフ/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/company/製作スタッフ/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/company/製作スタッフ/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/contact/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/contact/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/contact/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/contact/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/contact/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/faq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/faq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/faq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/faq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/faq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/airstream/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/airstream/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/airstream/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/airstream/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/airstream/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/airstream/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/airstream/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/amalfi/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/amalfi/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/amalfi/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/amalfi/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/amalfi/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/amalfi/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/container/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/container/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/container/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/container/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/container/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/container/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/container/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/container/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/container/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/container/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/container/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/food-truck/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/food-truck/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/food-truck/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/food-truck/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/food-truck/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/food-truck/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/food-truck/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/parq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/parq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/parq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/parq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/parq/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/parq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/parq/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/round-premier/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/round-premier/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/round-premier/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/round-premier/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/round-premier/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/round-premier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/round-premier/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/sauna/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/sauna/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/sauna/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/sauna/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/sauna/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/sauna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/sauna/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/lineup/solar-haven/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/lineup/solar-haven/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/lineup/solar-haven/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/lineup/solar-haven/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/lineup/solar-haven/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/lineup/solar-haven/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/lineup/solar-haven/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/use-cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/use-cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/use-cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/use-cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/use-cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/use-cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/use-cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/use-cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/use-cases/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/use-cases/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/abc-compare.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/abc-compare.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/abc-compare.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/abc-compare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/abc-compare.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/amalfi-gallery.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/amalfi-gallery.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/amalfi-gallery.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/amalfi-gallery.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/amalfi-gallery.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/amalfi-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/amalfi-gallery.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/catalog.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/catalog.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/catalog.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/catalog.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/catalog.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/catalog.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/durability.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/durability.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/durability.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/durability.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/durability.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/durability.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/durability.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/estimate.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/estimate.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/estimate.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/estimate.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/estimate.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/estimate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/estimate.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/islands-lp.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/islands-lp.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/islands-lp.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/islands-lp.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/islands-lp.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/islands-lp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/islands-lp.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/press.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/press.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/press.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/press.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/press.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/press.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/press.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/press.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/press.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/press.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/price.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/price.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/price.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/price.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/price.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/price.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/price.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/price.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/price.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/price.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/price.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/tax-saving.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/tax-saving.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/tax-saving.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/tax-saving.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/tax-saving.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/tax-saving.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/tax-saving.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/pages/transport-office.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/pages/transport-office.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/pages/transport-office.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/pages/transport-office.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/pages/transport-office.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/transport-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/transport-office.html"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/sitemap/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/sitemap/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/sitemap/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/sitemap/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/sitemap/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/sitemap/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/sitemap/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/sitemap/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/sitemap/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/sitemap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/sitemap/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/j/privacy/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/j/privacy/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/en/j/privacy/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/j/privacy/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hant/j/privacy/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/j/privacy/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/zh-Hans/j/privacy/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/j/privacy/"/>
+  </url>
+  <url>
+    <loc>https://parkhomes-okinawa.com/ko/j/privacy/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/j/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/j/privacy/"/>
+  </url>
 </urlset>

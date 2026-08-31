@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>价格比较｜Park Homes Okinawa</title>
+<meta name="description" content="以价格、规格、服务比较他公司制与自家制拖车房屋的差异。整理冲绳规格被选择的理由。">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ── 変数 ── */
+:root{
+  --navy:#1a2e3a;
+  --navy2:#2c4a5a;
+  --green:#2a7a5a;
+  --green-lt:#e8f5ee;
+  --red:#c0392b;
+  --red-lt:#fdecea;
+  --warn:#8a6000;
+  --warn-lt:#fff8e0;
+  --gold:#b88830;
+  --gold-lt:#fdf3de;
+  --ink:#222;
+  --mid:#555;
+  --muted:#888;
+  --border:#e0e0d8;
+  --bg:#f8f7f3;
+  --white:#ffffff;
+  --r:10px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:'Noto Sans JP',sans-serif;
+  font-weight:300;
+  background:#fff;
+  color:var(--ink);
+  font-size:14px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ── ページ枠 ── */
+.page{max-width:820px; margin:0 auto; padding:48px 20px 80px;}
+
+/* ── セクションラベル ── */
+.section-label{
+  font-size:11px; font-weight:500; letter-spacing:.35em;
+  text-transform:uppercase; color:var(--gold); display:block; margin-bottom:10px;
+}
+
+/* ── 見出し ── */
+.section-title{
+  font-size:clamp(20px,4vw,26px); font-weight:500;
+  color:var(--navy); line-height:1.3; margin-bottom:8px;
+}
+.section-sub{
+  font-size:13px; color:var(--mid); line-height:1.9; margin-bottom:32px;
+}
+
+/* ── テーブル枠 ── */
+.tbl-wrap{
+  border:1px solid var(--border); border-radius:var(--r);
+  overflow:hidden; overflow-x:auto;
+}
+
+/* ── テーブル本体 ── */
+table{
+  width:100%; border-collapse:collapse;
+  font-size:13px; min-width:560px;
+  background:#fff;
+}
+
+/* ── ヘッダー行 ── */
+.th-label{
+  padding:14px 16px;
+  background:var(--bg);
+  border-bottom:1px solid var(--border);
+  border-right:1px solid var(--border);
+  font-size:12px; color:var(--muted); font-weight:400;
+  width:46%;
+}
+.th-a{
+  padding:14px 12px; text-align:center;
+  background:var(--bg);
+  border-bottom:1px solid var(--border);
+  border-right:1px solid var(--border);
+  width:27%;
+}
+.th-pk{
+  padding:14px 12px; text-align:center;
+  background:var(--navy);
+  border-bottom:1px solid var(--navy2);
+  width:27%;
+}
+.co-label{font-size:10px; font-weight:400; margin-bottom:3px;}
+.th-a .co-label{color:var(--muted);}
+.th-pk .co-label{color:rgba(255,255,255,.55);}
+.model-name{font-size:13px; font-weight:500;}
+.th-a .model-name{color:var(--navy);}
+.th-pk .model-name{color:#fff;}
+.price-main{font-size:20px; font-weight:500; margin:4px 0 2px; line-height:1.1;}
+.th-a .price-main{color:var(--navy);}
+.th-pk .price-main{color:#fff;}
+.price-note{font-size:10px; font-weight:300;}
+.th-a .price-note{color:var(--muted);}
+.th-pk .price-note{color:rgba(255,255,255,.5);}
+
+/* ── セクション区切り ── */
+.sec-row td{
+  padding:6px 16px;
+  background:var(--bg);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  font-size:10px; font-weight:500; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--muted);
+}
+.sec-row td.sec-a{
+  border-right:1px solid var(--border);
+  border-left:1px solid var(--border);
+}
+.sec-row td.sec-pk{border-left:1px solid var(--border);}
+
+/* ── データ行 ── */
+tr.data-row td{
+  padding:11px 16px;
+  border-bottom:1px solid var(--border);
+  vertical-align:middle;
+}
+tr.data-row:last-child td{border-bottom:none;}
+td.item{
+  border-right:1px solid var(--border);
+  color:var(--ink); font-size:13px; line-height:1.6;
+}
+td.item .item-sub{
+  font-size:10px; color:var(--muted); display:block; margin-top:1px;
+}
+td.item .item-note-ref{
+  font-size:10px; color:var(--gold); margin-left:4px;
+}
+td.val-a{
+  text-align:center;
+  border-right:1px solid var(--border);
+  background:rgba(248,247,243,.6);
+}
+td.val-pk{
+  text-align:center;
+  background:rgba(26,46,58,.03);
+}
+
+/* ── 値のスタイル ── */
+.ok{font-size:16px; color:var(--green); font-weight:500;}
+.ng{font-size:16px; color:var(--red);}
+.tri{font-size:14px; color:var(--warn);}
+.uk{font-size:11px; color:var(--warn); line-height:1.5;}
+
+/* ── 合計行 ── */
+.total-row td{padding:14px 16px;}
+td.total-label{
+  border-right:1px solid var(--border);
+  font-weight:500; font-size:13px; color:var(--navy);
+}
+td.total-label .total-sub{
+  font-size:10px; color:var(--muted); font-weight:300; display:block; margin-top:2px;
+}
+td.total-a{
+  background:var(--warn-lt);
+  border-right:1px solid var(--border);
+  text-align:center;
+}
+td.total-pk{
+  background:var(--green-lt);
+  text-align:center;
+}
+.total-caption{font-size:10px; color:var(--warn); margin-bottom:3px;}
+.total-caption-pk{font-size:10px; color:var(--green); margin-bottom:3px;}
+.total-amount{font-size:17px; font-weight:500; color:var(--warn);}
+.total-amount-pk{font-size:17px; font-weight:500; color:var(--green);}
+
+/* ── 注釈 ── */
+.notes{
+  margin-top:16px; padding:14px 16px;
+  background:var(--bg); border-radius:8px;
+  border:1px solid var(--border);
+}
+.notes p{
+  font-size:11px; color:var(--muted);
+  line-height:1.95; margin:0;
+}
+
+/* ── モバイル ── */
+@media(max-width:600px){
+  .page{padding:32px 14px 60px;}
+  table{min-width:460px;}
+  .th-label,.th-a,.th-pk,
+  tr.data-row td,.total-row td{padding:10px 10px;}
+  td.item{font-size:12px;}
+  .price-main{font-size:16px;}
+}
+
+/* ── CTA フッター ── */
+.cta-footer{
+  margin-top:56px; padding:32px 28px;
+  background:var(--navy); border-radius:var(--r);
+  text-align:center;
+}
+.cta-label{
+  font-size:12px; letter-spacing:.2em; text-transform:uppercase;
+  color:rgba(255,255,255,.45); margin-bottom:18px;
+}
+.cta-row{
+  display:flex; flex-wrap:wrap; gap:10px; justify-content:center;
+}
+.btn{
+  padding:12px 24px; border-radius:6px;
+  font-family:'Noto Sans JP',sans-serif;
+  font-size:13px; font-weight:500; cursor:pointer;
+  text-decoration:none; display:inline-block; transition:opacity .15s;
+  white-space:nowrap;
+}
+.btn:hover{opacity:.82;}
+.btn-ai{background:#fff; color:var(--navy);}
+.btn-green{background:var(--green); color:#fff;}
+.btn-line{background:#06c755; color:#fff;}
+@media(max-width:520px){
+  .cta-row{flex-direction:column; align-items:center;}
+  .btn{width:100%; text-align:center;}
+  .cta-footer{padding:24px 16px;}
+}
+.btn-compare{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.3);}
+</style>
+
+<!--i18n:alt:start-->
+<link rel="canonical" href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html">
+<link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/abc-compare.html">
+<link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/pages/abc-compare.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html">
+<link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/pages/abc-compare.html">
+<link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/pages/abc-compare.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ko_KR">
+<!--i18n:alt:end-->
+</head>
+<body>
+<!--i18n:bar:start-->
+<style>.pkw-langbar{background:#0d2d5e;font-size:13px;line-height:1;font-family:system-ui,-apple-system,'Hiragino Kaku Gothic ProN','Meiryo',sans-serif}.pkw-langbar ul{max-width:1100px;margin:0 auto;padding:7px 24px;display:flex;gap:6px;justify-content:flex-end;align-items:center;list-style:none;flex-wrap:wrap}.pkw-langbar li{margin:0}.pkw-langbar a{color:#cfe0f5;text-decoration:none;padding:5px 9px;border-radius:6px;display:block}.pkw-langbar a:hover{background:rgba(255,255,255,.14);color:#fff}.pkw-langbar [aria-current=true]{background:#fff;color:#0d2d5e;font-weight:700}.pkw-langbar .pkw-lb-label{color:#8fb3dd;letter-spacing:.08em;padding:5px 0}@media(max-width:600px){.pkw-langbar ul{justify-content:center;padding:6px 12px}}</style>
+<nav class="pkw-langbar" aria-label="Language">
+<ul>
+<li class="pkw-lb-label" aria-hidden="true">LANGUAGE</li>
+<li><a href="https://parkhomes-okinawa.com/pages/abc-compare.html" hreflang="ja" lang="ja">日本語</a></li>
+<li><a href="https://parkhomes-okinawa.com/en/pages/abc-compare.html" hreflang="en" lang="en">English</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hant/pages/abc-compare.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hans/pages/abc-compare.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/ko/pages/abc-compare.html" hreflang="ko" lang="ko">한국어</a></li>
+</ul>
+</nav>
+<!--i18n:bar:end-->
+
+
+<!-- ナビゲーション -->
+<nav style="background:#fff;border-bottom:2px solid #1560a8;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.08)">
+  <div style="max-width:1100px;margin:0 auto;padding:0 20px;height:108px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <a href="/zh-Hans/" style="display:flex;align-items:center;gap:8px;text-decoration:none">
+      <img src="/logopkw.jpg" alt="Park Homes Okinawa" style="height:96px;width:auto">
+    </a>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <a href="/zh-Hans/" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">🏠 首页</a>
+      <a href="/zh-Hans/#lineup" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">产品阵容</a>
+      <a href="/zh-Hans/pages/catalog.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">📄 目录下载</a>
+      <a href="/zh-Hans/pages/price.html" style="font-size:13px;font-weight:600;color:#1a1a1a;padding:6px 12px;border-radius:8px;text-decoration:none" onmouseover="this.style.background='#f0f6ff'" onmouseout="this.style.background=''">价格表</a>
+      <a href="/zh-Hans/pages/estimate.html" style="font-size:13px;font-weight:700;color:#fff;background:#e8614a;padding:8px 16px;border-radius:8px;text-decoration:none">📋 免费报价</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page">
+
+  <span class="section-label">Price Comparison</span>
+  <h1 class="section-title">与他公司的价格比较</h1>
+  <p class="section-sub">
+    以同样的「11m拖车房屋」，比较各自包含哪些项目。
+  </p>
+
+  <div class="tbl-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th class="th-label">项目</th>
+        <th class="th-a">
+          <div class="co-label">他公司 A（匿名）</div>
+          <div class="model-name">本土规格</div>
+        </th>
+        <th class="th-pk">
+          <div class="co-label">Park Homes Okinawa</div>
+          <div class="model-name">含税・冲绳规格</div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- シャーシ -->
+      <tr class="sec-row"><td colspan="1">底盘</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">H型钢</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          防锈 热浸镀锌加工
+          <span class="item-note-ref">※3</span>
+          <span class="item-sub">结构体完成后于专用工厂进行全浸渍处理</span><br>
+          <a href="https://youtube.com/shorts/Pwz55cE-X-Y?si=_PEyypChxYrthfL3" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:5px;margin-top:6px;font-size:11px;font-weight:600;color:#fff;background:#e8614a;padding:4px 10px;border-radius:20px;text-decoration:none">▶ 观看视频</a>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 躯体 -->
+      <tr class="sec-row"><td colspan="1">结构体</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">木造</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">轻型钢结构</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">实际耐用年限 20年设计</td>
+        <td class="val-a"><span class="uk">不明</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 屋根 -->
+      <tr class="sec-row"><td colspan="1">屋顶</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">镀铝锌钢板</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">镀铝锌钢板（冲绳海岸地区规格）</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 外壁 -->
+      <tr class="sec-row"><td colspan="1">外墙</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">金属系外墙板</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">窑业系外墙板（通气工法）</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- サッシ建具 -->
+      <tr class="sec-row"><td colspan="1">窗框门扇</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">
+          冲绳规格（高耐风压窗框）
+          <span class="item-sub">S-4以上 / W-5</span>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 断熱・気密 -->
+      <tr class="sec-row"><td colspan="1">隔热・气密</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">玻璃棉 16K</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span style="color:var(--muted)">—</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">玻璃棉 32K</td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 内装 -->
+      <tr class="sec-row"><td colspan="1">内装</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <tr class="data-row">
+        <td class="item">
+          内装完成工程
+          <span class="item-sub">木底材（防虫防腐处理）</span>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">电力（插座・照明）</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">给排水配管工程</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">整体卫浴</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">厨房</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">洗手化妆台</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">洗衣机底盘</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">厕所</td>
+        <td class="val-a"><span class="ok">✓</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          冲绳在地制造
+          <span class="item-sub">售后服务对应</span>
+        </td>
+        <td class="val-a"><span class="ng">✕</span></td>
+        <td class="val-pk"><span class="ok">✓</span></td>
+      </tr>
+
+      <!-- 価格 -->
+      <tr class="sec-row"><td colspan="1">价格（本体价格 参考・不含运输/临时工程）</td><td class="sec-a"></td><td class="sec-pk"></td></tr>
+
+      <!-- 合計行 -->
+      <tr class="total-row">
+        <td class="total-label">
+          本体价格
+          <span class="total-sub">※不含运输・临时工程</span>
+        </td>
+        <td class="total-a">
+          <div class="total-caption">本土规格</div>
+          <div class="total-amount">1,100万日元〜</div>
+        </td>
+        <td class="total-pk">
+          <div class="total-caption-pk">含税・冲绳规格</div>
+          <div class="total-amount-pk">1,475万日元</div>
+        </td>
+      </tr>
+
+      <tr class="data-row">
+        <td class="item">
+          运输・安装费
+          <span class="item-sub">依设置地点・地形变动・概算</span>
+        </td>
+        <td class="val-a" style="text-align:center;font-size:13px;font-weight:500;color:var(--warn)">220万日元</td>
+        <td class="val-pk" style="text-align:center;font-size:13px;font-weight:500;color:var(--green)">55万日元</td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          台风对策
+          <span class="item-sub">概算</span>
+        </td>
+        <td class="val-a"><span class="tri">△</span></td>
+        <td class="val-pk" style="text-align:center;font-size:13px;font-weight:500;color:var(--green)">22万日元</td>
+      </tr>
+      <tr class="data-row">
+        <td class="item">
+          临时工程・现场经费
+          <span class="item-sub">依现场状况变动</span>
+        </td>
+        <td class="val-a"><span class="tri">△</span></td>
+        <td class="val-pk"><span class="tri">△</span></td>
+      </tr>
+
+    </tbody>
+  </table>
+  </div><!-- /tbl-wrap -->
+
+  <div class="notes">
+    <p>
+      ※1 Park Homes Okinawa标示价格为不含运输・安装费（40万日元）、临时工程（22万日元）的本体价格（含税）。<br>
+      ※2 △：因设置地点、地形、搬入路径不同费用会变动，需另行报价。<br>
+      ※3 结构体的组装、加工、钻孔全部完成后，再次拆解并于专用工厂实施热浸镀锌加工。将生锈因素去除99.99%（即使多一道工，仍以品质优先）。<br>
+      ※他公司A标示价格为官方网站刊载的Skeleton本体价格（含税）。卫浴、内装、冲绳规格选配需另行加价。<br>
+      ※台风对策工程、燃气工程两家公司皆为另计。
+    </p>
+  </div>
+
+  <!-- ── CTA フッター ── -->
+  <div class="cta-footer">
+    <div class="cta-label">欢迎随时咨询</div>
+    <div class="cta-row">
+      <a href="/QAparkhome/" target="_blank" rel="noopener" class="btn btn-ai">🤖 咨询 AI-HIGA</a>
+      <a href="/zh-Hans/contact/" class="btn btn-green">📋 AI免费报价</a>
+      <a href="https://lin.ee/yPxxosA" class="btn btn-line">💬 用LINE咨询</a>
+      <a href="/zh-Hans/pages/abc-compare.html" class="btn btn-compare">📊 查看与他公司的价格比较</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,10343 @@
+{
+ "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
+ "pages": 32,
+ "count": 1220,
+ "chars": 26075,
+ "entries": [
+  {
+   "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "専用設計",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "他社・自社比較（ABC比較）",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "暮らしのイメージ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 20
+  },
+  {
+   "ja": "沖縄特化設計",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "商品",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "ラインナップ詳細・比較 →",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "運送業の営業所に →",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "節税について（減価償却4年）",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "カタログダウンロード",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "設置事例集",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "価格表",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/abc-compare.html",
+    "pages/durability.html",
+    "pages/estimate.html",
+    "pages/islands-lp.html",
+    "pages/press.html",
+    "pages/transport-office.html"
+   ],
+   "n": 22
+  },
+  {
+   "ja": "AI見積",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "標準見積もり（フォーム）",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 10
+  },
+  {
+   "ja": "会社情報",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html",
+    "pages/press.html"
+   ],
+   "n": 15
+  },
+  {
+   "ja": "アクセス・会社概要",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "トレーラーハウス協会",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 20
+  },
+  {
+   "ja": "プレスリリース",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/islands-lp.html",
+    "pages/press.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "プレスリリース一覧",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "琉球新報に掲載：離島にトレーラーハウス（2026.05）",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "新聞・雑誌の掲載実績",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "沖電企業：トレーラーハウス参入（2026.05.27）",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "問い合わせ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "LINEで聞く",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 15
+  },
+  {
+   "ja": "メールで問い合わせ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 20
+  },
+  {
+   "ja": "離島・自治体の方へ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "無料見積もり",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/estimate.html"
+   ],
+   "n": 7
+  },
+  {
+   "ja": "📋 無料見積もり →",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "トレーラーハウスで、",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "新しい暮らしのスタート。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "土地に縛られない、フレキシブルなライフスタイルへ。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害・台風・暑さに強い「沖縄仕様」の鉄骨トレーラーハウスを、製造から輸送・設置・メンテナンスまで一貫対応。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "無料見積もり →",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "商品を見る",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🤖 AI相談",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 8
+  },
+  {
+   "ja": "📋 見積もり",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "AI-HIGAくんに相談",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "注目される理由",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「3つの特徴」",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスならではの「設置の自由」「資産性」「コスト」の強み。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "どこでも設置が可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※注1",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスは一定の設置要件を満たすことで「車両扱い」となるため、新たに増築したりできない土地、市街化調整区域・原野・雑種地にも設置できます。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏞️ 市街化調整区域に設置可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🌿 原野・雑種地に設置可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🌊 オーシャンフロントでの活用が可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏖️ 別荘として利用可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🛏️ 宿泊施設として活用可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏪 店舗として利用可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "オーシャンフロントに設置して別荘や宿泊施設としての活用、店舗としての利用などが可能となります。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※注1 農地に設置するには、農地転用届を申請する必要があり、完了後に設置できます。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスのメリット",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/transport-office.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "🚚 移動が可能（設置場所の変更や移設に対応）",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🔨 解体工事が不要（建物のような取り壊し費用がかからない）",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💰 リセール（再販）が容易（中古市場での需要が高い）",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📈 中古ニーズが強い（購入希望者からの引き合い多数）",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 将来的な売却も視野に入れられる",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "⏳ 対応年数20年以上で長く利用可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💎 資産価値を維持しやすい",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🔄 数年後でも高額取引される事例あり",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスは車両扱いのため、住宅や店舗と異なり移動が可能です。建物のように取り壊す必要がなく、そのまま別の場所へ移設できます。また、中古市場での需要も高く、リセール（再販）がしやすいことも大きな魅力です。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "対応年数は20年以上あり、数年利用した後でも高額で取引されるケースが多く見られます。そのため、「利用するための建物」としてだけでなく、「将来的な売却も見据えた資産」として保有できる選択肢となっています。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建築よりローコスト＆スピーディー",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💰 住宅や店舗を建築するより低コスト",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🚧 基礎工事が不要",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "⚡ スピーディーに導入可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 不動産取得税が不要",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📄 固定資産税が不要",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🚛 「建築物」ではなく「車両扱い」",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📉 全国的に高騰している建築費の削減が可能",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💡 大幅な費用削減が見込める",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスの基本価格は",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,000〜1,200万円",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "。基礎工事なども必要なく、住宅や店舗を建築するよりも低コストで購入できます。\n          また「建築物」ではなく「車両扱い」となるため、不動産取得税や固定資産税といった税金も不要です。さらに「車両扱い」でありながら、自動車取得税・重量税・自動車税もかかりません。\n          全国的に高騰している建築費に比べ、トレーラーハウスは大幅な費用削減が見込めます。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスで、新しい暮らしのスタート",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "土地に縛られない、フレキシブルなライフスタイルの実現。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「場所にとらわれない」「コストを抑えた」暮らしやビジネスが、今すぐ始められます。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置事例を見る →",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※画像は商品画像を基本に、一部（背景・人物など）を生成AIで表現しています。実際の商品とは差異がある場合があります。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【沖縄では絶対的な課題3選】",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄は亜熱帯気候で高温多湿、超大型台風、塩害、シロアリ被害が本土と違って",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "規格外です。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "弊社はこういった課題に取組み、トレーラーハウスはH鋼+軽量鉄骨造にしております。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "強風70M以上に耐える頑丈な躯体は安心した生活を支えます。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害対策には『ドブ漬け鋼材』を採用することで錆を寄せつけません。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "木造ではないのでシロアリの心配もございません。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※ドブ漬け鋼材とは、鋼材を高温の溶融亜鉛槽に丸ごと浸して厚い亜鉛皮膜を形成し、高い防錆性と長期耐久性を持たせた鋼材を指します。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🔩 塩害対策",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ドブ漬け（溶融亜鉛メッキ）が標準",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の潮風は鉄骨の大敵。だからこそ、土台にはドブ漬け（溶融亜鉛メッキ）を標準採用。\n          錆びにくく、腐食しにくい。20年以上の耐久性を支える根幹技術です。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "詳しい説明を見る →",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "▶ 動画を見る",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/abc-compare.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "🌀 台風・暑さ対策",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "窓サッシ クラスS4以上が標準",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "台風対策の高耐風圧・塩害対策の高耐食性・夏の暑さ対策の遮熱断熱を兼ね備えた\n          クラスS4以上の窓サッシを全棟に標準装備。これが「沖縄仕様」のこだわりです。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏗️ 製造工程",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "床・壁・天井すべてが沖縄仕様",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "床・壁・天井、すべての工程を沖縄の気候に合わせて設計・製造。\n          長期間の使用を想定し、職人が一棟一棟丁寧に仕上げます。\n          豊見城市の工場で内覧も可能です（事前予約制）。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "詳しく比較する → 他社・自社比較ページへ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "商品ラインナップ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 7
+  },
+  {
+   "ja": "用途・予算・設置条件に合わせて選べる4ブランド",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "フルサイズトレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/transport-office.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "最大サイズ・住居・別荘向けフラッグシップ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カーサ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ルミナ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "スケルトン",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "高さ4.2m × 長さ11m × 幅3.4mの広々とした住空間。ロフト設置も可能な最大サイズ。移住・別荘・宿泊施設として人気の定番モデル。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "グローバルエディション",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "デザイン性・個性派モデル",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "lineup/index.html",
+    "lineup/round-premier/index.html"
+   ],
+   "n": 12
+  },
+  {
+   "ja": "アマルフィー",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ムービング",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "躯体は海外の専門工場で高精度に製造。最終仕上げは沖縄の自社工場で。世界基準の生産技術と、地元・沖縄の品質管理を組み合わせた、ハイブリッド製造シリーズです。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車検対応型トレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/transport-office.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "移動が容易な〜12mモデル",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車検対応",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移動自由",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "公道をいつでも牽引できる車検対応サイズ。設置場所を変えたい方、フレキシブルな運用を求める方に最適。コンパクトながら居住性を追求。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "フルカスタム",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "あなただけの一棟を",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "完全オーダー",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "間取り自由",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "用途問わず",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お客様の仕様・用途・ご予算に合わせて一から設計・製造。店舗・事務所・農業施設など、どんな用途にも対応いたします。まずはご相談ください。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "詳しく比較する →",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "AI見積もりを試す →",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "施工事例",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 7
+  },
+  {
+   "ja": "沖縄各地・離島にも多数の設置実績。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "実物は豊見城市の工場で内覧可能です（事前予約制）。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カフェ｜PLUS GARDEN CAFE",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "グランピング｜瀬長島グランピング場",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宿泊施設｜クリスタルヴィラ インギャー",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宿泊施設｜ザ・プールリゾート沖縄",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "医療施設｜宮古島リハビリ温泉病院",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "個人邸｜本部町瀬底島のお客様",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "もっと見る →",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "社長からのメッセージ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「沖縄に適したトレーラーハウスを、自分たちの手で作りたかった」",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "以前、東京で輸入車の販売をしていたとき、トレーラーハウスに出合いました。\n          「この\"移動可能な建物\"を通して、日本でも新しいライフスタイルを提案できるはず」――そう感じて販売を始めたのが、すべての始まりです。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2007年、大好きな沖縄に移住しました。しかし、東京時代から販売していた海外製の木造トレーラーハウスが、塩害や台風で年々ボロボロになっていく現実を目の当たりにします。\n          「木造では沖縄の気候に5年と持たない。ならば、自分たちで作るしかない」――そう決意し、豊見城市に工場を構えました。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "今では、鉄骨造・ドブ漬け（溶融亜鉛メッキ）・クラスS-4以上の窓サッシを標準装備した「沖縄仕様」が、移住者・行政・リゾート事業者の皆さまから高い評価をいただいています。\n          住居、別荘、災害時の仮設住宅、農業施設――その用途は多岐にわたります。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "実物は、豊見城市の工場でご覧いただけます。「見ると、トレーラーハウスのイメージが変わる」とよくおっしゃっていただきます。\n          ぜひ一度、あなたの目で確かめてみてください。心よりお待ちしています。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "株式会社パークホームズオキナワ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "about/index.html",
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "pages/press.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 30
+  },
+  {
+   "ja": "代表取締役 坂田 英之",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 モデルハウスと、🏭 工場。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2つの見学スポット",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "完成したモデルハウスで“暮らし”を、工場で“つくる過程”を。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "どちらも実際にご覧いただけます。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 モデルハウス見学",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ラインナップの完成モデルを、現物でご覧いただけます",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログでお選びいただいたモデルを、",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "実物のモデルハウス",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "でご体感いただけます。広さや天井の高さ、内装・設備の質感を、その場で確かめながらじっくりお選びください。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【本社・モデルハウス】",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〒901-0225 沖縄県豊見城市豊崎1-1223",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏭 工場見学",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "制作中のトレーラーハウスを見学できます",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "鉄骨躯体やどぶ漬け加工など、",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ふだんは見られない“つくる過程”",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "をご覧いただけます。完成品だけでは分からない構造や品質を、製作現場で直接お確かめください。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【工場】",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〒901-0223 沖縄県豊見城市翁長864-14",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/durability.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "見学された方々から『トレーラーハウスのイメージが変わった』と、よく言っていただきます。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "いずれも事前ご予約で承ります。",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "【見学時間】平日 9:00-17:00（土日祝はご相談ください）",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "【ご予約方法】LINE または お電話でお気軽にご連絡ください",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "💬 LINE で見学予約",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📞 電話で予約 098-856-6666",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスで、新しい暮らしを",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "始めませんか",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "まだ迷っている方も、具体的に検討中の方も、スタッフと話したい方も。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "あなたのステップに合わせた3つの入り口をご用意しています。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "まだ迷っている方へ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "AI-HIGAくんが24時間、あなたの疑問・不安に答えます。気軽に話しかけてみてください。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "AI-HIGAくんに相談する",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "具体的に検討中の方へ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "AI見積もりフォームで、条件・用途・面積を入力するだけ。すぐに概算金額をご提示します。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "AI無料見積もりを試す",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "スタッフと話したい方へ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "最後は顔の見える相手に。スタッフが直接お答えします。LINEならチャット感覚で気軽に。",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "LINEでスタッフに聞く",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【本社・モデルハウス】〒901-0225 沖縄県豊見城市豊崎1-1223",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "【工場】〒901-0223 沖縄県豊見城市翁長864-14",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 10
+  },
+  {
+   "ja": "【事務所】〒901-0222 沖縄県豊見城市渡橋名281-5",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "company/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "設立: 平成28年7月1日　資本金: 1,000万円",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "サービス",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "沖縄仕様の主な理由",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "他社・自社比較",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "会社・お問い合わせ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "会社概要・アクセス",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "LINEで問い合わせ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "© 2026 株式会社パークホームズオキナワ All Rights Reserved.",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "about/index.html",
+    "cases/index.html",
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 22
+  },
+  {
+   "ja": "沖縄仕様の鉄骨トレーラーハウス専門メーカー。塩害・台風・暑さ対策を標準装備。移住・別荘・災害BCP対応。豊見城市の工場で製造から設置まで一貫対応。TEL 098-856-6666",
+   "kind": "meta:description",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ｜沖縄のトレーラーハウス専門店",
+   "kind": "meta:og:title",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様の鉄骨トレーラーハウス。塩害・台風対策標準装備。移住・別荘・災害BCPに。",
+   "kind": "meta:og:description",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html",
+    "about/index.html",
+    "cases/index.html",
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "pages/abc-compare.html",
+    "pages/durability.html",
+    "pages/estimate.html",
+    "pages/islands-lp.html",
+    "pages/press.html",
+    "pages/price.html",
+    "pages/tax-saving.html",
+    "pages/transport-office.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 63
+  },
+  {
+   "ja": "メニュー",
+   "kind": "attr:aria-label",
+   "pages": [
+    "index.html",
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 10
+  },
+  {
+   "ja": "メニューを閉じる",
+   "kind": "attr:aria-label",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "フルサイズトレーラーハウスの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カーサ（トレーラーハウス）の外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ルミナ（トレーラーハウス）の外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "グローバルエディションの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "フルカスタムのトレーラーハウス",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車検対応型トレーラーハウスの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "前へ",
+   "kind": "attr:aria-label",
+   "pages": [
+    "index.html",
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "次へ",
+   "kind": "attr:aria-label",
+   "pages": [
+    "index.html",
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "オーシャンフロントに設置したトレーラーハウス（別荘・宿泊施設）",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移動できるトレーラーハウス（中古・転売）",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ローコストなトレーラーハウス",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスのある新しい暮らし 1",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスのある新しい暮らしのイメージ",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスのある新しい暮らし 3",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスの災害時の活用（BCP）のイメージ",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PLUS GARDEN CAFE の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "瀬長島グランピング場 の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html",
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "クリスタルヴィラ インギャー の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ザ・プールリゾート沖縄 の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島リハビリ温泉病院 の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本部町瀬底島のお客様 の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html",
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "坂田英之 代表取締役",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "豊崎1-1223",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "豊見城市",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスとは｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスとは",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 34
+  },
+  {
+   "ja": "製品",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 16
+  },
+  {
+   "ja": "用途・活用",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 34
+  },
+  {
+   "ja": "設置事例",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "cases/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 35
+  },
+  {
+   "ja": "会社概要",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "pages/transport-office.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 39
+  },
+  {
+   "ja": "お問い合わせ",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "pages/islands-lp.html",
+    "pages/price.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 36
+  },
+  {
+   "ja": "製品ラインナップ",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 34
+  },
+  {
+   "ja": "よくある質問",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "faq/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 20
+  },
+  {
+   "ja": "ホーム",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "cases/index.html",
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "pages/press.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 30
+  },
+  {
+   "ja": "トレーラーハウスとは何か？",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスとは、車輪が付いた移動可能な居住・店舗用の建物です。道路運送車両法上は車両として扱われるため、一定の条件のもとで建築確認申請が不要となるケースがあります。",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の気候・風土に合わせた設計で、宿泊施設・店舗・事務所・グランピングなど多様な用途に対応。製造から輸送・設置・メンテナンスまで一貫してサポートします。",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建築確認不要*",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "一定条件下で建築確認申請が不要なため、スピーディな設置が可能です。",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移動・撤去が可能",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "事業環境の変化に合わせて移設・撤去ができる柔軟性が魅力です。",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "固定資産税なし*",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "土地に定着しない場合、固定資産税の対象外となるケースがあります。",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "*設置条件・用途によって異なります。詳細はお問い合わせください。",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "詳しくはお気軽にご相談ください",
+   "kind": "text",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "無料相談する →",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "use-cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "【本社】〒901-0222 沖縄県豊見城市渡橋名281-5　【モデルハウス】〒901-0225 沖縄県豊見城市豊崎1-1223　【工場】〒901-0223 沖縄県豊見城市翁長864-14",
+   "kind": "text",
+   "pages": [
+    "about/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "faq/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 17
+  },
+  {
+   "ja": "トレーラーハウスは車輪付きの移動式建築物。建築確認不要・固定資産税なしのケースも。沖縄で製造・販売するパークホームズオキナワが詳しく解説。",
+   "kind": "meta:description",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウス",
+   "kind": "attr:alt",
+   "pages": [
+    "about/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置事例｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラインナップ",
+   "kind": "text",
+   "pages": [
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "pages/abc-compare.html",
+    "pages/durability.html",
+    "pages/estimate.html",
+    "pages/islands-lp.html",
+    "pages/press.html",
+    "pages/price.html",
+    "pages/transport-office.html"
+   ],
+   "n": 18
+  },
+  {
+   "ja": "沖縄県内外でのトレーラーハウス施工事例を、カテゴリ別にご紹介します。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "すべて",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "イベント",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "オフィス",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "カフェ",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "グランピング",
+   "kind": "text",
+   "pages": [
+    "cases/index.html",
+    "pages/estimate.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "ショップ",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "レンタカー",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 7
+  },
+  {
+   "ja": "個人邸",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "医療施設",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "宿泊施設",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "自社施設",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "2022年沖縄開催の RESOR TECH EXPO に展示出展。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "11mモデルを店舗として活用したカフェ事例。沖縄仕様の鉄骨造で台風・塩害にも対応。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ほか7枚",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "瀬長島グランピング場",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "瀬長島ウミカジテラス近郊のグランピング施設として導入。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ガッツレンタカー",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "レンタカー受付に使用するトレーラーハウス施工事例を紹介します。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ほか4枚",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "タエイジャパン",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "レンタカー受付棟で使用するトレーラーハウス施工事例を紹介します。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "恩納村のお客様",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "恩納村に設置した別荘事例。海岸沿いの塩害環境に対応した沖縄仕様。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本部町瀬底島のお客様",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本部町瀬底島に設置した別荘事例。海沿いの環境に合わせた沖縄仕様。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ほか13枚",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島リハビリ温泉病院",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "その1",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "宮古島の温泉リハビリ病院の附属施設として設置。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "クリスタルヴィラ インギャー",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島インギャーマリンガーデン近隣の宿泊施設として複数棟を導入。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ほか6枚",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ザ・プールリゾート沖縄",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "リゾートホテル「ザ・プールリゾート沖縄」の宿泊棟として導入。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ほか5枚",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ宮古島展示場",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島の自社展示場。実物見学が可能（事前予約制）。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ほか1枚",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "豊崎パーク美ら 11M",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "豊崎の自社モデルハウス。11mモデルの居住空間を実物展示。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ほか3枚",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖東交通",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "要レビュー",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 8
+  },
+  {
+   "ja": "沖縄県の交通事業者向けに設置したトレーラーハウス事例。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "HABAレンタカー",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "レンタカー事業所として活用。10枚の施工記録あり。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ODALレンタカー",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "ODALレンタカー社向け施工事例。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "その2",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "宮古島リハビリ温泉病院 その2。追加棟または別ロケーションの施工記録。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ODALレンタカー社向け施工事例（その2）。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "店舗 Before Sunset 向けに設置したトレーラーハウス事例。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "その3",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ODALレンタカー社向け施工事例（その3）。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ヤンバルエクスペリエンスホテル ヌンガニク",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "やんばる地域のエクスペリエンスホテル ヌンガニクの宿泊棟として設置。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置のご相談はこちら →",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【本社】〒901-0222 沖縄県豊見城市渡橋名281-5",
+   "kind": "text",
+   "pages": [
+    "cases/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "【モデルハウス】〒901-0225 沖縄県豊見城市豊崎1-1223",
+   "kind": "text",
+   "pages": [
+    "cases/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "沖縄仕様の3つの理由",
+   "kind": "text",
+   "pages": [
+    "cases/index.html",
+    "company/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "パークホームズオキナワの設置事例。沖縄県内外での宿泊施設・店舗・グランピングなどの実績をご紹介。",
+   "kind": "meta:description",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "RESOR TECH EXPO 2022 IN OKINAWA の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "RESOR TECH EXPO 2022 IN OKINAWA の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "RESOR TECH EXPO 2022 IN OKINAWA の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PLUS GARDEN CAFE の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PLUS GARDEN CAFE の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PLUS GARDEN CAFE の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ガッツレンタカー の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ガッツレンタカー の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ガッツレンタカー の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "タエイジャパン の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "タエイジャパン の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "恩納村のお客様 の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本部町瀬底島のお客様 の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本部町瀬底島のお客様 の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島リハビリ温泉病院 その1 の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島リハビリ温泉病院 の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "宮古島リハビリ温泉病院 の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "クリスタルヴィラ インギャー の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "クリスタルヴィラ インギャー の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "クリスタルヴィラ インギャー の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ザ・プールリゾート沖縄 の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ザ・プールリゾート沖縄 の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ザ・プールリゾート沖縄 の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ宮古島展示場 の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ宮古島展示場 の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ宮古島展示場 の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "豊崎パーク美ら 11M の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "豊崎パーク美ら 11M の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "豊崎パーク美ら 11M の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖東交通 の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "HABAレンタカー の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "HABAレンタカー の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "HABAレンタカー の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ODALレンタカー その1 の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島リハビリ温泉病院 その2 の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ODALレンタカー その2 の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ODALレンタカー の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ODALレンタカー の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "Before Sunset の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Before Sunset の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Before Sunset の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ODALレンタカー その3 の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 1",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 2",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ヤンバルエクスペリエンスホテル ヌンガニク の施工事例 3",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "会社概要｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "会社名",
+   "kind": "text",
+   "pages": [
+    "company/index.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "所在地",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設立",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "資本金",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,000万円",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 モデルハウスと、🏭 工場。2つの見学スポット",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラインナップの完成モデルを現物でご覧いただけます",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "実物のモデルハウスで、広さ・内装・設備の質感をその場で確かめながらお選びいただけます。",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "鉄骨躯体やどぶ漬け加工など、完成品では分からない“つくる過程”を製作現場で直接お確かめいただけます。",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「見ると、トレーラーハウスのイメージが変わる」と、よく言っていただきます。",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💬 LINE でモデルハウス見学予約",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県のトレーラーハウス製造・販売。Solar Haven・AMALFIなど全8製品。TEL 098-856-6666",
+   "kind": "meta:description",
+   "pages": [
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 9
+  },
+  {
+   "ja": "LINE公式アカウント",
+   "kind": "attr:aria-label",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【オフィス/展示場】 - トレーラーハウス パークホームズオキナワ 沖縄｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "company/オフィス紹介-展示場/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "オフィス紹介-展示場",
+   "kind": "text",
+   "pages": [
+    "company/オフィス紹介-展示場/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "TOP注目される3つの特徴　ラインナップオプション設定よくある質問車検対応トレーラーハウス災害時の活用エアストリームコンテナサウナフードトラックレンタルレッカー業務設置事例設置事例2製作メンテナンス中古コンテナ・トレーラー情報パーツ販売コンプライアンス会社概要インフォメーションインフォメーション2お問い合わせ",
+   "kind": "text",
+   "pages": [
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "lineup/airstream/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/sauna/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 10
+  },
+  {
+   "ja": "お問い合わせ →",
+   "kind": "text",
+   "pages": [
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "faq/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 7
+  },
+  {
+   "ja": "【お取引き会社一覧】 - トレーラーハウス パークホームズオキナワ 沖縄｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "company/協力会社一覧/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "協力会社一覧",
+   "kind": "text",
+   "pages": [
+    "company/協力会社一覧/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "・株式会社パークホームズ　（東京都）",
+   "kind": "text",
+   "pages": [
+    "company/協力会社一覧/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【社長挨拶】 - トレーラーハウス パークホームズオキナワ 沖縄｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "社長挨拶",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "※ オリジナルトレーラーハウス＝鉄骨造トレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "弊社はトレーラーハウス製作・販売専門店として、平成24年に沖縄県豊見城市瀬長に開業致しました。",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "私はトレーラーハウスに関わって15年以上になり、アメリカを始め、カナダ・オーストラリア・ベトナム・韓国・中国など各地の製造工場やトレーラーハウスの実態を視察し、日本におけるトレーラーハウスの在り方や需要に着目し、自社製造にまで至りました。",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワは主に奄美諸島・沖縄諸島・宮古島・石垣島を中心に普及を目指しており、",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "この地域唯一の製作・販売会社としてお客様のご要望にお応えし、同時に社会貢献できる企業として努力を続けて参りました。",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "現在、県内各地でグランピング場やキャンプ場が普及し、トレーラーハウスの需要も増えつつあります。",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "そのため、行政との協議・調整は必須条件となり、トレーラーハウスの安全性や耐久性が問われております。",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "弊社オリジナルトレーラーハウスは沖縄特有の亜熱帯気候に合わせ、超大型台風・害虫(シロアリ)・塩害・高湿度にも強く、その上デザイン性にも優れたトレーラーハウス製作に力を入れ、全てにおいて自信があります。",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "今後、トレーラーハウスを活用した施設を充実させ、沖縄の観光事業や災害時にも活用できるハウスの開発、またトレーラーハウスを利用した新しいライフスタイルの構築など、トレーラーハウス業界の最前線で注目される企業を目指します。",
+   "kind": "text",
+   "pages": [
+    "company/社長挨拶/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【製作スタッフ】 - トレーラーハウス パークホームズオキナワ 沖縄｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "company/製作スタッフ/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "製作スタッフ",
+   "kind": "text",
+   "pages": [
+    "company/製作スタッフ/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "【パークホームズオキナワ現場スタッフ】",
+   "kind": "text",
+   "pages": [
+    "company/製作スタッフ/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "炎天下の中、暑さをもろともせず一生懸命作業をする弊社エキスパートチームです。",
+   "kind": "text",
+   "pages": [
+    "company/製作スタッフ/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "現在、経験を積み上げながらトレーラーハウス 製造の最高峰を目指すチームとして県内でメンバーも募集中です！",
+   "kind": "text",
+   "pages": [
+    "company/製作スタッフ/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【スタッフミーテイング】",
+   "kind": "text",
+   "pages": [
+    "company/製作スタッフ/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ・宮古島・石垣島のスタッフで全体会議を行い、情報を共有します。",
+   "kind": "text",
+   "pages": [
+    "company/製作スタッフ/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お問い合わせ｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お名前",
+   "kind": "text",
+   "pages": [
+    "contact/index.html",
+    "pages/estimate.html",
+    "pages/islands-lp.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "必須",
+   "kind": "text",
+   "pages": [
+    "contact/index.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 9
+  },
+  {
+   "ja": "メールアドレス",
+   "kind": "text",
+   "pages": [
+    "contact/index.html",
+    "pages/estimate.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "電話番号",
+   "kind": "text",
+   "pages": [
+    "contact/index.html",
+    "pages/estimate.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "お問い合わせ種別",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "製品についての質問",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "見積もり依頼",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "資料請求",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "その他",
+   "kind": "text",
+   "pages": [
+    "contact/index.html",
+    "pages/estimate.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "メッセージ",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "送信する →",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お電話でのお問い合わせ",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💬 LINE で気軽に相談",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "スマホで QR コードを読み取るか、ID 検索で友達追加",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "友達追加して相談する →",
+   "kind": "text",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "山田 太郎",
+   "kind": "attr:placeholder",
+   "pages": [
+    "contact/index.html",
+    "pages/estimate.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ご質問・ご要望をご記入ください",
+   "kind": "attr:placeholder",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "LINE 公式アカウント QR コード",
+   "kind": "attr:alt",
+   "pages": [
+    "contact/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "よくある質問｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "標準見積DL（PDF）",
+   "kind": "text",
+   "pages": [
+    "faq/index.html",
+    "lineup/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "【タイニーハウスのご質問はお問い合わせください】",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "解決しない場合はお気軽にお問い合わせください",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県豊見城市豊崎1−1223",
+   "kind": "jsonld",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "製品ラインナップ｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の気候に最適化したソーラーパネル搭載トレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "8,000,000円〜（税別）",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "リゾート仕様の高級トレーラーハウス。40フィートの広々とした空間",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/amalfi/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "15,000,000円〜（税別）",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "丸みを帯びた独特のデザイン。6M・12Mの2サイズ展開",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/round-premier/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "PARQシリーズ",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/parq/index.html"
+   ],
+   "n": 13
+  },
+  {
+   "ja": "ムービングスケルトン・カーサ・ルミナの3モデル展開",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/parq/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "4,000,000円〜（税別）",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "エアストリーム",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/airstream/index.html"
+   ],
+   "n": 28
+  },
+  {
+   "ja": "アメリカンビンテージスタイルの象徴的なトレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/airstream/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "コンテナハウス",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/container/index.html"
+   ],
+   "n": 37
+  },
+  {
+   "ja": "海上輸送コンテナを活用したユニークな住空間",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/container/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "フードトラック",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/food-truck/index.html"
+   ],
+   "n": 30
+  },
+  {
+   "ja": "移動販売・キッチンカーとして活用できるトレーラー",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/food-truck/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "1,980,000円〜（税別）",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーサウナ",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/sauna/index.html"
+   ],
+   "n": 9
+  },
+  {
+   "ja": "移動式サウナ。どこでも本格サウナ体験を提供",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html",
+    "lineup/sauna/index.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "パークホームズオキナワの全製品ラインナップ。Solar Haven・AMALFI・PARQシリーズなど全8モデル。価格・仕様をご確認ください。",
+   "kind": "meta:description",
+   "pages": [
+    "lineup/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "エアストリーム｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/airstream/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お問い合わせ・見積もり →",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 8
+  },
+  {
+   "ja": "【トレーラーハウス購入ローン】",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "エアストリーム社は１９３０年代にホーレー・ボウラスが設計した丸みを帯びたアルミニウム製ボディが特徴とされる高級キャンピングカーのブランドです。",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "特に年代もののエアストリームは経年劣化により、",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "雨漏りや腐食が進んでおり専門店以外扱うことが難しいとされてきましたが、内外装を専門とする職人の手腕によってエアストリームを実用的に復元致します。",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ギャラリー",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "エアストリームについてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "無料で相談する →",
+   "kind": "text",
+   "pages": [
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 8
+  },
+  {
+   "ja": "AMALFI 40｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/amalfi/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "参考価格（税別）",
+   "kind": "text",
+   "pages": [
+    "lineup/amalfi/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "15,000,000円〜",
+   "kind": "text",
+   "pages": [
+    "lineup/amalfi/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "AMALFI 40についてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/amalfi/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "リゾート仕様の高級トレーラーハウス。40フィートの広々とした空間 15,000,000円〜。",
+   "kind": "meta:description",
+   "pages": [
+    "lineup/amalfi/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "コンテナハウス｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【コンテナハウスWITHトレーラーシャーシ】",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "ドライコンテナ・リーファーコンテナに分けられます。",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "一般貨物（雑貨）の輸送に用いられるコンテナで、もっとも一般的なコンテナ。長さが20フィートと40フィートの2種類に2015年から45フィートが加わり、高さもHQ（ハイキューブ）と呼ばれる背高タイプがあります。",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "壁、天井、床、扉全てサンドイッチ構造",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "内側と外側とは補強材とヒートブリッジカット材で繋がれてます。間には発泡ウレタンが充填されてます。",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "またの名を『冷凍コンテナ』",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "現在、全国的に建築コストは高騰しており、コンテナハウスの需要　が高くなっております。",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "コンテナハウスについてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/container/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "フードトラック｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,980,000円〜",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【フードトラック＆キッチンカー】",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "ベースカーはお客様がお選びいただきカスタマイズいたします。",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "軽自動車ベースは構造変更で【普通車登録】にでき、車検時にユニットを下ろす必要もなく面倒な作業がありません。（普通車ナンバー）",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "軽ナンバー（黄色ナンバー）では今後違法になる可能性もございますので、是非とも構造変更（普通車）でのご利用をお勧めいたします。",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お客様の予算、御要望により全国のオークションよりベースカーを仕入れます。",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "軽のベース車輌は平成24年以降のダイハツハイゼットまたはスズキキャリーをベースに製作しており、車種の変更も承ります。",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "フードトラックについてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移動販売・キッチンカーとして活用できるトレーラー 1,980,000円〜。",
+   "kind": "meta:description",
+   "pages": [
+    "lineup/food-truck/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PARQシリーズ｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/parq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "4,000,000円〜",
+   "kind": "text",
+   "pages": [
+    "lineup/parq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PARQシリーズについてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/parq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ムービングスケルトン・カーサ・ルミナの3モデル展開 4,000,000円〜。",
+   "kind": "meta:description",
+   "pages": [
+    "lineup/parq/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/round-premier/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "8,000,000円〜",
+   "kind": "text",
+   "pages": [
+    "lineup/round-premier/index.html",
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ラウンドプレミアについてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/round-premier/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "丸みを帯びた独特のデザイン。6M・12Mの2サイズ展開 8,000,000円〜。",
+   "kind": "meta:description",
+   "pages": [
+    "lineup/round-premier/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーサウナ｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/sauna/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【移動できるトレーラーサウナ】",
+   "kind": "text",
+   "pages": [
+    "lineup/sauna/index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "トレーラーサウナについてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/sauna/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Solar Haven｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Solar Havenについてもっと詳しく",
+   "kind": "text",
+   "pages": [
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の気候に最適化したソーラーパネル搭載トレーラーハウス 8,000,000円〜。",
+   "kind": "meta:description",
+   "pages": [
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "用途・活用事例｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "あらゆる用途に対応",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスは業種・目的を選びません",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宿泊施設・グランピング",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "リゾートホテル・グランピング施設・ゲストハウスとして活用。非日常的な宿泊体験を提供できます。",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "店舗・カフェ・レストラン",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カフェ・セレクトショップ・レストランとして。独自の世界観を表現した魅力的な店舗が実現します。",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "事務所・現場オフィス",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建設現場の仮設事務所から恒久的なサテライトオフィスまで。迅速な設置と移設が可能です。",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "イベント・展示スペース",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "展示会・マルシェ・ポップアップストアとして。話題性のある独自スペースを演出できます。",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "あなたの用途に合わせてご提案します",
+   "kind": "text",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスの活用用途。宿泊施設・グランピング・カフェ・店舗・事務所など多様なシーンに対応。",
+   "kind": "meta:description",
+   "pages": [
+    "use-cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格比較｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 トップ",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html",
+    "pages/estimate.html",
+    "pages/press.html",
+    "pages/price.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "📄 カタログDL",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html",
+    "pages/estimate.html",
+    "pages/price.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "📋 無料見積もり",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html",
+    "pages/estimate.html",
+    "pages/press.html",
+    "pages/price.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "他社との価格比較",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "同じ「11mトレーラーハウス」で、何が含まれているかを比較しています。",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "項目",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "他社 A（匿名）",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本土仕様",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "税込み・沖縄仕様",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "シャーシ",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "H鋼",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "防錆 ドブ漬け（溶融亜鉛メッキ）加工",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "躯体完成後に専用工場で全浸漬処理",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "躯体",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "木造",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "軽量鉄骨造",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "実耐用年数 20年設計",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "不明",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "屋根",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ガルバニウム鋼板",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ガルバニウム鋼板（沖縄海岸地域仕様）",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "外壁",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "金属系サイディング",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "窯業系サイディング（通気工法）",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "サッシ建具",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様（高耐風圧サッシ）",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "S-4以上 / W-5",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "断熱・気密",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "グラスウール 16K",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "グラスウール 32K",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "内装",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "内装仕上げ工事",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "木下地（防虫防腐材）",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "電気（コンセント・照明）",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "給排水配管工事",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ユニットバス",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "キッチン",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "洗面化粧台",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "洗濯パン",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トイレ",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄現地製造",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アフターサービス対応",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格（本体価格 参考・輸送/仮設を除く）",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本体価格",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※輸送・仮設を除く",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,100万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,475万円",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸送・設置費",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置場所・地形により変動・概算",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "220万円",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "55万円",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "台風対策",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "概算",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "22万円",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "仮設工事・現場経費",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "現場状況により変動",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※1 パークホームズオキナワ表示価格は輸送・設置費（40万円）・仮設工事（22万円）を除いた本体価格（税込）。",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※2 △：設置場所・地形・搬入経路により費用が変動するため、別途お見積りとなります。",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※3 躯体の組み立て・加工・穴あけをすべて完了した後、再度ばらして専用工場でドブ漬け（溶融亜鉛メッキ）加工を実施。錆びる要素を99.99%除去（二度手間でも品質を優先）。",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※他社A表示価格は公式サイト掲載のスケルトン本体価格（税込）。水回り・内装・沖縄仕様オプションは別途加算が必要です。",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※台風対策工事・ガス工事は両社とも別途。",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お気軽にご相談ください",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "🤖 AI-HIGAくんに相談する",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "📋 AI無料見積もり",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "💬 LINEで聞く",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html",
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "📊 他社との価格比較を見る",
+   "kind": "text",
+   "pages": [
+    "pages/abc-compare.html",
+    "pages/durability.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "他社製・自社製トレーラーハウスの違いを価格・仕様・対応で比較。沖縄仕様が選ばれる理由を整理。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/abc-compare.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F フォトギャラリー｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "アマルフィー40F フォトギャラリー",
+   "kind": "text",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Amalfi 40F ／ 全31枚 ― 外観・内装・ディテール",
+   "kind": "text",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "← ラインナップへ戻る",
+   "kind": "text",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "株式会社パークホームズオキナワ ／ アマルフィー40F フォトギャラリー",
+   "kind": "text",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "画像はイメージです。仕様・設備は設置条件により変動します。",
+   "kind": "text",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F（Amalfi）の写真集。沖縄仕様トレーラーハウスの外観・内装を31枚のギャラリーで。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真1を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真1",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真2を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真2",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真3を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真3",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真4を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真4",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真5を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真5",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真6を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真6",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真7を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真7",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真8を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真8",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真9を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真9",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真10を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真10",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真11を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真11",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真12を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真12",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真13を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真13",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真14を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真14",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真15を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真15",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真16を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真16",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真17を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真17",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真18を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真18",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真19を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真19",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真20を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真20",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真21を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真21",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真22を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真22",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真23を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真23",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真24を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真24",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真25を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真25",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真26を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真26",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真27を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真27",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真28を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真28",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真29を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真29",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真30を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真30",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "写真31を拡大",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー40F 写真31",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "閉じる",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "拡大写真",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/amalfi-gallery.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "製造・販売カタログ（全14ページ）｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "← トップに戻る",
+   "kind": "text",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🖨 印刷 / PDF保存",
+   "kind": "text",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様の鉄骨トレーラーハウス 全モデルをまとめた全14ページのデジタルカタログ。印刷・PDF保存にも対応。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 1ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 2ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 3ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 4ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 5ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 6ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 7ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 8ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 9ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 10ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 11ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 12ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 13ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ 14ページ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/catalog.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様の根拠（耐久性）｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様の根拠",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― 耐久性へのこだわり",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の海岸線から500m以内の塩分飛来量は、東京の約10〜20倍。台風は毎年複数回直撃し、\n    最大瞬間風速60m/sを超えることもある。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "木造の海外製トレーラーハウスが5年で朽ちるのを見てきたから、\n    パークホームズオキナワは「沖縄のために」設計した鉄骨仕様にたどり着いた。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害対策",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ドブ漬け（溶融亜鉛メッキ）加工",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "― 錆の要素を99.99%除去",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の潮風は鉄骨の最大の敵。一般的な塗装防錆は表面だけを覆うため、\n          傷やボルト穴から酸化が進み、数年で錆が発生する。\n          パークホームズオキナワが採用する",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "は、\n          亜鉛の融点（約420℃）を上回る",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "約450℃",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "に保たれた溶融槽に鉄骨を全浸漬させることで、\n          表面だけでなく内側・穴の中まで均一に亜鉛皮膜を形成する。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "さらに、塗装や溶接・穴あけを後から施すと皮膜が傷つく。\n          そのため、パークホームズオキナワでは",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "躯体の組み立て・加工・穴あけをすべて完了してから、\n          一旦ばらして専用工場まで輸送し、ドブ漬け加工を実施する。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "二度手間だが、この工程を省かないことが20年耐久の根幹となっている。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "躯体 完全組み立て",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "溶接・ボルト締結・穴あけまで100%完了させる",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "一旦ばらす（二度手間）",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "← ここを省かないのがこだわり",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "専用工場へ輸送",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ドブ漬け（溶融亜鉛メッキ）対応工場まで搬送",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ドブ漬け加工",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "450℃の溶融亜鉛槽に全浸漬。内側・穴の中まで皮膜形成",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "錆の要素 99.99%除去 → 再組み立て・出荷",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "この工程を経た躯体が沖縄の塩害に耐え続ける",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "台風・暴風雨対策",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "耐風圧 S-4以上 / 水密 W-5",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― 沖縄基準を標準装備",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "窓サッシには「耐風圧性能（S等級）」と「水密性能（W等級）」の２つの性能基準がある。\n          日本サッシ協会の基準では、台風被害を受けやすい地域ではS-4以上が推奨されている。\n          2019年に千葉県で甚大な被害をもたらした台風15号の最大瞬間風速は57.5m/s（S-3相当の上限を超える）。\n          沖縄ではこれが「ほぼ毎年」起きうる。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワは全棟に",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "耐風圧 S-4以上・水密 W-5を標準装備。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "追加費用は不要。他社では「沖縄向けオプション」として別途加算される仕様を、\n          最初から組み込んでいる。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "以上",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "耐風圧性能",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（沖縄推奨基準）",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "水密性能",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（最高等級）",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2019年台風15号",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "最大瞬間風速",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "構造・耐久年数",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "木造では5年が持たない",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― だから鉄骨・20年設計",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "坂田社長が沖縄移住後、以前販売していた海外製の木造トレーラーハウスが\n          塩害と台風で急速に劣化していくのを目の当たりにした。\n          「沖縄では木造が5年と持たない」。その経験が、自社製造・鉄骨仕様への転換を決断させた。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "現在のパークホームズオキナワは全棟を",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "鉄骨造・実耐用年数20年設計",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "で製造。\n          どぶ漬け加工・S-4以上サッシ・沖縄仕様の設計思想がひとつになることで、\n          初めて20年という数字が現実のものになる。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "木造（海外製）",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〜5年",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "一般鉄骨",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〜10年",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "20年設計",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の塩害・台風環境における参考耐用年数（自社調べ）",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「木造では沖縄では5年と持たない。ならば自分たちで作るしかない」",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― そう決意し、豊見城市に工場を構えた。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "坂田 英之 / 代表取締役 パークホームズオキナワ",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "製造・アフター",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄現地製造だから",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― 届いた後も安心",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の気候を熟知した職人が豊見城市の工場で\n          一棟一棟製造している。現地製造の最大のメリットは「届いた後」にある。\n          不具合があっても迅速な対応が可能。\n          内覧も工場で随時対応（事前予約制）。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "工場・内覧について",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "実物を見ると「トレーラーハウスのイメージが変わる」とよく言われます。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "内覧は無料・事前予約制。お気軽にご連絡ください。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害・台風・暑さ。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の全てに向き合った仕様が、20年耐える根拠。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "どぶ漬け加工 / S-4以上サッシ / 鉄骨20年設計 / 沖縄現地製造",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― この4つが揃って初めて「沖縄仕様」と呼べる。",
+   "kind": "text",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害・台風・暑さに耐える沖縄仕様トレーラーハウスの耐久性。鉄骨・溶融亜鉛メッキ・高耐候サッシの根拠を解説。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/durability.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウス 無料見積もり | Park Homes Okinawa",
+   "kind": "title",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウス見積もりシステム",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "簡易ヒアリング",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "詳細入力",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "見積書",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "いくつか質問に答えるだけで",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "概算費用をお出しします（約2分）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "詳細見積もり入力",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ヒアリング内容を引き継ぎました。詳細を入力して見積書を作成します。",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📋 お客様情報",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "会社名（任意）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 ご要望内容",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "用途",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "選択してください",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "民泊・宿泊施設",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カフェ・飲食店",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "店舗・サロン",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "住居・別荘",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "オフィス・事務所",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "農業利用",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置エリア",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄本島（北部）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄本島（中部）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄本島（南部）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "石垣島",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "久米島",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "その他離島",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "県外",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "製品モデル",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ムービング6m｜14㎡・2〜3名・概算800万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア6m｜14㎡・2〜3名・概算1,870万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア12m｜30㎡・4〜8名・概算2,225万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー11.5m｜35㎡・4〜8名・概算1,985万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カーサ11m｜34㎡・4〜8名・概算1,500万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ルミナ11m｜34㎡・4〜6名・概算1,600万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "未定・要相談（カスタムオーダー）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "予算感",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〜800万円",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "800〜1,500万円",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,500〜2,000万円",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2,000万円以上",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "未定・要相談",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "⚙️ オプション",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "希望オプション（複数選択可）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "台風対策強化（タイダウン）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害対応外装材",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "太陽光発電システム",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "断熱グレードアップ",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "水道・電気工事込み",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "インテリアコーディネート",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島輸送費込み",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アフターサポート（2年）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "備考・ご要望",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💰 概算費用プレビュー",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本体価格（目安）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "デッキ・設置工事費",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸送費",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "オプション合計",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "概算合計（税別）",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html",
+    "pages/price.html"
+   ],
+   "n": 7
+  },
+  {
+   "ja": "← 戻る",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🔄 最初から",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "💾 一時保存",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "見積書を作成 →",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "← 修正する",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🖨️ 印刷 / PDF保存",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様トレーラーハウスの無料見積り。用途・条件を入力して概算をご相談いただけます。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "株式会社〇〇",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置場所の状況、デザインのご要望、質問など自由にお書きください",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島の暮らしと防災に｜運んで設置する住宅 ― パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トップ",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "資料請求・相談",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "このページ内",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "解決の核：建てない、運ぶ",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "一つの投資が、二度効く",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "議会・上司への説明材料",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "自治体・防災での実績",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "よくあるご質問",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 4
+  },
+  {
+   "ja": "📋 資料請求・相談する →",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "FOR ISLAND COMMUNITIES ／ 離島自治体の皆さまへ",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島の持続可能性に、",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "住む",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "という答えを。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "平時は移住・観光の拠点として。有事は避難・仮設の住まいとして。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "一つの投資が、二度はたらく住宅です。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📋 資料請求・相談する",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "🤖 AIに質問する",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "まずは資料だけでも。具体的なご検討の前の情報収集も歓迎しています。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "島の「当たり前」だった困りごと",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "その不便、地形のせいだと",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "あきらめていませんか。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本島から離れているからこそ起きる、住まいと防災の悩み。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "まず、その一つひとつを言葉にしてみます。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🚢 資材を待つ間に、工期が延びる",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本島からの船便頼み。資材の到着待ちで、工程がじりじりと後ろにずれていく。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🌀 物流が止まると、工事も止まる",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "海が荒れれば船は来ない。台風のたびに現場の手が止まり、完成時期が読めない。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🆘 災害時、救援が来るまで孤立する",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本島からの支援が届くまでの数日間。島の中で身を寄せられる場所が、足りない。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 呼びたいが、住める家がない",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移住者を迎えたくても、すぐに暮らせる住まいが乏しい。空き家はあっても、そのままでは使えないことが多い。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "解決の核",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「建てる」のではなく、",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「運んで設置する」。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "住まいを現地で一から建てるのではなく、工場で仕上げてから島へ運び、据え付けます。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "島の天候や人手に、工程が左右されにくくなります。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "工場でつくる",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "天候に左右されない屋内で、品質を整えながら生産します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "島へ運ぶ",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "仕上げた住まいを輸送。現地での工事を最小限にします。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置して、使い始める",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "据え付けて、暮らしや活動を始められます。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（設置から使用開始までの目安期間は、現地条件に応じて個別にご案内します）",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "だから、完成の時期が読めます。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "島の職人不足や、資材の到着待ちに、左右されにくい。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "平時に活き、有事に守る。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ふだんは地域のために働き、いざという時には命を守る。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "同じ一棟が、二つの役割を担います。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PEACETIME ／ 平時",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "暮らしと、にぎわいを生む",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移住者の住まいとして、あるいは観光や交流の拠点として稼働します。住む人を迎え、地域に人の流れと収益を生み出します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "EMERGENCY ／ 有事",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "避難の場所として、命を守る",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "災害時には、避難や仮設の住まいとして転用できます。本島からの救援が届くまでの間、島の中で身を寄せられる場所になります。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ふだんから使われているから、",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「使われないまま置かれる公共資産」になりません。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "議会・上司に説明するために",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「これは説明できる」と",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "思える材料を。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "稟議や議会での説明に、そのまま使える論点を整理しました。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "平時から遊休化しない",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ふだん稼働している施設なので、「使われていない」という指摘を受けにくく、費用対効果を説明しやすくなります。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移設・再配置ができる",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "需要や状況が変われば、場所を移すことができます。一度きりの投資で終わらせず、長く活かせます。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "取り組みの文脈に位置づけられる",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移住定住や地域づくりの取り組みの一部として整理しやすく、目的を説明しやすくなります。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※ 予算の費目や事業区分の最終的な判断は、各自治体の制度・運用に基づいて行われるものです。当社は、説明資料づくりや論点整理のお手伝いをいたします。断定的なご案内はいたしません。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "自治体・防災分野での取り組み",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "自治体と組み、防災現場で動き、",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "全国初の実績を持つ。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "私たち自身が、公的な防災の現場で積み重ねてきたことです。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「この事業者は信頼できるか」という問いに、事実でお答えします。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "防災訓練 ・ 2019.9.1",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島の防災訓練に参加",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2019年9月、宮古島で行われた防災訓練に参加しました。離島での災害対応を見据え、運んで設置できる住まいの可能性を、早くから現場で確かめてきました。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※訓練での具体的な役割は、確認のうえ掲載します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "防災訓練 ・ 2025年10月",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "自治体の防災訓練に、協力企業として参加",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "自治体が行う防災訓練に、協力企業として参加しました。平時の備えの現場で、運んで設置できる住まいの役割をお伝えしています。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "協定 ・ 2025年11月",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本島の自治体と、防災協定を締結",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "災害時の住宅供給に関する協定を、本島の自治体と締結しています。いざという時に住まいを届けられる体制づくりに、平時から取り組んでいます。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※協定の正式名称・相手方は、確認のうえ掲載します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "全国初 ・ 社会実装",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "過酷な環境でも稼働するモバイル施設、全国初の実績",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラー筐体を活かした移動式の施設が、被災地・離島・山間部のような過酷な環境でも稼働する形で、全国で初めて社会実装されました。運んで設置し、現場で機能する――その技術と災害対応力の裏付けです。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "協定を結び、訓練の現場で動き、全国初の実績を積む。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「作って終わり」ではなく、防災の実務に向き合ってきた事業者です。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "担当者の皆さまが、",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "よく気にされる点。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "予算の費目は、どう立てればよいですか。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "自治体ごとに制度や運用が異なるため、こちらから断定はいたしません。これまでの整理の考え方をお示ししながら、ご相談ベースで一緒に検討します。最終的な費目の判断は、自治体側で行っていただく前提です。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "台風や塩害への耐久性は、どの程度ですか。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄の気候を前提とした仕様で計画します。具体的な仕様や数値は、確認のうえ資料で個別にご説明します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（詳細仕様は確認中のため、本ページでは数値の明記を控えています）",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置には、どのくらいの土地や基礎が必要ですか。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置条件は、住まいの大きさや現地の地形によって異なります。必要な敷地や基礎の考え方を含め、現地に応じて個別にご相談します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "災害時の転用は、制度上どう扱われますか。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "制度上の取り扱いは、状況や時期によって異なります。想定される使い方を整理しながら、ご相談に対応します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "平時の暮らしを支え、",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "有事の命を守る住まいを。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島だからこそ、二度はたらく住まいを。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "まずは資料だけでも、お気軽にご請求ください。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "いただいた内容をもとに、資料の送付やご相談の日程を、担当よりご連絡します。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "具体的な検討前の情報収集だけでも歓迎です。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "自治体名",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "担当部署",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ご連絡先（メールまたは電話）",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ご相談内容",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "📋 この内容で資料請求・相談する",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "沖縄仕様の鉄骨トレーラーハウス。製造から輸送・設置・メンテナンスまで一貫対応。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トップページ",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "資料請求・相談する",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "本ページは、離島自治体の皆さま向けのご案内です。掲載の写真・図はイメージを含みます。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※一部、生成AIを使用して画像を補正しております。実際の商品と差異がある場合があります。ご了承ください。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "&copy; パークホームズオキナワ",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "AIに質問する",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "📋 資料請求",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "工場で仕上げ、島へ運んで設置する住宅。平時は移住・観光の拠点として、有事は避難・仮設の住まいとして。一つの投資が二度はたらく、離島自治体向けのご提案です。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島の暮らしと防災に｜運んで設置する住宅",
+   "kind": "meta:og:title",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "平時は移住・観光、有事は避難。一つの投資が二度はたらく住宅。",
+   "kind": "meta:og:description",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ トップへ",
+   "kind": "attr:aria-label",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "住宅が運ばれ、現地に据え付けられる一連の流れ",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島の防災訓練に参加したトレーラーハウス（製品単体）",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "那覇市の防災訓練に協力企業として参加（自治体・関係機関の様子）",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "災害時の住宅供給を想定したトレーラー筐体",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "過酷な環境でも稼働するモバイル施設（トレーラー筐体）の外観",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：◯◯村役場",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：企画振興課 / 防災担当",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：山田 太郎",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：example@city.lg.jp ／ 098-000-0000",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：移住定住と防災の両面で検討したい。まず資料が欲しい。",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/islands-lp.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "プレスリリース｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "パークホームズオキナワの関連企業、および沖縄のトレーラーハウス市場に関する最新ニュースをお届けします。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "メディア掲載",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "琉球新報",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "琉球新報に掲載されました",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「トレーラーハウス 離島に ― 台風想定し設計」",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〜 沖電企業・KTX・パークホームズオキナワ3社の共同開発が新聞で紹介 〜",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業・KTX・株式会社パークホームズオキナワの3社が共同開発した離島向けの居住用トレーラーハウスが、琉球新報で紹介されました。\n          すぐに入居できる住宅が不足する離島の課題に対し、最短約3か月で導入でき、移動・再配置も可能な点が注目されています。\n          台風を想定した構造設計により、平時の住まいとしても災害時の「インフラ」としても活用できる取り組みとして報じられました。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "▶ 関連：3社共同開発の正式プレスリリースを読む",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※ 本項目について",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "新聞報道（メディア掲載）の紹介です。記事・紙面画像の著作権は発行元（琉球新報社）に帰属します。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "掲載実績",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "新聞・雑誌",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "新聞・雑誌での掲載実績",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〜 パークホームズオキナワは各メディアで継続的に取り上げられています 〜",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県内外の新聞・専門誌で、弊社のトレーラーハウスや代表が継続的に紹介されています。主な掲載は以下のとおりです。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "―「トレーラーハウス 離島に／台風想定し設計」。沖電企業・KTXとの3社共同開発を紹介（",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "関連記事はこちら",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "タイムス住宅新聞",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "（8月18日）― 新発売「ラウンドプレミア」を掲載。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（8月20日）― 弊社トレーラーハウスを掲載。住宅としての需要の高まりを紹介。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "タイムス住宅新聞「ひと」",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（9月10日）― 弊社代表を人物として特集。沖縄県内製造に至った経緯を紹介。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄タイムス 週間ほーむぷらざ",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（12月25日 年末年始号）― トレーラーハウス・キッチンカー特集で見開き掲載。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "CENTURY（センチュリー）7月号",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― フリーアナウンサー辻よしなり氏と弊社代表が対談。沖縄唯一のトレーラーハウス専門店としての歩みを紹介。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Perfect boat 12月号",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "― 取扱商品「ラウンドプレミア40F」同等製品を掲載。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※ 一部の掲載年月は確認中です。順次更新してまいります。記事・紙面の著作権は各発行元に帰属します。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "3社共同リリース",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "新製品開発",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島の住宅難と防災を同時に解決する",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "居住用トレーラーハウスの共同開発について",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "〜 離島における住宅不足と災害対応に向けた新たなモビリティ型住宅インフラ 〜",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2026年5月27日",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業株式会社／KTX株式会社／株式会社パークホームズオキナワ",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業株式会社",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "（以下、沖電企業という。本社：沖縄県浦添市）、",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "KTX株式会社",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "（以下、KTXという。本社：愛知県江南市）、\n          および",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（以下、パークホームズオキナワという。本社：沖縄県豊見城市）の3社は、\n          このたび、離島地域における深刻な住宅不足の解消課題および災害対応の高度化（防災力強化）を目的として、\n          居住用トレーラーハウスを共同開発いたしました。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業 公式トピックス",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "でもっと詳しく見る →",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "■ 開発の背景：離島が抱える「住まい」の構造的課題",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県内の離島地域では、以下のような構造的課題が顕在化しています。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "すぐに入居可能な住宅の不足",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移住・定住促進に必要な住環境の整備",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建築資材・人件費の高騰と工期の長期化",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "災害時の応急仮設住宅確保における時間・コストの課題",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "■ 本取り組みの概要",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本取り組みでは、「住宅」を単なる建築物ではなく、平時・災害時を通じて活用可能な",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "\"可変型インフラ\"",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "とした居住用トレーラーハウスを開発しました。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "主な特長",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "短納期（最短約3か月）での導入が可能",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移動・再配置が可能なモビリティ性能",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "多用途対応（住宅・観光・災害拠点など）",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本島製作によるコスト最適化",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "■ 各社の役割",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本プロジェクトは、各社の専門性を活かした協働体制により推進しています。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県内の各離島に事業基盤と人員を有する「地域密着インフラ企業」として、現場理解に基づく事業推進および自治体連携を担う",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "金型製造で培った高精度なものづくり技術を有する企業として、トレーラーハウスの構造設計・製造基盤を支える",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県内で唯一トレーラーハウス製造を手掛け、地域の気候・生活様式を熟知した企業として、住環境に最適化した設計・製造技術を提供",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "■ 活用イメージ",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本トレーラーハウスは、単一用途ではなく、平時と災害時など施策横断で活用できる\n          稼働型インフラとしています。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏠 平時利用",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移住・定住促進住宅",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "職員宿舎",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ワーケーション・研修施設",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "観光・滞在型拠点",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🚨 災害時利用",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "応急仮設住宅",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "災害対策拠点",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "医療・救護拠点",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "被災者支援施設",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "これにより、「使われない公共資産」を生まない持続可能な投資モデルを実現します。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "■ 沖縄の過酷な自然環境に耐える「3つの技術的特徴」",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本トレーラーハウスは、沖縄特有の気候・環境条件を踏まえて設計されています。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "一般的なトレーラーハウスでは実施されない構造解析・耐風設計による高い安全性（台風対策）",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害環境に対応した防錆・防食設計",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "計画的メンテナンスによる長期使用",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "■ 今後の展開",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "3社は今後、以下の取り組みを進め、沖縄の持続可能な地域づくりに貢献してまいります。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄県内離島自治体への導入提案および実証事業の推進",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "地元企業と連携した維持管理体制の構築",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "災害対応インフラとしての普及展開",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "観光・地域振興分野への応用拡大",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【お問い合わせ】",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業株式会社　営業サービス部　担当：平識",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "発信：沖電企業株式会社 ／ KTX株式会社 ／ 株式会社パークホームズオキナワ",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※ 本記事について",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本リリースは、沖電企業株式会社・KTX株式会社・株式会社パークホームズオキナワ3社による共同発信の正式プレスリリースです。\n        画像・本文の著作権は各権利者に帰属します。",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "出典 / Sources",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業株式会社 公式トピックス：",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "プレスリリースPDF：",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業株式会社 公式サイト：",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "KTX株式会社 公式サイト：",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様のトレーラーハウス、ご相談はパークホームズオキナワへ",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島の住宅・宿泊施設・別荘・災害BCP用途まで、用途に応じてご提案します",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📋 AI無料見積もりを試す",
+   "kind": "text",
+   "pages": [
+    "pages/press.html",
+    "pages/price.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "📨 お問い合わせ",
+   "kind": "text",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワの関連企業・業界に関するプレスリリース一覧。沖電企業・KTX・パークホームズオキナワ3社による離島向け居住用トレーラーハウス共同開発など、最新動向をお届けします。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖電企業・KTX・パークホームズオキナワ3社が、離島の住宅不足と防災を同時に解決する居住用トレーラーハウスを共同開発。",
+   "kind": "meta:og:description",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "琉球新報 掲載記事「トレーラーハウス 離島に ― 沖電企業など3社 台風想定し設計」",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "共同開発 居住用トレーラーハウス（モデルハウス）",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "離島の住宅難と防災を同時に解決する 居住用トレーラーハウスの共同開発について",
+   "kind": "jsonld",
+   "pages": [
+    "pages/press.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "商品価格表｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "他社比較",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "商品価格表",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "全モデルの本体価格・輸送費・概算合計を一覧。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格はすべて税別・宿泊施設用途の参考提案です。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格情報あり",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格資料なし（お問い合わせ）",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー 11.5m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "面積",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "外寸",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 9
+  },
+  {
+   "ja": "宿泊人数",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "4〜8名",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "本体価格（税別）",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 6
+  },
+  {
+   "ja": "1,785〜1,835万円",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸送・設置費 約150万円〜 ／ デッキ・階段 約50万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "約1,985万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "⚠ 旧ラインナップ価格。現行「アマルフィー40F」との対応要確認。付帯設備：コ型キッチン・洗面・シャワー・ウォシュレット等",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア 12m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,500〜1,550万円",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸送・設置費 約60万円〜 ／ デッキ・階段 約665万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "約2,225万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア 6m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "2〜3名",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "1,250〜1,270万円",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸送・設置費 約50万円〜 ／ デッキ・階段 約570万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "約1,870万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Casa（カーサ）11m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,300〜1,350万円",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "約1,500万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Lumina（ルミナ）11m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "4〜6名",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "1,400〜1,500万円",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "約1,600万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Moving（ムービング）6m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "700〜720万円",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸送・設置費 約50万円〜 ／ デッキ・階段 約50万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "約800万円〜",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Base（ベース）11m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格資料なし",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "お問い合わせください",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "カタログ記載のみ。価格情報は個別にご案内します。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Cube（キューブ）6m / 12m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カタログ記載のみ。スライドアウトタイプも展開。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ソーラーヘブン 6m",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "W2.5m × D6m × H3.8m（パネル込）",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ソーラーパネル搭載モデル。オフグリッド対応。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📌 価格に関する注記",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "全価格は",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "税別（税抜）",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "表示です。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宿泊施設用途を想定した",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "参考提案価格",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "です。設置条件・設備内容により変動します。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸送・設置費は設置場所・地形・搬入経路により変動。別途お見積りとなります。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格資料出典：ラインナップ_R8_02（2026年4月改訂版）",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格不明モデルはカタログ記載のみのため、個別にお問い合わせください。",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "正確な金額はAI見積もりで",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "用途・サイズ・設置条件を入力するだけで概算金額をご提示します",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🤖 AIに相談する",
+   "kind": "text",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様の鉄骨トレーラーハウス 商品価格表。各モデルの本体価格・輸送設置費・概算合計を一覧で掲載（税別）。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/price.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "節税対策・減価償却4年｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トップへ",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "節税対策・減価償却4年",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスならではの「減価償却4年（定率法）」。事業用資産としての強みを解説します。",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "減価償却 4年・定率法",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスは",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "動力を持たない自動車（被牽引車）",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "に当たるため、",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "減価償却は4年・定率法",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "が適用されます。",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "平成24年12月、国土交通省自動車局による『トレーラ・ハウスの運行に関わる制度改正』により、自動車としてのカテゴリーに追加されたため、償却期間は",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "4年",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "となりました。",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "中古は1年",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "となります。",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "減価償却.pdf",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "PDFファイル ／ 約5.7MB",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "⬇ ダウンロード",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※税務上の取り扱いは個別の状況により異なります。具体的な節税効果・適用可否は、顧問税理士等にご確認のうえご判断ください。詳しくはお気軽にお問い合わせください。",
+   "kind": "text",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスは被牽引車（自動車）扱いで減価償却4年・定率法が適用。中古は1年。節税面のメリットと制度の根拠を解説します。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/tax-saving.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運送業の許可営業所に、トレーラーハウス｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "メリット",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "よくあるお悩み",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車庫と一体運用",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "サイト",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラインナップ詳細・比較",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "FOR LOGISTICS ／ 運送業の皆さまへ",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "なぜ運送業の",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "許可営業所",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "に、",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスが選ばれるのか？",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建物を「建てる」のではなく、運んで「設置する」営業所。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "認可取得・コスト・スピードの不安を、沖縄仕様の自社製造でサポートします。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🤖 AI-HIGAくんに質問する",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "まずは資料だけでも。営業所開設のご検討段階からご相談いただけます。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "営業所の開設、",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "こんなお悩みはありませんか？",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運送業の営業所まわりで、よくお聞きするお悩みです。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🚛 営業所と車庫が離れて、非効率",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "点呼や車両管理のたびに移動が発生。営業所と車庫（駐車スペース）を近くにまとめたい。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🏗️ 建てると、認可・費用・工期がかさむ",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建物を新築すると建築確認や工事に時間とコストがかかり、開設までが遠い。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🔄 拠点を移したくても、建物は動かせない",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "取引や物量の変化で拠点を移したくなっても、建てた事務所はそのまま。投資が固定化する。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "🌾 市街化調整区域などで建てられない",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "確保できた土地が、建築の制限で事務所を建てにくいケースがある。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "認可取得や費用のことが心配…",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運んで設置する営業所が、",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "まるごとサポートします。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスは工場で仕上げて運び、据え付ける「車両扱い」の建築物。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "営業所開設の不安を、設計から設置・アフターまで一貫してお手伝いします。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "わからないことも、まずはご相談ください",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスで営業所をつくる、",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "6つのメリット。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建築確認が不要",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "「車両扱い」のため、建築確認の手続きが不要です。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置後すぐ使える",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "工場で仕上げて運ぶので、現地工事は最小限。早く稼働できます。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "固定資産税がかからない",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建物ではなく車両扱いのため、不動産取得税・固定資産税が不要です。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "市街化調整区域にも設置可",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建物の制限がある土地でも設置できるケースがあります。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移転時はそのまま移動",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "拠点を移したくなったら、解体せずに運んで再配置できます。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車検対応・安心の車台",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "公道を牽引できる車検対応サイズ。国の基準に適合した車台です。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※適用可否は設置地の条件・用途・自治体の運用により異なります。許可営業所としての要件は個別にご確認のうえご提案します。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車庫の隣に、営業所を。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運送業ならではの使い方。車庫（駐車場）の敷地内や隣接地に営業所を設置すれば、点呼・配車・車両管理がぐっと効率的になります。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車庫と営業所が近く、点呼・運行管理がスムーズ",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "休憩・睡眠スペースもレイアウトに合わせて設計",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "事業拡大・縮小に合わせて棟数や配置を調整しやすい",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様（塩害・台風・暑さ対策）で屋外環境にも強い",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "営業所に合うモデルを。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "移動を重視する車検対応サイズから、ゆとりあるフルサイズまで。用途・人数・設置環境に合わせてお選びいただけます。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車検対応型（〜12m）",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "公道を牽引できるサイズ。設置場所を変えたい・フレキシブルに運用したい営業所に。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "フルサイズ",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "広い執務スペース・休憩室を確保したい拠点に。最大サイズのフラッグシップ。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "価格表を見る",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラインナップ詳細",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様を、自社で。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "製造から輸送・設置・メンテナンスまで一貫対応。だから営業所の開設も任せて安心です。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "自社製造でコストと品質を両立",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "豊見城市の自社工場で製造。中間コストを抑えつつ、品質を自社で管理します。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車検対応・国の基準に適合した車台",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "公道を牽引できる車検対応サイズ。安心してご利用いただける車台です。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "塩害・台風・暑さに強い沖縄仕様",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "鉄骨・溶融亜鉛メッキ（どぶ漬け）など、沖縄の環境を前提とした仕様。屋外設置の営業所にも安心です。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "認可・設置のご相談に対応",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "許可営業所としての要件や設置条件は、設置地に合わせて個別にご相談・ご提案します。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "よくあるご質問。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運送業の「許可（認可）営業所」として使えますか？",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置地の条件や用途により要件が異なります。これまでの考え方をお示ししながら、許可申請を見据えた仕様・配置を個別にご相談・ご提案します。詳しくはお問い合わせください。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "固定資産税や建築確認はどうなりますか？",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "トレーラーハウスは「車両扱い」のため、建物のような建築確認が不要で、不動産取得税・固定資産税もかかりません。適用は設置状態により判断されるため、詳細はご確認のうえご案内します。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "設置にはどのくらいの土地が必要ですか？",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "モデルの大きさ・台数や現地の地形によって異なります。車庫との配置を含め、現地に合わせて個別にご相談します。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "導入後に拠点を移したくなったら？",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "解体せずに運んで再配置できます。事業の拡大・縮小や移転に合わせて、棟の移動・追加もご相談いただけます。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "営業所開設の、最初の一歩を。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "まずは資料だけでも。認可取得・費用・スケジュールのご相談から承ります。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "いただいた内容をもとに、資料の送付やご相談の日程を担当よりご連絡します。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ご担当部署・お名前",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お電話でも承ります ▶",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "（平日 9:00–18:00）",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "本ページは運送業の皆さま向けのご案内です。掲載の写真・図はイメージを含みます。許可・税制・設置可否は設置地の条件により異なります。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "※一部、生成AIを使用して画像を補正している場合があります。実際の商品と差異がある場合があります。",
+   "kind": "text",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運送業の営業所開設に、運んで設置するトレーラーハウス。建築確認不要・設置後すぐ使える・移転にも対応。認可取得や費用の不安を、沖縄仕様の自社製造でサポートします。",
+   "kind": "meta:description",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運送業の許可営業所に、トレーラーハウス",
+   "kind": "meta:og:title",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "建築確認不要・すぐ使える・移転できる。運送業の営業所開設をトレーラーハウスでサポート。",
+   "kind": "meta:og:description",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "運送業の営業所に活用できるトレーラーハウス",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "車庫の隣に設置した営業所用トレーラーハウス",
+   "kind": "attr:alt",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：◯◯運輸 株式会社",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：管理部 山田 太郎",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：example@company.co.jp ／ 098-000-0000",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "例：車庫の隣に営業所を開設したい。認可取得と概算費用を相談したい。",
+   "kind": "attr:placeholder",
+   "pages": [
+    "pages/transport-office.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "サイトマップ - トレーラーハウス パークホームズオキナワ 沖縄｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "sitemap/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "サイトマップ - トレーラーハウス パークホームズオキナワ 沖縄",
+   "kind": "text",
+   "pages": [
+    "sitemap/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "注目される3つの特徴",
+   "kind": "text",
+   "pages": [
+    "sitemap/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "車検対応トレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "sitemap/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "中古コンテナ・トレーラー情報",
+   "kind": "text",
+   "pages": [
+    "sitemap/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "オフィス紹介・展示場",
+   "kind": "text",
+   "pages": [
+    "sitemap/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "プライバシーポリシー - トレーラーハウス パークホームズオキナワ 沖縄｜パークホームズオキナワ",
+   "kind": "title",
+   "pages": [
+    "j/privacy/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "プライバシーポリシー - トレーラーハウス パークホームズオキナワ 沖縄",
+   "kind": "text",
+   "pages": [
+    "j/privacy/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "プライバシーポリシー",
+   "kind": "text",
+   "pages": [
+    "j/privacy/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "このホームページはインターネット上のフォームへ投稿されるスパムなどからサイトを守るため、Google Inc.（グーグル）が提供している reCAPTCHA サービスを採用しています。このサービスは投稿者が人間なのかロボットなのかを判定するもので、GoogleはIPアドレスの取得を含むその他のデータをこのサービスのために収集します。またこの目的のため、入力されたデータはGoogleによって利用されます。ただし、EUまたは欧州経済領域の場合、IPアドレスはあらかじめ匿名化されます。例外的なケースとして、USでは IPアドレスがGoogleに送信されたあとに匿名化されます。",
+   "kind": "text",
+   "pages": [
+    "j/privacy/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "Googleはお客様によるサイトの利用を評価するため、サイトの運営者に代わって、この情報を利用します。",
+   "kind": "text",
+   "pages": [
+    "j/privacy/index.html"
+   ],
+   "n": 1
+  }
+ ]
+}

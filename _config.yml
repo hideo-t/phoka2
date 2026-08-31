@@ -1,0 +1,5 @@
+# ビルド用のスクリプトと翻訳メモリは公開不要
+exclude:
+  - i18n
+  - scripts
+  - _import

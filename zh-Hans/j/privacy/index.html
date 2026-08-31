@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<base href="https://parkhomes-okinawa.com/">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>隐私政策 - 拖车房屋 Park Homes Okinawa 冲绳｜Park Homes Okinawa</title>
+<meta name="description" content="冲绳县的拖车房屋制造・销售。Solar Haven、AMALFI等全8款产品。TEL 098-856-6666">
+
+<meta property="og:title" content="Park Homes Okinawa">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://parkhomes-okinawa.com/zh-Hans/j/privacy/">
+
+<style>
+:root{
+  --primary:#1560a8;
+  --primary-dark:#0d2d5e;
+  --primary-light:#4fa3e0;
+  --accent:#0ea5e9;
+  --bg:#f8fafc;
+  --bg-alt:#ffffff;
+  --text:#1a2332;
+  --muted:#64748b;
+  --border:#d1e3f8;
+  --hero-from:#0d2d5e;
+  --hero-to:#1560a8;
+  --rl:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;color:var(--text);background:var(--bg);line-height:1.7}
+a{color:var(--primary);text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+nav{background:var(--bg-alt);border-bottom:2px solid var(--primary);position:sticky;top:0;z-index:100;
+    box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;
+           max-width:1100px;margin:0 auto;padding:0 24px}
+.nav-logo img{height:44px;width:auto}
+.nav-links{display:flex;gap:4px;align-items:center}
+.nav-links a{padding:6px 12px;font-size:13px;color:var(--text);border-radius:6px;font-weight:500;transition:.2s}
+.nav-links a:hover{background:var(--border);color:var(--primary)}
+.nav-cta{background:var(--primary)!important;color:var(--bg-alt)!important;border-radius:8px!important;padding:8px 16px!important}
+.nav-cta:hover{background:var(--primary-dark)!important}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px}
+.hamburger span{display:block;width:24px;height:2px;background:var(--text);border-radius:2px}
+.mobile-menu{display:none;flex-direction:column;background:var(--bg-alt);border-bottom:1px solid var(--border);padding:12px 24px}
+.mobile-menu.open{display:flex}
+.mobile-menu a{padding:10px 0;font-size:15px;border-bottom:1px solid var(--border);color:var(--text)}
+
+.page-header{background:linear-gradient(135deg,var(--hero-from) 0%,var(--hero-to) 100%);color:var(--bg-alt);padding:48px 0 40px}
+.page-header h1{font-size:32px;font-weight:700;margin-bottom:8px}
+.eyebrow{font-size:11px;letter-spacing:.2em;opacity:.7;margin-bottom:8px}
+.breadcrumb{display:flex;gap:8px;align-items:center;font-size:12px;opacity:.7;margin-top:12px}
+.breadcrumb a{color:var(--bg-alt)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:var(--rl);
+     font-size:14px;font-weight:600;cursor:pointer;transition:.2s;border:2px solid transparent}
+.btn-primary{background:var(--primary);color:var(--bg-alt);border-color:var(--primary)}
+.btn-primary:hover{background:var(--primary-dark);border-color:var(--primary-dark)}
+.btn-outline{background:var(--bg-alt);color:var(--primary);border-color:var(--primary)}
+.btn-outline:hover{background:var(--primary);color:var(--bg-alt)}
+
+.section{padding:64px 0}
+.section-alt{background:var(--bg-alt)}
+.section-title{font-size:26px;font-weight:700;color:var(--primary-dark);margin-bottom:8px}
+.section-sub{color:var(--muted);font-size:14px;margin-bottom:40px}
+.section-eyebrow{font-size:11px;letter-spacing:.2em;color:var(--primary);font-weight:600;margin-bottom:8px}
+
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media(max-width:768px){.grid-3,.grid-2{grid-template-columns:1fr}.nav-links{display:none}.hamburger{display:flex}}
+
+.card{background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.card-img{height:200px;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:.3s}
+.card:hover .card-img img{transform:scale(1.05)}
+.card-body{padding:20px}
+.card-title{font-size:17px;font-weight:700;color:var(--primary-dark);margin-bottom:8px}
+.card-text{font-size:13px;color:var(--muted);line-height:1.6}
+.card-price{font-size:14px;color:var(--primary);font-weight:600;margin-top:8px}
+
+footer{background:var(--primary-dark);color:rgba(255,255,255,.8);padding:40px 0 24px}
+.footer-inner{max-width:1100px;margin:0 auto;padding:0 24px}
+.footer-info{font-size:13px;line-height:2;margin-bottom:24px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:16px;font-size:12px;opacity:.5}
+.reveal{opacity:0;transform:translateY(20px);transition:.6s}
+.reveal.visible{opacity:1;transform:none}
+</style>
+
+<!--i18n:alt:start-->
+<link rel="canonical" href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/">
+<link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/j/privacy/">
+<link rel="alternate" hreflang="en" href="https://parkhomes-okinawa.com/en/j/privacy/">
+<link rel="alternate" hreflang="zh-Hant" href="https://parkhomes-okinawa.com/zh-Hant/j/privacy/">
+<link rel="alternate" hreflang="zh-Hans" href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/">
+<link rel="alternate" hreflang="ko" href="https://parkhomes-okinawa.com/ko/j/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://parkhomes-okinawa.com/j/privacy/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ko_KR">
+<!--i18n:alt:end-->
+</head>
+<body>
+<!--i18n:bar:start-->
+<style>.pkw-langbar{background:#0d2d5e;font-size:13px;line-height:1;font-family:system-ui,-apple-system,'Hiragino Kaku Gothic ProN','Meiryo',sans-serif}.pkw-langbar ul{max-width:1100px;margin:0 auto;padding:7px 24px;display:flex;gap:6px;justify-content:flex-end;align-items:center;list-style:none;flex-wrap:wrap}.pkw-langbar li{margin:0}.pkw-langbar a{color:#cfe0f5;text-decoration:none;padding:5px 9px;border-radius:6px;display:block}.pkw-langbar a:hover{background:rgba(255,255,255,.14);color:#fff}.pkw-langbar [aria-current=true]{background:#fff;color:#0d2d5e;font-weight:700}.pkw-langbar .pkw-lb-label{color:#8fb3dd;letter-spacing:.08em;padding:5px 0}@media(max-width:600px){.pkw-langbar ul{justify-content:center;padding:6px 12px}}</style>
+<nav class="pkw-langbar" aria-label="Language">
+<ul>
+<li class="pkw-lb-label" aria-hidden="true">LANGUAGE</li>
+<li><a href="https://parkhomes-okinawa.com/j/privacy/" hreflang="ja" lang="ja">日本語</a></li>
+<li><a href="https://parkhomes-okinawa.com/en/j/privacy/" hreflang="en" lang="en">English</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hant/j/privacy/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/zh-Hans/j/privacy/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+<li><a href="https://parkhomes-okinawa.com/ko/j/privacy/" hreflang="ko" lang="ko">한국어</a></li>
+</ul>
+</nav>
+<!--i18n:bar:end-->
+
+
+<nav>
+  <div class="nav-inner">
+    <a href="/zh-Hans/" class="nav-logo"><img src="/logopkw.jpg" alt="Park Homes Okinawa"></a>
+    <div class="nav-links">
+      <a href="/zh-Hans/about/">什么是拖车房屋</a>
+      <a href="/zh-Hans/lineup/">产品</a>
+      <a href="/zh-Hans/use-cases/">用途・活用</a>
+      <a href="/zh-Hans/cases/">施工案例</a>
+      <a href="/zh-Hans/faq/">FAQ</a>
+      <a href="/zh-Hans/company/">公司简介</a>
+      <a href="/zh-Hans/contact/" class="nav-cta">联系我们</a>
+    </div>
+    <div class="hamburger" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="/zh-Hans/about/">什么是拖车房屋</a>
+    <a href="/zh-Hans/lineup/">产品阵容</a>
+    <a href="/zh-Hans/use-cases/">用途・活用</a>
+    <a href="/zh-Hans/cases/">施工案例</a>
+    <a href="/zh-Hans/faq/">常见问题</a>
+    <a href="/zh-Hans/company/">公司简介</a>
+    <a href="/zh-Hans/contact/">联系我们</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>隐私政策 - 拖车房屋 Park Homes Okinawa 冲绳</h1>
+    <nav class="breadcrumb">
+      
+        <a href="">首页</a><span>/</span>
+        
+      
+        <a href="/j/">j</a><span>/</span>
+        
+      
+        <span>privacy</span>
+      
+    </nav>
+  </div>
+</div>
+<section class="section section-alt">
+  <div class="container" style="max-width:960px">
+    
+      
+      
+      <div class="reveal" style="margin-bottom:48px;padding-bottom:40px;border-bottom:1px solid var(--border)">
+        
+        
+        
+        
+        <p style="line-height:1.9;margin-bottom:14px">TOP备受瞩目的三大特点产品阵容选配设定常见问题符合车检的拖车房屋灾害时的活用AirstreamContainerSauna餐车出租拖吊业务施工案例施工案例2制作维护保养二手货柜・拖车信息零件销售法令遵循公司简介信息信息2咨询</p><p style="line-height:1.9;margin-bottom:14px">隐私政策</p><p style="line-height:1.9;margin-bottom:14px">reCAPTCHA</p><p style="line-height:1.9;margin-bottom:14px">本网站为防止网络上表单投稿的垃圾信息等，采用Google Inc.（谷歌）提供的 reCAPTCHA 服务。此服务用于判定投稿者为人类或机器人，Google 会为此服务收集包含 IP 地址在内的其他数据。此外，为此目的，所输入的数据将由 Google 使用。但在欧盟或欧洲经济区，IP 地址会事先匿名化。例外情况下，在美国，IP 地址会在传送至 Google 之后匿名化。</p><p style="line-height:1.9;margin-bottom:14px">Google 为评估客户对本网站的使用情形，代表网站运营者利用此信息。</p>
+        
+      </div>
+      
+      
+    
+    <div style="text-align:center;margin-top:40px">
+      <a href="/zh-Hans/contact/" class="btn btn-primary">咨询 →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-info">
+      <strong style="font-size:16px;color:#fff">Park Homes Okinawa 股份有限公司</strong><br>
+      【总公司】〒901-0222 冲绳县丰见城市渡桥名281-5　【样品屋】〒901-0225 冲绳县丰见城市丰崎1-1223　【工厂】〒901-0223 冲绳县丰见城市翁长864-14<br>
+      【TEL】<a href="tel:098-856-6666" style="color:var(--primary-light)">098-856-6666</a>　【FAX】098-856-0666<br>
+      Email: <a href="mailto:parkhomes.okinawa@gmail.com" style="color:var(--primary-light)">parkhomes.okinawa@gmail.com</a>
+    </div>
+    <div class="footer-bottom">© 2026 Park Homes Okinawa 股份有限公司 All Rights Reserved.</div>
+  </div>
+</footer>
+<script>
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
