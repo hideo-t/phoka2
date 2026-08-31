@@ -1,7 +1,0 @@
-{
-  "tool_name": "mcp__claude-in-chrome__tabs_context_mcp",
-  "tool_input_preview": "{\"createIfEmpty\":true}",
-  "error": "Multiple Chrome browsers are connected to this account and none has been selected for this session. Before any browser action, you MUST call the AskUserQuestion tool with a question listing EVERY connected browser as a separate option (use the display name as the label, and include the deviceId in parentheses), plus one final option labeled exactly: \"Open a confirmation screen in every connected Chrome extension and let me select the right one there.\" Do not skip any connected browser and do not...",
-  "timestamp": "2026-08-28T22:35:33.173Z",
-  "retry_count": 1
-}

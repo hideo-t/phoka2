@@ -6,3 +6,6 @@ Thumbs.db
 _preview/
 .claude/settings.local.json
 *.bak
+
+# OMC のセッション状態（ローカル作業用）
+.omc/
