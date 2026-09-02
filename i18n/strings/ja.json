@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1232,
- "chars": 26255,
+ "count": 1233,
+ "chars": 26272,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -1860,6 +1860,14 @@
   },
   {
    "ja": "メニューを閉じる",
+   "kind": "attr:aria-label",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "沖縄仕様トレーラーハウスの紹介動画",
    "kind": "attr:aria-label",
    "pages": [
     "index.html"

@@ -178,12 +178,12 @@ body.menu-open .menu-backdrop{opacity:1;visibility:visible}
   width:min(620px,92vw);height:auto;
   position:relative;
 }
-.hero-slider img{
+.hero-slider img,.hero-slider video{
   position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
   opacity:0;transition:opacity .6s ease;
   pointer-events:none;
 }
-.hero-slider img.active{opacity:1;pointer-events:auto}
+.hero-slider img.active,.hero-slider video.active{opacity:1;pointer-events:auto}
 /* PC（769px以上）: ヒーロー画像スライドを横長(16:9)で大きく表示 */
 @media(min-width:769px){
   .hero-slider{aspect-ratio:16/9;width:min(1100px,94vw);max-width:1100px;height:auto}
@@ -542,8 +542,6 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
 </ul>
 </nav>
 <!--i18n:bar:end-->
-
-
 <!-- ===========================
      NAV
 =========================== -->
@@ -683,7 +681,8 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
   <div class="hero-top-row">
       <div class="hero-video-wrap">
         <div class="hero-slider" id="heroSlider">
-        <img src="/images/lineup/full-size-trailer.jpg" class="active" alt="フルサイズトレーラーハウスの外観" loading="eager">
+        <video src="/images/hero-videos/810033696.721926.mp4" class="active" muted playsinline preload="metadata" poster="/images/hero-videos/810033696-poster.jpg" aria-label="沖縄仕様トレーラーハウスの紹介動画"></video>
+        <img src="/images/lineup/full-size-trailer.jpg" alt="フルサイズトレーラーハウスの外観" loading="eager">
         <img src="/images/lineup/casa-exterior.jpg" alt="カーサ（トレーラーハウス）の外観" loading="lazy">
         <img src="/images/lineup/lumina-exterior.jpg" alt="ルミナ（トレーラーハウス）の外観" loading="lazy">
         <img src="/images/lineup/global-edition.jpg" alt="グローバルエディションの外観" loading="lazy">
@@ -1278,27 +1277,31 @@ document.addEventListener('click', e => {
   if(!menu.contains(e.target) && !ham.contains(e.target)) menu.classList.remove('open');
 });
 
-// ===== ヒーロー画像スライダー =====
+// ===== ヒーロースライダー（画像＋動画） =====
 (function(){
-  const imgs = Array.from(document.querySelectorAll('#heroSlider img'));
+  const imgs = Array.from(document.querySelectorAll('#heroSlider img, #heroSlider video'));
   const dotsEl = document.getElementById('sliderDots');
   const countEl = document.getElementById('sliderCount');
   if(!imgs.length) return;
   let current = 0;
   let autoTimer = null;
 
+  const isVideo = el => el.tagName === 'VIDEO';
+
   // ドット生成
-  imgs.forEach((_, i) => {
+  imgs.forEach((el, i) => {
     const d = document.createElement('button');
     d.className = 'slider-dot' + (i === 0 ? ' active' : '');
-    d.setAttribute('aria-label', (i+1) + '番目の画像');
+    d.setAttribute('aria-label', (i+1) + '番目の' + (isVideo(el) ? '動画' : '画像'));
     d.addEventListener('click', () => goTo(i));
     dotsEl.appendChild(d);
   });
 
   function goTo(idx) {
     const dots = dotsEl.querySelectorAll('.slider-dot');
-    imgs[current].classList.remove('active');
+    const prev = imgs[current];
+    if(isVideo(prev)) prev.pause();
+    prev.classList.remove('active');
     dots[current].classList.remove('active');
     current = (idx + imgs.length) % imgs.length;
     imgs[current].classList.add('active');
@@ -1307,10 +1310,38 @@ document.addEventListener('click', e => {
     resetAuto();
   }
 
+  // 動画のスライドは尺いっぱい見せ、再生し終わった時点で次へ送る。
+  // ただし必ず保険のタイマーも張る。play() は自動再生を止められた場合や
+  // 読み込みが進まない場合に解決も拒否もしないことがあり、それだけに頼ると
+  // スライダーが1枚目で止まったままになる（回線が遅い訪問者で起こり得る）。
   function resetAuto() {
     clearTimeout(autoTimer);
+    const el = imgs[current];
+    if(isVideo(el)){
+      el.currentTime = 0;
+      const p = el.play();
+      if(p && p.catch) p.catch(() => {});
+      autoTimer = setTimeout(() => goTo(current + 1), videoWait(el));
+      return;
+    }
     autoTimer = setTimeout(() => goTo(current + 1), 4500);
   }
+
+  // 尺が分かっていれば尺+1秒、分からなければ画像と同じ間隔で見切りをつける
+  function videoWait(el) {
+    return isFinite(el.duration) && el.duration > 0 ? (el.duration + 1) * 1000 : 4500;
+  }
+
+  imgs.filter(isVideo).forEach(v => {
+    v.addEventListener('ended', () => { if(imgs[current] === v) goTo(current + 1); });
+    // メタデータが遅れて届いたら、正しい尺で保険を張り直す
+    v.addEventListener('loadedmetadata', () => {
+      if(imgs[current] === v){
+        clearTimeout(autoTimer);
+        autoTimer = setTimeout(() => goTo(current + 1), videoWait(v));
+      }
+    });
+  });
 
   if(countEl) countEl.textContent = '1 / ' + imgs.length;
   resetAuto();

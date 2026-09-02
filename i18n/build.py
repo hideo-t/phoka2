@@ -18,8 +18,12 @@ SKIP_SCHEME = ("#", "mailto:", "tel:", "javascript:", "data:", "sms:", "line:")
 
 BEG_HEAD, END_HEAD = "<!--i18n:alt:start-->", "<!--i18n:alt:end-->"
 BEG_BAR, END_BAR = "<!--i18n:bar:start-->", "<!--i18n:bar:end-->"
-_RE_HEAD_BLOCK = re.compile(re.escape(BEG_HEAD) + ".*?" + re.escape(END_HEAD), re.S)
-_RE_BAR_BLOCK = re.compile(re.escape(BEG_BAR) + ".*?" + re.escape(END_BAR), re.S)
+# 「外す形」と「差し込む形」を1文字単位で一致させる。ずれていると
+# ビルドのたびに空行が増減し、無関係なページまで差分になってしまう。
+#   head: 直前に改行を足し、末尾にも改行を足して </head> の前に置く
+#   bar : 直前に改行を足すだけで <body> の直後に置く
+_RE_HEAD_BLOCK = re.compile(r"\n?" + re.escape(BEG_HEAD) + ".*?" + re.escape(END_HEAD) + r"\n", re.S)
+_RE_BAR_BLOCK = re.compile(r"\n?" + re.escape(BEG_BAR) + ".*?" + re.escape(END_BAR), re.S)
 
 LD_KEYS = {"name", "alternateName", "description", "streetAddress", "addressLocality",
            "addressRegion", "jobTitle", "headline", "articleBody"}
@@ -205,10 +209,10 @@ def strip_blocks(raw):
 def insert_blocks(raw, rel, lang):
     m = re.search(r"</head\s*>", raw, re.I)
     if m:
-        raw = raw[:m.start()] + head_block(rel, lang) + "\n" + raw[m.start():]
+        raw = raw[:m.start()] + "\n" + head_block(rel, lang) + "\n" + raw[m.start():]
     m = re.search(r"<body\b[^>]*>", raw, re.I)
     if m:
-        raw = raw[:m.end()] + "\n" + bar_block(rel, lang) + "\n" + raw[m.end():]
+        raw = raw[:m.end()] + "\n" + bar_block(rel, lang) + raw[m.end():]
     return raw
 
 
