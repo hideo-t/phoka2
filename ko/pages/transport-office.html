@@ -491,7 +491,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
     <div class="contact-wrap reveal">
       <p class="form-soft">보내주신 내용을 바탕으로 자료 발송이나 상담 일정을 담당자가 연락드립니다.<br>구체적인 검토 전의 정보 수집만이라도 환영합니다.</p>
       <!-- 要・坂田社長確認：フォーム送信先。現状は mailto: フォールバック実装。 -->
-      <form id="lpForm" onsubmit="return sendInquiry(event)">
+      <form id="lpForm" onsubmit="return sendInquiry(event)" data-ga-event="document_request" data-ga-form="transport_office">
         <div class="form-row"><label>회사명 <span class="req">필수</span></label><input type="text" name="org" required placeholder="예: ◯◯운수 주식회사"></div>
         <div class="form-row"><label>담당 부서·성함 <span class="req">필수</span></label><input type="text" name="name" required placeholder="예: 관리부 홍길동"></div>
         <div class="form-row"><label>연락처 (이메일 또는 전화) <span class="req">필수</span></label><input type="text" name="contact" required placeholder="예: example@company.co.jp / 098-000-0000"></div>

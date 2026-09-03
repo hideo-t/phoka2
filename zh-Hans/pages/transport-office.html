@@ -491,7 +491,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
     <div class="contact-wrap reveal">
       <p class="form-soft">我们会依您提供的内容，由专人与您联系寄送资料或安排洽谈时间。<br>在具体评估之前的信息搜集也同样欢迎。</p>
       <!-- 要・坂田社長確認：フォーム送信先。現状は mailto: フォールバック実装。 -->
-      <form id="lpForm" onsubmit="return sendInquiry(event)">
+      <form id="lpForm" onsubmit="return sendInquiry(event)" data-ga-event="document_request" data-ga-form="transport_office">
         <div class="form-row"><label>公司名称 <span class="req">必填</span></label><input type="text" name="org" required placeholder="例：◯◯运输 股份有限公司"></div>
         <div class="form-row"><label>承办部门・姓名 <span class="req">必填</span></label><input type="text" name="name" required placeholder="例：管理部 王小明"></div>
         <div class="form-row"><label>联系方式（电子邮件或电话） <span class="req">必填</span></label><input type="text" name="contact" required placeholder="例：example@company.co.jp ／ 098-000-0000"></div>

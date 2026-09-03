@@ -334,7 +334,7 @@ header{background:var(--twilight);border-bottom:1px solid var(--border);padding:
   <div class="quote-wrap">
     <div class="quote-actions">
       <button class="btn-back" onclick="goPhase(2)">← 修改</button>
-      <button class="btn-print" onclick="window.print()">🖨️ 打印 / 保存PDF</button>
+      <button class="btn-print" onclick="if(window.phokaTrack){window.phokaTrack('estimate_download',{model:document.getElementById('f_model')?document.getElementById('f_model').value:''});}window.print()">🖨️ 打印 / 保存PDF</button>
     </div>
     <div class="quote-doc" id="quoteDoc">
       <!-- 動的生成 -->
@@ -689,6 +689,17 @@ function buildQuote() {
       <span class="validity-badge">この見積書の有効期限は発行日より30日間です</span>
     </div>
   `;
+
+  // 見積書が組み上がった時点＝見積依頼の成立。途中離脱では通らない。
+  if (window.phokaTrack) {
+    window.phokaTrack('estimate_request', {
+      model: modelName,
+      purpose: purpose,
+      install_area: area,
+      budget_range: budget,
+      estimate_total: total
+    });
+  }
 }
 
 // ════════════════════════════════════════

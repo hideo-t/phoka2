@@ -19,6 +19,11 @@ var CLARITY_ID = 'y9lqd0er98';   // 例: 'abcd1234ef'
 (function () {
   'use strict';
 
+  // ページ側から任意のイベントを送るための入口。
+  // 本番以外では下で何もしない関数のままにしておくので、
+  // 呼び出し側は存在チェックだけで済み、ローカル確認時にも壊れない。
+  window.phokaTrack = function () {};
+
   // 自分のPCでの表示確認まで数えてしまわないよう、本番ドメイン以外では動かさない
   var host = location.hostname;
   var isProduction = /(^|\.)parkhomes-okinawa\.com$/.test(host);
@@ -61,6 +66,9 @@ var CLARITY_ID = 'y9lqd0er98';   // 例: 'abcd1234ef'
     gtag('event', name, params);
   }
 
+  // ページ側（見積もりフォーム等）からも同じ経路で送れるようにする
+  window.phokaTrack = send;
+
   document.addEventListener('click', function (e) {
     var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
     if (!a) return;
@@ -79,11 +87,22 @@ var CLARITY_ID = 'y9lqd0er98';   // 例: 'abcd1234ef'
     }
   }, true);
 
-  /* ---------- 問い合わせフォーム送信 ---------- */
+  /* ---------- フォーム送信 ----------
+   * イベント名はフォーム側に data-ga-event で宣言してもらう。
+   * ここを増やさずページを足せるようにするため、既定は contact_submit。
+   *
+   * 発火は「送信が成立したとき」だけにしたい。required を付けたフォームは
+   * 必須が埋まるまで submit 自体が飛んでこないので通常はそれで足りるが、
+   * novalidate のフォームは無効なまま submit が飛ぶので checkValidity で弾く。
+   */
   document.addEventListener('submit', function (e) {
     var f = e.target;
-    if (f && f.tagName === 'FORM') {
-      send('contact_form_submit', { form_action: f.getAttribute('action') || '' });
-    }
+    if (!f || f.tagName !== 'FORM') return;
+    if (typeof f.checkValidity === 'function' && !f.checkValidity()) return;
+
+    send(f.getAttribute('data-ga-event') || 'contact_submit', {
+      form_name: f.getAttribute('data-ga-form') || f.id || '',
+      form_action: f.getAttribute('action') || ''
+    });
   }, true);
 })();
