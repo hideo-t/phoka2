@@ -42,7 +42,16 @@ var CLARITY_ID = 'y9lqd0er98';   // 例: 'abcd1234ef'
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
     gtag('js', new Date());
-    gtag('config', GA4_ID);
+
+    // 3つの入口（一般／法人／自治体）をGA4上で区別する。
+    // URLは動かさない方針なので、ページ側が <body data-audience="..."> で
+    // 名乗り、それを content_group として渡す。付いていないページは
+    // 何も送らない（GA4上は「(not set)」。既定値を入れると無関係な
+    // 60ページ以上が1つの束になり、入口の比較がぼやけるため）。
+    var cfg = {};
+    var audience = document.body && document.body.getAttribute('data-audience');
+    if (audience) cfg.content_group = audience;
+    gtag('config', GA4_ID, cfg);
   }
 
   /* ---------- Microsoft Clarity ---------- */
