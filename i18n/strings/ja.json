@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1238,
- "chars": 26391,
+ "count": 1242,
+ "chars": 26547,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -1665,6 +1665,64 @@
     "pages/transport-office.html"
    ],
    "n": 5
+  },
+  {
+   "ja": "【宮古店】〒906-0013 沖縄県宮古島市平良字下里394-2　【TEL】",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "about/index.html",
+    "cases/index.html",
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 22
+  },
+  {
+   "ja": "【石垣店】〒907-0024 沖縄県石垣市字新川414-1 信用ビル2F　【TEL】",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "about/index.html",
+    "cases/index.html",
+    "company/index.html",
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
+    "faq/index.html",
+    "lineup/index.html",
+    "lineup/airstream/index.html",
+    "lineup/amalfi/index.html",
+    "lineup/container/index.html",
+    "lineup/food-truck/index.html",
+    "lineup/parq/index.html",
+    "lineup/round-premier/index.html",
+    "lineup/sauna/index.html",
+    "lineup/solar-haven/index.html",
+    "use-cases/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 22
   },
   {
    "ja": "設立: 平成28年7月1日　資本金: 1,000万円",
@@ -7944,6 +8002,24 @@
   },
   {
    "ja": "沖縄仕様の鉄骨トレーラーハウス。製造から輸送・設置・メンテナンスまで一貫対応。",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "【宮古店】〒906-0013 沖縄県宮古島市平良字下里394-2　TEL",
+   "kind": "text",
+   "pages": [
+    "pages/islands-lp.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "【石垣店】〒907-0024 沖縄県石垣市字新川414-1 信用ビル2F　TEL",
    "kind": "text",
    "pages": [
     "pages/islands-lp.html",
