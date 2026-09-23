@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1233,
- "chars": 26272,
+ "count": 1238,
+ "chars": 26391,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -3359,6 +3359,46 @@
   },
   {
    "ja": "所在地",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【宮古店】〒906-0013 沖縄県宮古島市平良字下里394-2",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【石垣店】〒907-0024 沖縄県石垣市字新川414-1 信用ビル2F",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【本社】098-856-6666",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【宮古店】0980-72-0006",
+   "kind": "text",
+   "pages": [
+    "company/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "【石垣店】080-1200-0009",
    "kind": "text",
    "pages": [
     "company/index.html"
