@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1242,
- "chars": 26547,
+ "count": 1254,
+ "chars": 26889,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -2569,7 +2569,7 @@
    "pages": [
     "cases/index.html"
    ],
-   "n": 2
+   "n": 3
   },
   {
    "ja": "グランピング",
@@ -2594,7 +2594,7 @@
    "pages": [
     "cases/index.html"
    ],
-   "n": 7
+   "n": 8
   },
   {
    "ja": "個人邸",
@@ -2627,6 +2627,88 @@
     "cases/index.html"
    ],
    "n": 3
+  },
+  {
+   "ja": "その他",
+   "kind": "text",
+   "pages": [
+    "cases/index.html",
+    "contact/index.html",
+    "pages/estimate.html"
+   ],
+   "n": 5
+  },
+  {
+   "ja": "グレー外壁＋ウッドデッキの店舗棟",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "要レビュー",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 12
+  },
+  {
+   "ja": "グレーの外壁に白いウッドデッキと階段を組み合わせた店舗棟。大きなガラス戸から客席が見える開放的な造り。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "West Coast（輸入車レンタカー）",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "輸入車レンタカー店の受付棟として設置。ダーク系の外壁にウッドデッキを組み合わせたスタイル。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ホワイト外壁のトレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "白い外壁に木製の階段を合わせたシンプルな仕様。掃き出し窓と玄関ドアを備えています。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ブラック外壁・3軸シャーシのトレーラーハウス",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "黒い木目調外壁の大型モデル。3軸シャーシで、玄関前に木製デッキを設置。",
+   "kind": "text",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
   },
   {
    "ja": "2022年沖縄開催の RESOR TECH EXPO に展示出展。",
@@ -2877,14 +2959,6 @@
    "n": 1
   },
   {
-   "ja": "要レビュー",
-   "kind": "text",
-   "pages": [
-    "cases/index.html"
-   ],
-   "n": 8
-  },
-  {
    "ja": "沖縄県の交通事業者向けに設置したトレーラーハウス事例。",
    "kind": "text",
    "pages": [
@@ -3033,6 +3107,38 @@
   {
    "ja": "パークホームズオキナワの設置事例。沖縄県内外での宿泊施設・店舗・グランピングなどの実績をご紹介。",
    "kind": "meta:description",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "グレー外壁＋ウッドデッキの店舗棟 の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "West Coast（輸入車レンタカー） の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ホワイト外壁のトレーラーハウス の施工事例",
+   "kind": "attr:alt",
+   "pages": [
+    "cases/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ブラック外壁・3軸シャーシのトレーラーハウス の施工事例",
+   "kind": "attr:alt",
    "pages": [
     "cases/index.html"
    ],
@@ -3851,15 +3957,6 @@
     "contact/index.html"
    ],
    "n": 1
-  },
-  {
-   "ja": "その他",
-   "kind": "text",
-   "pages": [
-    "contact/index.html",
-    "pages/estimate.html"
-   ],
-   "n": 2
   },
   {
    "ja": "メッセージ",
