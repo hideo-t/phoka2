@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1251,
- "chars": 26800,
+ "count": 1284,
+ "chars": 28444,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -1845,7 +1845,7 @@
    "pages": [
     "index.html"
    ],
-   "n": 1
+   "n": 2
   },
   {
    "ja": "パークホームズオキナワ｜沖縄のトレーラーハウス専門店",
@@ -2134,7 +2134,63 @@
    "pages": [
     "index.html"
    ],
-   "n": 2
+   "n": 4
+  },
+  {
+   "ja": "坂田 英之",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ 宮古店",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "平良字下里394-2",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "宮古島市",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "パークホームズオキナワ 石垣店",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "字新川414-1 信用ビル2F",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "石垣市",
+   "kind": "jsonld",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
   },
   {
    "ja": "トレーラーハウスとは｜パークホームズオキナワ",
@@ -2335,7 +2391,7 @@
     "sitemap/index.html",
     "j/privacy/index.html"
    ],
-   "n": 20
+   "n": 18
   },
   {
    "ja": "ホーム",
@@ -2473,7 +2529,6 @@
     "company/協力会社一覧/index.html",
     "company/社長挨拶/index.html",
     "company/製作スタッフ/index.html",
-    "faq/index.html",
     "lineup/airstream/index.html",
     "lineup/amalfi/index.html",
     "lineup/container/index.html",
@@ -2486,7 +2541,7 @@
     "sitemap/index.html",
     "j/privacy/index.html"
    ],
-   "n": 17
+   "n": 16
   },
   {
    "ja": "トレーラーハウスは車輪付きの移動式建築物。建築確認不要・固定資産税なしのケースも。沖縄で製造・販売するパークホームズオキナワが詳しく解説。",
@@ -3618,20 +3673,12 @@
    "n": 1
   },
   {
-   "ja": "沖縄県のトレーラーハウス製造・販売。Solar Haven・AMALFIなど全8製品。TEL 098-856-6666",
+   "ja": "株式会社パークホームズオキナワの会社概要。沖縄県豊見城市でトレーラーハウスを製造・販売しています。本社・モデルハウス、工場、宮古店・石垣店の所在地と連絡先を掲載。",
    "kind": "meta:description",
    "pages": [
-    "company/index.html",
-    "company/オフィス紹介-展示場/index.html",
-    "company/協力会社一覧/index.html",
-    "company/社長挨拶/index.html",
-    "company/製作スタッフ/index.html",
-    "contact/index.html",
-    "faq/index.html",
-    "sitemap/index.html",
-    "j/privacy/index.html"
+    "company/index.html"
    ],
-   "n": 9
+   "n": 1
   },
   {
    "ja": "LINE公式アカウント",
@@ -3683,6 +3730,20 @@
     "company/社長挨拶/index.html",
     "company/製作スタッフ/index.html",
     "faq/index.html",
+    "sitemap/index.html",
+    "j/privacy/index.html"
+   ],
+   "n": 7
+  },
+  {
+   "ja": "沖縄県のトレーラーハウス製造・販売。Solar Haven・AMALFIなど全8製品。TEL 098-856-6666",
+   "kind": "meta:description",
+   "pages": [
+    "company/オフィス紹介-展示場/index.html",
+    "company/協力会社一覧/index.html",
+    "company/社長挨拶/index.html",
+    "company/製作スタッフ/index.html",
+    "contact/index.html",
     "sitemap/index.html",
     "j/privacy/index.html"
    ],
@@ -4104,7 +4165,7 @@
    "n": 1
   },
   {
-   "ja": "よくある質問｜パークホームズオキナワ",
+   "ja": "沖縄のトレーラーハウス よくある質問｜パークホームズオキナワ",
    "kind": "title",
    "pages": [
     "faq/index.html"
@@ -4121,12 +4182,212 @@
    "n": 4
   },
   {
-   "ja": "【タイニーハウスのご質問はお問い合わせください】",
+   "ja": "沖縄でトレーラーハウスを購入・設置したいときは、どこに相談すればよいですか？",
    "kind": "text",
    "pages": [
     "faq/index.html"
    ],
-   "n": 1
+   "n": 2
+  },
+  {
+   "ja": "株式会社パークホームズオキナワは、沖縄県豊見城市に自社工場を持つトレーラーハウスの製造・販売会社です。製造から輸送・設置・メンテナンスまで一貫して対応しており、沖縄本島のほか宮古島・石垣島にも店舗があります。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスとは何ですか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "車輪が付いた移動可能な居住・店舗用の建物です。一定の設置要件を満たすと「車両扱い」となり、建築物とは異なる取り扱いになります。住居・別荘・宿泊施設・店舗・事務所・グランピングなど幅広い用途で使われています。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスの設置に建築確認は必要ですか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "随時かつ任意に移動できる状態で設置するなど、一定の条件を満たす場合は建築確認申請が不要となるケースがあります。条件は設置方法や用途によって異なるため、設置前にご相談ください。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスに固定資産税はかかりますか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "土地に定着しない「車両扱い」の場合、不動産取得税・固定資産税の対象外となるケースがあります。設置条件・用途によって異なりますので、詳しくはお問い合わせください。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "市街化調整区域や農地にもトレーラーハウスを設置できますか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "一定の設置要件を満たすことで、市街化調整区域・原野・雑種地にも設置できます。農地に設置する場合は農地転用届の申請が必要で、手続き完了後の設置となります。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスの価格はいくらですか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "本体価格はモデルや仕様によって異なります。宿泊施設用途の参考価格（税別）は、たとえばムービング6mが本体700〜720万円、カーサ11mが本体1,300〜1,350万円です。別途、輸送・設置費やデッキ・階段の費用がかかります。各モデルの価格は商品価格表、概算はAI見積もりでご確認いただけます。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "沖縄の台風や塩害に耐えられますか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "全棟を鉄骨造（H鋼＋軽量鉄骨）で製造し、土台にはドブ漬け（溶融亜鉛メッキ）鋼材を標準採用しています。窓サッシは耐風圧S-4以上・水密W-5を全棟に標準装備しています。木造ではないためシロアリの心配もありません。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスの耐用年数はどのくらいですか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "沖縄の塩害・台風環境を前提に、実耐用年数20年の設計で製造しています（自社調べ）。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスの減価償却期間は何年ですか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "動力を持たない自動車（被牽引車）に当たるため、減価償却は4年・定率法、中古は1年となります。税務上の取り扱いは個別の状況により異なるため、顧問税理士等にご確認ください。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "宮古島・石垣島などの離島にも設置できますか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "はい。工場で仕上げてから島へ運び、据え付けます。宮古島・石垣島に店舗があり、離島での設置実績もあります。設置から使用開始までの目安期間は、現地条件に応じて個別にご案内します。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスはどのような用途に使えますか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "住居・別荘、宿泊施設・グランピング、カフェ・店舗、事務所や運送業の営業所、イベントスペース、災害時の仮設住宅、農業施設などに使われています。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスは移設や売却ができますか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "車両扱いのため、解体せずに別の場所へ移設できます。中古市場での需要も高く、リセール（再販）しやすいのも特長です。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "トレーラーハウスの実物を見学できますか？",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "豊見城市豊崎のモデルハウスと、豊見城市翁長の工場を見学できます。いずれも事前予約制で、見学時間は平日9:00〜17:00（土日祝はご相談ください）です。LINEまたはお電話（098-856-6666）でご予約ください。",
+   "kind": "text",
+   "pages": [
+    "faq/index.html"
+   ],
+   "n": 2
   },
   {
    "ja": "解決しない場合はお気軽にお問い合わせください",
@@ -4137,8 +4398,8 @@
    "n": 1
   },
   {
-   "ja": "沖縄県豊見城市豊崎1−1223",
-   "kind": "jsonld",
+   "ja": "沖縄のトレーラーハウスに関するよくある質問。価格、建築確認・固定資産税の扱い、台風・塩害対策、離島への設置、見学方法などにパークホームズオキナワがお答えします。",
+   "kind": "meta:description",
    "pages": [
     "faq/index.html"
    ],

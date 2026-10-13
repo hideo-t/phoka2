@@ -16,7 +16,7 @@ TEXT_ATTRS = ("alt", "title", "placeholder", "aria-label")
 META_OK = re.compile(r"^(description|keywords|og:(title|description|site_name)|twitter:(title|description))$", re.I)
 # JSON-LD 内で翻訳してよいキー（url/telephone等の機械可読値は除外）
 LD_KEYS = {"name", "alternateName", "description", "streetAddress", "addressLocality",
-           "addressRegion", "jobTitle", "headline", "articleBody", "itemListElement"}
+           "addressRegion", "jobTitle", "headline", "articleBody", "text", "itemListElement"}
 
 
 def find_raw(hay, decoded):

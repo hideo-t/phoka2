@@ -26,7 +26,7 @@ _RE_HEAD_BLOCK = re.compile(r"\n?" + re.escape(BEG_HEAD) + ".*?" + re.escape(END
 _RE_BAR_BLOCK = re.compile(r"\n?" + re.escape(BEG_BAR) + ".*?" + re.escape(END_BAR), re.S)
 
 LD_KEYS = {"name", "alternateName", "description", "streetAddress", "addressLocality",
-           "addressRegion", "jobTitle", "headline", "articleBody"}
+           "addressRegion", "jobTitle", "headline", "articleBody", "text"}
 
 BAR_CSS = (
     ".pkw-langbar{background:#0d2d5e;font-size:13px;line-height:1;"
