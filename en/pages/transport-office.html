@@ -216,6 +216,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
 @media(max-width:480px){ .merits{grid-template-columns:1fr} .section-title{font-size:21px} }
 </style>
 <script src="/assets/js/analytics.js" defer></script>
+<script src="/assets/js/inquiry.js" defer></script>
 <!--i18n:alt:start-->
 <link rel="canonical" href="https://parkhomes-okinawa.com/en/pages/transport-office.html">
 <link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/transport-office.html">
@@ -490,7 +491,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:54px 0 26px}
     </div>
     <div class="contact-wrap reveal">
       <p class="form-soft">Based on what you send us, someone from our team will be in touch about sending materials or arranging a discussion.<br>Information gathering ahead of any concrete decision is welcome too.</p>
-      <!-- 要・坂田社長確認：フォーム送信先。現状は mailto: フォールバック実装。 -->
+      <!-- 送信は assets/js/inquiry.js（FormSubmit） -->
       <form id="lpForm" onsubmit="return sendInquiry(event)" data-ga-event="document_request" data-ga-form="transport_office">
         <div class="form-row"><label>Company name <span class="req">Required</span></label><input type="text" name="org" required placeholder="e.g. XX Transport Co., Ltd."></div>
         <div class="form-row"><label>Department and name <span class="req">Required</span></label><input type="text" name="name" required placeholder="e.g. Administration Dept., Taro Yamada"></div>
@@ -575,10 +576,14 @@ document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
 })();
 function sendInquiry(ev){
   ev.preventDefault();
-  var f=ev.target;
-  var body='【会社名】'+f.org.value.trim()+'\n【ご担当】'+f.name.value.trim()+'\n【ご連絡先】'+f.contact.value.trim()+'\n【ご相談内容】\n'+f.message.value.trim()+'\n';
-  var subject='【運送業の営業所】資料請求・相談（'+f.org.value.trim()+'）';
-  window.location.href='mailto:parkhomes.okinawa@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+  var f=ev.target, contact=f.contact.value.trim();
+  PHInquiry.send('【運送業の営業所】資料請求・相談（'+f.org.value.trim()+'）', {
+    '会社名': f.org.value.trim(),
+    'ご担当': f.name.value.trim(),
+    'ご連絡先': contact,
+    'email': contact,
+    'ご相談内容': f.message.value.trim()
+  });
   return false;
 }
 </script>

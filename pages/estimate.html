@@ -138,6 +138,7 @@ header{background:var(--twilight);border-bottom:1px solid var(--border);padding:
 }
 </style>
 <script src="/assets/js/analytics.js" defer></script>
+<script src="/assets/js/inquiry.js" defer></script>
 <!--i18n:alt:start-->
 <link rel="canonical" href="https://parkhomes-okinawa.com/pages/estimate.html">
 <link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/pages/estimate.html">
@@ -152,7 +153,6 @@ header{background:var(--twilight);border-bottom:1px solid var(--border);padding:
 <meta property="og:locale:alternate" content="zh_CN">
 <meta property="og:locale:alternate" content="ko_KR">
 <!--i18n:alt:end-->
-<script src="/assets/js/inquiry.js" defer></script>
 </head>
 <body>
 <!--i18n:bar:start-->
@@ -338,7 +338,8 @@ header{background:var(--twilight);border-bottom:1px solid var(--border);padding:
       <button class="btn-print" onclick="if(window.phokaTrack){window.phokaTrack('estimate_download',{model:document.getElementById('f_model')?document.getElementById('f_model').value:''});}window.print()">🖨️ 印刷 / PDF保存</button>
       <button class="btn-quote" id="btnSendQuote" onclick="sendQuote()">📨 この内容で見積もり依頼を送る</button>
     </div>
-    <div id="sendMsg" style="display:none;margin:-12px 0 20px;padding:12px 16px;border-radius:8px;background:#fff4f0;color:#E05C3A;font-size:14px;"></div>
+    <div id="sendMsg" style="display:none;margin:-12px 0 20px;padding:12px 16px;border-radius:8px;background:#fff4f0;color:#E05C3A;font-size:14px;">お名前と、メールアドレスまたは電話番号をご入力ください。「← 修正する」から入力できます。</div>
+    <span id="sendingLabel" hidden>送信中…</span>
     <div class="quote-doc" id="quoteDoc">
       <!-- 動的生成 -->
     </div>
@@ -728,14 +729,13 @@ function sendQuote() {
   const v = id => (document.getElementById(id)?.value || '').trim();
   const msg = document.getElementById('sendMsg');
   if (!v('f_name') || (!v('f_email') && !v('f_tel'))) {
-    msg.textContent = 'お名前と、メールアドレスまたは電話番号をご入力ください。「← 修正する」から入力できます。';
     msg.style.display = 'block';
     return;
   }
   msg.style.display = 'none';
   const btn = document.getElementById('btnSendQuote');
   btn.disabled = true;
-  btn.textContent = '送信中…';
+  btn.textContent = document.getElementById('sendingLabel').textContent;
   if (window.phokaTrack) window.phokaTrack('estimate_submit', { model: v('f_model') });
   const quote = document.getElementById('quoteDoc').innerText.replace(/\n{3,}/g, '\n\n').trim();
   PHInquiry.send('【見積もり依頼】' + v('f_name') + ' 様（' + (v('f_purpose') || '用途未選択') + '）', {

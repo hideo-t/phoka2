@@ -29,6 +29,7 @@
   .section-sub{color:var(--muted);font-size:14px;margin-bottom:40px}
 </style>
 <script src="/assets/js/analytics.js" defer></script>
+<script src="/assets/js/inquiry.js" defer></script>
 <!--i18n:alt:start-->
 <link rel="canonical" href="https://parkhomes-okinawa.com/en/contact/">
 <link rel="alternate" hreflang="ja" href="https://parkhomes-okinawa.com/contact/">
@@ -163,13 +164,8 @@
 <section class="section section-alt">
   <div class="container" style="max-width:700px">
     <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:40px">
-      <form action="https://formsubmit.co/kinjyo@parkhomes-okinawa.com" method="POST" data-ga-event="contact_submit" data-ga-form="contact">
-        <!-- 送信先の設定（画面には出ません） -->
-        <input type="hidden" name="_cc" value="sakata@parkhomes-okinawa.com">
-        <input type="hidden" name="_subject" value="【サイトお問い合わせ】parkhomes-okinawa.com">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://parkhomes-okinawa.com/en/contact/thanks.html">
+      <!-- 送信先・CC・自動返信は assets/js/inquiry.js で設定 -->
+      <form action="https://formsubmit.co/kinjyo@parkhomes-okinawa.com" method="POST" data-inquiry="【SiteContact Us】parkhomes-okinawa.com" data-ga-event="contact_submit" data-ga-form="contact">
         <!-- スパム対策のおとり。人間には見えないので空のまま送信される -->
         <input type="text" name="_honey" style="display:none">
         <div class="form-group">

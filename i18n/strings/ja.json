@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1284,
- "chars": 28444,
+ "count": 1287,
+ "chars": 28509,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -7406,6 +7406,30 @@
   },
   {
    "ja": "🖨️ 印刷 / PDF保存",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "📨 この内容で見積もり依頼を送る",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "お名前と、メールアドレスまたは電話番号をご入力ください。「← 修正する」から入力できます。",
+   "kind": "text",
+   "pages": [
+    "pages/estimate.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "送信中…",
    "kind": "text",
    "pages": [
     "pages/estimate.html"
