@@ -43,6 +43,7 @@
 <meta property="og:locale:alternate" content="zh_CN">
 <meta property="og:locale:alternate" content="ko_KR">
 <!--i18n:alt:end-->
+<script src="/assets/js/inquiry.js" defer></script>
 </head>
 <body>
 <!--i18n:bar:start-->
@@ -163,13 +164,8 @@
 <section class="section section-alt">
   <div class="container" style="max-width:700px">
     <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:40px">
-      <form action="https://formsubmit.co/kinjyo@parkhomes-okinawa.com" method="POST" data-ga-event="contact_submit" data-ga-form="contact">
-        <!-- 送信先の設定（画面には出ません） -->
-        <input type="hidden" name="_cc" value="sakata@parkhomes-okinawa.com">
-        <input type="hidden" name="_subject" value="【サイトお問い合わせ】parkhomes-okinawa.com">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://parkhomes-okinawa.com/contact/thanks.html">
+      <!-- 送信先・CC・自動返信は assets/js/inquiry.js で設定 -->
+      <form action="https://formsubmit.co/kinjyo@parkhomes-okinawa.com" method="POST" data-inquiry="【サイトお問い合わせ】parkhomes-okinawa.com" data-ga-event="contact_submit" data-ga-form="contact">
         <!-- スパム対策のおとり。人間には見えないので空のまま送信される -->
         <input type="text" name="_honey" style="display:none">
         <div class="form-group">
