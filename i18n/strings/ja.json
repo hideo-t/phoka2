@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1287,
- "chars": 28509,
+ "count": 1289,
+ "chars": 28538,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -4428,7 +4428,7 @@
    "pages": [
     "lineup/index.html"
    ],
-   "n": 2
+   "n": 1
   },
   {
    "ja": "リゾート仕様の高級トレーラーハウス。40フィートの広々とした空間",
@@ -4440,7 +4440,7 @@
    "n": 4
   },
   {
-   "ja": "15,000,000円〜（税別）",
+   "ja": "17,850,000円〜（税別）",
    "kind": "text",
    "pages": [
     "lineup/index.html"
@@ -4455,6 +4455,14 @@
     "lineup/round-premier/index.html"
    ],
    "n": 4
+  },
+  {
+   "ja": "12,500,000円〜（税別）",
+   "kind": "text",
+   "pages": [
+    "lineup/index.html"
+   ],
+   "n": 1
   },
   {
    "ja": "PARQシリーズ",
@@ -4475,7 +4483,7 @@
    "n": 4
   },
   {
-   "ja": "4,000,000円〜（税別）",
+   "ja": "7,000,000円〜（税別）",
    "kind": "text",
    "pages": [
     "lineup/index.html"
@@ -4681,7 +4689,7 @@
    "n": 5
   },
   {
-   "ja": "15,000,000円〜",
+   "ja": "17,850,000円〜",
    "kind": "text",
    "pages": [
     "lineup/amalfi/index.html"
@@ -4697,7 +4705,7 @@
    "n": 1
   },
   {
-   "ja": "リゾート仕様の高級トレーラーハウス。40フィートの広々とした空間 15,000,000円〜。",
+   "ja": "リゾート仕様の高級トレーラーハウス。40フィートの広々とした空間 17,850,000円〜。",
    "kind": "meta:description",
    "pages": [
     "lineup/amalfi/index.html"
@@ -4865,7 +4873,7 @@
    "n": 1
   },
   {
-   "ja": "4,000,000円〜",
+   "ja": "7,000,000円〜",
    "kind": "text",
    "pages": [
     "lineup/parq/index.html"
@@ -4881,7 +4889,7 @@
    "n": 1
   },
   {
-   "ja": "ムービングスケルトン・カーサ・ルミナの3モデル展開 4,000,000円〜。",
+   "ja": "ムービングスケルトン・カーサ・ルミナの3モデル展開 7,000,000円〜。",
    "kind": "meta:description",
    "pages": [
     "lineup/parq/index.html"
@@ -4897,13 +4905,12 @@
    "n": 1
   },
   {
-   "ja": "8,000,000円〜",
+   "ja": "12,500,000円〜",
    "kind": "text",
    "pages": [
-    "lineup/round-premier/index.html",
-    "lineup/solar-haven/index.html"
+    "lineup/round-premier/index.html"
    ],
-   "n": 2
+   "n": 1
   },
   {
    "ja": "ラウンドプレミアについてもっと詳しく",
@@ -4914,7 +4921,7 @@
    "n": 1
   },
   {
-   "ja": "丸みを帯びた独特のデザイン。6M・12Mの2サイズ展開 8,000,000円〜。",
+   "ja": "丸みを帯びた独特のデザイン。6M・12Mの2サイズ展開 12,500,000円〜。",
    "kind": "meta:description",
    "pages": [
     "lineup/round-premier/index.html"
@@ -4948,6 +4955,14 @@
   {
    "ja": "Solar Haven｜パークホームズオキナワ",
    "kind": "title",
+   "pages": [
+    "lineup/solar-haven/index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "8,000,000円〜",
+   "kind": "text",
    "pages": [
     "lineup/solar-haven/index.html"
    ],
