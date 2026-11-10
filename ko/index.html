@@ -511,6 +511,24 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
   .appeal-card{padding:20px 16px}
   .container{padding:0 12px}
 }
+/* model-strip:css */
+.model-strip{margin:0 auto 36px;max-width:1100px}
+.model-strip-groups{display:flex;gap:6px;margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.04em}
+.model-strip-groups span{display:inline-flex;align-items:center;gap:6px;color:#444}
+.model-strip-groups span::before{content:"";width:10px;height:10px;border-radius:2px;background:var(--c)}
+.model-strip-groups span+span{margin-left:14px}
+.model-strip-row{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;list-style:none;margin:0;padding:0}
+.model-strip-row a{display:block;background:#fff;border:1px solid #dde3ea;border-top:4px solid var(--c);border-radius:10px;overflow:hidden;text-decoration:none;color:#1a2e40;transition:transform .2s,box-shadow .2s}
+.model-strip-row a:hover,.model-strip-row a:focus-visible{transform:translateY(-4px);box-shadow:0 8px 22px rgba(0,0,0,.14)}
+.model-strip .model-strip-row img{display:block;width:100%;height:auto;max-width:none;margin:0;border-radius:0;aspect-ratio:4/3;object-fit:cover;background:#eef1f4}
+.model-strip-name{display:block;padding:8px 6px 0;font-size:13px;font-weight:700;line-height:1.3;text-align:center}
+.model-strip-len{display:block;padding:2px 6px 9px;font-size:12px;color:#667;text-align:center}
+@media (max-width:860px){
+  .model-strip-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:6px}
+  .model-strip-row li{flex:0 0 38%;scroll-snap-align:start}
+}
+@media (max-width:480px){.model-strip-row li{flex-basis:44%}}
+/* /model-strip:css */
 </style>
 <script src="/assets/js/analytics.js" defer></script>
 <!--i18n:alt:start-->
@@ -896,6 +914,20 @@ footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 28px}
       <h2 class="section-title">제품 라인업</h2>
       <p class="section-sub">용도·예산·설치 조건에 맞춰 고르는 4개 브랜드</p>
     </div>
+<!-- model-strip:start -->
+<div class="model-strip" role="navigation" aria-label="모델 목록">
+  <div class="model-strip-groups"><span style="--c:#5a7a3a">풀사이즈</span><span style="--c:#5a4a8a">Global Edition</span></div>
+  <ul class="model-strip-row">
+    <li style="--c:#5a7a3a"><a href="/pages/lineup.html#Casa_11m"><img src="/images/lineup/strip/casa.jpg" alt="Casa 11m 외관" width="480" height="360" loading="lazy"><span class="model-strip-name">Casa</span><span class="model-strip-len">11m</span></a></li>
+    <li style="--c:#5a7a3a"><a href="/pages/lineup.html#Lumina_11m_%E2%80%94_Flagship"><img src="/images/lineup/strip/lumina.jpg" alt="Lumina 11m 외관" width="480" height="360" loading="lazy"><span class="model-strip-name">Lumina</span><span class="model-strip-len">11m</span></a></li>
+    <li style="--c:#5a7a3a"><a href="/pages/lineup.html#Skeleton_11m"><img src="/images/lineup/strip/skeleton.jpg" alt="Skeleton 11m 외관" width="480" height="360" loading="lazy"><span class="model-strip-name">Skeleton</span><span class="model-strip-len">11m</span></a></li>
+    <li style="--c:#5a4a8a"><a href="/pages/lineup.html#Round_Premiere_6m"><img src="/images/lineup/strip/round-premier-6m.jpg" alt="Round Premier 6m 외관" width="480" height="360" loading="lazy"><span class="model-strip-name">Round Premier</span><span class="model-strip-len">6m</span></a></li>
+    <li style="--c:#5a4a8a"><a href="/pages/lineup.html#Round_Premiere_12m"><img src="/images/lineup/strip/round-premier-12m.jpg" alt="Round Premier 12m 외관" width="480" height="360" loading="lazy"><span class="model-strip-name">Round Premier</span><span class="model-strip-len">12m</span></a></li>
+    <li style="--c:#5a4a8a"><a href="/pages/lineup.html#Amalfi_11.5m"><img src="/images/lineup/strip/amalfi.jpg" alt="Amalfi 11.5m 외관" width="480" height="360" loading="lazy"><span class="model-strip-name">Amalfi</span><span class="model-strip-len">11.5m</span></a></li>
+    <li style="--c:#5a4a8a"><a href="/pages/lineup.html#Moving_6m"><img src="/images/lineup/strip/moving.jpg" alt="Moving 6m 외관" width="480" height="360" loading="lazy"><span class="model-strip-name">Moving</span><span class="model-strip-len">6m</span></a></li>
+  </ul>
+</div>
+<!-- model-strip:end -->
 
     <div class="grid-2">
 

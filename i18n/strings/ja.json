@@ -1,8 +1,8 @@
 {
  "note": "翻訳元。キーは日本語原文そのもの。en.json 等は同じキーで訳文を持つ。",
  "pages": 33,
- "count": 1289,
- "chars": 28538,
+ "count": 1297,
+ "chars": 28630,
  "entries": [
   {
    "ja": "沖縄のトレーラーハウス製造・販売｜パークホームズオキナワ",
@@ -955,6 +955,73 @@
    "n": 1
   },
   {
+   "ja": "フルサイズ",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "pages/transport-office.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "グローバルエディション",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 3
+  },
+  {
+   "ja": "カーサ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ルミナ",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "スケルトン",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ラウンドプレミア",
+   "kind": "text",
+   "pages": [
+    "index.html",
+    "lineup/index.html",
+    "lineup/round-premier/index.html"
+   ],
+   "n": 14
+  },
+  {
+   "ja": "アマルフィー",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
+   "ja": "ムービング",
+   "kind": "text",
+   "pages": [
+    "index.html"
+   ],
+   "n": 2
+  },
+  {
    "ja": "フルサイズトレーラーハウス",
    "kind": "text",
    "pages": [
@@ -972,30 +1039,6 @@
    "n": 1
   },
   {
-   "ja": "カーサ",
-   "kind": "text",
-   "pages": [
-    "index.html"
-   ],
-   "n": 1
-  },
-  {
-   "ja": "ルミナ",
-   "kind": "text",
-   "pages": [
-    "index.html"
-   ],
-   "n": 1
-  },
-  {
-   "ja": "スケルトン",
-   "kind": "text",
-   "pages": [
-    "index.html"
-   ],
-   "n": 1
-  },
-  {
    "ja": "高さ4.2m × 長さ11m × 幅3.4mの広々とした住空間。ロフト設置も可能な最大サイズ。移住・別荘・宿泊施設として人気の定番モデル。",
    "kind": "text",
    "pages": [
@@ -1004,41 +1047,7 @@
    "n": 1
   },
   {
-   "ja": "グローバルエディション",
-   "kind": "text",
-   "pages": [
-    "index.html"
-   ],
-   "n": 2
-  },
-  {
    "ja": "デザイン性・個性派モデル",
-   "kind": "text",
-   "pages": [
-    "index.html"
-   ],
-   "n": 1
-  },
-  {
-   "ja": "ラウンドプレミア",
-   "kind": "text",
-   "pages": [
-    "index.html",
-    "lineup/index.html",
-    "lineup/round-premier/index.html"
-   ],
-   "n": 12
-  },
-  {
-   "ja": "アマルフィー",
-   "kind": "text",
-   "pages": [
-    "index.html"
-   ],
-   "n": 1
-  },
-  {
-   "ja": "ムービング",
    "kind": "text",
    "pages": [
     "index.html"
@@ -2048,6 +2057,70 @@
   },
   {
    "ja": "トレーラーハウスの災害時の活用（BCP）のイメージ",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "モデル一覧",
+   "kind": "attr:aria-label",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "カーサ 11mの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ルミナ 11mの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "スケルトン 11mの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア 6mの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ラウンドプレミア 12mの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "アマルフィー 11.5mの外観",
+   "kind": "attr:alt",
+   "pages": [
+    "index.html"
+   ],
+   "n": 1
+  },
+  {
+   "ja": "ムービング 6mの外観",
    "kind": "attr:alt",
    "pages": [
     "index.html"
@@ -10521,14 +10594,6 @@
   },
   {
    "ja": "公道を牽引できるサイズ。設置場所を変えたい・フレキシブルに運用したい営業所に。",
-   "kind": "text",
-   "pages": [
-    "pages/transport-office.html"
-   ],
-   "n": 1
-  },
-  {
-   "ja": "フルサイズ",
    "kind": "text",
    "pages": [
     "pages/transport-office.html"
